@@ -1,6 +1,8 @@
 services:
   elster-form-helper-api:
     image: elster-form-helper-api:latest
+    env_file:
+      - .env
     build:
       context: .
       dockerfile: Dockerfile
