@@ -1,0 +1,905 @@
+[
+  {
+    "context_label": "1 - Anrechnung von Abzugssteuern nach § 36 Absatz 2 Nummer 2 in Verbindung mit § 36a",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ohne entsprechende Beträge der Organgesellschaften; diese sind auf der Anlage OT einzutragen",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "2",
+            "label": "Kapitalertragsteuer laut gesondert übermittelten Steuerbescheinigungen (ohne Beträge laut Zeile 6) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Solidaritätszuschlag zur Kapitalertragsteuer laut Zeile 2 (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Kapitalertragsteuer laut gesonderter und einheitlicher Feststellung aus Beteiligungen an Personengesellschaften (ohne Beträge laut Zeile 6) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Solidaritätszuschlag zur Kapitalertragsteuer laut Zeile 4 (laut gesonderter und einheitlicher Feststellung aus Beteiligungen an Personengesellschaften) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Kapitalertragsteuer, für die die Voraussetzungen des § 36a Absatz 1 Satz 1 EStG nicht erfüllt sind und die Anrechnung auf zwei Fünftel beschränkt ist (laut gesondert übermittelten Steuerbescheinigungen und laut gesonderter und einheitlicher Feststellung aus Beteiligungen an Personengesellschaften; die Kapitalertragsteuer ist in voller Höhe einzutragen; die Beschränkung der Anrechnung erfolgt von Amts wegen) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Solidaritätszuschlag zur Kapitalertragsteuer laut Zeile 6 (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Anrechnung von Steuerabzugsbeträgen nach § 50a bei beschränkt Steuerpflichtigen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "8",
+            "label": "Anrechenbarer Steuerabzugsbetrag nach § 50a Absatz 1 Nummer 1 und 2 EStG sowie nach § 50a Absatz 7 EStG (laut gesondert übermitteltem Nachweis) (nur bei beschränkt steuerpflichtigen Vergütungsgläubigern ausfüllen; wenn während des Kalenderjahres sowohl unbeschränkte als auch beschränkte Steuerpflicht bestanden hat: für die Zeit der beschränkten Steuerpflicht einbehaltener Steuerabzugsbetrag) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Solidaritätszuschlag zum Abzugsbetrag laut Zeile 8 (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Anrechnung ausländischer Steuer nach § 50d Absatz 10 Satz 5 in Verbindung mit § 26 Absatz 1",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "10",
+            "label": "Inländische Einkünfte im Sinne des § 50d Absatz 10 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Darauf entfallende festgesetzte, gezahlte, um einen entstandenen Ermäßigungsanspruch gekürzte, anteilige ausländische Steuer (laut Nachweis), die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entspricht und auf die die deutsche Steuer nicht angerechnet wurde (§ 50d Absatz 10 Satz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Angaben zum schädlichen Beteiligungserwerb nach § 8c",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "11a",
+            "label": "Die Voraussetzungen des § 8c Absatz 1 Satz 1 KStG wurden in diesem Veranlagungszeitraum erfüllt, weil innerhalb der letzten fünf Jahre mittelbar oder unmittelbar mehr als 50 Prozent des gezeichneten Kapitals, der Mitgliedschaftsrechte, der Beteiligungsrechte oder der Stimmrechte an der Körperschaft an einen Erwerber oder diesem nahe stehende Personen übertragen wurden oder ein vergleichbarer Sachverhalt vorliegt.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "11b",
+            "label": "Die Anwendung des § 8c KStG ist ausgeschlossen, weil ein Erwerb seitens einer natürlichen Person durch Erbfall einschließlich der in vollem Umfang unentgeltlichen Erbauseinandersetzung und der in vollem Umfang unentgeltlichen vorweggenommenen Erbfolge zwischen Angehörigen im Sinne des § 15 AO vorliegt; vergleiche Randnummer 4 des BMF-Schreibens vom 28.11.2017, BStBl I 2017, Seite 1645.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Konzernklausel nach § 8c Absatz 1 Satz 4 KStG",
+        "rows": [
+          {
+            "row": "11c",
+            "label": "Die Voraussetzungen der Konzernklausel im Sinne des § 8c Absatz 1 Satz 4 KStG sind erfüllt.",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "Der Erwerber ist eine natürliche oder juristische Person oder eine Personenhandelsgesellschaft und ist zu 100 Prozent mittelbar oder unmittelbar an dem übertragenden Rechtsträger beteiligt (§ 8c Absatz 1 Satz 4 Nummer 1 KStG)",
+              "Der Veräußerer ist eine natürliche oder juristische Person oder eine Personenhandelsgesellschaft und ist zu 100 Prozent mittelbar oder unmittelbar an dem übernehmenden Rechtsträger beteiligt (§ 8c Absatz 1 Satz 4 Nummer 2 KStG)",
+              "Dieselbe natürliche oder juristische Person oder dieselbe Personenhandelsgesellschaft ist an dem übertragenden und an dem übernehmenden Rechtsträger zu jeweils 100 Prozent mittelbar oder unmittelbar beteiligt (§ 8c Absatz 1 Satz 4 Nummer 3 KStG)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Stille-Reserven-Klausel nach § 8c Absatz 1 Satz 5 KStG",
+        "rows": [
+          {
+            "row": "11d",
+            "label": "Bei der Ermittlung der nicht abziehbaren nicht genutzten Verluste im Sinne des § 8c Absatz 1 Satz 1 KStG wurde die Stille-Reserven-Klausel berücksichtigt, vergleiche § 8c Absatz 1 Satz 5 folgende KStG.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "11e",
+            "label": "Höhe der gesamten zum Zeitpunkt des schädlichen Beteiligungserwerbs vorhandenen im Inland steuerpflichtigen stillen Reserven des Betriebsvermögens der Körperschaft bei Anwendung der Stille-Reserven-Klausel; vergleiche Randnummer 50 folgende des BMF-Schreibens vom 28.11.2017, BStBl I 2017, S. 1645 (laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Sanierungsklausel nach § 8c Absatz 1a KStG",
+        "rows": [
+          {
+            "row": "11f",
+            "label": "Es liegt ein Beteiligungserwerb zum Zweck der Sanierung des Geschäftsbetriebs der Körperschaft im Sinne des § 8c Absatz 1a KStG vor.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "11g",
+            "label": "Erforderliche Angaben zu § 8c Absatz 1a KStG, wenn innerhalb der letzten fünf vorangegangenen Veranlagungszeiträume die Sanierungsklausel angewendet wurde:Die Voraussetzungen für die Anwendung der Sanierungsklausel liegen weiterhin vor.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Angaben zum fortführungsgebundenen Verlust- und / oder Zinsvortrag nach § 8d",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "12",
+            "label": "Der Antrag nach § 8d KStG wird gestellt. Die gesetzlichen Voraussetzungen hierfür liegen vollumfänglich vor; insbesondere wurde der Geschäftsbetrieb der Körperschaft vor dem 01.01.2016 zu keinem Zeitpunkt eingestellt oder ruhend gestellt und es hat seit dem Beginn des dritten Veranlagungszeitraums, der dem schädlichen Beteiligungserwerb vorausgeht, bis zum Schluss des Veranlagungszeitraums 2020 kein Ereignis im Sinne des § 8d Absatz 2 KStG stattgefunden.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": null,
+            "label": "Erforderliche Angaben zu § 8d Absatz 2 KStG, wenn zum Schluss des vorangegangenen Veranlagungszeitraums oder Wirtschaftsjahres ein fortführungsgebundener Verlust- oder Zinsvortrag festgestellt wurde",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Im Veranlagungszeitraum sind Ereignisse im Sinne des § 8d Absatz 2 KStG eingetreten.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "14",
+            "label": "Es liegen stille Reserven zum Schluss des vorangegangenen Veranlagungszeitraums (§ 8d Absatz 2 Satz 1 zweiter Halbsatz KStG) vor.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Vertragliche Vereinbarungen mit Anteilseignern und diesen nahe stehenden Personen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "15",
+            "label": "Sind vertragliche Vereinbarungen (Anstellungsverträge, Mietverträge, Darlehensverträge, Pensionszusagen) mit Anteilseignern und/oder diesen nahe stehenden Personen im Veranlagungszeitraum abgeschlossen beziehungsweise geändert worden? Entsprechende Verträge sind dem Finanzamt vorzulegen.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einzelaufstellung zu den Verträgen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name des Vertragspartners",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des Vertragspartners",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": null,
+                "rows": [
+                  {
+                    "row": "16",
+                    "label": "Vertragsart",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "16",
+                    "label": "Datum der letzten Vertragsänderung oder des Vertragsabschlusses (TT.MM.JJJJ)",
+                    "type": "date",
+                    "values": []
+                  },
+                  {
+                    "row": "16",
+                    "label": "Name des Vertragspartners",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "16",
+                    "label": "Höhe der Vergütung (Euro)",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Zuführung zu Pensionsrückstellungen",
+        "rows": [
+          {
+            "row": "19",
+            "label": "Zuführungen zu Pensionsrückstellungen für Anteilseigner und diesen nahe stehende Personen (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "7 - Aufsichtsratsvergütungen an unbeschränkt Steuerpflichtige",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Empfänger der Vergütung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Empfänger der Vergütung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Empfänger der Vergütung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "20",
+            "label": "Vor- und Nachname",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20a",
+            "label": "Straße und Hausnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20b",
+            "label": "Postleitzahl und Wohnort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20c",
+            "label": "Finanzamt",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20d",
+            "label": "Identifikationsnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20f",
+            "label": "Geleistete Vergütung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20g",
+            "label": "Darin enthaltene Umsatzsteuer (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20h",
+            "label": "Tag der Zahlung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - Länderbezogener Bericht multinationaler Unternehmensgruppen nach § 138a",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "27",
+            "label": "Die Körperschaft",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "ist eine inländische Konzernobergesellschaft im Sinne des § 138a Absatz 1 Satz 1 AO.",
+              "ist eine beauftragte Gesellschaft im Sinne des § 138a Absatz 3 AO.",
+              "ist eine einbezogene inländische Konzerngesellschaft eines Konzerns mit ausländischer Konzernobergesellschaft.",
+              "ist eine einbezogene Betriebsstätte eines ausländischen Unternehmens, das als ausländische Konzernobergesellschaft oder als einbezogene ausländische Konzerngesellschaft in einen Konzernabschluss einbezogen ist.",
+              "erfüllt keine der genannten Voraussetzungen."
+            ]
+          },
+          {
+            "row": null,
+            "label": "Zeilen 28 und 29: Nur auszufüllen, falls die Körperschaft eine einbezogene inländische Konzerngesellschaft eines Konzerns mit ausländischer Konzernobergesellschaft oder eine einbezogene Betriebsstätte eines ausländischen Unternehmens ist, das als ausländische Konzernobergesellschaft oder als einbezogene ausländische Konzerngesellschaft in einen Konzernabschluss einbezogen ist.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Bezeichnung des Unternehmens, das den länderbezogenen Bericht des Konzerns übermitteln wird:",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Länderschlüssel der Finanzbehörde, an die der länderbezogene Bericht des Konzerns übermittelt wird:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Afghanistan",
+              "Ägypten",
+              "Alandinseln",
+              "Albanien",
+              "Algerien",
+              "Amerikanische Jungferninseln",
+              "Amerikanisch-Ozeanien (US Minor Outlying Islands)",
+              "Amerikanisch-Samoa",
+              "Andorra",
+              "Angola",
+              "Anguilla",
+              "Antarktis",
+              "Antigua und Barbuda",
+              "Äquatorialguinea",
+              "Argentinien",
+              "Armenien",
+              "Aruba",
+              "Aserbaidschan",
+              "Äthiopien",
+              "Australien",
+              "Bahamas",
+              "Bahrain",
+              "Bangladesch",
+              "Barbados",
+              "Belarus (Weißrussland)",
+              "Belgien",
+              "Belize",
+              "Benin",
+              "Bermuda",
+              "Bhutan",
+              "Bolivien, Plurinationaler Staat",
+              "Bonaire, Saba und Sint Eustatius",
+              "Bosnien und Herzegowina",
+              "Botsuana",
+              "Bouvetinsel",
+              "Brasilien",
+              "Britische Jungferninseln",
+              "Britisches Territorium im Indischen Ozean",
+              "Brunei Darussalam",
+              "Bulgarien",
+              "Burkina Faso",
+              "Burundi",
+              "Chile",
+              "China, Volksrepublik",
+              "Cookinseln",
+              "Costa Rica",
+              "Cote d Ivoire (Elfenbeinküste)",
+              "Curacao",
+              "Dänemark",
+              "Deutschland",
+              "Dominica",
+              "Dominikanische Republik",
+              "Dschibuti",
+              "Ecuador",
+              "El Salvador",
+              "Eritrea",
+              "Estland",
+              "Falklandinseln (Malwinen)",
+              "Färöer",
+              "Fidschi",
+              "Finnland",
+              "Frankreich",
+              "Französische Südgebiete",
+              "Französisch-Guayana",
+              "Französisch-Polynesien",
+              "Gabun",
+              "Gambia",
+              "Georgien",
+              "Ghana",
+              "Gibraltar",
+              "Grenada",
+              "Griechenland",
+              "Grönland",
+              "Guadeloupe",
+              "Guam",
+              "Guatemala",
+              "Guernsey",
+              "Guinea",
+              "Guinea-Bissau",
+              "Guyana",
+              "Haiti",
+              "Heard und die McDonaldinseln",
+              "Heiliger Stuhl (Vatikanstadt)",
+              "Honduras",
+              "Hongkong",
+              "Indien",
+              "Indonesien",
+              "Insel Man",
+              "Irak",
+              "Iran, Islamische Republik",
+              "Irland",
+              "Island",
+              "Israel",
+              "Italien",
+              "Jamaika",
+              "Japan",
+              "Jemen",
+              "Jersey",
+              "Jordanien",
+              "Kaimaninseln",
+              "Kambodscha",
+              "Kamerun",
+              "Kanada",
+              "Kap Verde",
+              "Kasachstan",
+              "Katar",
+              "Kenia",
+              "Kirgisistan",
+              "Kiribati",
+              "Kokosinseln (Keelinginseln)",
+              "Kolumbien",
+              "Komoren",
+              "Kongo, Demokratische Republik",
+              "Kongo, Republik",
+              "Königreich Eswatini",
+              "Korea, Demokratische Volksrepublik (Nordkorea)",
+              "Korea, Republik (Südkorea)",
+              "Kosovo",
+              "Kroatien",
+              "Kuba",
+              "Kuwait",
+              "Laos, Demokratische Volksrepublik",
+              "Lesotho",
+              "Lettland",
+              "Libanon",
+              "Liberia",
+              "Libysch-Arabische Dschamahirija (Libyen)",
+              "Liechtenstein",
+              "Litauen",
+              "Luxemburg",
+              "Macau",
+              "Madagaskar",
+              "Malawi",
+              "Malaysia",
+              "Malediven",
+              "Mali",
+              "Malta",
+              "Marianen, Nördliche",
+              "Marokko",
+              "Marshallinseln",
+              "Martinique",
+              "Mauretanien",
+              "Mauritius",
+              "Mayotte",
+              "Mexiko",
+              "Mikronesien, Föderierte Staaten von",
+              "Moldau, Republik",
+              "Monaco",
+              "Mongolei",
+              "Montenegro",
+              "Montserrat",
+              "Mosambik",
+              "Myanmar",
+              "Namibia",
+              "Nauru",
+              "Nepal",
+              "Neukaledonien",
+              "Neuseeland",
+              "Nicaragua",
+              "Niederlande",
+              "Niger",
+              "Nigeria",
+              "Niue",
+              "Nordmazedonien",
+              "Norfolkinsel",
+              "Norwegen",
+              "Oman",
+              "Österreich",
+              "Pakistan",
+              "Palästinensische Autonomiegebiete",
+              "Palau",
+              "Panama",
+              "Papua-Neuguinea",
+              "Paraguay",
+              "Peru",
+              "Philippinen",
+              "Pitcairninseln",
+              "Polen",
+              "Portugal",
+              "Puerto Rico",
+              "Reunion",
+              "Ruanda",
+              "Rumänien",
+              "Russische Föderation",
+              "Salomonen",
+              "Sambia",
+              "Samoa",
+              "San Marino",
+              "Sao Tome und Principe",
+              "Saudi-Arabien",
+              "Schweden",
+              "Schweiz",
+              "Senegal",
+              "Serbien",
+              "Seychellen",
+              "Sierra Leone",
+              "Simbabwe",
+              "Singapur",
+              "Sint Maarten (Niederländisches Gebiet)",
+              "Slowakei",
+              "Slowenien",
+              "Somalia",
+              "Spanien",
+              "Sri Lanka",
+              "St.Barthelemy",
+              "St. Helena und Nebengebiete",
+              "St. Kitts und Nevis",
+              "St. Lucia",
+              "St. Martin (französischer Teil)",
+              "St. Pierre und Miquelon",
+              "St. Vincent und die Grenadinen",
+              "Südafrika",
+              "Sudan",
+              "Südgeorgien und die Südlichen Sandwichinseln",
+              "Südsudan",
+              "Suriname",
+              "Svalbard und Jan Mayen",
+              "Syrien, Arabische Republik",
+              "Tadschikistan",
+              "Taiwan",
+              "Tansania, Vereinigte Republik",
+              "Thailand",
+              "Timor-Leste",
+              "Togo",
+              "Tokelau",
+              "Tonga",
+              "Trinidad und Tobago",
+              "Tschad",
+              "Tschechische Republik",
+              "Tunesien",
+              "Türkei",
+              "Turkmenistan",
+              "Turks- und Caicosinseln",
+              "Tuvalu",
+              "Uganda",
+              "Ukraine",
+              "Ungarn",
+              "Uruguay",
+              "Usbekistan",
+              "Vanuatu",
+              "Venezuela, Bolivarische Republik",
+              "Vereinigte Arabischen Emirate",
+              "Vereinigtes Königreich Großbritannien und Nordirland",
+              "Vereinigte Staaten von Amerika",
+              "Vietnam",
+              "Wallis und Futuna",
+              "Weihnachtsinsel",
+              "Westsahara",
+              "Zentralafrikanische Republik",
+              "Zypern"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "9 - Mitteilung von grenzüberschreitenden Steuergestaltungen",
+    "sections": [
+      {
+        "section_label": "Einzelangaben",
+        "rows": [
+          {
+            "row": null,
+            "label": "Es wird eine grenzüberschreitende Steuergestaltung nach §§ 138d folgende AO genutzt, deren steuerlicher Vorteil sich erstmals im laufenden Veranlagungszeitraum auswirken soll.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Registriernummer",
+            "rows": [
+              {
+                "row": null,
+                "label": "Registriernummer",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": null,
+                "rows": [
+                  {
+                    "row": "29b",
+                    "label": "Registriernummer",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "29c",
+                    "label": "Offenlegungsnummer",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "29d",
+                    "label": "Es liegen noch keine Registriernummer und Offenlegungsnummer vor (laut gesonderter Erläuterung).",
+                    "type": "checkbox",
+                    "values": []
+                  },
+                  {
+                    "row": "29e",
+                    "label": "Bezeichnung der Steuergestaltungen, soweit noch keine Registrier- und Offenlegungsnummer vorliegen",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "10 - Vergütungen im Sinne des § 50a Absatz 1 Nummer 1 bis 4 und Absatz 7 an beschränkt Steuerpflichtige",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "(zum Beispiel Aufsichtsratvergütungen, Lizenzvergütungen)",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Empfänger der Vergütung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Empfänger der Vergütung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Steueranmeldung",
+        "rows": [],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Empfänger der Vergütung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "30",
+            "label": "Vor- und Nachname",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30a",
+            "label": "Straße und Hausnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30b",
+            "label": "Postleitzahl und Ort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30c",
+            "label": "Weitere Adressangaben",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30d",
+            "label": "Staat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30e",
+            "label": "Geleistete Vergütung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30f",
+            "label": "Einbehaltener und abgeführter Steuerabzug (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30g",
+            "label": "Einbehaltener und abgeführter Solidaritätszuschlag auf den Steuerabzug (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Von der geleisteten Vergütung wurde der Steuerabzug nach § 73f EStDV nicht beziehungsweise nicht in voller Höhe vorgenommen",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "In den Fällen des § 73f EStDV: wegen Abführung an GEMA",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "34a",
+            "label": "In den Fällen des § 73f EStDV: wegen Abführung an",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34b",
+            "label": "Von der geleisteten Vergütung wurde der Steuerabzug nach § 50d EStG nicht beziehungsweise nicht in voller Höhe vorgenommen",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "In den Fällen des § 50d EStG: auf Grund der Bescheinigung beziehungsweise der Ermächtigung des Bundeszentralamts für Steuern vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "35a",
+            "label": "Aktenzeichen der Bescheinigung beziehungsweise Ermächtigung des Bundeszentralamts für Steuern für den Steuerabzug",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "11 - Corona-Soforthilfen, Überbrückungshilfen und vergleichbare Zuschüsse",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "40",
+            "label": "Gesamtbetrag der erhaltenen Corona-Soforthilfen, Überbrückungshilfen und/oder vergleichbaren Zuschüsse, die in der Gewinnermittlung als steuerpflichtige Betriebseinnahmen erfasst wurden (Saldo der erhaltenen und im gleichen Kalenderjahr zurückgezahlten Corona-Zuschüsse) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

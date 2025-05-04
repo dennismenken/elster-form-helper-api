@@ -1,0 +1,7 @@
+services:
+  elster-form-helper-api:
+    image: elster-form-helper-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped

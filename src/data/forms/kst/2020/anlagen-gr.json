@@ -1,0 +1,169 @@
+[
+  {
+    "context_label": "Anlage : Genossenschaftliche Rückvergütung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage GR gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Allgemeine Angaben",
+        "rows": [
+          {
+            "row": null,
+            "label": "Soweit die genossenschaftlichen Rückvergütungen für solche Geschäftssparten, die als Betriebsabteilungen im Rahmen des Gesamtbetriebs der Genossenschaft eine gewisse Bedeutung haben, nach unterschiedlichen Prozentsätzen des Umsatzes bemessen worden sind, sind diese gesondert zu ermitteln und zu erläutern.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "1",
+            "label": "Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "An Mitglieder gezahlte genossenschaftliche Rückvergütungen (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Absatz- und Produktionsgenossenschaften",
+        "rows": [
+          {
+            "row": "3",
+            "label": "Gesamteinkauf (ohne für Hilfs- und Nebengeschäfte; Ausnahme bei Anwendung der R 22 Absatz 12 KStR 2015) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Einkauf bei Mitgliedern (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Übrige Genossenschaften",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Gesamtumsatz (ohne Hilfs- und Nebengeschäfte; Ausnahme bei Anwendung der R 22 Absatz 12 KStR 2015) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Umsatz mit Mitgliedern (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bezugs- und Absatzgenossenschaften",
+        "rows": [
+          {
+            "row": "9",
+            "label": "Gesamtumsatz im Bezugsgeschäft (ohne Hilfsgeschäfte, Nebengeschäfte und ohne Gegengeschäfte des Absatzgeschäftes; Ausnahme bei Anwendung der R 22 Absatz 12 KStR 2015) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Gesamteinkauf im Absatzgeschäft (ohne Hilfsgeschäfte, Nebengeschäfte und ohne Gegengeschäfte des Bezugsgeschäftes; Ausnahme bei Anwendung der R 22 Absatz 12 KStR 2015) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Summe A (Summe der Beträge laut Zeilen 9 und 10) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Umsatz mit Mitgliedern im Bezugsgeschäft (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Einkauf bei Mitgliedern im Absatzgeschäft (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Summe B (Summe der Beträge laut Zeile 12 und Zeile 13) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Berechnung der genossenschaftlichen Rückvergütung",
+        "rows": [
+          {
+            "row": "16",
+            "label": "Überschuss im Sinne des § 22 Absatz 1 KStG (laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Abziehbare genossenschaftliche Rückvergütungen (Betrag laut Zeile 16 multipliziert mit dem Verhältnis der Beträge der Zeilen 4 zu 3, 7 zu 6 oder 14 zu 11) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Nicht abziehbare genossenschaftliche Rückvergütungen (Betrag laut Zeile 2 abzüglich Betrag laut Zeile 17) (Übertrag in Zeile 48 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18a",
+            "label": "Die genossenschaftlichen Rückvergütungen sind den Berechtigten steuerwirksam zugeflossen am (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Nebengeschäfte zur Anwendung der Richtlinie R 22 Absatz 12 KStR 2015",
+        "rows": [
+          {
+            "row": "19",
+            "label": "Umsatz aus Nebengeschäften (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Gewinn aus Nebengeschäften (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

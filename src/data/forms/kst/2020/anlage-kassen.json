@@ -1,0 +1,685 @@
+[
+  {
+    "context_label": "1 - Allgemeines",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Erstes Jahr des Prüfungszeitraums (JJJJ)",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Die Kasse ist eine",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "rechtsfähige Pensions- oder Sterbekasse, die den Leistungsempfängern einen Rechtsanspruch gewährt.",
+              "rechtsfähige Krankenkasse, die den Leistungsempfängern einen Rechtsanspruch gewährt.",
+              "rechtsfähige Unterstützungskasse, die den Leistungsempfängern keinen Rechtsanspruch gewährt."
+            ]
+          },
+          {
+            "row": "3",
+            "label": "Datum der zurzeit gültigen Satzung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Liegt die Satzung dem Finanzamt vor? (ja: Satzung liegt dem Finanzamt vor; nein: Satzung liegt nicht vor und wird daher gesondert übermittelt)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "liegt dem Finanzamt vor.",
+              "wird gesondert übermittelt."
+            ]
+          },
+          {
+            "row": "5",
+            "label": "Datum des zurzeit gültigen Geschäftsplans (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Liegt der Geschäftsplan dem Finanzamt vor? (ja: Geschäftsplan liegt dem Finanzamt vor; nein: Geschäftsplan liegt nicht vor und wird daher gesondert übermittelt)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "liegt dem Finanzamt vor.",
+              "wird gesondert übermittelt."
+            ]
+          },
+          {
+            "row": "7",
+            "label": "Datum des zurzeit gültigen Leistungsplans (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Liegt der Leistungsplan dem Finanzamt vor? (ja: Leistungsplan liegt dem Finanzamt vor; nein: Leistungsplan liegt nicht vor und wird daher gesondert übermittelt)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "liegt dem Finanzamt vor.",
+              "wird gesondert übermittelt."
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Träger der Kasse",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name des Unternehmens, das Zuwendungen leistet",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des Unternehmens, das Zuwendungen leistet",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Anlage des Kassenvermögens und Sicherstellung",
+    "sections": [
+      {
+        "section_label": "Übersicht der Anlagen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung der Anlage",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung der Anlage",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Dem Trägerunternehmen oder einer ihm nahestehenden Person gewährte Darlehen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Darlehensnehmer",
+            "rows": [
+              {
+                "row": null,
+                "label": "Darlehensnehmer",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Art der gewährten Leistungen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Jahr",
+            "rows": [
+              {
+                "row": null,
+                "label": "Jahr",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Leistungsempfänger",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "13",
+            "label": "Anzahl der von der Kasse betreuten Leistungsempfänger",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Zu den Leistungsempfängern gehören satzungsmäßig auch der Unternehmer, die Gesellschafter (Aktionäre/Genossen) und/oder dessen/deren Angehörige - Anzahl der Personen:",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Leistungen an die Unternehmer, Gesellschafter (Aktionäre/Genossen) und deren Angehörige",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Leistungen an Personen, die nach der Satzung nicht empfangsberechtigt sind",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Mittelverwendung",
+    "sections": [
+      {
+        "section_label": "Verwendung von Mitteln für nicht satzungsmäßige Zwecke",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Verwendungszweck",
+            "rows": [
+              {
+                "row": null,
+                "label": "Verwendungszweck",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Vermögensübertragungen auf das Trägerunternehmen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Zeitpunkt",
+            "rows": [
+              {
+                "row": null,
+                "label": "Zeitpunkt",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Einzelangaben pro Prüfungszeitraum",
+    "sections": [
+      {
+        "section_label": "Sterbegeld",
+        "rows": [
+          {
+            "row": "19",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Sterbegeld beziehungsweise die Leistung der Kasse an diese Personen weniger als 7.670 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Sterbegeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 7.669 Euro betragen hat",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Pension",
+        "rows": [
+          {
+            "row": "21",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Pension beziehungsweise die Leistung der Kasse an diese Personen weniger als 25.770 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Pension beziehungsweise die Leistung der Kasse an diese Personen mehr als 25.669 Euro und weniger als 38.655 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Pension beziehungsweise die Leistung der Kasse an diese Personen mehr als 38.654 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 25.669 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 38.654 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Witwengeld",
+        "rows": [
+          {
+            "row": "26",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Witwengeld beziehungsweise die Leistung der Kasse an diese Personen weniger als 17.180 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Witwengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 17.179 Euro und weniger als 25.770 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Witwengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 25.769 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 17.179 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 25.769 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Vollwaisengeld",
+        "rows": [
+          {
+            "row": "31",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Vollwaisengeld beziehungsweise die Leistung der Kasse an diese Personen weniger als 10.309 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Vollwaisengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 10.308 Euro und weniger als 15.462 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Vollwaisengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 15.461 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 10.308 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 15.461 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Halbwaisengeld",
+        "rows": [
+          {
+            "row": "36",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Halbwaisengeld beziehungsweise die Leistung der Kasse an diese Personen weniger als 5.155 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Halbwaisengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 5.154 Euro und weniger als 7.732 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "Anzahl der Personen, für die im Prüfungszeitraum der Rechtsanspruch auf Halbwaisengeld beziehungsweise die Leistung der Kasse an diese Personen mehr als 7.731 Euro betragen hat",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 5.154 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Prozentsatz der Fälle, bei denen die erreichten Rechtsansprüche der Leistungsempfänger beziehungsweise die Leistungen der Kasse an die Leistungsempfänger mehr als 7.731 Euro betragen haben (X,XX)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Rechtsansprüche",
+        "rows": [
+          {
+            "row": "41",
+            "label": "Die Rechtsansprüche übersteigen die Grenzen des § 2 KStDV (wenn in der Zeile 20 ein Wert beziehungsweise jeweils in den Zeilen 24, 29, 34 oder 39 ein Wert größer als 12 Prozent beziehungsweise in den Zeilen 25, 30, 35 oder 40 ein Wert größer als 4 Prozent eingetragen wurde).",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - Berechnung der Dotation bei Pensions-, Sterbe- und Krankenkassen (§ 5 Absatz 1 Nummer 3 Buchstabe d )",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "42",
+            "label": "Zeitpunkt, zu dem die Deckungsrückstellung versicherungsmathematisch errechnet wurde: Stichtag (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": null,
+            "label": "Zu diesem Stichtag ergeben sich folgende Werte:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "43",
+            "label": "Vermögen der Kasse, das nach handelsrechtlichen Grundsätzen ordnungsmäßiger Buchführung unter Berücksichtigung des von der Versicherungsaufsichtsbehörde genehmigten Geschäftsplans auszuweisen ist (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "44",
+            "label": "Davon ab: Verlustrücklage bei Versicherungsvereinen auf Gegenseitigkeit beziehungsweise entsprechender Teil des Vermögens bei Kassen anderer Rechtsform (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "45",
+            "label": "Überdotierung/Unterdotierung (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "9 - Berechnung der Dotation bei Unterstützungskassen (§ 5 Absatz 1 Nummer 3 Buchstabe e )",
+    "sections": [
+      {
+        "section_label": "Ermittlung des tatsächlichen Kassenvermögens von Unterstützungskassen (§ 5 Absatz 1 Nummer 3 Buchstabe e KStG)",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Lebenslänglich laufende Leistungen",
+            "rows": [
+              {
+                "row": "46",
+                "label": "Soweit eine Rückdeckung durch eine Versicherung besteht, die die Voraussetzung für den Abzug des Betrags nach § 4d Absatz 1 Satz 1 Nummer 1 Buchstabe c EStG erfüllt:Geschäftsplanmäßiges Deckungskapital aus der Versicherung (§ 4d Absatz 1 Satz 1 Nummer 1 Satz 5 EStG) oder der nach § 169 Absatz 3 des Gesetzes über den Versicherungsvertrag berechnete Zeitwert (§ 4d Absatz 1 Satz 1 Nummer 1 Satz 6 EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "47",
+                "label": "Soweit keine Rückdeckung durch eine Versicherung besteht, die die Voraussetzungen für den Abzug des Beitrags nach § 4d Absatz 1 Satz 1 Nummer 1 Buchstabe c EStG erfüllt:Dazu: Deckungskapital für alle laufenden Leistungen (§ 4d Absatz 1 Satz 1 Nummer 1 Satz 4 EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "48",
+                "label": "Dazu: Achtfaches der nach § 4d Absatz 1 Satz 1 Nummer 1 Buchstabe b EStG abzugsfähigen Zuwendungen (§ 4d Absatz 1 Satz 1 Nummer 1 Satz 4 EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "49",
+                "label": "Zulässiges Kassenvermögen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Nicht lebenslänglich laufende Leistungen",
+            "rows": [
+              {
+                "row": "50",
+                "label": "Lohn- und Gehaltssumme des Trägerunternehmens für das laufende Wirtschaftsjahr (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "51",
+                "label": "Lohn- und Gehaltssumme des Trägerunternehmens für das vorangegangene Wirtschaftsjahr (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "52",
+                "label": "Lohn- und Gehaltssumme des Trägerunternehmens für das zweite vorangegangene Wirtschaftsjahr (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "53",
+                "label": "1 Prozent der durchschnittlichen Lohn- und Gehaltssumme der begünstigten Personen des Trägerunternehmens der letzten drei Jahre (§ 4d Absatz 1 Satz 1 Nummer 2 Satz 3 und 6 EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "54",
+                "label": "Summe der in den letzten 10 Wirtschaftsjahren gewährten Leistungen (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "55",
+                "label": "Zulässiges Kassenvermögen (hat die Unterstützungskasse bereits 10 Wirtschaftsjahre bestanden: Minimum der Beträge laut Zeilen 53 und 54; andernfalls Betrag laut Zeile 53 (§ 4d Absatz 1 Satz 1 Nummer 2 Satz 4 EStG)) (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Lebenslänglich laufende Leistungen und nicht lebenslänglich laufende Leistungen",
+            "rows": [
+              {
+                "row": "56",
+                "label": "Zulässiges Kassenvermögen: Summe der Beträge laut Zeilen 49 und 55. (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Ermittlung des tatsächlichen Kassenvermögens zum Ende des Wirtschaftsjahres und gegebenenfalls der Überdotierung",
+        "rows": [
+          {
+            "row": "57",
+            "label": "Einheitswert des Grundbesitzes (200 Prozent gemäß § 4d Absatz 1 Satz 1 Nummer 1 Satz 3 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "58",
+            "label": "Dazu: Ansprüche aus einer Versicherung (Wert des geschäftsplanmäßigen Deckungskapitals zuzüglich Guthaben aus Beitragsrückerstattung, § 4d Absatz 1 Satz 1 Nummer 1 Satz 3 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "59",
+            "label": "Dazu: Gemeiner Wert des übrigen Vermögens (§ 4d Absatz 1 Satz 1 Nummer 1 Satz 3 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "60",
+            "label": "Tatsächliches Kassenvermögen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "61",
+            "label": "Davon ab: 125 Prozent des zulässigen Kassenvermögens (125 Prozent des Betrags aus Zeile 56) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "62",
+            "label": "Überdotierung (wenn negativ \"0\" eintragen) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "10 - Weitere Angaben für Unterstützungskassen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "63",
+            "label": "Die Leistungsempfänger sind zu laufenden Beiträgen oder sonstigen Zuschüssen an die Kasse verpflichtet.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "64",
+            "label": "Die Leistungsempfänger haben laufende Beiträge oder sonstige Zuschüsse an die Kasse geleistet.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "65",
+            "label": "Den Leistungsempfängern oder den Arbeitnehmervertretungen des Betriebs oder der Dienststelle steht satzungsgemäß und tatsächlich das Recht zu, an der Verwaltung der Kassenmittel beratend mitzuwirken.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Wenn ja",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der mitwirkenden Personen",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der mitwirkenden Personen",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  }
+]
