@@ -1,0 +1,97 @@
+[
+  {
+    "context_label": "Anlage zur Gewerbesteuererklärung ( 1 A)",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Aufteilung erfolgt nach dem im Gesellschaftsvertrag für den Erhebungszeitraum festgelegten allgemeinen Gewinnverteilungsschlüssel. Vorabgewinnanteile sind nicht zu berücksichtigen (§ 10a Satz 4 GewStG).",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "3",
+            "label": "Name/Firma des Beteiligten",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": null,
+            "label": "Beteiligtennummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Identifikationsnummer des Beteiligten (bei natürlichen Personen)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Sofern noch keine Steuernummer vorliegt: Zuständiges Finanzamt",
+        "rows": [
+          {
+            "row": null,
+            "label": "Angaben sind nur vorzunehmen, wenn dem Beteiligten bisher weder eine Identifikationsnummer noch eine Steuernummer zugeteilt wurde.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anteilige Besteuerungsgrundlagen",
+        "rows": [
+          {
+            "row": "7",
+            "label": "Gewerbeertrag / Gewerbeverlust - Negativen Betrag mit Minuszeichen eintragen - - gegebenenfalls \"0\" - (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Von einem anderen Steuerschuldner im Falle des Rechtsformwechsels übernommener Gewerbeverlust aus der Zeit vor dem Rechtsformwechsel, soweit nach § 10a GewStG vortragsfähig (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Übernommener Gewerbeverlust im Fall der Einbringung des Betriebes einer Personengesellschaft in eine andere Personengesellschaft oder der Verschmelzung von Personengesellschaften (R 10a.3 Absatz 3 Satz 9 Nummer 5 Satz 1 und 2 GewStR 2009) oder im Fall der Anwachsung oder der Verschmelzung einer Personengesellschaft auf einen Gesellschafter (R 10a.3 Absatz 3 Satz 9 Nummer 4 GewStR 2009) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht abziehbarer Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht ausgleichsfähiger Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Aufgrund der Veräußerung oder Aufgabe von Teilbetrieben wegfallender vortragsfähiger Gewerbeverlust und Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
