@@ -1,0 +1,63 @@
+[
+  {
+    "context_label": "Aufstellung aller vertretenen Unternehmer",
+    "sections": [
+      {
+        "section_label": "Unternehmer",
+        "rows": [
+          {
+            "row": "2",
+            "label": "Summe aller Bemessungsgrundlagen in Euro (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Name des vertretenen Unternehmers",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des vertretenen Unternehmers",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": null,
+                "rows": [
+                  {
+                    "row": "1",
+                    "label": "Name des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Anschrift des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Umsatzsteuer-Identifikationsnummer des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Summe der jeweiligen Bemessungsgrundlagen in Euro (Euro)",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
