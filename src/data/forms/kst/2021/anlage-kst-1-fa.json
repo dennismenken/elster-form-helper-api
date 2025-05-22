@@ -1,0 +1,864 @@
+[
+  {
+    "context_label": "Anlagen 1 Fa",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ermittlung des steuerlichen Einlagekontos (§ 27 Absatz 2 Satz 1 KStG) für Betriebe gewerblicher Art (BgA) ohne eigene Rechtspersönlichkeit und wirtschaftliche Geschäftsbetriebe der von der Körperschaftsteuer befreiten Körperschaften, Personenvereinigungen und Vermögensmassen und Ermittlung des durch Umwandlung von Rücklagen entstandenen Nennkapitals (§ 28 Absatz 1 Satz 3 KStG) für Betriebe gewerblicher Art ohne eigene Rechtspersönlichkeit",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage KSt 1 Fa gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Datum des Eintritts in die unbeschränkte Steuerpflicht im laufenden Wirtschaftsjahr oder Stichtag der Zusammenfassung bisheriger Einzelbetriebe gewerblicher Art im laufenden Wirtschaftsjahr (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "1a",
+            "label": "Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Ermittlung des steuerlichen Einlagekontos (§ 27 Absatz 2 Satz 1 ) und des durch Umwandlung von Rücklagen entstandenen Nennkapitals (§ 28 Absatz 1 Satz 3 )",
+    "sections": [
+      {
+        "section_label": "Anfangsbestände",
+        "rows": [
+          {
+            "row": "6d",
+            "label": "Bei Eintritt in die unbeschränkte Steuerpflicht oder bei erstmaliger Anwendung des § 20 Absatz 1 Nummer 10 Buchstabe b EStG: Anfangsbestand gemäß Randnummern 43 und 46 des BMF-Schreibens vom 28.01.2019, BStBl I 2019, 97 beziehungsweise Randnummer 12 des BMF-Schreibens vom 02.02.2016, BStBl I 2016, 200; vergleiche § 27 Absatz 2 Satz 3 KStG (laut gesonderter Ermittlung)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "7",
+            "label": "Bestände zum Schluss des vorangegangenen Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Zusammenfassung von Betrieben gewerblicher Art",
+        "rows": [
+          {
+            "row": "8",
+            "label": "Summe der Bestände der steuerlichen Einlagekonten und der Neurücklagen der Einzelbetriebe gewerblicher Art",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "9",
+            "label": "Betrag des Nennkapitals nach Zusammenfassung von Betrieben gewerblicher Art (nicht, soweit das Nennkapital auf im Rahmen der Zusammenfassung geleisteten baren Zuzahlungen beziehungsweise Sacheinlagen beruht)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "10",
+            "label": "Hierfür Verwendung des positiven steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "11",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen; entsprechender Abgang bei den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Leistungen (gegebenenfalls fiktiv) im Wirtschaftsjahr",
+        "rows": [
+          {
+            "row": "17",
+            "label": "Maßgeblicher Gewinn beziehungsweise Jahresüberschuss des laufenden Wirtschaftsjahres gemäß Randnummer 25 folgende beziehungsweise Randnummer 31 des BMF-Schreibens vom 28.01.2019, BStBl I 2019, 97, beziehungsweise Randnummer 4 folgende des BMF-Schreibens vom 02.02.2016, BStBl I 2016, 200: vor Rücklagenbildung beziehungsweise Entnahmen; wenn negativ: Null eintragen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "18",
+            "label": "Abzüglich Rücklagenbildung für betriebliche Zwecke im Sinne der Randnummer 35 folgende des BMF-Schreibens vom 28.01.2019, BStBl I 2019, 97, beziehungsweise Randnummer 3 und 8 des BMF-Schreibens vom 02.02.2016, BStBl I 2016, 200 (höchstens Betrag laut Zeile 17)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "19",
+            "label": "Im Wirtschaftsjahr für Zwecke außerhalb des Betriebes gewerblicher Art beziehungsweise des wirtschaftlichen Geschäftsbetriebes aufgelöste Rücklagen (gegebenenfalls einschließlich der fiktiven Rücklagenauflösung nach Randnummer 9 des BMF-Schreibens vom 02.02.2016, BStBl I 2016, 200 im Falle des Verlustes der Steuerbefreiung der Körperschaft)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "21",
+            "label": "Im Wirtschaftsjahr- beschlossene Überführung von Gewinnen aus früheren Wirtschaftsjahren (Rücklagen) oder dem laufenden Wirtschaftsjahr in den allgemeinen Haushalt;- tatsächlich erfolgte Überführung solcher Gewinne ohne vorhergehenden Beschluss;- erfolgte Rückzahlung von Nennkapital, das im Herabsetzungsbeschluss nicht zur Auszahlung vorgesehen war, soweit die Kapitalherabsetzung nach landesrechtlichen Vorschriften zulässig war;- erfolgte Rückzahlung von Nennkapital, soweit die Kapitalherabsetzung nach landesrechtlichen Vorschriften nicht zulässig war(Summe der vorgenannten Leistungen laut gesonderter Einzelaufstellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "24",
+            "label": "Zwischensumme: Betrag der Vorspalte = Leistungen im Wirtschaftsjahr / als ausgeschüttet geltender Gewinn",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "25",
+            "label": "Abzug des Betrages laut Zeile 24 Vorspalte, höchstens in Höhe eines positiven Betrages der bisher bestehenden Neurücklagen (Spalte 4: Betrag laut Zeile 7 oder 8 abzüglich Betrag laut Zeile 11)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "26",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "27",
+            "label": "Abzug des Betrages laut Zeile 26 und/oder ein nach § 27 Absatz 5 KStG zu berücksichtigender Betrag, höchstens in Höhe des Betrages des bisher bestehenden steuerlichen Einlagekontos (Spalte 3: Betrag laut Zeile 6d, 7 oder 8 abzüglich Betrag laut Zeile 10)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "28",
+            "label": "Abzug des übersteigenden Betrages",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "29",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "31a",
+            "label": "Verdeckte Gewinnausschüttungen des laufenden Wirtschaftsjahres (nicht in Fällen, in denen Zeile 39b auszufüllen ist)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "31b",
+            "label": "Abzug des Betrages laut Zeile 31a höchstens in Höhe eines positiven Betrages der bestehenden Neurücklagen (Spalte 4: Betrag laut Zeile 7 oder 8 abzüglich Beträge laut Zeilen 11, 25 und 28)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "31c",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "31d",
+            "label": "Abzug des Betrages laut Zeile 31c und/oder ein nach § 27 Absatz 5 KStG zu berücksichtigender Betrag, höchstens in Höhe des Betrages laut Zeile 29 Spalte 3; entsprechender Zugang in Spalte 4",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Herabsetzung des Nennkapitals (außerhalb einer Umwandlung oder Zusammenfassung mit einem anderen Betrieb gewerblicher Art)",
+        "rows": [
+          {
+            "row": "31e",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "32",
+            "label": "Betrag der Herabsetzung des Nennkapitals (ohne fiktive Herabsetzung bei Auflösung des Betriebs gewerblicher Art nach § 28 Absatz 2 KStG)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "35",
+            "label": "Ausstehende Einlagen in das Nennkapital (nur, soweit durch die Kapitalherabsetzung die Einzahlungsverpflichtung der Trägerkörperschaft entfällt)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "35a",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 31e oder dem Betrag laut Zeile 32 abzüglich Betrag laut Zeile 35; entsprechender Zugang zu den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "36",
+            "label": "Verbleibender Betrag:Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "36a",
+            "label": "Vom Betrag der Herabsetzung des Nennkapitals laut Zeile 32 sind zur Auszahlung vorgesehen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Auflösung des Betriebs gewerblicher Art",
+        "rows": [
+          {
+            "row": "36b",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "36c",
+            "label": "Betrag des Nennkapitals bei Auflösung des Betriebs gewerblicher Art nach § 28 Absatz 2 KStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "36d",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "36e",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 36b oder dem Betrag laut Zeile 36c abzüglich Betrag laut Zeile 36d; entsprechender Zugang zu den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "36f",
+            "label": "Verbleibender Betrag:Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Rückzahlung des Nennkapitals (§ 28 Absatz 2 KStG)",
+        "rows": [
+          {
+            "row": "36g",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "37",
+            "label": "Betrag der Rückzahlung des Nennkapitals, soweit hierauf § 28 Absatz 2 KStG anzuwenden ist",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "37a",
+            "label": "Betrag laut Zeile 37, soweit der Sonderausweis im Jahr der Kapitalherabsetzung gemindert wurde; entsprechender Abzug von den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "37b",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "37c",
+            "label": "Abzug vom steuerlichen Einlagekonto (höchstens in Höhe des positiven Betrages laut Zeile 36g)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Eigenkapitalveränderungen aufgrund des Steuerbilanzgewinns / -verlustes des laufenden Wirtschaftsjahres",
+        "rows": [
+          {
+            "row": null,
+            "label": "Zeilen 38a bis 39a: Nicht in den Fällen, in denen Zeile 39b auszufüllen ist",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "38a",
+            "label": "Steuerbilanzgewinn/Steuerbilanzverlust des laufenden Wirtschaftsjahres (gegebenenfalls geschätzt laut Randnummer 27 des BMF-Schreibens vom 28.01.2019, BStBl I 2019, 97): vor Rücklagenbildung; bei Eigenbetrieben vor Verlustverrechnung und bei Regiebetrieben / wirtschaftlichen Geschäftsbetrieben vor Ausgleich des Verlustes des laufenden Wirtschaftsjahres aus dem Haushalt der Trägerkörperschaft beziehungsweise aus dem sonstigen Vermögen der Körperschaft",
+            "type": "text",
+            "values": [
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "38b",
+            "label": "Bei Regiebetrieben und bei wirtschaftlichen Geschäftsbetrieben:In steuerlich unzulässige Rücklagen eingestellter Gewinn des laufenden Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "38c",
+            "label": "Bei Regiebetrieben und bei wirtschaftlichen Geschäftsbetrieben:Ausgleich des Verlustes des laufenden Wirtschaftsjahres aus dem Haushalt der Trägerkörperschaft beziehungsweise aus dem sonstigen Vermögen der Körperschaft; im Falle der Beteiligung an einer Personengesellschaft: Verlust aus dem Sonderbetriebsvermögen, soweit dieser den entnommenen Gewinn aus dem Gesamthandsvermögen übersteigt",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "38d",
+            "label": "Bei wirtschaftlichen Geschäftsbetrieben:- Zuführungen von Vermögensmitteln aus dem steuerfreien Bereich der Körperschaft und aus wirtschaftlichen Geschäftsbetrieben der Körperschaft, die nicht unter § 20 Absatz 1 Nummer 10 Buchstabe b Satz 4 EStG fallen;- vorhandene Eigenkapitalanteile von weiteren wirtschaftlichen Geschäftsbetrieben, die erstmals unter § 20 Absatz 1 Nummer 10 Buchstabe b Satz 4 EStG fallen",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "39",
+            "label": "Im laufenden Wirtschaftsjahr geleistete sonstige Einlagen",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "39a",
+            "label": "Im laufenden Wirtschaftsjahr gewinnwirksam gebuchte Beträge im Sinne der Zeilen 38d und 39",
+            "type": "text",
+            "values": [
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "39b",
+            "label": "Bei Regiebetrieben und bei wirtschaftlichen Geschäftsbetrieben: Eigenkapitalveränderungen (zum Beispiel in Rücklagen eingestellter Gewinn; nicht jedoch der an die Trägerkörperschaft abgeführte Gewinn) in Wirtschaftsjahren, in denen die Tatbestandsvoraussetzungen (insbesondere Umsatz- und Gewinngrenzen) des § 20 Absatz 1 Nummer 10 Buchstabe b EStG nicht erfüllt sind (mit Ausnahme der in Zeile 19 einzutragenden Beträge). (Einzutragen in Spalte 3. Ein Steuerbilanzverlust ist zusätzlich in Spalte 4 einzutragen.) (einzutragen in Spalte 3. Ein Steuerbilanzverlust ist zusätzlich in Spalte 4 einzutragen.)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Erhöhung des Nennkapitals eines Betriebs gewerblicher Art durch Umwandlung von Rücklagen nach § 28 Absatz 1 KStG",
+        "rows": [
+          {
+            "row": "40",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "47",
+            "label": "Betrag der Erhöhung des Nennkapitals (ohne Fälle im Sinne der Zeile 9)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "48",
+            "label": "Hierfür Verwendung des positiven steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "49",
+            "label": "Verbleibender Betrag:Nennkapitalerhöhung aus sonstigen Rücklagen, entsprechender Abgang bei den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Fiktive Herabsetzung des Nennkapitals bei Betrieben gewerblicher Art bei Zusammenfassung von Betrieben gewerblicher Art und Abspaltung",
+        "rows": [
+          {
+            "row": "50",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "51",
+            "label": "Betrag des Nennkapitals am steuerlichen Übertragungsstichtag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "53a",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 50 oder dem Betrag laut Zeile 51 abzüglich Betrag laut Zeile 53; entsprechender Zugang bei den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "53",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "54",
+            "label": "Verbleibender Betrag:Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einbringung eines gesamten Betriebs gewerblicher Art in eine Kapitalgesellschaft",
+        "rows": [
+          {
+            "row": "54a",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "54b",
+            "label": "Betrag des Nennkapitals am steuerlichen Übertragungsstichtag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "54e",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 54a, Spalte 5 oder dem Betrag laut Zeile 54b abzüglich Betrag laut Zeile 54d; entsprechender Zugang bei den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "54d",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "54f",
+            "label": "Verbleibender Betrag:Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "54g",
+            "label": "Verbleibender Betrag des Nennkapitals am steuerlichen Übertragungsstichtag (laut Zeile 54f); Abzug vom steuerlichen Einlagekonto, soweit die Rückzahlung nicht aus der Minderung des Sonderausweises stammt; im Übrigen Abzug von den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Fiktive Rückzahlung der offenen Rücklagen bei Einbringung eines gesamten Betriebs gewerblicher Art oder eines wirtschaftlichen Geschäftsbetriebs in eine Kapitalgesellschaft",
+        "rows": [
+          {
+            "row": "55",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "55a",
+            "label": "Zum Zeitpunkt der Umwandlung vorhandene offene Rücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "55b",
+            "label": "Abzug des Betrages laut Zeile 55a, höchstens in Höhe eines positiven Betrages laut Zeile 55 Spalte 4",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "55c",
+            "label": "Verbleibender Betrag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "55d",
+            "label": "Abzug des Betrages laut Zeile 55c oder ein nach § 27 Absatz 5 KStG zu berücksichtigender Betrag, höchstens in Höhe des Betrages laut Zeile 55 Spalte 3",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "55e",
+            "label": "Abzug des übersteigenden Betrages",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Abspaltung",
+        "rows": [
+          {
+            "row": "55f",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "55g",
+            "label": "Der für die Abspaltung maßgebende Zähler nach § 29 Absatz 3 KStG",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "55h",
+            "label": "Der für die Abspaltung maßgebende Nenner nach § 29 Absatz 3 KStG",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "56",
+            "label": "Verringerung des steuerlichen Einlagekontos nach § 29 Absatz 3 KStG und der Neurücklagen (Betrag laut Zeile 55f multipliziert mit dem Betrag laut Zeile 55g dividiert durch den Betrag laut Zeile 55h)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)"
+            ]
+          },
+          {
+            "row": "57",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "58",
+            "label": "Höhe des Nennkapitals nach Abspaltung",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "59",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "60",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "61",
+            "label": "Hierfür Verwendung des positiven steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "62",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen; entsprechender Abgang bei den Neurücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verminderung des Sonderausweises und des steuerlichen Einlagekontos nach § 28 Absatz 3 KStG",
+        "rows": [
+          {
+            "row": "63",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "64",
+            "label": "Abzug des Betrages laut Zeile 63 Spalte 5 - maximal in Höhe des positiven Betrages laut Zeile 63 Spalte 3 - jeweils abzuziehen in Spalten 3 und 5 und hinzuzurechnen in Spalte 4",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Endbestände zum Schluss des Wirtschaftsjahres",
+        "rows": [
+          {
+            "row": "65",
+            "label": "Endbestände zum Schluss des Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Neurücklagen (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Angaben zu ausgestellten Bescheinigungen über die Verwendung des steuerlichen Einlagekontos",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "65a",
+            "label": "Die Minderung des steuerlichen Einlagekontos für die in Zeile 24 eingetragenen Leistungen wurde im Wirtschaftsjahr bescheinigt in Höhe von (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "65b",
+            "label": "Die Minderung des steuerlichen Einlagekontos für die in Zeile 31a eingetragenen Leistungen wurde im Wirtschaftsjahr bescheinigt in Höhe von (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "65c",
+            "label": "Die Minderung des steuerlichen Einlagekontos für die in Zeile 55a eingetragenen Leistungen wurde im Wirtschaftsjahr bescheinigt in Höhe von (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Ermittlung der kapitalertragsteuerpflichtigen Leistungen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "66",
+            "label": "Summe der Beträge laut Zeile 24 Spalte 2, Zeile 31a Spalte 2, Zeile 37, Zeile 54g Spalte 4 und Zeile 55a (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "67",
+            "label": "Verwendung des steuerlichen Einlagekontos (Summe der Beträge laut Zeile 27 Spalte 3, Zeile 31d Spalte 3, Zeile 37c Spalte 3 und Zeile 55d Spalte 3) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "68",
+            "label": "Kapitalertragsteuerpflichtige Leistungen, sofern die sonstigen Voraussetzungen des § 20 Absatz 1 Nummer 10 Buchstabe b EStG (zum Beispiel: Ermittlung des Gewinns durch Betriebsvermögensvergleich oder Umsätze von mehr als 350.000 Euro im Kalenderjahr oder Gewinn von mehr als 30.000 Euro im Wirtschaftsjahr) erfüllt sind (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "context_label": "Anlage Verluste",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Verbleibender Verlustvortrag nach § 10d EStG in Verbindung mit § 31 Absatz 1 KStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht zu verwenden in den Fällen des § 8 Absatz 9 KStG!",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Anfangsbestand",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "11",
+            "label": "Verbleibender Verlustvortrag zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Davon ab: Untergang des fortführungsgebundenen Verlustvortrags aufgrund eines schädlichen Ereignisses im Sinne des § 8d Absatz 2 KStG (Betrag laut Zeile 29) (Übertrag aus Zeile 30) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Dazu: Erhalt des fortführungsgebundenen Verlustvortrags nach § 8d Absatz 2 Satz 1 zweiter Halbsatz KStG durch entsprechende Anwendung des § 8c Absatz 1 Satz 5 bis 8 KStG bezogen auf die zum Schluss des vorangegangenen Veranlagungszeitraums vorhandenen stillen Reserven (höchstens Betrag laut Zeile 13; laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14a",
+            "label": "Nur für Betriebe gewerblicher Art:Dazu: Zu übernehmender verbleibender Verlustvortrag (§ 8 Absatz 8 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Davon ab: Nicht zu berücksichtigender Verlustvortrag nach § 8c KStG (gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG; laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Davon ab: Verringerung des Verlustvortrags durch Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Davon ab: Minderung des Verlustvortrags nach § 3a Absatz 3 Satz 2 Nummer 10 EStG (Betrag laut Zeile 21 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Negativer Gesamtbetrag der Einkünfte",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "19",
+            "label": "Dazu: Berücksichtigungsfähiger Verlust des laufenden Veranlagungszeitraums(negativer Betrag laut Zeile 53 der Anlage ZVE oderwenn Betrag laut Zeile 51 Vorspalte der Anlage ZVE negativ:Betrag laut Zeile 51 Vorspalte der Anlage ZVE oderbei Organgesellschaften: negativer Betrag laut Zeile 17 der Anlage OG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19a",
+            "label": "Davon ab: Minderung der negativen Einkünfte nach § 3a Absatz 3 Satz 2 Nummer 12 EStG aufgrund eines Sanierungsertrags im vorangegangenen Veranlagungszeitraum (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Davon ab: Verlustrücktrag auf das Einkommen 2020 höchstens 10 Millionen € und höchstens Betrag laut Zeile 19 abzüglich Betrag laut Zeile 19a (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Positiver Gesamtbetrag der Einkünfte",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "22",
+            "label": "Positiver Gesamtbetrag der Einkünfte (positiver Betrag laut Zeile 53 der Anlage ZVE) oder bei Organgesellschaften: positiver Betrag laut Zeile 17 der Anlage OG",
+            "type": "text",
+            "values": [
+              "(Euro)"
+            ]
+          },
+          {
+            "row": "23",
+            "label": "Im Falle von Umwandlungen mit steuerlicher Rückwirkung beim übernehmenden Rechtsträger:Davon ab: Im Betrag laut Zeile 22 enthaltene positive Einkünfte des übertragenden oder einbringenden Rechtsträgers im Rückwirkungszeitraum (vergleiche § 2 Absatz 4 Satz 3 und 4 UmwStG) - Summe der Beträge laut Zeilen 48 bis 50 Vorspalte der Anlage ZVE",
+            "type": "text",
+            "values": [
+              "(Euro)"
+            ]
+          },
+          {
+            "row": "24",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "(Euro)"
+            ]
+          },
+          {
+            "row": "25",
+            "label": "Davon ab: Niedrigerer Betrag aus Zeile 21 und 24, höchstens 1 Million Euro (Übertrag des Betrages laut Hauptspalte nach Zeile 56 der Anlage ZVE)",
+            "type": "text",
+            "values": [
+              "(Euro)",
+              "(Euro)"
+            ]
+          },
+          {
+            "row": "26",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "(Euro)",
+              "(Euro)"
+            ]
+          },
+          {
+            "row": "27",
+            "label": "Davon ab: Betrag laut Zeile 26 Hauptspalte, höchstens 60 Prozent des Betrages laut Zeile 26 Vorspalte (Übertrag des Betrages laut Hauptspalte nach Zeile 56 der Anlage ZVE)",
+            "type": "text",
+            "values": [
+              "(Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Endbestand",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "28",
+            "label": "Verbleibender Verlustvortrag zum Schluss des Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Fortführungsgebundener Verlustvortrag nach § 8d",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "29",
+            "label": "Verbleibender fortführungsgebundener Verlustvortrag zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Davon ab: Untergang des fortführungsgebundenen Verlustvortrags aufgrund eines schädlichen Ereignisses im Sinne des § 8d Absatz 2 KStG (Betrag laut Zeile 29) (Übertrag nach Zeile 13) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Davon ab: Wegfall der Fortführungsgebundenheit bei Vorliegen eines schädlichen Beteiligungserwerbs nach § 8c KStG (Betrag laut Zeile 29) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Davon ab: Im wegfallenden Verlustvortrag enthaltener fortführungsgebundener Verlustvortrag (im Betrag laut Zeile 16 enthalten, höchstens Betrag laut Zeile 29 abzüglich Summe der Beträge laut Zeilen 30 und 31) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Davon ab: Verrechnung mit dem fortführungsgebundenen Verlust (Summe der Beträge laut Zeilen 18, 25 und 27, höchstens Betrag laut Zeile 29 abzüglich Summe der Beträge laut Zeilen 30 bis 32) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "36",
+            "label": "Wenn im Veranlagungszeitraum ein schädlicher Beteiligungserwerb im Sinne des § 8c KStG erfolgte und die Voraussetzungen zur Anwendung des § 8d KStG erfüllt sind:Dazu: Zugang zum fortführungsgebundenen Verlustvortrag (Betrag laut Zeile 28 abzüglich Betrag laut Zeile 29 zuzüglich Summe der Beträge laut Zeilen 30 bis 34) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Im Betrag laut Zeile 28 enthaltener zum Schluss des Veranlagungszeitraums verbleibender fortführungsgebundener Verlustvortrag (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Verlust aus dem Beitrittsgebiet im Sinne des § 57 Absatz 4",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "38",
+            "label": "Von den Beträgen laut Zeile 11 beziehungsweise 14a entfällt auf den in 1990 entstandenen Verlust aus dem Beitrittsgebiet im Sinne des § 57 Absatz 4 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Davon ab: Untergang des fortführungsgebundenen Verlustvortrags aufgrund eines schädlichen Ereignisses im Sinne des § 8d Absatz 2 KStG (Betrag laut Zeile 38) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Dazu: Erhalt des fortführungsgebundenen Verlustvortrags nach § 8d Absatz 2 Satz 1 zweiter Halbsatz KStG durch entsprechende Anwendung des § 8c Absatz 1 Satz 5 bis 8 KStG bezogen auf die zum Schluss des vorangegangenen Veranlagungszeitraums vorhandenen stillen Reserven (Betrag laut Zeile 14 höchstens Betrag laut Zeile 38) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "41",
+            "label": "Davon ab: In den Beträgen laut Zeilen 15, 16 und 18 enthaltener, in 1990 entstandener Verlust aus dem Beitrittsgebiet im Sinne des § 57 Absatz 4 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "42",
+            "label": "Davon ab: Summe der Beträge laut Zeilen 25 und 27, höchstens Betrag laut Zeile 38 abzüglich der Beträge laut Zeilen 39 und 41 zuzüglich Betrag laut Zeile 40 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "43",
+            "label": "Zum Schluss des Veranlagungszeitraums verbleibender Verlust aus dem Beitrittsgebiet im Sinne des § 57 Absatz 4 EStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

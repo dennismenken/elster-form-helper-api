@@ -1,0 +1,324 @@
+[
+  {
+    "context_label": "Anlage Ber",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Steuerbefreiung von Berufsverbänden ohne öffentlich-rechtlichen Charakter (§ 5 Absatz 1 Nummer 5 KStG)",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Allgemeines",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Prüfungszeitraum von (JJJJ)",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Datum der aktuell gültigen Satzung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Liegt die Satzung dem Finanzamt vor? (ja: Satzung liegt dem Finanzamt vor; nein: Satzung liegt nicht vor und wird daher gesondert übermittelt)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "liegt dem Finanzamt vor.",
+              "wird gesondert übermittelt."
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Mitgliederbeiträge",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "4",
+            "label": "Datum der aktuell gültigen Beitragsordnung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Liegt die Beitragsordnung dem Finanzamt vor? (ja: Beitragsordnung liegt dem Finanzamt vor; nein: Beitragsordnung liegt nicht vor und wird daher gesondert übermittelt)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "liegt dem Finanzamt vor.",
+              "wird gesondert übermittelt."
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Umlagen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "5a",
+            "label": "Der Berufsverband erhebt Umlagen.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "6",
+            "label": "Umlagen werden von allen Mitgliedern erhoben.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "7",
+            "label": "Umlagen werden nach dem gleichen Maßstab erhoben.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Wirtschaftliche Betätigung",
+    "sections": [
+      {
+        "section_label": "Eigene Tätigkeit",
+        "rows": [
+          {
+            "row": "14",
+            "label": "Die Körperschaft unterhält wirtschaftliche Geschäftsbetriebe aus eigener Tätigkeit",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Beteiligungen an Personengesellschaften",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der Personengesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der Personengesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Beteiligungen an Kapitalgesellschaften",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der Kapitalgesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der Kapitalgesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Beteiligung an Personengesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "16",
+            "label": "Name der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16a",
+            "label": "Unternehmensgegenstand",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16b",
+            "label": "Finanzamt",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Beteiligung an Kapitalgesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "21",
+            "label": "Name der Kapitalgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21a",
+            "label": "Unternehmensgegenstand",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21b",
+            "label": "Höhe der Beteiligung(en) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21c",
+            "label": "Höhe der Beteiligung(en) in Prozent",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21d",
+            "label": "Finanzamt",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Angaben zur Mittelverwendung",
+    "sections": [
+      {
+        "section_label": "Mittelverwendung im Jahr 2021",
+        "rows": [
+          {
+            "row": "30",
+            "label": "Einnahmen des Berufsverbandes (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Summe der Zuwendungen, die für steuerbegünstigte Zwecke im Sinne der §§ 52 folgende AO verwendet wurden (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Mittel, die für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien verwendet wurden (Übertrag nach Zeile 74 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Mittelverwendung im Jahr 2020",
+        "rows": [
+          {
+            "row": "33",
+            "label": "Einnahmen des Berufsverbandes (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Summe der Zuwendungen, die für steuerbegünstigte Zwecke im Sinne der §§ 52 folgende AO verwendet wurden (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Mittel, die für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien verwendet wurden (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Mittelverwendung im Jahr 2019",
+        "rows": [
+          {
+            "row": "36",
+            "label": "Einnahmen des Berufsverbandes (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Summe der Zuwendungen, die für steuerbegünstigte Zwecke im Sinne der §§ 52 folgende AO verwendet wurden (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "Mittel, die für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien verwendet wurden (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "context_label": "Anlage SAN",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Verbleibender Sanierungsertrag nach § 3a EStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Betriebsvermögensmehrungen oder Betriebseinnahmen aus einem Schuldenerlass zum Zwecke einer unternehmensbezogenen Sanierung im Sinne des § 3a Absatz 2 EStG (Betrag laut Zeile 29 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Davon ab: Mit dem steuerfreien Sanierungsertrag in unmittelbarem wirtschaftlichen Zusammenhang stehende Betriebsvermögensminderungen oder Betriebsausgaben im Sinne des § 3c Absatz 4 EStG des Sanierungsjahres (Betrag laut Zeile 30 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Davon ab: Mit dem steuerfreien Sanierungsertrag in unmittelbarem wirtschaftlichen Zusammenhang stehende Betriebsvermögensminderungen oder Betriebsausgaben im Sinne des § 3c Absatz 4 EStG der dem Sanierungsjahr vorangehenden Jahre, soweit diese nicht in den festgestellten Verlustvorträgen enthalten sind (Übertrag aus Zeile 31, Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Dazu: Nach § 3a Absatz 3 Satz 3 EStG bei der Körperschaft als nahestehende Person eines zu sanierenden Unternehmens zu berücksichtigender geminderter Sanierungsertrag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Nur bei Organträgern:Dazu: Verbleibender Sanierungsertrag der Organgesellschaft(en) im Sinne des § 15 Satz 1 Nummer 1a KStG laut gesonderter und einheitlicher Feststellung (Betrag laut Zeile 29b der Anlage OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5a",
+            "label": "Dazu: Verbleibender Sanierungsertrag einer anderen Gesellschaft, deren Einkommen in einem innerhalb der letzten fünf Jahre vor dem Sanierungsjahr liegenden Veranlagungszeitraum der Körperschaft nach § 14 Absatz 1 Satz 1 KStG als Organträger zugerechnet worden ist (§ 15 Satz 1 Nummer 1a Satz 3 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bei Beteiligung der Körperschaft an einer Mitunternehmerschaft, die selbst einen Sanierungsertrag nach § 3a Absatz 2 EStG erzielt hat, zu berücksichtigende Beträge",
+        "rows": [
+          {
+            "row": "5b",
+            "label": "Dazu: Summe der Sanierungserträge nach § 3a Absatz 1 Satz 1 EStG aus Mitunternehmerschaft(en) laut gesonderter und einheitlicher Feststellung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5c",
+            "label": "Davon ab: Summe der nichtabziehbaren Beträge nach § 3c Absatz 4 EStG aus Mitunternehmerschaft(en) laut gesonderter und einheitlicher Feststellung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5d",
+            "label": "Davon ab: Summe der Beträge nach § 3a Absatz 3 Satz 2 Nummer 1 bis 6 EStG aus Mitunternehmerschaft(en) laut gesonderter und einheitlicher Feststellung (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Minderung nach § 3a Absatz 3 EStG",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Davon ab: Minderung des zum 31.12. des Sanierungsjahres vorhandenen verteilt abziehbaren Aufwands nach § 4f Absatz 1 Satz 1 EStG der übrigen Jahre nach § 3a Absatz 3 Satz 2 Nummer 1 EStG (höchstens Betrag laut Zeile 6) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Davon ab: Minderung des nach § 15b EStG ausgleichsfähigen oder verrechenbaren Verlustes derselben Einkunftsquelle des Sanierungsjahres nach § 3a Absatz 3 Satz 2 Nummer 4 EStG (höchstens Betrag laut Zeile 8) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Davon ab: Minderung des zum Ende des dem Sanierungsjahr vorangegangenen Jahres nach § 15b EStG festgestellten verrechenbaren Verlustes derselben Einkunftsquelle nach § 3a Absatz 3 Satz 2 Nummer 5 EStG (höchstens Betrag laut Zeile 10) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Davon ab: Minderung des nach § 15 Absatz 4 EStG ausgleichsfähigen oder nichtabziehbaren Verlustes des zu sanierenden Unternehmens des Sanierungsjahres nach § 3a Absatz 3 Satz 2 Nummer 6 EStG (höchstens Betrag laut Zeile 12) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Davon ab: Minderung des zum Ende des dem Sanierungsjahr vorangegangenen Jahres nach § 15 Absatz 4 EStG festgestellten in Verbindung mit § 10d Absatz 4 EStG verbleibenden Verlustvortrags, soweit er auf das zu sanierende Unternehmen entfällt nach § 3a Absatz 3 Satz 2 Nummer 7 EStG (höchstens Betrag laut Zeile 14) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Davon ab: Minderung des Verlustes des Sanierungsjahres nach § 3a Absatz 3 Satz 2 Nummer 8 EStG (höchstens Betrag laut Zeile 16) (Übertrag nach Zeile 41, Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Davon ab: Minderung des ausgleichsfähigen Verlustes aus allen anderen Einkunftsarten des Veranlagungszeitraums, in dem das Sanierungsjahr endet § 3a Absatz 3 Satz 2 Nummer 9 EStG (höchstens Betrag laut Zeile 18) (Übertrag nach Zeile 42, Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten Verlustvortrags nach § 10d Absatz 4 EStG nach § 3a Absatz 3 Satz 2 Nummer 10 EStG (höchstens Betrag laut Zeile 20) (Übertrag nach Zeile 18, Anlage Verluste) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden verrechenbaren Verlustes nach § 15a EStG nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe a EStG (höchstens Betrag laut Zeile 22) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden verrechenbaren Verlustes nach § 15b EStG anderer Einkunftsquellen nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe b EStG (höchstens Betrag laut Zeile 24) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden verrechenbaren Verlustes nach § 15 Absatz 4 EStG anderer Betriebe und Mitunternehmeranteile nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe c EStG (höchstens Betrag laut Zeile 26) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Davon ab: Minderung der zum Ende des Vorjahres festgestellten und der im Sanierungsjahr entstehenden verbleibenden negativen Einkünfte nach § 2a EStG nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe d EStG (höchstens Betrag laut Zeile 28) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Davon ab: Minderung der zum Ende des Vorjahres festgestellten negativen Einkünfte nach § 2b EStG 2002 nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe e EStG (höchstens Betrag laut Zeile 30) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Davon ab: Minderung der Verluste aus privaten Veräußerungsgeschäften nach § 23 Absatz 3 Satz 7 und 8 EStG des vorangegangenen Veranlagungszeitraums und des Sanierungsjahres nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe f EStG (höchstens Betrag laut Zeile 32) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden verrechenbaren Verlustes oder der negativen Einkünfte nach sonstigen Vorschriften nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe g EStG (höchstens Betrag laut Zeile 34) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "36",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Davon ab: Minderung der negativen Einkünfte nach § 10d Absatz 1 Satz 1 EStG des Folgejahres nach § 3a Absatz 3 Satz 2 Nummer 12 EStG (höchstens Betrag laut Zeile 36) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden Zinsvortrags nach § 4h Absatz 1 Satz 5 EStG nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe a EStG (höchstens Betrag laut Zeile 38) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "41",
+            "label": "Davon ab: Minderung des zum Ende des Vorjahres festgestellten und des im Sanierungsjahr entstehenden EBITDA-Vortrags nach § 4h Absatz 1 Satz 3 EStG nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (höchstens Betrag laut Zeile 40) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "42",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "42a",
+            "label": "Davon ab: Summe der Beträge nach § 3a Absatz 3 Satz 2 Nummer 13 EStG aus Mitunternehmerschaft(en) laut gesonderter und einheitlicher Feststellung (höchstens Betrag laut Zeile 42) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "42b",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "43",
+            "label": "Davon ab: Nach § 3a Absatz 3 Satz 3 EStG bei einer der sanierten Körperschaft nahestehenden Person zu berücksichtigender geminderter Sanierungsertrag (höchstens Betrag laut Zeile 42b) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "44",
+            "label": "Verbleibender Sanierungsertrag nach § 3a Absatz 3 Satz 4 EStG (bei Organgesellschaften: Übertrag nach Zeile 33 der Anlage OG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
