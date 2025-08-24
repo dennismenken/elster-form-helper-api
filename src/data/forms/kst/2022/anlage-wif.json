@@ -1,0 +1,408 @@
+[
+  {
+    "context_label": "Anlage WiFö",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Steuerbefreiung von Wirtschaftsförderungsgesellschaften (§ 5 Absatz 1 Nummer 18 KStG, § 3 Nummer 25 GewStG)",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Steuerbefreite Tätigkeit",
+    "sections": [
+      {
+        "section_label": "Die wirtschaftsfördernde Tätigkeit der Gesellschaft erstreckt sich auf die Region/Kommune",
+        "rows": [
+          {
+            "row": "1",
+            "label": "Region/Kommune",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Es werden folgende Tätigkeiten der regionalen Wirtschaftsförderung laut Abschnitt II Nummer 1 bis 12 des BMF-Schreibens vom 04.01.1996 (BStBl I 1996, 54) ausgeübt:",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Tätigkeit",
+            "rows": [
+              {
+                "row": null,
+                "label": "Tätigkeit",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Umfang der wirtschaftsfördernden Tätigkeit",
+        "rows": [
+          {
+            "row": "5",
+            "label": "Die Tätigkeit geht nicht über den für die Zweckverwirklichung sachlich gebotenen Umfang hinaus; insbesondere nimmt sie nicht den Umfang einer laufenden Unternehmensberatung an.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Weitere Tätigkeiten",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Neben den in Zeile 2 genannten Tätigkeiten werden noch weitere Tätigkeiten ausgeübt.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Tätigkeiten",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Weitere ausgeübte Tätigkeiten",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Weitere ausgeübte Tätigkeiten",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Zur Verwirklichung der vorbezeichneten und in dem Gesellschaftsvertrag festgelegten Zielsetzung nimmt die Gesellschaft im Einzelnen folgende Tätigkeiten wahr:",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Tätigkeit",
+            "rows": [
+              {
+                "row": null,
+                "label": "Tätigkeit",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Soweit die Gesellschaft die Industrieansiedlung oder die Beschaffung neuer Arbeitsplätze fördert:",
+        "rows": [
+          {
+            "row": "17",
+            "label": "Die Tätigkeit der Gesellschaft beschränkt sich auf fördernde, lediglich mittelbare Maßnahmen zur Belebung der Wirtschaft und der Verbesserung der Infrastruktur und führt insbesondere nicht zu eigenwirtschaftlichen Aktivitäten der Gesellschaft.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Beteiligungen an Personengesellschaften",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der Personengesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der Personengesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Beteiligungen an Kapitalgesellschaften",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der Kapitalgesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der Kapitalgesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Sonstige nicht nur vorübergehende Kapitalanlagen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Grundbesitz",
+        "rows": [
+          {
+            "row": "33",
+            "label": "Es liegt Grundbesitz vor.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "34",
+            "label": "Die Beschaffung und Veräußerung von Grundstücken erfolgt ausschließlich zur Ansiedlung, Erhaltung oder Erweiterung von Unternehmen.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "35",
+            "label": "Eine Aufbereitung von Grundstücken durch die Gesellschaft beschränkt sich auf allgemeine Maßnahmen zur Erschließung und umfasst insbesondere keine darüber hinausgehenden Einzelleistungen für konkrete Erwerber (zum Beispiel individueller Anschluss).",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Vorübergehende Vermietung / Verpachtung von Geschäfts- oder Gewerberäumen",
+        "rows": [
+          {
+            "row": "36",
+            "label": "an Existenzgründer",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "an andere zur Kapazitätsauslastung (bitte Mietlaufzeit angeben)",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "von - bis (TT.MM.JJJJ-TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "in sonstigen Fällen",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Erläuterung in sonstigen Fällen laut Zeile 38",
+            "type": "",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Beteiligung an einer Personengesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "19",
+            "label": "Name der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Unternehmensgegenstand",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Finanzamt",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Beteiligung an einer Kapitalgesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "24",
+            "label": "Name der Kapitalgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24a",
+            "label": "Unternehmensgegenstand",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24b",
+            "label": "Höhe der Beteiligung(en) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24c",
+            "label": "Höhe der Beteiligung(en) in Prozent",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24d",
+            "label": "Finanzamt",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Vermögensbindung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "43",
+            "label": "Vermögen sowie etwa erzielte Überschüsse werden sowohl nach Gesellschaftsvertrag als auch nach tatsächlicher Geschäftsführung ausschließlich für die im Gesellschaftsvertrag aufgeführten Zwecke verwendet.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Die Gesellschaft hat folgende Rücklagen gebildet:",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Zweck",
+            "rows": [
+              {
+                "row": null,
+                "label": "Zweck",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Die Gesellschaft hat folgende vorübergehende Kapitalanlagen vorgenommen:",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Gewinnausschüttungen / Einlagerückgewähr",
+        "rows": [
+          {
+            "row": "52",
+            "label": "Es wurden Mittel an die Gesellschafter ausgekehrt (Gewinnausschüttungen, Einlagenrückgewähr).",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

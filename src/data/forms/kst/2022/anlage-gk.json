@@ -1,0 +1,3081 @@
+[
+  {
+    "context_label": "Anlagen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ermittlung der Einkünfte aus Gewerbebetrieb",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage GK gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Bei mehreren Betrieben:Bezeichnung des Betriebs",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Bilanzielles Ergebnis",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "11",
+            "label": "Jahresüberschuss/-fehlbetrag laut Handels- oder Steuerbilanz(bei Handelsbilanz: nach Berücksichtigung der Überleitungsrechnung nach § 5b Absatz 1 Satz 2 EStG beziehungsweise § 60 Absatz 2 EStDV zur Anpassung an die steuerlich maßgeblichen Wertansätze) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Gewinn/Verlust laut Gewinnermittlung nach § 4 Absatz 3 EStG (bei Verwendung der Anlage EÜR: Betrag laut Zeile 89 abzüglich Betrag laut Zeile 90 der Anlage EÜR) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Hinzurechnungen und Abrechnungen bei Wechsel der Gewinnermittlungsart:Übergangsgewinn/-verlust laut gesonderter Ermittlung (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Korrekturen bei Beteiligungen an Personengesellschaften",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der Personengesellschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der Personengesellschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "21",
+                "label": "Davon ab / Dazu: Im Betrag laut Zeile 11 enthaltener Gewinn/Verlust aus der Beteiligung an Personengesellschaften (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "22",
+                "label": "Nicht bei Organgesellschaften:Dazu / Davon ab: Steuerpflichtige Einkünfte aus der Beteiligung an Mitunternehmerschaften laut gesonderter und einheitlicher Feststellung nach Anwendung aller außerbilanziellen Korrekturen (zum Beispiel § 8b KStG) sowie von Verlustverrechnungsbeschränkungen, die auf Ebene der Mitunternehmerschaft anzuwenden sind (zum Beispiel § 15a EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "23",
+                "label": "Nur bei Organgesellschaften:Dazu / Davon ab: Einkünfte aus der Beteiligung an Mitunternehmerschaften laut gesonderter und einheitlicher Feststellung vor Anwendung der aufgrund § 15 Satz 1 Nummer 2 und 2a und § 15 Satz 2 KStG nicht vorzunehmenden außerbilanziellen Korrekturen (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "24",
+                "label": "Nicht bei Organgesellschaften:Dazu / Davon ab: Steuerpflichtige Einkünfte aus der Beteiligung an vermögensverwaltenden Personengesellschaften (Überleitung nach Maßgabe des BMF-Schreibens vom 29.04.1994, BStBl I 1994, 282) nach Anwendung aller außerbilanziellen Korrekturen (zum Beispiel § 8b KStG) sowie von Verlustverrechnungsbeschränkungen, die auf Ebene der Personengesellschaft anzuwenden sind (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "25",
+                "label": "Nur bei Organgesellschaften:Dazu / Davon ab: Einkünfte aus der Beteiligungen an vermögensverwaltenden Personengesellschaften (Überleitung nach Maßgabe des BMF-Schreibens vom 29.04.1994, BStBl I 1994, 282) vor Anwendung der aufgrund § 15 Satz 1 Nummer 2 und 2a und § 15 Satz 2 KStG nicht vorzunehmenden außerbilanziellen Korrekturen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Korrekturen für die Tonnagebesteuerung im Sinne des § 5a EStG",
+        "rows": [
+          {
+            "row": null,
+            "label": "- Nur wenn die Körperschaft das Handelsschiff im internationalen Verkehr unmittelbar betreibt. Einkünfte im Sinne des § 5a EStG aus der Beteiligung an Personengesellschaften sind in Zeile 21 folgende einzutragen. -",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Davon ab / Dazu: Im Betrag laut Zeile 11 enthaltener (tatsächlicher) Gewinn/Verlust aus dem Betrieb von Handelsschiffen im internationalen Verkehr, der nach § 5a EStG pauschal zu ermitteln ist (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Dazu / Davon ab: Pauschaler Gewinn/Verlust aus dem Betrieb von Handelsschiffen und Hinzurechnungen bei gesonderter Gewinnermittlung nach § 5a EStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einnahmen aus der Verwertung von Altmaterial im Sinne des § 64 Absatz 5 AO sowie aus Tätigkeiten im Sinne des § 64 Absatz 6 AO bei nach § 5 Absatz 1 Nummer 9 KStG steuerbefreiten Körperschaften",
+        "rows": [
+          {
+            "row": null,
+            "label": "Zeilen 28 bis 37 nur ausfüllen, wenn ein Antrag nach § 64 Absatz 5 oder 6 AO gestellt wird",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Davon ab: Einnahmen aus der Verwertung von Altpapier, das unentgeltlich außerhalb einer ständig dafür vorgehaltenen Verkaufsstelle erworben wurde (ohne Umsatzsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Bei Gewinnermittlung nach § 4 Absatz 3 EStG:Davon ab: Vereinnahmte Umsatzsteuer auf Einnahmen aus der Verwertung von Altpapier, das unentgeltlich außerhalb einer ständig dafür vorgehaltenen Verkaufsstelle erworben wurde (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Davon ab: Einnahmen aus der Verwertung von Altmaterial (außer Altpapier), das unentgeltlich außerhalb einer ständig dafür vorgehaltenen Verkaufsstelle erworben wurde (ohne Umsatzsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Bei Gewinnermittlung nach § 4 Absatz 3 EStG:Davon ab: Vereinnahmte Umsatzsteuer auf Einnahmen aus der Verwertung von Altmaterial (außer Altpapier), das unentgeltlich außerhalb einer ständig dafür vorgehaltenen Verkaufsstelle erworben wurde (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Dazu: Mit den Einnahmen laut Zeilen 28 und 30 in Zusammenhang stehende tatsächliche Aufwendungen (bei Gewinnermittlung nach § 4 Absatz 3 EStG: einschließlich Umsatzsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Dazu: Anzusetzender branchenüblicher Reingewinn aus der Verwertung von Altmaterial nach § 64 Absatz 5 AO (5 % des Betrages laut Zeile 28 zuzüglich 20 % des Betrages laut Zeile 30) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Davon ab: Einnahmen aus Tätigkeiten nach § 64 Absatz 6 AO (ohne Umsatzsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Bei Gewinnermittlung nach § 4 Absatz 3 EStG:Davon ab: Vereinnahmte Umsatzsteuer auf Einnahmen aus Tätigkeiten nach § 64 Absatz 6 AO (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "36",
+            "label": "Dazu: Mit den Einnahmen laut Zeile 34 in Zusammenhang stehende tatsächliche Aufwendungen (bei Gewinnermittlung nach § 4 Absatz 3 EStG: einschließlich Umsatzsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Dazu: Pauschalierter Gewinn nach § 64 Absatz 6 AO (15 % des Betrages laut Zeile 34) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Korrekturen bei Beteiligungen an Personengesellschaften",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "15",
+            "label": "Name der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Im bilanziellen Ergebnis enthaltener Gewinn/Verlust aus dieser Personengesellschaft (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Nicht bei Organgesellschaften:Steuerpflichtige Einkünfte aus der Beteiligung an der Mitunternehmerschaft laut gesonderter und einheitlicher Feststellung nach Anwendung aller außerbilanziellen Korrekturen (zum Beispiel § 8b KStG) sowie von Verlustverrechnungsbeschränkungen, die auf Ebene der Mitunternehmerschaft anzuwenden sind (zum Beispiel § 15a EStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Nur bei Organgesellschaften:Einkünfte aus der Beteiligung an der Mitunternehmerschaft laut gesonderter und einheitlicher Feststellung vor Anwendung der aufgrund § 15 Satz 1 Nummer 2 und 2a und § 15 Satz 2 KStG nicht vorzunehmenden außerbilanziellen Korrekturen (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Nicht bei Organgesellschaften:Steuerpflichtige Einkünfte aus der Beteiligung an dieser Personengesellschaft aus vermögensverwaltenden Tätigkeiten (Überleitung nach Maßgabe des BMF-Schreibens vom 29.04.1994, BStBl I 1994, 282) nach Anwendung aller außerbilanziellen Korrekturen (zum Beispiel § 8b KStG) sowie von Verlustverrechnungsbeschränkungen, die auf Ebene der Personengesellschaft anzuwenden sind (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Nur bei Organgesellschaften:Einkünfte aus der Beteiligung an dieser Personengesellschaft aus vermögensverwaltenden Tätigkeiten (Überleitung nach Maßgabe des BMF-Schreibens vom 29.04.1994, BStBl I 1994, 282) vor Anwendung der aufgrund § 15 Satz 1 Nummer 2 und 2a und § 15 Satz 2 KStG nicht vorzunehmenden außerbilanziellen Korrekturen (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Außerbilanzielle Korrekturen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "38",
+            "label": "Dazu / Davon ab: Betrag nach § 4e Absatz 3 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Dazu / Davon ab: Betrag nach § 4f EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Dazu: Nichtabziehbare Aufwendungen bei Besteuerungsinkongruenzen nach § 4k EStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Nichtabziehbare Aufwendungen für Rechteüberlassungen nach § 4j Absatz 3 EStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Staat",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Staat",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "41",
+                        "label": "Staat",
+                        "type": "select",
+                        "values": [
+                          "Keine Angabe",
+                          "Afghanistan",
+                          "Ägypten",
+                          "Albanien",
+                          "Algerien",
+                          "Andorra",
+                          "Angola",
+                          "Antigua und Barbuda",
+                          "Äquatorialguinea",
+                          "Argentinien",
+                          "Armenien",
+                          "Aserbaidschan",
+                          "Äthiopien",
+                          "Australien",
+                          "Bahamas",
+                          "Bahrain",
+                          "Bangladesch",
+                          "Barbados",
+                          "Belgien",
+                          "Belize",
+                          "Benin",
+                          "Bhutan",
+                          "Bolivien",
+                          "Bosnien und Herzegowina",
+                          "Botsuana",
+                          "Brasilien",
+                          "Brunei Darussalam",
+                          "Bulgarien",
+                          "Burkina Faso",
+                          "Burundi",
+                          "Chile",
+                          "China",
+                          "Cookinseln",
+                          "Costa Rica",
+                          "Cote d'Ivoire",
+                          "Dänemark",
+                          "Dominica",
+                          "Dominikanische Republik",
+                          "Dschibuti",
+                          "Ecuador",
+                          "El Salvador",
+                          "Eritrea",
+                          "Estland",
+                          "Eswatini",
+                          "Fidschi",
+                          "Finnland",
+                          "Frankreich",
+                          "Gabun",
+                          "Gambia",
+                          "Georgien",
+                          "Ghana",
+                          "Grenada",
+                          "Griechenland",
+                          "Guatemala",
+                          "Guinea",
+                          "Guinea-Bissau",
+                          "Guyana",
+                          "Haiti",
+                          "Honduras",
+                          "Indien",
+                          "Indonesien",
+                          "Irak",
+                          "Iran",
+                          "Irland",
+                          "Island",
+                          "Israel",
+                          "Italien",
+                          "Jamaika",
+                          "Japan",
+                          "Jemen",
+                          "Jordanien",
+                          "Kambodscha",
+                          "Kamerun",
+                          "Kanada",
+                          "Kap Verde",
+                          "Kasachstan",
+                          "Katar",
+                          "Kenia",
+                          "Kirgisistan",
+                          "Kiribati",
+                          "Kolumbien",
+                          "Komoren",
+                          "Kongo",
+                          "Kongo, Demokratische Republik",
+                          "Korea, Demokratische Volksrepublik",
+                          "Korea, Republik",
+                          "Kosovo",
+                          "Kroatien",
+                          "Kuba",
+                          "Kuwait",
+                          "Laos",
+                          "Lesotho",
+                          "Lettland",
+                          "Libanon",
+                          "Liberia",
+                          "Libyen",
+                          "Liechtenstein",
+                          "Litauen",
+                          "Luxemburg",
+                          "Madagaskar",
+                          "Malawi",
+                          "Malaysia",
+                          "Malediven",
+                          "Mali",
+                          "Malta",
+                          "Marokko",
+                          "Marshallinseln",
+                          "Mauretanien",
+                          "Mauritius",
+                          "Mexiko",
+                          "Föderierte Staaten von Mikronesien",
+                          "Moldau",
+                          "Monaco",
+                          "Mongolei",
+                          "Montenegro",
+                          "Mosambik",
+                          "Myanmar",
+                          "Namibia",
+                          "Nauru",
+                          "Nepal",
+                          "Neuseeland",
+                          "Nicaragua",
+                          "Niederlande",
+                          "Niger",
+                          "Nigeria",
+                          "Niue",
+                          "Nordmazedonien",
+                          "Norwegen",
+                          "Oman",
+                          "Österreich",
+                          "Pakistan",
+                          "Palau",
+                          "Panama",
+                          "Papua-Neuguinea",
+                          "Paraguay",
+                          "Peru",
+                          "Philippinen",
+                          "Polen",
+                          "Portugal",
+                          "Ruanda",
+                          "Rumänien",
+                          "Russische Föderation",
+                          "Salomonen",
+                          "Sambia",
+                          "Samoa",
+                          "San Marino",
+                          "Sao Tome und Principe",
+                          "Saudi-Arabien",
+                          "Schweden",
+                          "Schweiz",
+                          "Senegal",
+                          "Serbien",
+                          "Seychellen",
+                          "Sierra Leone",
+                          "Simbabwe",
+                          "Singapur",
+                          "Slowakei",
+                          "Slowenien",
+                          "Somalia",
+                          "Spanien",
+                          "Sri Lanka",
+                          "St. Kitts und Nevis",
+                          "St. Lucia",
+                          "St. Vincent und die Grenadinen",
+                          "Südafrika",
+                          "Sudan",
+                          "Südsudan",
+                          "Surinam",
+                          "Syrien",
+                          "Tadschikistan",
+                          "Tansania",
+                          "Thailand",
+                          "Timor-Leste",
+                          "Togo",
+                          "Tonga",
+                          "Trinidad und Tobago",
+                          "Tschad",
+                          "Tschechische Republik",
+                          "Tunesien",
+                          "Türkei",
+                          "Turkmenistan",
+                          "Tuvalu",
+                          "Uganda",
+                          "Ukraine",
+                          "Ungarn",
+                          "Uruguay",
+                          "USA",
+                          "Usbekistan",
+                          "Vanuatu",
+                          "Vatikanstadt",
+                          "Venezuela",
+                          "Vereinigte Arabische Emirate",
+                          "Vereinigtes Königreich",
+                          "Vietnam",
+                          "Weißrussland",
+                          "Zentralafrikanische Republik",
+                          "Zypern",
+                          "* nicht in Liste / Unterlagen werden eingereicht *"
+                        ]
+                      },
+                      {
+                        "row": "42",
+                        "label": "Empfänger der Lizenzzahlungen",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "43",
+                        "label": "Gesamtbetrag der geleisteten Lizenzaufwendungen an Konzerngesellschaften (Euro)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "44",
+                        "label": "Maßgebende Belastung durch Ertragsteuern (Prozentsatz), § 4j Absatz 2 Satz 1 EStG (X,XX)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "45",
+                        "label": "Nichtabziehbare Aufwendungen nach § 4j EStG (Euro)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "46",
+                "label": "Dazu: Nichtabziehbare Aufwendungen für Rechteüberlassungen nach § 4j Absatz 3 EStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung bei Steuerstundungsmodellen nach § 15b EStG",
+        "rows": [
+          {
+            "row": null,
+            "label": "- ohne Beträge laut Zeile 22 -",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "47",
+            "label": "Dazu: Nicht ausgleichsfähige Verluste im Sinne des § 15b EStG gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (ohne Beträge aus Beteiligungen an Personengesellschaften) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "48",
+            "label": "Davon ab: Verlustverrechnung nach § 15b EStG, gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (ohne Beträge aus Beteiligungen an Personengesellschaften) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung bei gewerblicher Tierzucht/-haltung nach § 15 Absatz 4 Satz 1 und 2 EStG",
+        "rows": [
+          {
+            "row": "49",
+            "label": "Dazu: Nicht ausgleichsfähige Verluste aus gewerblicher Tierzucht/-haltung im Sinne des § 15 Absatz 4 Satz 1 EStG gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "50",
+            "label": "Davon ab: Verrechnung von Gewinnen aus gewerblicher Tierzucht/-haltung des laufenden Jahres mit dem Verlustvortrag und dem Verlustrücktrag aus dem folgenden Veranlagungszeitraum nach § 15 Absatz 4 Satz 2 EStG, gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung bei Termingeschäften nach § 15 Absatz 4 Satz 3 EStG",
+        "rows": [
+          {
+            "row": "51",
+            "label": "Dazu: Nicht ausgleichsfähige Verluste aus Termingeschäften im Sinne des § 15 Absatz 4 Satz 3 EStG gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "52",
+            "label": "Davon ab: Verrechnung von Gewinnen aus Termingeschäften des laufenden Jahres mit dem Verlustvortrag und dem Verlustrücktrag aus dem folgenden Veranlagungszeitraum nach § 15 Absatz 4 Satz 3 in Verbindung mit Satz 2 EStG, gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung als atypisch stiller Gesellschafter nach § 15 Absatz 4 Satz 6 bis 8 EStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name der Körperschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name der Körperschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "57",
+                "label": "Dazu: Nicht ausgleichsfähige Verluste als atypisch stiller Gesellschafter im Sinne des § 15 Absatz 4 Satz 6 bis 8 EStG gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "58",
+                "label": "Davon ab: Verrechnung von Gewinnen als atypisch stiller Gesellschafter mit dem Verlustvortrag und dem Verlustrücktrag aus dem folgenden Veranlagungszeitraum nach § 15 Absatz 4 Satz 6 bis 8 EStG, gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung als typisch stiller Gesellschafter nach § 20 Absatz 1 Nummer 4 Satz 2 in Verbindung mit § 15 Absatz 4 Satz 6 und 8 und § 15a EStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name des Unternehmens",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name des Unternehmens",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "63",
+                "label": "Dazu: Nicht ausgleichsfähige Verluste als typisch stiller Gesellschafter im Sinne des § 20 Absatz 1 Nummer 4 Satz 2 EStG in Verbindung mit § 15 Absatz 4 Satz 6 und 8 und § 15a EStG und gegebenenfalls § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "64",
+                "label": "Davon ab: Verrechnung von Gewinnen als typisch stiller Gesellschafter im Sinne des § 20 Absatz 1 Nummer 4 Satz 1 EStG mit dem Verlustvortrag und dem Verlustrücktrag aus dem folgenden Veranlagungszeitraum nach § 20 Absatz 1 Nummer 4 Satz 2 EStG in Verbindung mit § 15 Absatz 4 Satz 6 bis 8 EStG oder mit dem Verlustvortrag nach § 15a EStG und gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Verlustausgleichsbeschränkung nach § 19 Absatz 4 REITG bei Anteilen an REIT-Körperschaften",
+        "rows": [
+          {
+            "row": "65",
+            "label": "Dazu: Nicht ausgleichsfähige Verluste aus Anteilen an REIT-Körperschaften im Sinne des § 19 Absatz 4 REITG gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2 UmwStG und des § 20 Absatz 6 Satz 4 UmwStG (vorbehaltlich des § 19a Absatz 1 Satz 2 REITG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "66",
+            "label": "Davon ab: Verrechnung von Gewinnen aus Anteilen an REIT-Körperschaften des laufenden Jahres nach § 19 Absatz 4 REITG gegebenenfalls unter Berücksichtigung von § 2 Absatz 4 Satz 3 und 4 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Investitionsabzugsbeträge nach § 7g EStG",
+        "rows": [
+          {
+            "row": "67",
+            "label": "Davon ab: Investitionsabzugsbeträge des laufenden Wirtschaftsjahres nach § 7g Absatz 1 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "68",
+            "label": "Dazu: Im Wirtschaftsjahr der Anschaffung/Herstellung: Investitionsabzugsbeträge nach § 7g Absatz 2 Satz 1 EStG aus 2017 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "69",
+            "label": "Dazu: Im Wirtschaftsjahr der Anschaffung/Herstellung: Investitionsabzugsbeträge nach § 7g Absatz 2 Satz 1 EStG aus 2018 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "70",
+            "label": "Dazu: Im Wirtschaftsjahr der Anschaffung/Herstellung: Investitionsabzugsbeträge nach § 7g Absatz 2 Satz 1 EStG aus 2019 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "71",
+            "label": "Dazu: Im Wirtschaftsjahr der Anschaffung/Herstellung: Investitionsabzugsbeträge nach § 7g Absatz 2 Satz 1 EStG aus 2020 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "72",
+            "label": "Dazu: Im Wirtschaftsjahr der Anschaffung/Herstellung: Investitionsabzugsbeträge nach § 7g Absatz 2 Satz 1 EStG aus 2021 (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verdeckte Gewinnausschüttungen",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Bezeichnung",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "75",
+                "label": "Nicht bei Organgesellschaften: Dazu: Verdeckte Gewinnausschüttungen nach § 8 Absatz 3 Satz 2 KStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Weitere außerbilanzielle Korrekturen",
+        "rows": [
+          {
+            "row": "76",
+            "label": "Davon ab: Gewinnerhöhungen im Zusammenhang mit versteuerten verdeckten Gewinnausschüttungen (gemäß BMF-Schreiben vom 28.05.2002, BStBl I 2002, 603) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "77",
+            "label": "Dazu: Nichtabziehbare genossenschaftliche Rückvergütungen - verdeckte Gewinnausschüttungen nach R 22 Absatz 13 KStR 2022 (Betrag laut Zeile 18 der Anlage GR) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "78",
+            "label": "Dazu: Nicht erfolgswirksam gebuchte Einlagen im Sinne des § 8 Absatz 3 Satz 4 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "79",
+            "label": "Dazu: Gewinnzuschlag nach § 6b Absatz 7 EStG gegebenenfalls in Verbindung mit § 6c EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "80",
+            "label": "Dazu: Aufwendungen für satzungsmäßige Zwecke (§ 10 Nummer 1 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "81",
+            "label": "Dazu: Körperschaftsteuer (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "82",
+            "label": "Dazu: Solidaritätszuschlag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "83",
+            "label": "Dazu: Kapitalertragsteuer auf vereinnahmte Kapitalerträge (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "84",
+            "label": "Dazu: Gewerbesteuer ab Erhebungszeitraum 2008 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "84a",
+            "label": "Dazu: Nach § 4 Absatz 2 Satz 2 EU-EnergieKBG nicht abziehbarer EU-Energiekrisenbeitrag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "85",
+            "label": "Dazu: Sonstige Personensteuern (zum Beispiel Vermögensteuer, Erbschaft- und Schenkungsteuer) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "86",
+            "label": "Dazu: Nach § 10 Nummer 2 KStG nichtabziehbarer Teil der Umsatzsteuer und Vorsteuerbeträge (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "87",
+            "label": "Dazu: Ausländische Personensteuern und ausländische Steuern vom Einkommen im Sinne des § 10 Nummer 2 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "88",
+            "label": "Dazu: Nebenleistungen zu den Steuern laut Zeilen 81 bis 87 (zum Beispiel Säumnis- und Verspätungszuschläge, Zwangsgelder, Zinsen nach §§ 234 bis 237 AO, Nachzahlungszinsen nach § 233a AO, Zuschläge nach § 162 Absatz 4 AO, Gebühren nach §§ 89 und 178a AO) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "89",
+            "label": "Dazu: Die Hälfte der Vergütungen aller Art, die an Mitglieder des Aufsichtsrats, Verwaltungsrats oder andere mit der Überwachung der Geschäftsführung beauftragte Personen gewährt werden (einschließlich des von der Körperschaft getragenen Steuerabzugs nach § 50a Absatz 1 Nummer 4 EStG und des Solidaritätszuschlags; § 10 Nummer 4 KStG) – Zeilen 20 bis 20g und 30 bis 37 der Anlage WA sind zusätzlich auszufüllen - (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "90",
+            "label": "Dazu: Sonstige nichtabziehbare Aufwendungen; insbesondere nach § 4 Absatz 5 Satz 1 Nummer 1 bis 4, 7, 8, 8a, 10 und Absatz 6 bis 8 EStG, §§ 4c und 4d EStG, § 160 Absatz 1 AO, § 10 Nummer 3 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "91",
+            "label": "Dazu: Nichtabziehbare Beitragsrückerstattungen nach § 21 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "92",
+            "label": "Dazu: Sämtliche Spenden und nicht als Betriebsausgaben abziehbare Beiträge (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "93",
+            "label": "Davon ab: Einlagen der Gesellschafter (§ 8 Absatz 3 Satz 3 KStG), die erfolgswirksam gebucht und bis zum Ende des Wirtschaftsjahres geleistet wurden (einschließlich eines Erhöhungsbetrages im Sinne des § 23 Absatz 2 und 3 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "94",
+            "label": "Davon ab: Einlagen der Gesellschafter (§ 8 Absatz 3 Satz 3 KStG), die erfolgswirksam gebucht, aber nicht bis zum Ende des Wirtschaftsjahres geleistet wurden (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "95",
+            "label": "Davon ab: Gewinnerhöhung aus der Begründung des Besteuerungsrechts der Bundesrepublik Deutschland hinsichtlich des Gewinns aus der Veräußerung eines Wirtschaftsgutes (§ 4 Absatz 1 Satz 8 zweiter Halbsatz EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "96",
+            "label": "Davon ab: Investitionszulage (zurückgeforderte Investitionszulage mit negativem Vorzeichen eintragen) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "97",
+            "label": "Dazu: Einkommenserhöhung aus der Steuerentstrickung nach § 12 Absatz 1 Satz 1 und 2 KStG, § 16 Absatz 3a EStG (soweit im Betrag laut Zeilen 11 und 12 nicht erfasst) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "97a",
+            "label": "Davon ab: Nach § 3 Nummer 72 EStG steuerfreie Einnahmen und Entnahmen aus dem Betrieb von Photovoltaikanlagen, vermindert um damit im Zusammenhang stehende Betriebsausgaben nach § 3c Absatz 1 EStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Sonstige steuerfreie Einnahmen",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuerbefreiung nach §",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuerbefreiung nach §",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "98",
+                        "label": "Steuerbefreiung nach §",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "99",
+                        "label": "Art der sonstigen steuerfreien Einnahmen",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "100",
+                        "label": "Betrag der Einnahmen (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "101",
+                        "label": "Betrag der Ausgaben (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "102",
+                "label": "Davon ab: Sonstige steuerfreie Einnahmen, vermindert um damit im Zusammenhang stehende nicht abzugsfähige Betriebsausgaben nach § 3c Absatz 1 EStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Verlustausgleichsbeschränkung als atypisch stiller Gesellschafter",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "53",
+            "label": "Name der Körperschaft, an der die atypisch stille Beteiligung besteht",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "55",
+            "label": "Nicht ausgleichsfähiger laufender Verlust (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "56",
+            "label": "Verlustverrechnung (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Verlustausgleichsbeschränkung als typisch stille Gesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "59",
+            "label": "Name des Unternehmens, an dem die typisch stille Gesellschaft besteht",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "61",
+            "label": "Nicht ausgleichsfähiger laufender Verlust (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "62",
+            "label": "Verlustverrechnung (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Sachverhalte des",
+    "sections": [
+      {
+        "section_label": "Verschmelzung, Aufspaltung und Abspaltung auf die Körperschaft",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben zum Übernahmegewinn/-verlust nach § 12 Absatz 2 UmwStG",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer des übertragenden Rechtsträgers",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer des übertragenden Rechtsträgers",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "115",
+                "label": "Dazu / Davon ab: Betrag des in der Steuerbilanz erfolgsneutral angesetzten übernommenen Vermögens (Summe der Beträge aller Zeilen 112)",
+                "type": "text",
+                "values": [
+                  "Hauptspalte (Euro)"
+                ]
+              },
+              {
+                "row": "116",
+                "label": "Übernahmegewinn nach § 12 Absatz 2 Satz 2 UmwStG in Verbindung mit § 8b Absatz 2 KStG (Vorspalte: Summe der Beträge aller Zeilen 109; nicht bei Organgesellschaften: Übertrag in Hauptspalte in Höhe von 95 % mit umgekehrtem Vorzeichen)",
+                "type": "text",
+                "values": [
+                  "Vorspalte (Euro)",
+                  "Hauptspalte (Euro)"
+                ]
+              },
+              {
+                "row": "117",
+                "label": "Übernahmegewinne/-verluste nach § 12 Absatz 2 Satz 1 UmwStG (Summe der Beträge aller Zeilen 110 und 111; nicht bei Organgesellschaften: Übertrag in die Hauptspalte mit umgekehrtem Vorzeichen)",
+                "type": "text",
+                "values": [
+                  "Vorspalte (Euro)",
+                  "Hauptspalte (Euro)"
+                ]
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Einbringungsgewinn I",
+        "rows": [
+          {
+            "row": "118",
+            "label": "Dazu: Im laufenden Wirtschaftsjahr zu versteuernder \"Einbringungsgewinn I\" im Sinne des § 22 Absatz 1 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Im laufenden Jahr zu berücksichtigende Aufwendungen und Erträge im Zusammenhang mit Übernahmegewinnen / -verlusten und Einbringungsgewinnen I",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Bezeichnung des Anteils",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung des Anteils",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "119",
+                        "label": "Bezeichnung des Anteils",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "120",
+                        "label": "Jahr der Entstehung der Aufwendungen/Erträge (JJJJ)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "121",
+                        "label": "Betrag (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "122",
+                "label": "Davon ab / Dazu: In einem anderen Wirtschaftsjahr entstandene Aufwendungen beziehungsweise Erträge, die im Zusammenhang mit dem im laufenden Wirtschaftsjahr nach § 12 Absatz 2 Satz 1 UmwStG zu berücksichtigenden Übernahmegewinn/-verlust und/oder zu versteuernden \"Einbringungsgewinn I\" im Sinne des § 22 Absatz 1 UmwStG stehen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Im laufenden Jahr entstandene, aber nicht zu berücksichtigende Aufwendungen und Erträge im Zusammenhang mit Übernahmegewinnen / -verlusten und Einbringungsgewinnen I",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Bezeichnung des Anteils",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung des Anteils",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "123",
+                        "label": "Bezeichnung des Anteils",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "124",
+                        "label": "Jahr des steuerlichen Übertragungsstichtags des Umwandlungsvorgangs (JJJJ)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "125",
+                        "label": "Betrag (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "126",
+                "label": "Dazu / Davon ab: Im laufenden Wirtschaftsjahr entstandene Aufwendungen beziehungsweise Erträge, die im Zusammenhang mit dem in einem anderen Wirtschaftsjahr nach § 12 Absatz 2 Satz 1 UmwStG zu berücksichtigenden Übernahmegewinn/-verlust und/oder zu versteuernden \"Einbringungsgewinn I\" im Sinne des § 22 Absatz 1 UmwStG stehen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Einzelangaben zum Übernahmegewinn/-verlust nach § 12 Absatz 2",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "104",
+            "label": "Name des übertragenden Rechtsträgers",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "105",
+            "label": "Wert mit dem das übernommene Betriebsvermögen in der Steuerbilanz angesetzt wurde (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "106",
+            "label": "Davon ab: Buchwert der Anteile am übertragenden Rechtsträger (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "107",
+            "label": "Davon ab: Kosten für den Vermögensübergang (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "108",
+            "label": "Übernahmegewinn/-verlust nach § 12 Absatz 2 UmwStG (Übertrag nach Zeile 111) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "109",
+            "label": "Übernahmegewinn nach § 12 Absatz 2 Satz 2 UmwStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "110",
+            "label": "Übernahmegewinn nach § 12 Absatz 2 Satz 1 UmwStG (Positiver Betrag laut Zeile 108 abzüglich Betrag laut Zeile 109) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "111",
+            "label": "Übernahmeverlust nach § 12 Absatz 2 Satz 1 UmwStG (Negativer Betrag laut Zeile 108) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "112",
+            "label": "Betrag des in der Steuerbilanz erfolgsneutral angesetzten übernommenen Vermögens (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Sachverhalte mit Auslandsbezug",
+    "sections": [
+      {
+        "section_label": "Nach DBA steuerfreie Einkünfte",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name des Staates/(Spezial-)Investmentfonds",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name des Staates/(Spezial-)Investmentfonds",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "127",
+                        "label": "Name des Staates/(Spezial-)Investmentfonds",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "128",
+                        "label": "Nettobetrag der ausländischen Einkünfte (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "129",
+                        "label": "Auf die ausländischen Einkünfte entfallende ausländische Steuer (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "130",
+                        "label": "Bruttobetrag der ausländischen Einkünfte (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "131",
+                "label": "Davon ab: Ausländische Einkünfte, die aufgrund von DBA steuerfrei sind (ohne Bezüge im Sinne des § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG aus der Beteiligung an einer ausländischen Körperschaft) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "132",
+                "label": "Dazu: Mit den ausländischen Einkünften laut Zeile 131 im Zusammenhang stehende nichtabziehbare inländische Betriebsausgaben (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Hinzurechnungsbeträge des Veranlagungszeitraums 2021, die am 1.1.2022 zufließen, nach § 10 AStG in der bis zum 30.06.2021 geltenden Fassung",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Bezeichnung der Zwischengesellschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung der Zwischengesellschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "133",
+                        "label": "Bezeichnung der Zwischengesellschaft",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "134",
+                        "label": "Hinzurechnungsbetrag nach § 10 AStG in der bis zum 30.06.2021 geltenden Fassung (Euro)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "135",
+                        "label": "Anzurechnende ausländische Steuer nach § 12 Absatz 1 AStG in der bis zum 30.06.2021 geltenden Fassung (Euro)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "136",
+                        "label": "Anzurechnende ausländische Steuer nach § 12 Absatz 3 AStG in der bis zum 30.06.2021 geltenden Fassung (Euro)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "137",
+                "label": "Dazu: Nach § 10 AStG in der bis zum 30.06.2021 geltenden Fassung anzusetzender Hinzurechnungsbetrag laut gesonderter (und einheitlicher) Feststellung nach § 18 AStG in der bis zum 30.06.2021 geltenden Fassung (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "138",
+                "label": "Dazu: Auf Antrag nach § 12 Absatz 1 AStG in der bis zum 30.06.2021 geltenden Fassung anzurechnende ausländische Steuer laut gesonderter (und einheitlicher) Feststellung nach § 18 AStG in der bis zum 30.06.2021 geltenden Fassung (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "139",
+                "label": "Auf Antrag nach § 12 Absatz 3 AStG in der bis zum 30.06.2021 geltenden Fassung anzurechnende ausländische Steuer laut gesonderter (und einheitlicher) Feststellung nach § 18 AStG in der bis zum 30.06.2021 geltenden Fassung (nicht einkommenswirksam) (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Berichtigungsbetrag nach § 1 AStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Beschreibung und Art der Geschäftsbeziehung",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Beschreibung und Art der Geschäftsbeziehung",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "142",
+                "label": "Dazu / Davon ab: Berichtigungsbetrag nach § 1 AStG laut gesonderter Ermittlung (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Unmittelbare Beteiligungen an anderen Körperschaften",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Eintragungen sind - ungeachtet des § 15 Satz 1 Nummer 2 und Satz 2 KStG - auch bei Organgesellschaften vorzunehmen, jedoch ohne die entsprechenden Werte der vorgelagerten Organgesellschaften.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Kaufpreisänderungen und Veräußerungskosten, die vor oder nach dem Wirtschaftsjahr der Anteilsveräußerung entstanden sind (BMF-Schreiben vom 24.07.2015, BStBl I 2015, 612)",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Im laufenden Jahr zu berücksichtigende Aufwendungen und Erträge aus einem anderen Wirtschaftsjahr",
+            "rows": [
+              {
+                "row": "146",
+                "label": "Davon ab / Dazu: In einem anderen Wirtschaftsjahr entstandene Aufwendungen beziehungsweise Erträge, die im Zusammenhang mit der nach § 8b Absatz 2 und 3 KStG steuerfreien Veräußerung von Anteilen an anderen Körperschaften im laufenden Wirtschaftsjahr stehen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": "Bezeichnung des Anteils",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung des Anteils",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Im laufenden Jahr entstandene aber in einem anderen Wirtschaftsjahr zu berücksichtigende Aufwendungen und Erträge",
+            "rows": [
+              {
+                "row": "150",
+                "label": "Dazu / Davon ab: Im laufenden Wirtschaftsjahr entstandene Aufwendungen beziehungsweise Erträge, die im Zusammenhang mit der nach § 8b Absatz 2 und 3 KStG steuerfreien Veräußerung von Anteilen an anderen Körperschaften in einem anderen Wirtschaftsjahr stehen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": "Bezeichnung des Anteils",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung des Anteils",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Laufende steuerfreie Bezüge nach § 8b Absatz 1 und 4 KStG (gegebenenfalls auch aufgrund eines DBA)",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der ausschüttenden Körperschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der ausschüttenden Körperschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "156",
+                "label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG, die nach § 8b Absatz 1 und 4 KStG oder aufgrund eines DBA steuerfrei sind; ohne Bezüge im Sinne der Zeile 159 (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Steuerfreie Ausschüttungen aus Zwischengesellschaften im Sinne des AStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name der Zwischengesellschaft aus der die Ausschüttung stammt",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name der Zwischengesellschaft aus der die Ausschüttung stammt",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "159",
+                "label": "Steuerfreie Bezüge nach § 3 Nummer 41 Buchstabe a EStG laut gesonderter (und einheitlicher) Feststellung nach § 18 AStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Nichtabziehbare Betriebsausgaben nach § 8b Absatz 5 KStG",
+        "rows": [
+          {
+            "row": "160",
+            "label": "Nichtabziehbare Ausgaben nach § 8b Absatz 5 Satz 1 KStG (5 % der Summe der Beträge laut Zeilen 156 und 159) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Veräußerungsgewinne und Teilwertaufholungen im Sinne des § 8b Absatz 2 KStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der Körperschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der Körperschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": null,
+                "label": "ohne Beträge laut Zeilen 180, 182 und 199",
+                "type": "note",
+                "values": []
+              },
+              {
+                "row": "175",
+                "label": "Gewinne aus der Veräußerung von Anteilen an Körperschaften, die nach § 8b Absatz 2 Satz 1 und Satz 6 KStG steuerfrei sind (gegebenenfalls in Verbindung mit § 15 Absatz 1a EStG) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "176",
+                "label": "Gewinne aus dem Ansatz des in § 6 Absatz 1 Nummer 2 Satz 3 EStG bezeichneten Wertes, die nach § 8b Absatz 2 Satz 3 KStG steuerfrei sind (Wertaufholung) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "177",
+                "label": "Gewinne aus der Auflösung oder der Herabsetzung des Nennkapitals oder aus einer Einlagenrückgewähr, die nach § 8b Absatz 2 Satz 3 KStG steuerfrei sind (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Steuerfreie Beträge nach § 3 Nummer 41 Buchstabe b EStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name der Zwischengesellschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name der Zwischengesellschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "180",
+                "label": "Gewinne nach § 3 Nummer 41 Buchstabe b EStG laut gesonderter (und einheitlicher) Feststellung nach § 18 AStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Nichtabziehbare Betriebsausgaben nach § 8b Absatz 3 Satz 1 KStG",
+        "rows": [
+          {
+            "row": "181",
+            "label": "Nichtabziehbare Ausgaben nach § 8b Absatz 3 Satz 1 KStG (5 % der Summe der Beträge laut Zeilen 175 bis 180) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Steuerbefreiung nach § 8b Absatz 2 KStG als Teil eines Übertragungsgewinns nach § 11 UmwStG einer Organgesellschaft",
+        "rows": [
+          {
+            "row": null,
+            "label": "Nur bei Organgesellschaften:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "182",
+            "label": "Bezüge im Sinne der Zeilen 166 bis 180, soweit sie auf ein selbst zu versteuerndes Einkommen aus einem Übertragungsgewinn nach § 11 UmwStG entfallen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "183",
+            "label": "Nichtabziehbare Ausgaben nach § 8b Absatz 3 Satz 1 KStG (5 % der Beträge laut Zeile 182) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Veräußerungsverluste und sonstige Gewinnminderungen nach § 8b Absatz 3 Satz 3 bis 8 KStG",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der Körperschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der Körperschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "192",
+                "label": "Verluste aus der Veräußerung von Beteiligungen an Körperschaften, die nach § 8b Absatz 3 Satz 3 KStG nicht abziehbar sind (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "193",
+                "label": "Sonstige Gewinnminderungen (zum Beispiel Teilwertabschreibungen) aus Beteiligungen an Körperschaften, die nach § 8b Absatz 3 Satz 3 KStG nicht abziehbar sind (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "194",
+                "label": "Gewinnminderungen im Zusammenhang mit Darlehensforderungen (zum Beispiel Teilwertabschreibungen), die nach § 8b Absatz 3 Satz 4 KStG nicht abziehbar sind (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Gewinne im Sinne des § 8b Absatz 3 Satz 9 KStG",
+        "rows": [
+          {
+            "row": "195",
+            "label": "Gewinne im Sinne des § 8b Absatz 3 Satz 9 KStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einkommensminderungen beziehungsweise -erhöhungen nach § 8b Absatz 8 Satz 4 und 5 KStG",
+        "rows": [
+          {
+            "row": "196",
+            "label": "Einkommensminderungen beziehungsweise -erhöhungen nach § 8b Absatz 8 Satz 4 und 5 KStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Wertpapierleihe nach § 8b Absatz 10 KStG",
+        "rows": [
+          {
+            "row": null,
+            "label": "Zeilen 197 bis 200: Im Falle der Wertpapierleihe (§ 8b Absatz 10 KStG) bei der entleihenden Körperschaft:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "197",
+            "label": "Nach § 8b Absatz 10 Satz 1 KStG nichtabziehbare Aufwendungen, soweit sie sich auf die überlassenen Anteile beziehen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "198",
+            "label": "Fiktive Einnahmen und/oder Bezüge im Sinne des § 8b Absatz 10 Satz 2 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "199",
+            "label": "Beträge im Sinne der Zeile 198, soweit es sich dabei um Bezüge im Sinne des § 8b Absatz 1 KStG, auf die § 8b Absatz 4 KStG nicht anzuwenden ist, und/oder um Gewinne im Sinne des § 8b Absatz 2 KStG handelt (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "200",
+            "label": "5 % des Betrages laut Zeile 156 und/oder der Beträge laut Zeilen 175 bis 177, soweit es sich hierbei um Bezüge aus entliehenen Anteilen im Sinne des § 8b Absatz 10 KStG handelt (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Korrektur des Einkommens um nach § 8b KStG und weiterer Vorschriften steuerfreie Beträge",
+        "rows": [
+          {
+            "row": "201",
+            "label": "Nicht bei Organgesellschaften:Summe der Beträge laut Zeilen 160, 181, 192, 193, 194, 196, 197 und 198 abzüglich der Summe der Beträge laut Zeilen 156, 159, 175, 176, 177, 180, 195, 199 und 200 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "202",
+            "label": "Nur bei Organgesellschaften:Summe der Beträge laut Zeilen 183, 196, 197 und 198 abzüglich Betrag laut Zeile 182 (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Laufende steuerfreie Bezüge nach § 8b Absatz 1 und 4",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "152",
+            "label": "Name der ausschüttenden Körperschaft / des leistenden Spezial-Investmentfonds",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "153",
+            "label": "Höhe der Beteiligung zum Beginn des Kalenderjahres (X,XX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "154",
+            "label": "Art der Beteiligung",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "Unmittelbare Beteiligung",
+              "Begünstigter unterjähriger Erwerb nach § 8b Absatz 4 Satz 6 KStG",
+              "Begünstigte kreditwirtschaftliche Verbundgruppe nach § 8b Absatz 4 Satz 8 KStG",
+              "Nicht nach § 8b KStG aber nach DBA steuerbefreit (Schachtelbeteiligung)",
+              "Unmittelbare Beteiligung, die durch Zusammenfassung mit mittelbaren Beteiligungen über Personengesellschaften die Voraussetzungen des § 8b Absatz 4 KStG erfüllt",
+              "In ausgeschütteten oder ausschüttungsgleichen Erträgen aus einem Spezial-Investmentfonds enthaltene Bezüge, die nach § 42 Absatz 2 InvStG in Verbindung mit § 8b KStG steuerfrei sind"
+            ]
+          },
+          {
+            "row": "155",
+            "label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG, die nach § 8b Absatz 1 und 4 KStG oder aufgrund eines DBA steuerfrei sind; ohne Bezüge im Sinne der Zeile 159 (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Veräußerungsgewinne und Teilwertaufholungen im Sinne des § 8b Absatz 2",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "162",
+            "label": "Name der Beteiligung",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "163",
+            "label": "Veräußerungspreis oder an dessen Stelle tretender Wert (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "164",
+            "label": "Veräußerungskosten (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "165",
+            "label": "Buchwert des Anteils (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "166",
+            "label": "Gewinn im Sinne des § 8b Absatz 2 Satz 1 und Satz 6 KStG (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "167",
+            "label": "Gewinne aus dem Ansatz des in § 6 Absatz 1 Nummer 2 Satz 3 EStG bezeichneten Wertes, die nach § 8b Absatz 2 Satz 3 KStG steuerfrei sind (Wertaufholung) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "168",
+            "label": "Buchwert der Beteiligung vor Berücksichtigung der Rückzahlung von Nennkapital, Einlagenrückgewähr und Mehr- und Minderabführungen (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "169",
+            "label": "Davon ab: Einlagenrückgewähr laut Bescheinigung (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "170",
+            "label": "Davon ab: Rückzahlung von Nennkapital (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "171",
+            "label": "Davon ab: Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "172",
+            "label": "Davon ab: Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben und für die die Verwendung des steuerlichen Einlagekontos bescheinigt wurde (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "173",
+            "label": "Dazu: Minderabführungen (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "174",
+            "label": "Gewinne aus der Auflösung oder der Herabsetzung des Nennkapitals oder aus einer Einlagenrückgewähr, die nach § 8b Absatz 2 Satz 3 KStG steuerfrei sind (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Veräußerungsverluste und sonstige Gewinnminderungen nach § 8b Absatz 3 Satz 3 bis 8",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "185",
+            "label": "Name der Beteiligung",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "186",
+            "label": "Veräußerungspreis oder an dessen Stelle tretender Wert (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "187",
+            "label": "Veräußerungskosten (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "188",
+            "label": "Buchwert des Anteils (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "189",
+            "label": "Verlust aus der Veräußerung einer Beteiligung an einer Körperschaft, der nach § 8b Absatz 3 Satz 3 KStG nicht abziehbar ist (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "190",
+            "label": "Sonstige Gewinnminderungen (zum Beispiel Teilwertabschreibungen) aus der Beteiligung an einer Körperschaft, die nach § 8b Absatz 3 Satz 3 KStG nicht abziehbar sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "191",
+            "label": "Gewinnminderungen im Zusammenhang mit Darlehensforderungen (zum Beispiel Teilwertabschreibungen), die nach § 8b Absatz 3 Satz 4 KStG nicht abziehbar sind (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "7 - Auflösung steuerbilanzieller Ausgleichsposten nach § 34 Absatz 6e",
+    "sections": [
+      {
+        "section_label": "Einzelangaben",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name der Beteiligung an der (gegebenenfalls ehemaligen) Organgesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name der Beteiligung an der (gegebenenfalls ehemaligen) Organgesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Summe",
+        "rows": [
+          {
+            "row": "215",
+            "label": "Davon ab / Dazu: Im bilanziellen Ergebnis enthaltener Ertrag/Aufwand aus der Anwendung des Angleichungsfaktors nach § 34 Absatz 6e Satz 9 bis 12 KStG",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "216",
+            "label": "Davon ab: Summe der Beteiligungserträge nach § 34 Absatz 6e Satz 13 KStG, die nicht in die Rücklage nach § 34 Absatz 6e Satz 15 KStG eingestellt wurden (Summe aller Beträge laut Zeile 211 vermindert um die Summe aller Beträge laut Zeile 212, wenn § 8b Absatz 7 oder 8 KStG nicht anwendbar sind; Übertrag in die Hauptspalte (nicht bei Organgesellschaften))",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "217",
+            "label": "Davon ab: Auflösung der Rücklage nach § 34 Absatz 6e Satz 17 KStG im laufenden Wirtschaftsjahr (ein Zehntel der Summe der Beträge aller Zeilen 212, bei denen § 8b Absatz 7 oder 8 KStG nicht anwendbar sind; Übertrag in Hauptspalte (nicht bei Organgesellschaften))",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "218",
+            "label": "Dazu: Nichtabziehbare Ausgaben nach § 8b Absatz 3 Satz 1 in Verbindung mit § 34 Absatz 6e Satz 14 und Satz 20 KStG (5 % der Beträge laut Zeilen 216 und 217 Hauptspalte)",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Einzelangaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "203",
+            "label": "Name der Beteiligung an der (gegebenenfalls ehemaligen) Organgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "205",
+            "label": "Im bilanziellen Ergebnis enthaltener Ertrag/Aufwand aus der Anwendung des Angleichungsfaktors nach § 34 Absatz 6e Satz 9 bis 12 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "206",
+            "label": "Die Voraussetzungen für die Anwendung des § 8b Absatz 7 oder 8 KStG liegen vor.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "207",
+            "label": "Buchwert der Beteiligung vor Anwendung des § 34 Absatz 6e Satz 7 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "208",
+            "label": "Dazu: Summe der für diese Beteiligung gebildeten aktiven Ausgleichsposten (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "209",
+            "label": "Davon ab: Summe der für diese Beteiligung gebildeten passiven Ausgleichsposten (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "210",
+            "label": "Saldo des Buchwerts und der Ausgleichsposten (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "211",
+            "label": "Beteiligungsertrag aus der Auflösung der Ausgleichsposten nach § 34 Absatz 6e Satz 13 KStG (negativer Betrag laut Zeile 210) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "212",
+            "label": "In die Rücklage nach § 34 Absatz 6e Satz 15 KStG eingestellter Betrag (höchstens Betrag laut Zeile 211) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "213",
+            "label": "Davon ab: Auflösung der Rücklage nach § 34 Absatz 6e Satz 17 KStG (ein Zehntel des Betrages laut Zeile 212) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "214",
+            "label": "Rücklage nach § 34 Absatz 6e Satz 15 KStG zum Ende des Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - Unmittelbar gehaltene Anteile an Investmentfonds (§ 20 Absatz 1 Nummer 3 )",
+    "sections": [
+      {
+        "section_label": "Aktienfonds",
+        "rows": [
+          {
+            "row": "219",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung; ohne Beträge, die in Zeile 222 einzutragen sind)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "220",
+            "label": "Mit den Erträgen laut Zeile 219 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "221",
+            "label": "Nach § 20 Absatz 1 InvStG freizustellender Betrag für Aktienfonds (Vorspalte: Betrag laut Zeile 219 abzüglich Betrag laut Zeile 220; Hauptspalte (nicht bei Organgesellschaften): 80 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "222",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "223",
+            "label": "Mit den Erträgen laut Zeile 222 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "224",
+            "label": "In den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG nach § 20 Absatz 1 InvStG freizustellender Betrag für Aktienfonds (Vorspalte: Betrag laut Zeile 222 abzüglich Betrag laut Zeile 223; Hauptspalte: 30 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Mischfonds",
+        "rows": [
+          {
+            "row": "225",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Mischfonds im Sinne des § 2 Absatz 7 InvStG und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung; ohne Beträge, die in Zeile 228 einzutragen sind)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "226",
+            "label": "Mit den Erträgen laut Zeile 225 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "227",
+            "label": "Nach § 20 Absatz 2 in Verbindung mit Absatz 1 InvStG freizustellender Betrag für Mischfonds (Vorspalte: Betrag laut Zeile 225 abzüglich Betrag laut Zeile 226; Hauptspalte (nicht bei Organgesellschaften): 40 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "228",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Mischfonds im Sinne des § 2 Absatz 7 InvStG, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "229",
+            "label": "Mit den Erträgen laut Zeile 228 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "230",
+            "label": "In den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG nach § 20 Absatz 2 in Verbindung mit Absatz 1 InvStG freizustellender Betrag für Mischfonds (Vorspalte: Betrag laut Zeile 228 abzüglich Betrag laut Zeile 229; Hauptspalte: 15 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG",
+        "rows": [
+          {
+            "row": "231",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "232",
+            "label": "Mit den Erträgen laut Zeile 231 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "233",
+            "label": "Nach § 20 Absatz 3 Satz 1 InvStG freizustellender Betrag für Immobilienfonds (Vorspalte: Betrag laut Zeile 231 abzüglich Betrag laut Zeile 232; Hauptspalte (nicht bei Organgesellschaften): 60 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG",
+        "rows": [
+          {
+            "row": "234",
+            "label": "Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG und Erträge aus dem Ansatz des Teilwerts (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "235",
+            "label": "Mit den Erträgen laut Zeile 234 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben, Teilwertabschreibungen oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "236",
+            "label": "Nach § 20 Absatz 3 Satz 2 InvStG freizustellender Betrag für Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG (Vorspalte: Betrag laut Zeile 234 abzüglich Betrag laut Zeile 235; Hauptspalte (nicht bei Organgesellschaften): 80 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Unterschiedsbeträge nach InvStG 2004",
+        "rows": [
+          {
+            "row": "237",
+            "label": "Dazu / Davon ab: Unterschiedsbeträge nach § 5 Absatz 1 Satz 1 Nummer 5 Satz 5 beziehungsweise § 13 Absatz 4a Satz 2 InvStG 2004",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "9 - Unmittelbar gehaltene Anteile an Spezial-Investmentfonds (§ 20 Absatz 1 Nummer 3a )",
+    "sections": [
+      {
+        "section_label": "Aktienfonds",
+        "rows": [
+          {
+            "row": "238",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG laut gesonderter und einheitlicher Feststellung (vor Teilfreistellung; ohne Beträge, die in Zeile 241 einzutragen sind)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "239",
+            "label": "Mit den Erträgen laut Zeile 238 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "240",
+            "label": "Nach § 20 Absatz 1 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Aktienfonds (Vorspalte: Betrag laut Zeile 238 abzüglich Betrag laut Zeile 239; Hauptspalte (nicht bei Organgesellschaften): 80 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "241",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG laut gesonderter und einheitlicher Feststellung, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "242",
+            "label": "Mit den Erträgen laut Zeile 241 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "243",
+            "label": "In den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG nach § 20 Absatz 1 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Aktienfonds (Vorspalte: Betrag laut Zeile 241 abzüglich Betrag laut Zeile 242; Hauptspalte: 30 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Mischfonds",
+        "rows": [
+          {
+            "row": "244",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Mischfonds im Sinne des § 2 Absatz 7 InvStG laut gesonderter und einheitlicher Feststellung (vor Teilfreistellung; ohne Beträge, die in Zeile 247 einzutragen sind)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "245",
+            "label": "Mit den Erträgen laut Zeile 244 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "246",
+            "label": "Nach § 20 Absatz 2 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Mischfonds (Vorspalte: Betrag laut Zeile 244 abzüglich Betrag laut Zeile 245; Hauptspalte (nicht bei Organgesellschaften): 40 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "247",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Mischfonds im Sinne des § 2 Absatz 7 InvStG laut gesonderter und einheitlicher Feststellung, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "248",
+            "label": "Mit den Erträgen laut Zeile 247 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "249",
+            "label": "In den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG nach § 20 Absatz 2 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Mischfonds (Vorspalte: Betrag laut Zeile 247 abzüglich Betrag laut Zeile 248; Hauptspalte: 15 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG",
+        "rows": [
+          {
+            "row": "250",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG laut gesonderter und einheitlicher Feststellung (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "251",
+            "label": "Mit den Erträgen laut Zeile 250 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "252",
+            "label": "Nach § 20 Absatz 3 Satz 1 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Immobilienfonds (Vorspalte: Betrag laut Zeile 250 abzüglich Betrag laut Zeile 251; Hauptspalte (nicht bei Organgesellschaften): 60 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG",
+        "rows": [
+          {
+            "row": "253",
+            "label": "In den Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG enthaltene Investmenterträge im Sinne des § 20 Absatz 1 Nummer 3 EStG aus Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG laut gesonderter und einheitlicher Feststellung (vor Teilfreistellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "254",
+            "label": "Mit den Erträgen laut Zeile 253 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "255",
+            "label": "Nach § 20 Absatz 3 Satz 2 in Verbindung mit § 43 Absatz 3 InvStG freizustellender Betrag für Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG (Vorspalte: Betrag laut Zeile 253 abzüglich Betrag laut Zeile 254, Hauptspalte (nicht bei Organgesellschaften): 80 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Steuerbefreiung inländischer Beteiligungseinnahmen nach § 42 Absatz 4 InvStG",
+        "rows": [
+          {
+            "row": "256",
+            "label": "Inländische Beteiligungseinnahmen im Sinne des § 42 Absatz 4 InvStG mit Ermäßigungsanspruch des Spezial-Investmentfonds im Sinne des § 42 Absatz 4 Satz 2 Nummer 2 InvStG laut gesonderter und einheitlicher Feststellung",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "257",
+            "label": "Mit den inländischen Beteiligungseinnahmen laut Zeile 256 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "258",
+            "label": "Steuerbefreiung nach § 42 Absatz 4 Satz 1 in Verbindung mit § 44 InvStG (Vorspalte: Betrag laut Zeile 256 abzüglich Betrag laut Zeile 257; Hauptspalte (nicht bei Organgesellschaften): 60 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "259",
+            "label": "Steuerbefreiung nach § 42 Absatz 4 Satz 2 InvStG für inländische Beteiligungseinnahmen im Sinne des § 42 Absatz 4 InvStG ohne Ermäßigungsanspruch des Spezial-Investmentfonds im Sinne des § 42 Absatz 4 Satz 2 Nummer 2 InvStG laut gesonderter und einheitlicher Feststellung (nicht bei Organgesellschaften: Übertrag von 100 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen in die Hauptspalte)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Steuerbefreiung inländischer Immobilienerträge und sonstiger inländischer Einkünfte nach § 42 Absatz 5 InvStG",
+        "rows": [
+          {
+            "row": "260",
+            "label": "Inländische Immobilienerträge und sonstige inländische Einkünfte im Sinne des § 42 Absatz 5 InvStG mit Ermäßigungsanspruch des Spezial-Investmentfonds im Sinne des § 42 Absatz 5 Satz 2 in Verbindung mit Absatz 4 Satz 2 Nummer 2 InvStG laut gesonderter und einheitlicher Feststellung",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "261",
+            "label": "Mit den inländischen Immobilienerträgen und sonstigen inländischen Einkünften laut Zeile 260 in Zusammenhang stehende Betriebsvermögensminderungen, Betriebsausgaben oder Veräußerungskosten",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "262",
+            "label": "Steuerbefreiung nach § 42 Absatz 5 Satz 1 in Verbindung mit § 44 InvStG (Vorspalte: Betrag laut Zeile 260 abzüglich Betrag laut Zeile 261; Hauptspalte (nicht bei Organgesellschaften): 20 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "263",
+            "label": "Steuerbefreiung nach § 42 Absatz 5 Satz 2 in Verbindung mit Absatz 4 Satz 2 InvStG für inländische Immobilienerträge und sonstige inländische Einkünfte im Sinne des § 42 Absatz 5 InvStG ohne Ermäßigungsanspruch des Spezial-Investmentfonds im Sinne des § 42 Absatz 5 Satz 2 in Verbindung mit Absatz 4 Satz 2 Nummer 2 InvStG laut gesonderter und einheitlicher Feststellung (nicht bei Organgesellschaften: Übertrag von 100 % des Wertes der Vorspalte mit umgekehrtem Vorzeichen in die Hauptspalte)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anleger-Teilfreistellungsgewinne für laufende Spezial-Investmenterträge",
+        "rows": [
+          {
+            "row": "264",
+            "label": "Steuerfreie Anleger-Teilfreistellungsgewinne bei Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG für Anleger, die dem KStG unterliegen (nicht bei Organgesellschaften: Übertrag in die Hauptspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "265",
+            "label": "Davon ab: Steuerfreie Anleger-Teilfreistellungsgewinne bei Spezial-Investmenterträgen im Sinne des § 34 Absatz 1 Nummer 1 und 2 InvStG in den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Veräußerung und Teilwertab- und -zuschreibung",
+        "rows": [
+          {
+            "row": "266",
+            "label": "Davon ab / Dazu: Positiver/negativer Anleger-Abkommensgewinn nach § 49 Absatz 1 Satz 1 Nummer 2 (gegebenenfalls in Verbindung mit § 49 Absatz 1 Satz 2) InvStG",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "267",
+            "label": "Positiver/negativer Anleger-Teilfreistellungsgewinn nach § 49 Absatz 1 Satz 1 Nummer 3 (gegebenenfalls in Verbindung mit § 49 Absatz 1 Satz 2) InvStG für Anleger, die dem KStG unterliegen(nicht bei Organgesellschaften: Übertrag in die Hauptspalte mit umgekehrtem Vorzeichen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "268",
+            "label": "Davon ab / Dazu: Positiver/negativer Anleger-Teilfreistellungsgewinn nach § 49 Absatz 1 Satz 1 Nummer 3 (gegebenenfalls in Verbindung mit § 49 Absatz 1 Satz 2) InvStG in den Fällen des § 20 Absatz 1 Satz 4 und 5 InvStG",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "10 - Gewinnkorrekturen bei Organschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Bei einem Organträger oder einer Organgesellschaft:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "269",
+            "label": "Dazu: Negative Einkünfte, soweit sie in einem ausländischen Staat im Rahmen der Besteuerung des Organträgers, der Organgesellschaft oder einer anderen Person berücksichtigt werden (§ 14 Absatz 1 Satz 1 Nummer 5 KStG), soweit diese in den vorstehenden Beträgen enthalten sind (ohne Vorzeichen eintragen) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Neutralisierung der im bilanziellen Ergebnis des Organträgers aufgrund der Organschaft berücksichtigten Werte",
+        "rows": [
+          {
+            "row": "270",
+            "label": "Davon ab: Erträge aus der Gewinnabführung der Organgesellschaft(en) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "271",
+            "label": "Dazu: Aufwendungen des Organträgers aus der Verlustübernahme von Organgesellschaft(en) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "272",
+            "label": "Dazu: Ausgleichszahlungen des Organträgers an außenstehende Anteilseigner der Organgesellschaft(en) (§ 4 Absatz 5 Satz 1 Nummer 9 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "273",
+            "label": "Dazu: Neutralisierung eines bei der Gewinnermittlung berücksichtigten Aufwands aus der Auflösung aktiver oder der Bildung passiver Ausgleichsposten im Sinne des § 14 Absatz 4 KStG in der Fassung vor dem KöMoG vom 25.06.2021 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "274",
+            "label": "Davon ab: Neutralisierung eines bei der Gewinnermittlung berücksichtigten Ertrages aus der Bildung aktiver oder der Auflösung passiver Ausgleichsposten im Sinne des § 14 Absatz 4 KStG in der Fassung vor dem KöMoG vom 25.06.2021 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "275",
+            "label": "Dazu: Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 1 KStG) (Summe der Beträge aus Zeile 25c aller Anlagen OT, bei denen das Ende des Wirtschaftsjahres laut Anlage OT in dem Wirtschaftsjahr liegt, für das die Anlage GK ausgefüllt wird – gegebenenfalls multipliziert mit der Summe der Beträge laut Zeilen 8 und 9 dividiert durch die Summe der Beträge laut Zeilen 8 bis 10 der jeweiligen Anlage OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "276",
+            "label": "Davon ab: Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 2 KStG) (Summe der Beträge aus Zeile 25d aller Anlagen OT, bei denen das Ende des Wirtschaftsjahres laut Anlage OT in dem Wirtschaftsjahr liegt, für das die Anlage GK ausgefüllt wird – gegebenenfalls multipliziert mit der Summe der Beträge laut Zeilen 8 und 9 dividiert durch die Summe der Beträge laut Zeilen 8 bis 10 der jeweiligen Anlage OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "277",
+            "label": "Davon ab: Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 1 KStG) (Summe der Beträge aus Zeile 25b aller Anlagen OT, bei denen das Ende des Wirtschaftsjahres laut Anlage OT in dem Wirtschaftsjahr liegt, für das die Anlage GK ausgefüllt wird – gegebenenfalls multipliziert mit der Summe der Beträge laut Zeilen 8 und 9 dividiert durch die Summe der Beträge laut Zeilen 8 bis 10 der jeweiligen Anlage OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "278",
+            "label": "Dazu: Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 2 KStG) (Summe der Beträge aus Zeile 25a aller Anlagen OT, bei denen das Ende des Wirtschaftsjahres laut Anlage OT in dem Wirtschaftsjahr liegt, für das die Anlage GK ausgefüllt wird – gegebenenfalls multipliziert mit der Summe der Beträge laut Zeilen 8 und 9 dividiert durch die Summe der Beträge laut Zeilen 8 bis 10 der jeweiligen Anlage OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "279",
+            "label": "Dazu / Davon ab: Saldo der Mehr- und Minderabführungen, die im laufenden Wirtschaftsjahr bilanziell berücksichtigt wurden, aus Feststellungen für den vorangegangenen Veranlagungszeitraum (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "280",
+            "label": "Davon ab: Verdeckte Gewinnausschüttungen der Organgesellschaft(en) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Neutralisierung der im bilanziellen Ergebnis der Organgesellschaft aufgrund der Organschaft berücksichtigten Werte",
+        "rows": [
+          {
+            "row": "281",
+            "label": "Dazu: Von der Organgesellschaft an den Organträger abzuführender Gewinn (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "282",
+            "label": "Davon ab: Vom Organträger an die Organgesellschaft zum Ausgleich eines sonst entstehenden Jahresfehlbetrages zu leistender Betrag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "283",
+            "label": "Dazu: Von der Organgesellschaft geleistete Ausgleichszahlungen an außenstehende Anteilseigner (§ 4 Absatz 5 Satz 1 Nummer 9 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "284",
+            "label": "Dazu: An den Organträger geleistete verdeckte Gewinnausschüttungen (R 14.6 Absatz 4 Satz 1 KStR 2022) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "285",
+            "label": "Dazu: Von der Organgesellschaft geleistete verdeckte Gewinnausschüttungen an außenstehende Anteilseigner (R 14.6 Absatz 4 Satz 4 KStR 2022) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "11 - Im bilanziellen Ergebnis berücksichtigte Mehr- und Minderabführungen, obwohl die Körperschaft nicht Organträger der Organgesellschaft ist (vermittelnde Körperschaft)",
+    "sections": [
+      {
+        "section_label": "Einzelangaben",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Steuernummer der Organgesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Steuernummer der Organgesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Gesamt",
+        "rows": [
+          {
+            "row": "292",
+            "label": "Dazu: Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 1 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "293",
+            "label": "Davon ab: Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 2 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "294",
+            "label": "Davon ab: Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 1 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "295",
+            "label": "Dazu: Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 2 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Einzelangaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "287",
+            "label": "Name der Organgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "288",
+            "label": "Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 1 KStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "289",
+            "label": "Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 2 KStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "290",
+            "label": "Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 1 KStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "291",
+            "label": "Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben (§ 14 Absatz 4 Satz 2 KStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "12 - Zinsschranke",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht bei Organgesellschaften:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "296",
+            "label": "Dazu: Zinsaufwendungen im Sinne des § 4h Absatz 3 Satz 2 und 4 EStG des laufenden Wirtschaftsjahres (Betrag laut Zeile 11 der Anlage Zinsschranke) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "297",
+            "label": "Dazu: Zinsaufwendungen im Sinne des § 4h Absatz 3 Satz 2 und 4 EStG des laufenden Wirtschaftsjahres der Organgesellschaft(en) (Betrag laut Zeile 12 der Anlage Zinsschranke) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "298",
+            "label": "Davon ab: Nach Anwendung des § 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG als Betriebsausgaben abziehbare Zinsaufwendungen (Betrag laut Zeile 24 der Anlage Zinsschranke) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "13 - Einkünfte aus Gewerbebetrieb",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "299",
+            "label": "Davon ab: Verrechnung mit verrechenbaren Verlusten nach § 15a EStG, die aufgrund einer Anwachsung bei der Körperschaft zu berücksichtigen sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "300",
+            "label": "Einkünfte aus Gewerbebetrieb (Übertrag nach Zeile 2, 3 oder 4 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
