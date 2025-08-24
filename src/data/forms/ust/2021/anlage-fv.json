@@ -1,0 +1,68 @@
+[
+  {
+    "context_label": "Anlage zur Umsatzsteuererklärung 2021",
+    "sections": [
+      {
+        "section_label": "Aufstellung aller vertretenen Unternehmer",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Unternehmer",
+            "rows": [
+              {
+                "row": null,
+                "label": "Unternehmer",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": null,
+                "rows": [
+                  {
+                    "row": "1",
+                    "label": "Name des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Anschrift des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Umsatzsteuer-Identifikationsnummer des vertretenen Unternehmers",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "1",
+                    "label": "Summe der jeweiligen Bemessungsgrundlagen (Euro)",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Summe",
+        "rows": [
+          {
+            "row": "2",
+            "label": "Summe aller Bemessungsgrundlagen (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
