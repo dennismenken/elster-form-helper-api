@@ -1,0 +1,206 @@
+[
+  {
+    "context_label": "Anlage UN zur Umsatzsteuererklärung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "für im Ausland ansässige Unternehmer",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - A. Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": "Bankverbindung",
+        "rows": [
+          {
+            "row": "5",
+            "label": "IBAN",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "BIC (nur bei Bankverbindungen außerhalb des Europäischen Wirtschaftsraums)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Name des Geldinstituts (Zweigstelle) und Ort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Kontonummer (nur bei Bankverbindungen außerhalb des Europäischen Zahlungsverkehrsraums - SEPA)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Kontoinhaber ist der Unternehmer laut den allgemeinen Angaben auf Vordruck USt2A",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Name des Kontoinhabers",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bevollmächtigter/Empfangsbevollmächtigter",
+        "rows": [
+          {
+            "row": "10",
+            "label": "Zur Wahrnehmung der steuerlichen Pflichten und Rechte als Bevollmächtigter (§ 80 AO) ist bestellt:",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Zum Empfang von Schriftstücken als Empfangsbevollmächtigter (§ 123 AO) ist bestellt:",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Name",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Straße",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Hausnummer",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Postleitzahl, Ort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Postleitzahl zum Postfach",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Telefon",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "E-Mail-Adresse",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Angaben zur Unterschrift",
+            "rows": [
+              {
+                "row": "17",
+                "label": "Die Umsatzsteuererklärung wurde vom Bevollmächtigten elektronisch authentifiziert übermittelt. Die Voraussetzungen des § 150 Absatz 3 AO liegen vor.",
+                "type": "checkbox",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "2 - B. Vorsteuer-Vergütungsverfahren beim Bundeszentralamt für Steuern",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "19",
+            "label": "Ist für das Kalenderjahr 2022 die Vergütung von Vorsteuern in einem besonderen Verfahren (§ 18 Absatz 9 UStG, §§ 59 bis 61a UStDV) beantragt worden?",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - C. Anrechenbare Beträge",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "21",
+            "label": "Bei der Beförderungseinzelbesteuerung entrichtete Umsatzsteuer (§ 18 Absatz 5b Satz 2 UStG) - Belege bitte gesondert übermitteln - (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Entrichtete Sicherheitsleistungen (§ 18 Absatz 12 Satz 5 UStG) - Belege bitte gesondert übermitteln - (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Summe (zu übertragen in Zeile 166 der Steuererklärung) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - D. Ergänzende Angaben zu Umsätzen",
+    "sections": [
+      {
+        "section_label": "In den steuerpflichtigen Umsätzen enthaltene Umsätze",
+        "rows": [
+          {
+            "row": "25",
+            "label": "Innergemeinschaftliche Fernverkäufe aus dem übrigen Gemeinschaftsgebiet (§ 3c UStG) (Bemessungsgrundlage ohne Umsatzsteuer, volle EUR) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
