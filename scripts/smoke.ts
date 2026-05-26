@@ -152,6 +152,10 @@ async function main(): Promise<void> {
       is_organschaft_subsidiary: false,
       is_organschaft_parent: false,
       has_loss_carryforward: false,
+      is_support_fund: false,
+      is_municipal_subsidiary: false,
+      has_cbc_reporting_obligation: false,
+      has_significant_interest_expense: false,
     };
     for (const [key, value] of Object.entries(fills)) {
       const res = await callTool(client, "session_set_profile_field", {
@@ -296,15 +300,20 @@ async function main(): Promise<void> {
     });
     expect(reimport.data?.session_id === sessionId, "session_id preserved across import");
 
-    header("Triggers: KSt Anlage Zinsschranke (no triggers in 2025 help)");
-    const ztrig = await callTool<{ triggers: unknown[] }>(client, "get_form_triggers", {
+    header("Triggers: KSt Anlage Zinsschranke now bound to has_significant_interest_expense");
+    const ztrig = await callTool<{
+      triggers: { machine_check: { key: string } | null }[];
+    }>(client, "get_form_triggers", {
       tax_type: "kst",
       year: "2025",
       form_slug: "anlage-zinsschranke",
     });
+    const ztrigCheckKeys = (ztrig.data?.triggers ?? [])
+      .map((t) => t.machine_check?.key)
+      .filter((k): k is string => Boolean(k));
     expect(
-      (ztrig.data?.triggers ?? []).length === 0,
-      "anlage-zinsschranke has 0 triggers (source has none)"
+      ztrigCheckKeys.includes("has_significant_interest_expense"),
+      "anlage-zinsschranke binds to has_significant_interest_expense via maintainer override"
     );
 
     header("Full coverage for KSt 2024 (the typical previous filing year)");

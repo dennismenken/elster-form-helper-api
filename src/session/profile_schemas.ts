@@ -33,6 +33,15 @@ export const KstProfileSchema = z.object({
   is_organschaft_subsidiary: z.boolean().nullable(),
   is_organschaft_parent: z.boolean().nullable(),
   has_loss_carryforward: z.boolean().nullable(),
+  // Refines the "recommend_forms" decision for special-entity annexes that the
+  // help text only describes in prose. Without these flags, the affected forms
+  // would land in `unanswered_conditions` for every profile, which is correct
+  // but verbose. Setting them lets the recommendation engine deterministically
+  // rule them out (or in) for the typical Kapitalgesellschaft case.
+  is_support_fund: z.boolean().nullable(),
+  is_municipal_subsidiary: z.boolean().nullable(),
+  has_cbc_reporting_obligation: z.boolean().nullable(),
+  has_significant_interest_expense: z.boolean().nullable(),
 });
 export type KstProfile = z.infer<typeof KstProfileSchema>;
 
@@ -78,6 +87,29 @@ export const KstProfileMeta: Record<keyof KstProfile, ProfileFieldMeta> = {
       "Bestehen verbleibende Verlustvorträge oder wurde im Veranlagungszeitraum ein Verlust erzielt?",
     impact_de:
       "Steuert, ob Anlage Verluste relevant ist und ob Verlustfeststellungen geprüft werden müssen.",
+  },
+  is_support_fund: {
+    question_de:
+      "Ist die Körperschaft eine Unterstützungs-, Pensions-, Sterbe- oder Krankenkasse im Sinne des § 5 Absatz 1 Nummer 3 KStG?",
+    impact_de: "Steuert, ob Anlage Kassen abzugeben ist.",
+  },
+  is_municipal_subsidiary: {
+    question_de:
+      "Ist die Kapitalgesellschaft eine Eigengesellschaft der öffentlichen Hand, auf die § 8 Absatz 7 KStG anzuwenden ist?",
+    impact_de:
+      "Steuert, ob Anlage ÖHK zur Spartentrennung erforderlich ist (dauerdefizitäre kommunale Eigengesellschaft, BgA-Konstellation).",
+  },
+  has_cbc_reporting_obligation: {
+    question_de:
+      "Ist die Körperschaft inländische Konzernobergesellschaft oder beauftragte Gesellschaft im Sinne des § 138a AO (länderbezogener Bericht)?",
+    impact_de:
+      "Steuert die Pflichtfelder zum länderbezogenen Bericht (Country-by-Country) in Anlage WA.",
+  },
+  has_significant_interest_expense: {
+    question_de:
+      "Liegen Zinsaufwendungen vor, die die Zinsschranke nach § 4h EStG in Verbindung mit § 8a KStG auslösen (Nettozinsaufwand über 3 Mio. € oder weitere Tatbestände)?",
+    impact_de:
+      "Steuert, ob Anlage Zinsschranke (für Wirtschaftsjahre nach dem 14.12.2023 die § 4h-EStG-Variante) zu übermitteln ist.",
   },
 };
 
@@ -184,6 +216,10 @@ export const PROFILE_DEFINITIONS: Record<TaxType, ProfileDefinition> = {
       is_organschaft_subsidiary: null,
       is_organschaft_parent: null,
       has_loss_carryforward: null,
+      is_support_fund: null,
+      is_municipal_subsidiary: null,
+      has_cbc_reporting_obligation: null,
+      has_significant_interest_expense: null,
     }),
     fieldOrder: Object.keys(KstProfileMeta),
   },

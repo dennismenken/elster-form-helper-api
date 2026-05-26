@@ -169,20 +169,26 @@ describe("structure tools", () => {
 });
 
 describe("recommend_forms correctness for commercial corporations", () => {
+  const plainCommercialGmbhProfile = {
+    legal_form: "GmbH",
+    business_type: "commercial",
+    fiscal_year_end: "2025-12-31",
+    has_foreign_operations: false,
+    has_economic_business_activity: false,
+    is_organschaft_subsidiary: false,
+    is_organschaft_parent: false,
+    has_loss_carryforward: false,
+    is_support_fund: false,
+    is_municipal_subsidiary: false,
+    has_cbc_reporting_obligation: false,
+    has_significant_interest_expense: false,
+  };
+
   it("recommends Anlage GK and Anlage ZVE for a plain commercial GmbH (baseline triggers)", async () => {
     const env = await call<{ recommended: { slug: string }[] }>("recommend_forms", {
       tax_type: "kst",
       year: "2025",
-      profile: {
-        legal_form: "GmbH",
-        business_type: "commercial",
-        fiscal_year_end: "2025-12-31",
-        has_foreign_operations: false,
-        has_economic_business_activity: false,
-        is_organschaft_subsidiary: false,
-        is_organschaft_parent: false,
-        has_loss_carryforward: false,
-      },
+      profile: plainCommercialGmbhProfile,
     });
     expect(env.ok).toBe(true);
     if (env.ok) {
@@ -190,6 +196,70 @@ describe("recommend_forms correctness for commercial corporations", () => {
       expect(slugs).toContain("00-hauptvordruck-kst-1");
       expect(slugs).toContain("anlage-gk");
       expect(slugs).toContain("anlage-zve");
+    }
+  });
+
+  it("leaves only legitimate transactional-fact unanswered_conditions when the full profile is provided", async () => {
+    const env = await call<{ unanswered_conditions: { form_slug: string }[] }>("recommend_forms", {
+      tax_type: "kst",
+      year: "2025",
+      profile: plainCommercialGmbhProfile,
+    });
+    expect(env.ok).toBe(true);
+    if (env.ok) {
+      // After the profile-schema extension, every "is this entity type"
+      // question is decidable. What stays unanswered are content-dependent
+      // questions (specific Vermögensübertragung in KSt 1 F, donation
+      // carryforward in Anlage Z) that the model legitimately has to ask
+      // the user about. The set is bounded and well-known:
+      const remainingSlugs = env.data.unanswered_conditions.map((u) => u.form_slug).sort();
+      // No legacy "should be decidable but is not" slugs:
+      expect(remainingSlugs).not.toContain("anlage-kassen");
+      expect(remainingSlugs).not.toContain("anlage-hk-zur-spartentrennung");
+      expect(remainingSlugs).not.toContain("anlage-geno-ver");
+      expect(remainingSlugs).not.toContain("anlage-wa");
+      expect(remainingSlugs).not.toContain("anlage-zinsschranke");
+      expect(remainingSlugs).not.toContain("anlage-verluste");
+      // The transactional-fact remainder is the natural ask-the-user surface.
+      expect(env.data.unanswered_conditions.length).toBeLessThanOrEqual(4);
+    }
+  });
+
+  it("rules out special-entity annexes when their machine_check fields are false", async () => {
+    const env = await call<{
+      recommended: { slug: string }[];
+      evaluated: { slug: string; result: string }[];
+    }>("recommend_forms", {
+      tax_type: "kst",
+      year: "2025",
+      profile: plainCommercialGmbhProfile,
+    });
+    expect(env.ok).toBe(true);
+    if (env.ok) {
+      const recommended = env.data.recommended.map((r) => r.slug);
+      const ruledOut = env.data.evaluated
+        .filter((e) => e.result === "ruled_out")
+        .map((e) => e.slug);
+      // None of these should be in recommended for the plain commercial GmbH:
+      for (const slug of [
+        "anlage-kassen",
+        "anlage-hk-zur-spartentrennung",
+        "anlage-geno-ver",
+        "anlage-wa",
+        "anlage-zinsschranke",
+      ]) {
+        expect(recommended).not.toContain(slug);
+      }
+      // All of them should be conclusively ruled out (not lingering as
+      // unanswered) because the new machine_checks resolve to false.
+      for (const slug of [
+        "anlage-kassen",
+        "anlage-hk-zur-spartentrennung",
+        "anlage-wa",
+        "anlage-zinsschranke",
+      ]) {
+        expect(ruledOut).toContain(slug);
+      }
     }
   });
 });

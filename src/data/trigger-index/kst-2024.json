@@ -3,7 +3,7 @@
   "year": "2024",
   "data_commit": "ec80baa",
   "generated_at": "2026-05-26T14:30:49+02:00",
-  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0)",
+  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0) +scripts/apply_overrides.ts re-merge +scripts/apply_overrides.ts re-merge",
   "help_markdown": "elster_kst2024_help.md",
   "forms": [
     {
@@ -114,22 +114,26 @@
       "description": "Anlage Geno Ver is an annex for cooperatives (Genossenschaften) and associations (Vereine) subject to corporate income tax, covering income/expense items outside the profit and loss account and reporting obligations under § 5 Abs. 1 Nr. 10 and Nr. 14 KStG.",
       "triggers": [
         {
-          "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 10 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-10-kstg",
-          "confidence": "medium",
-          "source": "llm"
-        },
-        {
-          "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 14 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
+          "condition": "Eingetragene Genossenschaften (eG) reichen die Anlage Geno/Ver zur Ermittlung der Einkünfte aus Gewerbebetrieb ein.",
           "machine_check": {
             "key": "legal_form",
             "op": "==",
             "value": "eG"
           },
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg",
-          "confidence": "medium",
-          "source": "llm"
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Vereine und vergleichbare Personenvereinigungen reichen die Anlage Geno/Ver zur Ermittlung der Einkünfte und Mittelverwendung ein.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "association"
+          },
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine",
+          "confidence": "certain",
+          "source": "maintainer_override"
         }
       ]
     },
@@ -192,47 +196,15 @@
       "description": "Anlage ÖHK is filed for the Spartentrennung (sector separation) under § 8 Abs. 9 KStG. It applies to capital companies subject to § 8 Abs. 7 Satz 1 Nr. 2 KStG exercising multiple qualifying activities, as well as to Organträger of such companies and Organgesellschaften where the Spartenrechnung must be performed at the Organträger level.",
       "triggers": [
         {
-          "condition": "Die Anlage ÖHK ist ebenfalls abzugeben von Kapitalgesellschaften oder Betrieben gewerblicher Art, die Organträger einer solchen Eigengesellschaft nach § 8 Absatz 7 Satz 1 Nummer 1 KStG sind.",
+          "condition": "Die Anlage ÖHK zur Spartentrennung ist von Kapitalgesellschaften zu übermitteln, auf die § 8 Absatz 7 KStG anzuwenden ist (Eigengesellschaften der öffentlichen Hand mit dauerdefizitären Tätigkeiten, kombinierten BgA-Tätigkeiten oder Organschaft-Konstellationen).",
           "machine_check": {
-            "key": "is_organschaft_parent",
+            "key": "is_municipal_subsidiary",
             "op": "==",
             "value": true
           },
           "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high",
-          "source": "llm"
-        },
-        {
-          "condition": "Die Anlage ÖHK ist ebenfalls abzugeben von Organgesellschaften, wenn bei dem (gegebenenfalls mittelbaren) Organträger nach § 15 Satz 1 Nummer 5 KStG die Spartenrechnung nach § 8 Absatz 9 KStG durchzuführen ist.",
-          "machine_check": {
-            "key": "is_organschaft_subsidiary",
-            "op": "==",
-            "value": true
-          },
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high",
-          "source": "llm"
-        },
-        {
-          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehr als eine Tätigkeit ausübt, die bei einer juristischen Person des öffentlichen Rechts jeweils zu einem Betrieb gewerblicher Art führen würde, die gegebenenfalls aber nach § 4 Absatz 6 KStG zusammengefasst werden könnten.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high",
-          "source": "llm"
-        },
-        {
-          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehrere Tätigkeiten im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high",
-          "source": "llm"
-        },
-        {
-          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese neben mindestens einer wirtschaftlichen Tätigkeit auch eine Tätigkeit im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high",
-          "source": "llm"
+          "confidence": "certain",
+          "source": "maintainer_override"
         }
       ]
     },
@@ -252,11 +224,15 @@
       "description": "Anlage Kassen is filed by pension funds (Unterstützungskassen) and certain tax-exempt corporations (e.g. GmbH under § 1 Abs. 1 Nr. 1–3 KStG) to report their actual fund assets, potential over-endowment, and related data for corporate income tax purposes.",
       "triggers": [
         {
-          "condition": "Für Unterstützungskassen und steuerbefreite Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 KStG (zum Beispiel GmbH) übermitteln Sie die Steuererklärung bitte jährlich.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-1",
-          "confidence": "high",
-          "source": "llm"
+          "condition": "Die Anlage Kassen ist von Pensions-, Sterbe-, Kranken- und Unterstützungskassen im Sinne des § 5 Absatz 1 Nummer 3 KStG zu übermitteln.",
+          "machine_check": {
+            "key": "is_support_fund",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-kassen/allgemeines",
+          "confidence": "certain",
+          "source": "maintainer_override"
         }
       ]
     },
@@ -399,15 +375,15 @@
       "description": "Anlage Verluste records loss carryforwards and loss carrybacks for corporate income tax purposes, including opening balances of unused losses and the current year's negative total income amount.",
       "triggers": [
         {
-          "condition": "Die Anlage Verluste ist relevant, wenn Verlustvorträge vorhanden sind oder ein negativer Gesamtbetrag der Einkünfte entstanden ist.",
+          "condition": "Die Anlage Verluste ist zu übermitteln, wenn verbleibende Verlustvorträge bestehen oder im Veranlagungszeitraum ein Verlust erzielt wurde (Negativer Gesamtbetrag der Einkünfte oder festzustellender Verlustvortrag nach § 10d EStG).",
           "machine_check": {
             "key": "has_loss_carryforward",
             "op": "==",
             "value": true
           },
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-verluste",
-          "confidence": "medium",
-          "source": "llm"
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-verluste/negativer-gesamtbetrag-der-eink-nfte",
+          "confidence": "certain",
+          "source": "maintainer_override"
         }
       ]
     },
@@ -419,18 +395,15 @@
       "description": "Anlage WA covers various supplementary disclosures for the corporate income tax return, including crediting of withholding taxes (§§ 36, 36a, 50a, 50d EStG), harmful share acquisitions (§ 8c KStG), continuity-bound loss/interest carryforwards (§ 8d KStG), country-by-country reporting (§ 138a AO), Corona subsidies, and the economic identification number of partnerships.",
       "triggers": [
         {
-          "condition": "Bei inländischen Konzernobergesellschaften oder beauftragten Gesellschaften im Sinne des § 138a AO übermitteln Sie bitte dem Bundeszentralamt für Steuern (BZSt) einen länderbezogenen Bericht nach § 138a Absatz 2 AO.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao",
+          "condition": "Inländische Konzernobergesellschaften oder beauftragte Gesellschaften im Sinne des § 138a AO übermitteln einen länderbezogenen Bericht; die zugehörigen Pflichtfelder werden in Anlage WA ausgefüllt.",
+          "machine_check": {
+            "key": "has_cbc_reporting_obligation",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-wa",
           "confidence": "high",
-          "source": "llm"
-        },
-        {
-          "condition": "Corona-Zuschüsse sind neben der Erfassung in der Gewinnermittlung zusätzlich hier (Körperschaftsteuererklärung, Anlage WA, Zeile 40) zu erklären.",
-          "machine_check": null,
-          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/corona-soforthilfen-berbr-ckungshilfen-und-vergleichbare-zusch-sse",
-          "confidence": "high",
-          "source": "llm"
+          "source": "maintainer_override"
         }
       ]
     },
@@ -456,7 +429,19 @@
       "form_kind": "annex",
       "mandatory": false,
       "description": "Anlage Zinsschranke reports interest expense deductibility limitations under § 4h EStG in conjunction with § 8 Abs. 1 and § 8a KStG, including interest carryforwards, EBITDA calculations, and related figures for corporations subject to the interest barrier rules.",
-      "triggers": []
+      "triggers": [
+        {
+          "condition": "Die Anlage Zinsschranke (altes Schema, vor 14.12.2023 beginnende Wirtschaftsjahre) ist zu übermitteln, wenn die Zinsschranke nach § 4h EStG in Verbindung mit § 8a KStG einschlägig ist.",
+          "machine_check": {
+            "key": "has_significant_interest_expense",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-zinsschranke",
+          "confidence": "high",
+          "source": "maintainer_override"
+        }
+      ]
     },
     {
       "slug": "anlage-zinsschranke-4h-estg",
@@ -466,15 +451,15 @@
       "description": "Anlage Zinsschranke (§ 4h EStG i.V.m. § 8a KStG) documents the limitation on the deductibility of interest expenses (Zinsschranke) for fiscal years beginning after 14 December 2023, including deductible interest, interest carryforwards, and related adjustments for organschaft and partnerships.",
       "triggers": [
         {
-          "condition": "Die Anlage Zinsschranke ist für Wirtschaftsjahre, die nach dem 14. Dezember 2023 beginnen, zu übermitteln, wenn Zinsaufwendungen im Sinne des § 4h EStG in Verbindung mit § 8a KStG vorliegen.",
+          "condition": "Die Anlage Zinsschranke (§ 4h EStG-Variante) ist für Wirtschaftsjahre zu übermitteln, die nach dem 14. Dezember 2023 beginnen, wenn Zinsaufwendungen im Sinne des § 4h EStG in Verbindung mit § 8a KStG vorliegen.",
           "machine_check": {
-            "key": "fiscal_year_end",
-            "op": ">",
-            "value": "2023-12-14"
+            "key": "has_significant_interest_expense",
+            "op": "==",
+            "value": true
           },
           "help_source": "elster_kst2024_help.md#hinweise-zur-anlage-zinsschranke-betriebsausgabenabzug-f-r-zinsaufwendungen-4h-estg-in-verbindung-mit-8a-kstg-f-r-wirtschaftsjahre-die-nach-dem-14-dezember-2023-beginnen",
-          "confidence": "medium",
-          "source": "llm"
+          "confidence": "certain",
+          "source": "maintainer_override"
         }
       ]
     },
