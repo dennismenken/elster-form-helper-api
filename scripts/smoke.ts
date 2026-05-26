@@ -87,7 +87,7 @@ async function main(): Promise<void> {
     const instructions = client.getInstructions();
     expect(Boolean(serverVersion?.name), `serverInfo.name present (${serverVersion?.name ?? ""})`);
     expect(
-      Boolean(instructions) && instructions.includes("elster-forms"),
+      typeof instructions === "string" && instructions.includes("elster-forms"),
       "initialize instructions mention elster-forms"
     );
 
@@ -137,7 +137,10 @@ async function main(): Promise<void> {
     }>(client, "session_get_open_questions", { session_id: sessionId });
     const openKeys = open.data?.open_profile_fields.map((f) => f.key) ?? [];
     console.log(`   missing: ${openKeys.join(", ")}`);
-    expect(openKeys.includes("has_economic_business_activity"), "open includes has_economic_business_activity");
+    expect(
+      openKeys.includes("has_economic_business_activity"),
+      "open includes has_economic_business_activity"
+    );
     expect(!openKeys.includes("legal_form"), "legal_form is filled (not open)");
 
     header("Session: fill the rest of the profile");
@@ -174,10 +177,16 @@ async function main(): Promise<void> {
     console.log(`   unanswered_conditions: ${reco.data?.unanswered_conditions.length ?? 0}`);
     console.log(`   evaluated: ${reco.data?.evaluated.length ?? 0}`);
     expect(recoSlugs.includes("00-hauptvordruck-kst-1"), "Hauptvordruck recommended");
-    expect(recoSlugs.includes("anlage-gk"), "anlage-gk recommended (has_economic_business_activity=true)");
+    expect(
+      recoSlugs.includes("anlage-gk"),
+      "anlage-gk recommended (has_economic_business_activity=true)"
+    );
     expect(recoSlugs.includes("anlage-zve"), "anlage-zve recommended");
     expect(recoSlugs.includes("anlage-gem"), "anlage-gem recommended (business_type=non_profit)");
-    expect(!recoSlugs.includes("anlage-aest"), "anlage-aest NOT recommended (has_foreign_operations=false)");
+    expect(
+      !recoSlugs.includes("anlage-aest"),
+      "anlage-aest NOT recommended (has_foreign_operations=false)"
+    );
 
     header("Form outline: anlage-gk");
     const outline = await callTool<{ lines: Array<{ line_number: string | null }> }>(
@@ -293,7 +302,10 @@ async function main(): Promise<void> {
       year: "2025",
       form_slug: "anlage-zinsschranke",
     });
-    expect((ztrig.data?.triggers ?? []).length === 0, "anlage-zinsschranke has 0 triggers (source has none)");
+    expect(
+      (ztrig.data?.triggers ?? []).length === 0,
+      "anlage-zinsschranke has 0 triggers (source has none)"
+    );
 
     header("Degraded mode: forms work for KSt 2024, triggers/snippets do not");
     const ist2024 = await callTool<{ forms: unknown[] }>(client, "list_forms", {

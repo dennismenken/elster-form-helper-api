@@ -141,7 +141,7 @@ describe("structure tools", () => {
     expect(env.ok).toBe(true);
   });
 
-  it("suggests neighbours on FORM_NOT_FOUND", async () => {
+  it("suggests neighbours on FORM_NOT_FOUND (typo recovery)", async () => {
     const env = await call("get_form_outline", {
       tax_type: "kst",
       year: "2025",
@@ -151,6 +151,45 @@ describe("structure tools", () => {
     if (!env.ok) {
       expect(env.error.code).toBe("FORM_NOT_FOUND");
       expect(env.error.suggestions).toContain("anlage-zve");
+    }
+  });
+
+  it("suggests anlage-hk-zur-spartentrennung when the user writes anlage-öhk", async () => {
+    const env = await call("get_form_outline", {
+      tax_type: "kst",
+      year: "2025",
+      form_slug: "anlage-öhk",
+    });
+    expect(env.ok).toBe(false);
+    if (!env.ok) {
+      expect(env.error.code).toBe("FORM_NOT_FOUND");
+      expect(env.error.suggestions ?? []).toContain("anlage-hk-zur-spartentrennung");
+    }
+  });
+});
+
+describe("recommend_forms correctness for commercial corporations", () => {
+  it("recommends Anlage GK and Anlage ZVE for a plain commercial GmbH (baseline triggers)", async () => {
+    const env = await call<{ recommended: { slug: string }[] }>("recommend_forms", {
+      tax_type: "kst",
+      year: "2025",
+      profile: {
+        legal_form: "GmbH",
+        business_type: "commercial",
+        fiscal_year_end: "2025-12-31",
+        has_foreign_operations: false,
+        has_economic_business_activity: false,
+        is_organschaft_subsidiary: false,
+        is_organschaft_parent: false,
+        has_loss_carryforward: false,
+      },
+    });
+    expect(env.ok).toBe(true);
+    if (env.ok) {
+      const slugs = env.data.recommended.map((r) => r.slug);
+      expect(slugs).toContain("00-hauptvordruck-kst-1");
+      expect(slugs).toContain("anlage-gk");
+      expect(slugs).toContain("anlage-zve");
     }
   });
 });

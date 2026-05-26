@@ -2,7 +2,12 @@ import { afterAll, beforeAll, describe, expect, it } from "vitest";
 
 import { parseHelpMarkdown, findHelpNode, renderHelpBody } from "../src/catalogue/help_tree.js";
 import { normalizePages, walkLines } from "../src/catalogue/normalize.js";
-import { searchHelp, searchLines, nearestNeighbours } from "../src/catalogue/search.js";
+import {
+  searchHelp,
+  searchLines,
+  nearestNeighbours,
+  suggestForms,
+} from "../src/catalogue/search.js";
 import { buildTestContext } from "./helpers.js";
 import type { Catalogue } from "../src/catalogue/types.js";
 
@@ -141,5 +146,65 @@ describe("search", () => {
   it("levenshtein nearest neighbours surface obvious typos", () => {
     const out = nearestNeighbours(["anlage-gk", "anlage-zve", "anlage-ot"], "anlage-zv", 3);
     expect(out).toContain("anlage-zve");
+  });
+
+  it("suggestForms recovers a Levenshtein-close slug typo", () => {
+    const out = suggestForms(
+      [
+        { slug: "anlage-gk", name: "Anlage GK" },
+        { slug: "anlage-zve", name: "Anlage ZVE" },
+        { slug: "anlage-ot", name: "Anlage OT" },
+      ],
+      "anlage-zv",
+      3
+    );
+    expect(out[0]).toBe("anlage-zve");
+  });
+
+  it("suggestForms recovers from the umlaut-dropped slug case (anlage-öhk → anlage-hk-zur-spartentrennung)", () => {
+    const out = suggestForms(
+      [
+        { slug: "anlage-gk", name: "Anlage GK" },
+        { slug: "anlage-hk-zur-spartentrennung", name: "Anlage ÖHK zur Spartentrennung" },
+        { slug: "anlage-aev", name: "Anlage AEV" },
+      ],
+      "anlage-öhk",
+      3
+    );
+    expect(out).toContain("anlage-hk-zur-spartentrennung");
+    expect(out[0]).toBe("anlage-hk-zur-spartentrennung");
+  });
+
+  it("suggestForms surfaces matches by display-name substring even when the slug differs (anlage-geno-ver from 'Genossenschaften')", () => {
+    const out = suggestForms(
+      [
+        { slug: "anlage-geno-ver", name: "Anlage Genossenschaften Vereine" },
+        { slug: "anlage-gk", name: "Anlage GK" },
+        { slug: "anlage-aev", name: "Anlage AEV" },
+      ],
+      "anlage-genossenschaften",
+      3
+    );
+    expect(out[0]).toBe("anlage-geno-ver");
+  });
+});
+
+describe("baseline filing triggers", () => {
+  it("anlage-gk has a maintainer baseline trigger for commercial corporations", () => {
+    const form = catalogue.forms.get("kst/2025/anlage-gk");
+    const baseline = form?.triggers.find(
+      (t) => t.machine_check?.key === "business_type" && t.machine_check.value === "commercial"
+    );
+    expect(baseline).toBeDefined();
+    expect(baseline?.confidence).toBe("certain");
+  });
+
+  it("anlage-zve has a maintainer baseline trigger for commercial corporations", () => {
+    const form = catalogue.forms.get("kst/2025/anlage-zve");
+    const baseline = form?.triggers.find(
+      (t) => t.machine_check?.key === "business_type" && t.machine_check.value === "commercial"
+    );
+    expect(baseline).toBeDefined();
+    expect(baseline?.confidence).toBe("certain");
   });
 });

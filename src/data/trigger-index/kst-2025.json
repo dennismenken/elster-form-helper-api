@@ -134,6 +134,17 @@
       "description": "Anlage GK is used to determine the income from commercial operations (Gewerbebetrieb) for corporate income tax purposes, including balance sheet results, outside-balance-sheet corrections, Organschaft profit adjustments, § 8b KStG applications, and foreign-related matters.",
       "triggers": [
         {
+          "condition": "Die Anlage GK ist von jeder Kapitalgesellschaft (z. B. GmbH, UG, AG, SE, KGaA) zur Ermittlung der Einkünfte aus Gewerbebetrieb für die Körperschaftsteuer zu übermitteln. Sie deckt das bilanzielle Ergebnis, außerbilanzielle Korrekturen und Sondertatbestände nach § 8b KStG ab.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "commercial"
+          },
+          "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-gk",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
           "condition": "Bei steuerbegünstigten Körperschaften mit wirtschaftlichem Geschäftsbetrieb ist die Anlage GK zu übermitteln, wenn die Einnahmen 45.000 € im Veranlagungszeitraum übersteigen.",
           "machine_check": {
             "key": "has_economic_business_activity",
@@ -477,6 +488,17 @@
       "mandatory": false,
       "description": "Anlage ZVE (Ermittlung des zu versteuernden Einkommens) is used to calculate the total income and taxable income for corporate income tax purposes, covering all income categories (agriculture, trade, self-employment, capital, rental, etc.) and deductions.",
       "triggers": [
+        {
+          "condition": "Die Anlage ZVE zur Ermittlung des zu versteuernden Einkommens ist grundsätzlich von jeder unbeschränkt steuerpflichtigen Körperschaft (typischerweise Kapitalgesellschaften wie GmbH, UG, AG) zu übermitteln und bündelt sämtliche Einkunftsarten zur Berechnung des Gesamtbetrags und des zu versteuernden Einkommens.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "commercial"
+          },
+          "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-zve",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
         {
           "condition": "Wurde für Einkünfte im Sinne des § 6 Absatz 3 Satz 1 InvStG beziehungsweise sonstige inländische Einkünfte nach § 6 Absatz 5 InvStG eines Investmentfonds kein Steuerabzug oder ein zu niedriger Steuerabzug vorgenommen oder ein Steuerabzug zu Unrecht erstattet, übermitteln Sie bitte insoweit für den Investmentfonds eine Körperschaftsteuererklärung. Den ermittelten Wert erfassen Sie mit in Zeile 76 der Anlage ZVE.",
           "machine_check": null,

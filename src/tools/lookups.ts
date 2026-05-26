@@ -1,5 +1,5 @@
 import { ERROR_CODES, ToolError } from "../errors.js";
-import { nearestNeighbours } from "../catalogue/search.js";
+import { nearestNeighbours, suggestForms } from "../catalogue/search.js";
 import {
   formKey,
   isTaxType,
@@ -49,8 +49,12 @@ export function resolveForm(
   const key = formKey(taxType, year, formSlug);
   const direct = catalogue.forms.get(key);
   if (direct) return direct;
-  const candidates = formsByYear(catalogue, taxType, year).map((f) => f.slug);
-  const suggestions = nearestNeighbours(candidates, formSlug, 3);
+  const forms = formsByYear(catalogue, taxType, year);
+  const suggestions = suggestForms(
+    forms.map((f) => ({ slug: f.slug, name: f.name })),
+    formSlug,
+    3
+  );
   throw new ToolError({
     code: ERROR_CODES.FORM_NOT_FOUND,
     message: `Form '${formSlug}' does not exist for ${taxType.toUpperCase()} ${year}.`,

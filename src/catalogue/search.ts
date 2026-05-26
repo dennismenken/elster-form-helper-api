@@ -180,8 +180,13 @@ function isLetterOrDigit(ch: string): boolean {
 }
 
 /**
- * Top-N Levenshtein-1 neighbours from a pool of candidate strings. Used to
- * suggest near-misses on form-slug or line-number typos.
+ * Top-N Levenshtein-near neighbours from a pool of candidate strings. Used to
+ * suggest near-misses on line-number typos, where the candidates are short
+ * and the right answer is almost always a one-character edit away.
+ *
+ * For form-slug suggestions use `suggestForms` instead: form slugs and the
+ * user's mental model of them diverge in non-Levenshtein ways (e.g. dropped
+ * umlauts), so a richer signal is needed.
  */
 export function nearestNeighbours(
   candidates: readonly string[],
@@ -194,6 +199,86 @@ export function nearestNeighbours(
     .filter((s) => s.d <= Math.max(2, Math.floor(query.length / 3)))
     .slice(0, top)
     .map((s) => s.c);
+}
+
+/**
+ * Suggest the top-N form slugs a user probably meant, given a misspelled
+ * slug or a slug derived from a heading with characters that the upstream
+ * slugify algorithm drops (notably umlauts).
+ *
+ * Combines three signals:
+ *   1. Levenshtein closeness on the slug — typo recovery (`anlage-zv` → `anlage-zve`).
+ *   2. Token overlap on the slug — input tokens that share or substring-match a
+ *      candidate's hyphen-separated tokens (`anlage-öhk` → tokens `[anlage, hk]`
+ *      → matches `anlage-hk-zur-spartentrennung`).
+ *   3. Substring match on the human-readable display name — catches umlaut
+ *      cases where the slug lost a glyph: `öhk` substring of "Anlage ÖHK …".
+ *
+ * Returns a deterministic top-N list, suggestions with score 0 are excluded.
+ */
+export function suggestForms(
+  catalogue: { slug: string; name: string }[],
+  query: string,
+  top: number
+): string[] {
+  const qTokens = tokenizeFormName(query);
+  const qSlugNormalized = normalizeForCompare(query);
+  if (qTokens.length === 0) return [];
+
+  const scored = catalogue.map((c) => {
+    const cSlugNorm = normalizeForCompare(c.slug);
+    const cSlugTokens = tokenizeFormName(c.slug);
+    const cNameTokens = tokenizeFormName(c.name);
+
+    let score = 0;
+
+    // Token overlap on slug (each shared/substring-shared token contributes).
+    for (const qt of qTokens) {
+      for (const st of cSlugTokens) {
+        if (st === qt) score += 6;
+        else if (qt.length >= 2 && st.length >= 2 && (st.includes(qt) || qt.includes(st))) {
+          score += 3;
+        }
+      }
+    }
+
+    // Substring/token match against the display name — the umlaut-recovery path.
+    for (const qt of qTokens) {
+      for (const nt of cNameTokens) {
+        if (nt === qt) score += 5;
+        else if (qt.length >= 2 && nt.length >= 2 && (nt.includes(qt) || qt.includes(nt))) {
+          score += 2;
+        }
+      }
+    }
+
+    // Levenshtein bonus for close-typo cases.
+    const lev = levenshtein(cSlugNorm, qSlugNormalized);
+    const levThreshold = Math.max(2, Math.floor(qSlugNormalized.length / 3));
+    if (lev <= levThreshold) score += levThreshold + 1 - lev;
+
+    return { slug: c.slug, score };
+  });
+
+  scored.sort((a, b) => b.score - a.score || a.slug.localeCompare(b.slug));
+  return scored
+    .filter((s) => s.score > 0)
+    .slice(0, top)
+    .map((s) => s.slug);
+}
+
+/** Lower-case, replace any non-alphanumeric run with a single space, trim. */
+function normalizeForCompare(input: string): string {
+  return input
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function tokenizeFormName(input: string): string[] {
+  return normalizeForCompare(input)
+    .split(" ")
+    .filter((t) => t.length > 0);
 }
 
 function levenshtein(a: string, b: string): number {
