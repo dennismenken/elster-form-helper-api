@@ -14,7 +14,7 @@ export default [
       "node_modules/**",
       "src/data/**",
       "vitest.config.ts",
-      "scripts/**",
+      "scripts/*.mjs",
       "*.mjs",
     ],
   },
@@ -80,9 +80,11 @@ export default [
     },
   },
   {
-    files: ["test/**/*.ts", "**/*.test.ts"],
+    files: ["test/**/*.ts", "**/*.test.ts", "scripts/**/*.ts"],
     rules: {
       "@typescript-eslint/no-non-null-assertion": "off",
+      "@typescript-eslint/restrict-template-expressions": "off",
+      "@typescript-eslint/array-type": "off",
       "no-console": "off",
     },
   },
