@@ -1,0 +1,108 @@
+{
+  "data_commit": "274e0eb",
+  "generated_at": "2026-05-26T12:38:13+02:00",
+  "files": [
+    {
+      "tax_type": "gewst",
+      "year": "2020",
+      "filename": "elster_gewst2020_help.md",
+      "relative_path": "gewst/2020/elster_gewst2020_help.md"
+    },
+    {
+      "tax_type": "gewst",
+      "year": "2021",
+      "filename": "elster_gewst2021_help.md",
+      "relative_path": "gewst/2021/elster_gewst2021_help.md"
+    },
+    {
+      "tax_type": "gewst",
+      "year": "2022",
+      "filename": "elster_gewst2022_help.md",
+      "relative_path": "gewst/2022/elster_gewst2022_help.md"
+    },
+    {
+      "tax_type": "gewst",
+      "year": "2023",
+      "filename": "elster_gewst2023_help.md",
+      "relative_path": "gewst/2023/elster_gewst2023_help.md"
+    },
+    {
+      "tax_type": "gewst",
+      "year": "2024",
+      "filename": "elster_gewst2024_help.md",
+      "relative_path": "gewst/2024/elster_gewst2024_help.md"
+    },
+    {
+      "tax_type": "gewst",
+      "year": "2025",
+      "filename": "elster_gewst2025_help.md",
+      "relative_path": "gewst/2025/elster_gewst2025_help.md"
+    },
+    {
+      "tax_type": "kst",
+      "year": "2021",
+      "filename": "elster_kst2021_help.md",
+      "relative_path": "kst/2021/elster_kst2021_help.md"
+    },
+    {
+      "tax_type": "kst",
+      "year": "2022",
+      "filename": "elster_kst2022_help.md",
+      "relative_path": "kst/2022/elster_kst2022_help.md"
+    },
+    {
+      "tax_type": "kst",
+      "year": "2023",
+      "filename": "elster_kst2023_help.md",
+      "relative_path": "kst/2023/elster_kst2023_help.md"
+    },
+    {
+      "tax_type": "kst",
+      "year": "2024",
+      "filename": "elster_kst2024_help.md",
+      "relative_path": "kst/2024/elster_kst2024_help.md"
+    },
+    {
+      "tax_type": "kst",
+      "year": "2025",
+      "filename": "elster_kst2025_help.md",
+      "relative_path": "kst/2025/elster_kst2025_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2020",
+      "filename": "elster_ust2020_help.md",
+      "relative_path": "ust/2020/elster_ust2020_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2021",
+      "filename": "elster_ust2021_help.md",
+      "relative_path": "ust/2021/elster_ust2021_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2022",
+      "filename": "elster_ust2022_help.md",
+      "relative_path": "ust/2022/elster_ust2022_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2023",
+      "filename": "elster_ust2023_help.md",
+      "relative_path": "ust/2023/elster_ust2023_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2024",
+      "filename": "elster_ust2024_help.md",
+      "relative_path": "ust/2024/elster_ust2024_help.md"
+    },
+    {
+      "tax_type": "ust",
+      "year": "2025",
+      "filename": "elster_ust2025_help.md",
+      "relative_path": "ust/2025/elster_ust2025_help.md"
+    }
+  ]
+}
