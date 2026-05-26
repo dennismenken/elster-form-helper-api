@@ -1,0 +1,404 @@
+[
+  {
+    "context_label": "Anlagen AESt",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Anrechnung/Abzug ausländischer Steuern",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name des Staates",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des Staates",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage AESt",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "2",
+            "label": "Name des Staates",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Ausländische Einkünfte und Steuern aus eigener Tätigkeit",
+    "sections": [
+      {
+        "section_label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG",
+        "rows": [
+          {
+            "row": "3",
+            "label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG, die nach § 8b Absatz 1 und 4 KStG steuerfrei sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3a",
+            "label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG, die nicht nach § 8b Absatz 1 und 4 KStG steuerfrei sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3b",
+            "label": "Nur bei Organgesellschaften:Auf die Beträge laut Zeilen 3 und 3a entfallende Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 3c Absatz 2 Satz 1 zweiter Halbsatz EStG, die damit in wirtschaftlichem Zusammenhang stehen (ohne ausländische Steuern) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Auf die Beträge laut Zeile 3 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4a",
+            "label": "Auf die Beträge laut Zeile 3a entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Auf die Beträge laut Zeile 3 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5a",
+            "label": "Auf die Beträge laut Zeile 3a entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Veräußerung von Anteilen an Körperschaften",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Saldo der Gewinne und Verluste aus der Veräußerung von Anteilen an Körperschaften und gleichgestellten Vorgängen nach § 8b Absatz 2 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Auf die Beträge laut Zeile 6 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Auf die Beträge laut Zeile 6 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Aktienfonds",
+        "rows": [
+          {
+            "row": "9",
+            "label": "Investmenterträge aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG – ohne Beträge, die in Zeile 12 einzutragen sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Auf die Beträge laut Zeile 9 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Auf die Beträge laut Zeile 9 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Investmenterträge aus Aktienfonds im Sinne des § 2 Absatz 6 InvStG, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind, gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Auf die Beträge laut Zeile 12 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Auf die Beträge laut Zeile 12 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Mischfonds",
+        "rows": [
+          {
+            "row": "15",
+            "label": "Investmenterträge aus Mischfonds im Sinne des § 2 Absatz 7 InvStG gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG – ohne Beträge, die in Zeile 18 einzutragen sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Auf die Beträge laut Zeile 15 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Auf die Beträge laut Zeile 15 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Investmenterträge aus Mischfonds im Sinne des § 2 Absatz 7 InvStG, die den Kapitalanlagen eines Lebens- oder Krankenversicherungsunternehmens beziehungsweise einem Pensionsfonds zuzurechnen sind oder wenn die Voraussetzungen des § 20 Absatz 1 Satz 4 Nummer 2 InvStG erfüllt sind, gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Auf die Beträge laut Zeile 18 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Auf die Beträge laut Zeile 18 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG",
+        "rows": [
+          {
+            "row": "21",
+            "label": "Investmenterträge aus Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Auf die Beträge laut Zeile 21 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Auf die Beträge laut Zeile 21 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG",
+        "rows": [
+          {
+            "row": "24",
+            "label": "Investmenterträge aus Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG gekürzt um Betriebsvermögensminderungen, Betriebsausgaben und weitere Beträge im Sinne des § 21 InvStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Auf die Beträge laut Zeile 24 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Auf die Beträge laut Zeile 24 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Übrige ausländische Einkünfte",
+        "rows": [
+          {
+            "row": "27",
+            "label": "Übrige ausländische Einkünfte, die nicht in den Zeilen 3, 3a, 6, 9, 12, 15, 18, 21 und 24 einzutragen sind, einschließlich Übertragungsgewinne im Sinne des § 3 Absatz 3, § 11 Absatz 3 UmwStG oder Einbringungsgewinne im Sinne des § 20 Absatz 7 oder 8 UmwStG (einschließlich ausländischer Steuer; nach Verlustausgleich und Verlustabzug nach § 2a Absatz 1 EStG; gegebenenfalls ausländische Einkünfte im Sinne des § 50 Absatz 3 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Auf die Beträge laut Zeile 27 entfallende ausländische Steuern, die der deutschen Einkommensteuer beziehungsweise Körperschaftsteuer entsprechen, gekürzt um einen entstandenen Ermäßigungsanspruch laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Auf die Beträge laut Zeile 27 entfallende nicht anrechenbare ausländische Steuern, die nach § 34c Absatz 3 EStG zum Steuerabzug berechtigen laut Nachweis (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Fiktive ausländische Steuer",
+        "rows": [
+          {
+            "row": "30a",
+            "label": "Laut DBA anzurechnende fiktive ausländische Steuer (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Ausländische Einkünfte und Steuern aus Beteiligungen an Personengesellschaften laut gesonderter und einheitlicher Feststellung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "31",
+            "label": "Ausländische Einkünfte nach § 34c Absatz 1 EStG (bei Organgesellschaften: wenn der Organträger der Körperschaftsteuer unterliegt) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Nur bei Organgesellschaften: Ausländische Einkünfte nach § 34c Absatz 1 EStG, wenn der Organträger der Einkommensteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Ausländische Steuern nach § 34c Absatz 1 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Ausländische Steuern im Sinne des § 34c Absatz 2 EStG (bei Organgesellschaften: wenn der Organträger der Körperschaftsteuer unterliegt) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Nur bei Organgesellschaften: Ausländische Steuern im Sinne des § 34c Absatz 2 EStG, wenn der Organträger der Einkommensteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Ausländische Einkünfte und Steuern der Organgesellschaften laut gesonderter und einheitlicher Feststellung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "36",
+            "label": "Ausländische Einkünfte nach § 34c Absatz 1 EStG, wenn der Organträger der Körperschaftsteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Ausländische Einkünfte nach § 34c Absatz 1 EStG, wenn der Organträger der Einkommensteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "Ausländische Steuern nach § 34c Absatz 1 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "39",
+            "label": "Ausländische Steuern im Sinne des § 34c Absatz 2 EStG, wenn der Organträger der Körperschaftsteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Ausländische Steuern im Sinne des § 34c Absatz 2 EStG, wenn der Organträger der Einkommensteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Abzuziehende ausländische Steuern nach § 34c Absatz 2",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "41",
+            "label": "Nicht bei Organgesellschaften: Der Antrag auf Abzug vom Einkommen nach § 34c Absatz 2 EStG wird gestellt",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "42",
+            "label": "Abzuziehende ausländische Steuern nach § 34c Absatz 2 EStG (wenn Antrag laut Zeile 41 gestellt: Summe aus 20 % des Betrages laut Zeile 10, 70 % des Betrages laut Zeile 13, 60 % des Betrages laut Zeile 16, 85 % des Betrages laut Zeile 19, 40 % des Betrages laut Zeile 22 und 20 % des Betrages laut Zeile 25 zuzüglich Summe der Beträge laut Zeilen 4a, 28, 34 und 39) - (Übertrag nach Zeile 20 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

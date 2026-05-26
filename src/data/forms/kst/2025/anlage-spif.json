@@ -1,0 +1,547 @@
+[
+  {
+    "context_label": "Anlage SPIF",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Unmittelbar gehaltene Anteile an einem Spezial-Investmentfonds",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Diese Anlage ist für jede Ertragsverwendung gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung des Spezial-Investmentfonds",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung des Spezial-Investmentfonds",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage SPIF",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Bezeichnung des Spezial-Investmentfonds",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "ISIN",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Wirtschafts-Identifikationsnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Die nachfolgenden Besteuerungsgrundlagen ergeben sich aus der Feststellung vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Eine Feststellung ist noch nicht erfolgt.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Zeitpunkt, zu dem die Besteuerungsgrundlagen zu berücksichtigen sind (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Art der Ertragsverwendung",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Zwischenausschüttung",
+              "Zuflussfiktion aufgrund Veräußerung",
+              "Schlussausschüttung",
+              "Thesaurierung",
+              "Teilausschüttung"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Gesondert festgestellte Besteuerungsgrundlagen",
+    "sections": [
+      {
+        "section_label": "Feststellungen, wenn der Anleger der unbeschränkten Körperschaftsteuerpflicht unterliegt und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllt",
+        "rows": [
+          {
+            "row": "10",
+            "label": "Steuerpflichtige Spezial-Investmenterträge nach § 20 Absatz 1 Nummer 3a EStG in Verbindung mit § 34 Absatz 1 Nummer 1 und 2 InvStG (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Einkünfte (vor Berücksichtigung von Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Für den Steuerabzug nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Nur bei Organgesellschaften: Feststellungen, wenn der Anleger der unbeschränkten Einkommensteuerpflicht unterliegt und die Spezial-Investmentanteile im Betriebsvermögen hält, aber nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllt",
+        "rows": [
+          {
+            "row": "20",
+            "label": "Steuerpflichtige Spezial-Investmenterträge nach § 20 Absatz 1 Nummer 3a EStG in Verbindung mit § 34 Absatz 1 Nummer 1 und 2 InvStG (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Einkünfte (vor Berücksichtigung von Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Für den Steuerabzug nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Feststellungen, wenn der Anleger der unbeschränkten Körperschaftsteuerpflicht unterliegt und die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllt",
+        "rows": [
+          {
+            "row": "30",
+            "label": "Steuerpflichtige Spezial-Investmenterträge nach § 20 Absatz 1 Nummer 3a EStG in Verbindung mit § 34 Absatz 1 Nummer 1 und 2 InvStG (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Einkünfte (vor Berücksichtigung von Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Für den Steuerabzug nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Feststellungen, wenn der Anleger der beschränkten Körperschaftsteuerpflicht unterliegt",
+        "rows": [
+          {
+            "row": "40",
+            "label": "Steuerpflichtige Einkünfte nach § 33 Absatz 3 InvStG in Verbindung mit § 49 Absatz 1 Nummer 2 Buchstabe f, Nummer 6 oder 8 EStG sowie nach § 33 Absatz 4 InvStG in Verbindung mit § 49 Absatz 1 EStG, wenn der Anleger dem Körperschaftsteuergesetz unterliegt und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllt (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "41",
+            "label": "Steuerpflichtige Einkünfte nach § 33 Absatz 3 InvStG in Verbindung mit § 49 Absatz 1 Nummer 2 Buchstabe f, Nummer 6 oder 8 EStG sowie nach § 33 Absatz 4 InvStG in Verbindung mit § 49 Absatz 1 EStG, wenn der Anleger eine natürliche Person ist, die die Spezial-Investmentanteile im Privatvermögen hält, oder wenn der Anleger dem Körperschaftsteuergesetz unterliegt und die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllt (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Zinserträge",
+        "rows": [
+          {
+            "row": "42",
+            "label": "In den ausgeschütteten und ausschüttungsgleichen Erträgen enthaltener Zinsertrag nach § 46 Absatz 1 Satz 1 InvStG für Zwecke des § 4h Absatz 1 EStG (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Zusätzliche Feststellungen bei Veräußerung",
+        "rows": [
+          {
+            "row": "50",
+            "label": "Veräußerung nach § 2 Absatz 13 InvStG am (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "51",
+            "label": "Fiktive Veräußerung nach § 52 Absatz 2 InvStG am (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "52",
+            "label": "Anzahl der veräußerten Anteile (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "53",
+            "label": "Anzahl der Anteile des Anlegers bis zum Zeitpunkt der Veräußerung (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "54",
+            "label": "Fonds-Aktiengewinn je Anteil nach § 48 Absatz 3 InvStG zum maßgeblichen Zeitpunkt (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "55",
+            "label": "Fonds-Abkommensgewinn je Anteil nach § 48 Absatz 5 InvStG zum maßgeblichen Zeitpunkt (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "56",
+            "label": "Fonds-Teilfreistellungsgewinn je Anteil nach § 48 Absatz 6 InvStG zum maßgeblichen Zeitpunkt für Anleger, die dem Körperschaftsteuergesetz unterliegen und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "57",
+            "label": "Nur bei Organgesellschaften:Fonds-Teilfreistellungsgewinn je Anteil nach § 48 Absatz 6 InvStG zum maßgeblichen Zeitpunkt für natürliche Personen, die die Spezial-Investmentanteile im Betriebsvermögen halten und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (X,XXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "58",
+            "label": "Fonds-Teilfreistellungsgewinn je Anteil nach § 48 Absatz 6 InvStG zum maßgeblichen Zeitpunkt für natürliche Personen, die die Spezial-Investmentanteile im Privatvermögen halten, und für Anleger, die die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (X,XXXX)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Nicht gesondert festgestellte Besteuerungsgrundlagen",
+    "sections": [
+      {
+        "section_label": "Berechnung der laufenden steuerpflichtigen Spezial-Investmenterträge nach § 20 Absatz 1 Nummer 3a EStG in Verbindung mit § 34 Absatz 1 Nummer 1 und 2 InvStG",
+        "rows": [
+          {
+            "row": "60",
+            "label": "Die Anteile unterliegen § 20 Absatz 1 Satz 4 oder 5 InvStG",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "60a",
+            "label": "Bei beschränkter Steuerpflicht oder bei mehreren Betrieben/Einkunftsarten:Die Anteile sind einer inländischen Betriebsstätte oder einem Gewerbebetrieb zuzuordnen",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "61",
+            "label": "Ausgangsbetrag(falls die Anteile bei beschränkter Körperschaftsteuerpflicht keinem inländischen Betrieb zugeordnet sind: falls die Anteile laut Zeile 60 § 20 Absatz 1 Satz 4 oder 5 InvStG unterliegen: Betrag laut Zeile 41, sonst Betrag laut Zeile 40;andernfalls: falls die Anteile laut Zeile 60 § 20 Absatz 1 Satz 4 oder 5 InvStG unterliegen: Betrag laut Zeile 30, sonst Betrag laut Zeile 10) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "62",
+            "label": "Dazu: Nach § 44 InvStG nichtabziehbarer Teil der mit den Erträgen laut Zeile 61 im Zusammenhang stehenden Betriebsausgaben für Körperschaften (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "63",
+            "label": "Dazu: Als Spezial-Investmenterträge geltende Substanzbeträge nach § 56 Absatz 9 InvStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "64",
+            "label": "Steuerpflichtige laufende Spezial-Investmenterträge nach § 20 Absatz 1 Nummer 3a EStG in Verbindung mit § 34 Absatz 1 Nummer 1 und 2 InvStG für Körperschaften (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "65",
+            "label": "Nur bei Organgesellschaften:Nach § 44 InvStG nichtabziehbarer Teil der mit den Erträgen laut Zeile 61 im Zusammenhang stehenden Betriebsausgaben für natürliche Personen (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anrechnung/Abzug ausländischer Steuern",
+        "rows": [
+          {
+            "row": "66",
+            "label": "Abziehbare Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG zu den ausländischen Einkünften laut Zeile 11 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "67",
+            "label": "Abziehbare Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG zu den ausländischen Einkünften laut Zeile 31 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "68",
+            "label": "Nicht bei Organgesellschaften:Der Antrag auf Abzug vom Einkommen nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG wird gestellt.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "69",
+            "label": "Nicht bei Organgesellschaften: Nach § 47 Absatz 4 Satz 1 in Verbindung mit § 34c Absatz 2 EStG abzuziehende ausländische Steuer (wenn Antrag in Zeile 68 gestellt: Betrag laut Zeile 33 wenn die Anteile unter § 20 Absatz 1 Satz 4 oder 5 InvStG fallen, sonst Betrag laut Zeile 13) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "70",
+            "label": "Nur bei Organgesellschaften:Abziehbare Betriebsausgaben nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 1 Satz 4 EStG zu den ausländischen Einkünften laut Zeile 21 (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Außerbilanzielle Korrekturen bei Veräußerung",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Ermittlung des Anleger-Aktiengewinns nach § 49 Absatz 2 InvStG",
+            "rows": [
+              {
+                "row": "80",
+                "label": "Fonds-Aktiengewinn laut Zeile 54 multipliziert mit der Anzahl der Anteile laut Zeile 52 (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "81",
+                "label": "Dazu / Davon ab: Berichtigung nach § 49 Absatz 2 Satz 4 und 5 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "82",
+                "label": "Anleger-Aktiengewinn nach § 49 Absatz 2 Satz 1 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Ermittlung des Anleger-Abkommensgewinns nach § 49 Absatz 2 InvStG",
+            "rows": [
+              {
+                "row": "83",
+                "label": "Fonds-Abkommensgewinn laut Zeile 55 multipliziert mit der Anzahl der Anteile laut Zeile 52 (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "84",
+                "label": "Dazu / Davon ab: Berichtigung nach § 49 Absatz 2 Satz 4 und 5 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "85",
+                "label": "Anleger-Abkommensgewinn nach § 49 Absatz 2 Satz 1 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Ermittlung des Anleger-Teilfreistellungsgewinns nach § 49 Absatz 2 InvStG für Anleger, die dem Körperschaftsteuergesetz unterliegen und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen",
+            "rows": [
+              {
+                "row": "86",
+                "label": "Fonds-Teilfreistellungsgewinn laut Zeile 56 multipliziert mit der Anzahl der Anteile laut Zeile 52 (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "87",
+                "label": "Dazu / Davon ab: Berichtigung nach § 49 Absatz 2 Satz 4 und 5 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "88",
+                "label": "Anleger-Teilfreistellungsgewinn nach § 49 Absatz 2 InvStG für Anleger, die dem Körperschaftsteuergesetz unterliegen und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Ermittlung des Anleger-Teilfreistellungsgewinns nach § 49 Absatz 2 InvStG für natürliche Personen, die die Spezial-Investmentanteile im Betriebsvermögen halten und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen",
+            "rows": [
+              {
+                "row": null,
+                "label": "Nur bei Organgesellschaften:",
+                "type": "note",
+                "values": []
+              },
+              {
+                "row": "89",
+                "label": "Fonds-Teilfreistellungsgewinn laut Zeile 57 multipliziert mit der Anzahl der Anteile laut Zeile 52 (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "90",
+                "label": "Dazu / Davon ab: Berichtigung nach § 49 Absatz 2 Satz 4 und 5 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "91",
+                "label": "Anleger-Teilfreistellungsgewinn nach § 49 Absatz 2 InvStG für natürliche Personen, die die Spezial-Investmentanteile im Betriebsvermögen halten und nicht die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Ermittlung des Anleger-Teilfreistellungsgewinns nach § 49 Absatz 2 InvStG für natürliche Personen, die die Spezial-Investmentanteile im Privatvermögen halten, und für Anleger, die die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen",
+            "rows": [
+              {
+                "row": "100",
+                "label": "Fonds-Teilfreistellungsgewinn laut Zeile 58 multipliziert mit der Anzahl der Anteile laut Zeile 52 (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "102",
+                "label": "Dazu / Davon ab: Berichtigung nach § 49 Absatz 2 Satz 4 und 5 InvStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "103",
+                "label": "Anleger-Teilfreistellungsgewinn nach § 49 Absatz 2 InvStG für natürliche Personen, die die Spezial-Investmentanteile im Privatvermögen halten, und für Anleger, die die Voraussetzungen nach § 20 Absatz 1 Satz 4 und 5 InvStG erfüllen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Korrekturbetrag bei Veräußerung",
+            "rows": [
+              {
+                "row": "103a",
+                "label": "Nach § 44 InvStG nicht abziehbarer Teil der mit den Anleger-Gewinnen laut Zeilen 80 bis 103 im Zusammenhang stehenden Veräußerungskosten (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "104",
+                "label": "Außerbilanzieller Korrekturbetrag bei Veräußerung von Anteilen an Spezial-Investmentfonds (Wenn die Anteile § 20 Absatz 1 Satz 4 oder 5 InvStG unterliegen: Betrag laut Zeile 85 zuzüglich Betrag laut Zeile 103 und abzüglich Betrag laut Zeile 103a; falls nicht: 95 % des positiven Betrags laut Zeile 82 oder negativer Betrag laut Zeile 82 zuzüglich Beträge laut Zeilen 85 und 88 und abzüglich Betrag laut Zeile 103a) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "105",
+                "label": "Nur bei Organgesellschaften:Nach § 44 InvStG nicht abziehbarer Teil der mit den Anleger-Gewinnen laut Zeilen 80 bis 103 im Zusammenhang stehenden Veräußerungskosten für natürliche Personen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  }
+]

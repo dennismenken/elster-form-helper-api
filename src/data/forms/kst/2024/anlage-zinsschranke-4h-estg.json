@@ -1,0 +1,802 @@
+[
+  {
+    "context_label": ": Betriebsausgabenabzug für Zinsaufwendungen (§ 4h in Verbindung mit § 8a ) für Wirtschaftsjahre, die nach dem 14. Dezember 2023 beginnen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Betriebsausgabenabzug für Zinsaufwendungen (§ 4h EStG in Verbindung mit § 8a KStG) für Wirtschaftsjahre, die nach dem 14. Dezember 2023 beginnen",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Anlage ist auszufüllen: – von Organträgern, die nicht zugleich Organgesellschaft sind oder – wenn ein Zins- oder EBITDA-Vortrag zum Schluss des vorangegangenen Wirtschaftsjahres festgestellt wurde oder – wenn die Zinsaufwendungen (Betrag laut Zeile 11) mindestens 3 Mio. Euro betragen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage Zinsschranke (KSt) gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage Zinsschranke 1. Eintrag",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Abziehbare Zinsen und Zinsvortrag (§ 4h in Verbindung mit § 8a )",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "5",
+            "label": "Zinsvortrag zum Schluss des vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Davon ab: Untergang des fortführungsgebundenen Zinsvortrags aufgrund eines schädlichen Ereignisses nach § 8d Absatz 2 KStG (Betrag laut Zeile 32) (Übertrag aus Zeile 33) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Dazu: Erhalt des fortführungsgebundenen Zinsvortrags nach § 8a Absatz 1 Satz 3 in Verbindung mit § 8d Absatz 2 Satz 1 zweiter Halbsatz KStG durch entsprechende Anwendung des § 8c Absatz 1 Satz 5 bis 8 KStG bezogen auf die zum Schluss des vorangegangenen Wirtschaftsjahres vorhandenen stillen Reserven (höchstens Betrag laut Zeile 6; laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Davon ab: Verringerung des Zinsvortrags aufgrund eines schädlichen Beteiligungserwerbs (§ 8a Absatz 1 Satz 3 KStG, § 8c KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8a",
+            "label": "Davon ab: Verringerung des Zinsvortrags durch Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Davon ab: Verringerung des Zinsvortrags (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 4h Absatz 5 EStG in Verbindung mit § 8a Absatz 1 KStG) oder Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 4h Absatz 5 EStG in Verbindung mit § 8a Absatz 1 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": null,
+            "label": "Zeilen 11 bis 25a: Nicht bei Organgesellschaften",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Dazu: Zinsaufwendungen des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 2 EStG (Übertrag nach Zeile 296 Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Dazu: Zinsaufwendungen des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 2 EStG der Organgesellschaft(en) laut gesonderter und einheitlicher Feststellung(en) nach § 14 Absatz 5 KStG (Summe der Beträge laut Zeile 30 aller Anlagen OT; Übertrag nach Zeile 297 Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Zinserträge des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 3 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Zinserträge des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 3 EStG der Organgesellschaft(en) laut gesonderter und einheitlicher Feststellung(en) nach § 14 Absatz 5 KStG (Summe der Beträge laut Zeile 31 aller Anlagen OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Zinserträge nach § 46 Absatz 1 Satz 1 InvStG in Verbindung mit § 4h Absatz 1 EStG aus Spezial-Investmentanteilen (Summe der Beträge laut Zeile 42 aller Anlagen SPIF, die in diesem Wirtschaftsjahr zu berücksichtigen sind) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16a",
+            "label": "Nettozinsaufwendungen nach § 4h Absatz 1 Satz 3 EStG (Betrag laut Zeile 13 abzüglich Summe der Beträge laut Zeilen 14 bis 16) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Nach § 4h Absatz 1 Satz 1 erster Halbsatz EStG abziehbarer Betrag: Niedrigerer Betrag aus Zeile 13 und der Summe der Beträge laut Zeilen 14 bis 16 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Verbleibende Zinsaufwendungen (Betrag laut Zeile 13 abzüglich Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19a",
+            "label": "Die Voraussetzungen zum uneingeschränkten Abzug der Zinsaufwendungen liegen vor nach:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "§ 4h Absatz 2 Satz 1 Buchstabe b EStG (Stand-alone-Klausel)",
+              "§ 4h Absatz 2 Satz 1 Buchstabe c EStG in Verbindung mit § 8a Absatz 3 KStG (Escape-Klausel)"
+            ]
+          },
+          {
+            "row": "19b",
+            "label": "Abziehbare verbleibende Zinsaufwendungen aufgrund von § 4h Absatz 2 Satz 1 in Verbindung mit § 4h Absatz 1 Satz 7 EStG (wenn Betrag laut Zeile 16a kleiner als drei Millionen Euro oder in den Fällen der Zeile 19a) (Summe der Beträge laut Zeilen 11 und 12 abzüglich Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Zwischensumme: Verbleibende Zinsaufwendungen (laufende Aufwendungen und Zinsvortrag) nach Verrechnung mit Zinserträgen und der Anwendung von § 4h Absatz 2 EStG (Betrag laut Zeile 18 abzüglich Betrag laut Zeile 19b) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Nach § 4h Absatz 1 Satz 1 zweiter Halbsatz EStG in Verbindung mit § 8a KStG berücksichtigungsfähiges verrechenbares EBITDA des laufenden Wirtschaftsjahres (Betrag laut Zeile 51, jedoch höchstens Betrag laut Zeile 20) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Zwischensumme (Betrag laut Zeile 20 abzüglich Betrag laut Zeile 21) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Nach § 4h Absatz 1 Satz 4 EStG in Verbindung mit § 8a KStG abziehbarer EBITDA-Vortrag zum Schluss des vorangegangenen Wirtschaftsjahres (Betrag laut Zeile 52 abzüglich Beträge laut Zeilen 53 und 54, jedoch höchstens Betrag laut Zeile 22) (Übertrag nach Zeile 56) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Im Wirtschaftsjahr insgesamt abziehbare Zinsaufwendungen(Summe der Beträge laut Zeilen 17, 19b, 21 und 23; Übertrag nach Zeile 298 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Nichtabziehbare Zinsaufwendungen (Betrag laut Zeile 13 abzüglich Betrag laut Zeile 24) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25a",
+            "label": "Davon ab: Minderung der nichtabziehbaren Zinsaufwendungen des laufenden Wirtschaftsjahres aufgrund eines schädlichen Beteiligungserwerbs (§ 8a Absatz 1 Satz 3, § 8c KStG) oder durch Abspaltung (§ 15 Absatz 3, § 16 UmwStG) zum Ende des Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Davon ab: Minderung der nichtabziehbaren Zinsaufwendungen (Zeile 25) nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe a EStG (Betrag laut Zeile 39 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Zinsvortrag zum Schluss des laufenden Wirtschaftsjahres (Betrag laut Zeile 25 abzüglich Beträge laut Zeilen 25a und 26) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Fortführungsgebundener Zinsvortrag nach § 8d in Verbindung mit § 8a",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "32",
+            "label": "Verbleibender fortführungsgebundener Zinsvortrag zum Schluss des vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Davon ab: Untergang des fortführungsgebundenen Zinsvortrags aufgrund eines schädlichen Ereignisses nach § 8d Absatz 2 KStG (Betrag laut Zeile 32) (Übertrag nach Zeile 6) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Davon ab: Wegfall der Fortführungsgebundenheit bei Vorliegen eines schädlichen Beteiligungserwerbs nach § 8c KStG (Betrag laut Zeile 32) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Davon ab: Im wegfallenden Zinsvortrag enthaltener fortführungsgebundener Zinsvortrag (in den Beträgen laut Zeilen 8a und 9 enthalten, höchstens Betrag laut Zeile 32 abzüglich Summe der Beträge laut Zeilen 33 und 34) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "36",
+            "label": "Davon ab: Verrechnung mit dem fortführungsgebundenen Zinsvortrag (Beträge laut Zeilen 24 und 26 abzüglich Beträge laut Zeilen 11 und 12, höchstens Betrag laut Zeile 32 abzüglich Summe der Beträge laut Zeilen 33 bis 35) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "37",
+            "label": "Wenn im Wirtschaftsjahr ein schädlicher Beteiligungserwerb nach § 8c KStG erfolgte und die Voraussetzungen zur Anwendung des § 8d KStG erfüllt sind:Dazu: Zugang zum fortführungsgebundenen Zinsvortrag (Betrag laut Zeile 27 abzüglich Betrag laut Zeile 32 zuzüglich Summe der Beträge laut Zeilen 33 bis 36) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "38",
+            "label": "Im Betrag laut Zeile 27 enthaltener zum Schluss des laufenden Wirtschaftsjahres verbleibender fortführungsgebundener Zinsvortrag (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Verrechenbares des laufenden Wirtschaftsjahres",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht bei Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "39",
+            "label": "Ausgangsbetrag (Betrag laut Zeile 295a der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "40",
+            "label": "Dazu: Nach § 6 Absatz 2 Satz 1, § 6 Absatz 2a Satz 2 und § 7 EStG abgesetzte Beträge (Abschreibungen) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "41",
+            "label": "Dazu: Nach § 6 Absatz 2 Satz 1, § 6 Absatz 2a Satz 2 und § 7 EStG abgesetzte Beträge (Abschreibungen) der Organgesellschaften (Summe der Beträge laut Zeile 32 aller Anlagen OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "42",
+            "label": "Dazu: Berücksichtigter Zuwendungsabzug nach § 9 Absatz 1 Nummer 2 KStG der Organgesellschaften (Summe der Beträge laut Zeile 35 aller Anlagen OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "43",
+            "label": "Davon ab / Dazu: Einkünfte aus Mitunternehmerschaften (Betrag laut Zeile 22 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "44",
+            "label": "Dazu: Zinsaufwendungen des laufenden Wirtschaftsjahres (Summe der Beträge laut Zeilen 11 und 12) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "45",
+            "label": "Davon ab: Zinserträge des laufenden Wirtschaftsjahres (Summe der Beträge laut Zeilen 14 bis 16) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "46",
+            "label": "Dazu / Davon ab: Weitere Korrekturen, um das nach § 8a Absatz 1 KStG maßgebliche Einkommen zu berechnen (Summe der Beträge laut Zeilen 26, 30, 31, 31a, 35, 35b und 38 der Anlage ZVE abzüglich der Summe der Beträge laut Zeilen 20, 21, 27, 28, 29 und 31b der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "47",
+            "label": "Dazu: Von Organgesellschaften selbst zu versteuerndes Einkommen aus dem Organschaftsverhältnis (Summe der Beträge laut Zeile 34 aller Anlagen OT) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "49",
+            "label": "Dazu / Davon ab: Sonstige Korrekturen (zum Beispiel bei mehreren im Veranlagungszeitraum endenden Wirtschaftsjahren oder in Fällen des § 4h Absatz 6 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "50",
+            "label": "Steuerliches EBITDA (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "51",
+            "label": "Verrechenbares EBITDA des laufenden Wirtschaftsjahres (30 % des Betrages laut Zeile 50) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - -Vortrag (Gesamtbetrag) (§ 4h in Verbindung mit § 8a )",
+    "sections": [
+      {
+        "section_label": "Anfangsbestand",
+        "rows": [
+          {
+            "row": "52",
+            "label": "EBITDA-Vortrag zum Schluss des vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "53",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "54",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Laufendes Wirtschaftsjahr (nicht bei Organgesellschaften)",
+        "rows": [
+          {
+            "row": "55",
+            "label": "Dazu: Verbleibendes verrechenbares EBITDA des laufenden Wirtschaftsjahres (Betrag laut Zeile 51 abzüglich Zeile 21; nur wenn Beträge laut Zeilen 16a und 20 größer als 0) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verrechnung von verrechenbarem EBITDA (nicht bei Organgesellschaften)",
+        "rows": [
+          {
+            "row": "56",
+            "label": "Davon ab: Verbrauch des EBITDA-Vortrags aus vorangegangenen Wirtschaftsjahren im laufenden Wirtschaftsjahr (Betrag laut Zeile 23) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "57",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (Summe der Beträge laut Zeilen 67, 75, 83, 91, 99 und 102; Übertrag in Zeile 41 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Endbestand",
+        "rows": [
+          {
+            "row": "58",
+            "label": "Davon ab: Verringerung des verrechenbaren EBITDA des laufenden Wirtschaftsjahres durch Abspaltung zum Ende des Wirtschaftsjahres (§ 15 Absatz 3, § 16 UmwStG) (Übertrag nach Zeile 103) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "59",
+            "label": "Davon ab: Wegfall des EBITDA-Vortrags des fünften vorangegangenen Wirtschaftsjahres (Übertrag aus Zeile 68) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "60",
+            "label": "EBITDA-Vortrag zum Schluss des laufenden Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "6 - -Vortrag bezogen auf das fünfte vorangegangene Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "61",
+            "label": "Abschlusszeitpunkt des Wirtschaftsjahres (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "62",
+            "label": "EBITDA-Vortrag zum Schluss des sechsten vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "63",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "64",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "65",
+            "label": "Nicht bei Organgesellschaften:Davon ab: Verbrauch des EBITDA-Vortrags im laufenden Wirtschaftsjahr (Betrag laut Zeile 56 höchstens Betrag laut Zeile 62 abzüglich Beträge laut Zeilen 63 und 64) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "66",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "67",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN, höchstens Betrag laut Zeile 66) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "68",
+            "label": "Wegfall des EBITDA-Vortrags des fünften vorangegangenen Wirtschaftsjahres (Übertrag in Zeile 59) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "7 - -Vortrag bezogen auf das vierte vorangegangene Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "69",
+            "label": "Abschlusszeitpunkt des Wirtschaftsjahres (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "70",
+            "label": "EBITDA-Vortrag zum Schluss des fünften vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "71",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "72",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "73",
+            "label": "Nicht bei Organgesellschaften:Davon ab: Verbrauch des EBITDA-Vortrags im laufenden Wirtschaftsjahr (Betrag laut Zeile 56 abzüglich Betrag laut Zeile 65, höchstens Betrag laut Zeile 70 abzüglich Beträge laut Zeilen 71 und 72) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "74",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "75",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN abzüglich Betrag laut Zeile 67, höchstens Betrag laut Zeile 74) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "76",
+            "label": "EBITDA-Vortrag zum Schluss des Wirtschaftsjahres bezogen auf das vierte vorangegangene Wirtschaftsjahr (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - -Vortrag bezogen auf das dritte vorangegangene Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "77",
+            "label": "Abschlusszeitpunkt des Wirtschaftsjahres (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "78",
+            "label": "EBITDA-Vortrag zum Schluss des vierten vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "79",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "80",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "81",
+            "label": "Nicht bei Organgesellschaften:Davon ab: Verbrauch des EBITDA-Vortrags im laufenden Wirtschaftsjahr (Betrag laut Zeile 56 abzüglich Beträge laut Zeilen 65 und 73, höchstens Betrag laut Zeile 78 abzüglich Beträge laut Zeilen 79 und 80) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "82",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "83",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN abzüglich Beträge laut Zeilen 67 und 75, höchstens Betrag laut Zeile 82) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "84",
+            "label": "EBITDA-Vortrag zum Schluss des Wirtschaftsjahres bezogen auf das dritte vorangegangene Wirtschaftsjahr (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "9 - -Vortrag bezogen auf das zweite vorangegangene Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "85",
+            "label": "Abschlusszeitpunkt des Wirtschaftsjahres (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "86",
+            "label": "EBITDA-Vortrag zum Schluss des dritten vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "87",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "88",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "89",
+            "label": "Nicht bei Organgesellschaften:Davon ab: Verbrauch des EBITDA-Vortrags im laufenden Wirtschaftsjahr (Betrag laut Zeile 56 abzüglich Beträge laut Zeilen 65, 73 und 81, höchstens Betrag laut Zeile 86 abzüglich Beträge laut Zeilen 87 und 88) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "90",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "91",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN abzüglich Beträge laut Zeilen 67, 75 und 83, höchstens Betrag laut Zeile 90) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "92",
+            "label": "EBITDA-Vortrag zum Schluss des Wirtschaftsjahres bezogen auf das zweite vorangegangene Wirtschaftsjahr (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "10 - -Vortrag bezogen auf das erste vorangegangene Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "93",
+            "label": "Abschlusszeitpunkt des Wirtschaftsjahres (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "94",
+            "label": "EBITDA-Vortrag zum Schluss des zweiten vorangegangenen Wirtschaftsjahres (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "95",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags bei Abspaltung (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "96",
+            "label": "Davon ab: Verringerung des EBITDA-Vortrags in anderen Fällen (gegebenenfalls unter Beachtung der § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG), insbesondere durch: Aufgabe oder Übertragung eines Betriebs oder Teilbetriebs (§ 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG), Ausscheiden einer Organgesellschaft aus dem Organkreis (§ 15 Satz 1 Nummer 3 KStG, § 8a Absatz 1 KStG in Verbindung mit § 4h Absatz 5 EStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "97",
+            "label": "Nicht bei Organgesellschaften:Davon ab: Verbrauch des EBITDA-Vortrags im laufenden Wirtschaftsjahr (Betrag laut Zeile 56 abzüglich Beträge laut Zeilen 65, 73, 81 und 89, höchstens Betrag laut Zeile 94 abzüglich Beträge laut Zeilen 95 und 96) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "98",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "99",
+            "label": "Davon ab: Minderung des EBITDA-Vortrags nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN abzüglich Beträge laut Zeilen 67, 75, 83 und 91, höchstens Betrag laut Zeile 98) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "100",
+            "label": "EBITDA-Vortrag zum Schluss des Wirtschaftsjahres bezogen auf das erste vorangegangene Wirtschaftsjahr (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "11 - -Vortrag bezogen auf das laufende Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "101",
+            "label": "Verbleibendes EBITDA des laufenden Wirtschaftsjahres(Betrag laut Zeile 55) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "102",
+            "label": "Davon ab: Minderung des verbleibenden EBITDA nach § 3a Absatz 3 Satz 2 Nummer 13 Buchstabe b EStG (gegebenenfalls anteiliger Betrag laut Zeile 40 der Anlage SAN abzüglich Beträge laut Zeilen 67, 75, 83, 91 und 99, höchstens Betrag laut Zeile 102) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "103",
+            "label": "Davon ab: Verringerung des verrechenbaren EBITDA des laufenden Wirtschaftsjahres durch Abspaltung zum Ende des Wirtschaftsjahres (§ 15 Absatz 3, § 16 UmwStG; Betrag laut Zeile 58) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "104",
+            "label": "EBITDA-Vortrag zum Schluss des Wirtschaftsjahres bezogen auf das laufende Wirtschaftsjahr (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

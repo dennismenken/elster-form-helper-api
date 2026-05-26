@@ -1,0 +1,2029 @@
+{
+  "anlage-beg": [
+    {
+      "context_label": "Anlage zur Gewerbesteuererklärung ( 1 A) - Beteiligung an Körperschaften",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Anwendung des § 9 Nummer 2a, 7 oder 8 beziehungsweise der § 8 Nummer 5 GewStG; Anwendung des § 7a GewStG bei einer Organgesellschaft",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "1 - Allgemeine Angaben zur Körperschaft, an der die Beteiligung besteht",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "1a",
+              "label": "ISIN (soweit vorhanden)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "2",
+              "label": "Bezeichnung der Körperschaft",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Anschrift der Körperschaft",
+          "rows": [
+            {
+              "row": "3",
+              "label": "Straße",
+              "type": "",
+              "values": []
+            },
+            {
+              "row": "4",
+              "label": "Adressergänzung",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Postleitzahl",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Postleitzahl (Ausland)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Ort",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5a",
+              "label": "Ansässigkeitsstaat",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "2 - Angaben zur Ausschüttung",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "6",
+              "label": "Gesamtbetrag der im Wirtschaftsjahr erhaltenen Bezüge im Sinne des § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG aus dieser Beteiligung (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "7",
+              "label": "Die Beteiligung erfüllt die Voraussetzungen des",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "§ 9 Nummer 2a GewStG",
+                "§ 9 Nummer 7 GewStG",
+                "§ 9 Nummer 8 GewStG",
+                "Steuerbefreiung nach § 3 Nummer 41 Buchstabe a EStG (nur bei Organgesellschaften)"
+              ]
+            },
+            {
+              "row": "8",
+              "label": "Mit den Bezügen laut Zeile 6 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "9",
+              "label": "Mit den Bezügen laut Zeile 6 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Nur wenn die Beteiligung im Sonderbetriebsvermögen gehalten wird:",
+          "rows": [
+            {
+              "row": "10",
+              "label": "Nur wenn die Beteiligung im Sonderbetriebsvermögen gehalten wird: Bezogen auf die im Sonderbetriebsvermögen gehaltene Beteiligung sind Körperschaften unmittelbar oder mittelbar über eine Personengesellschaft beteiligt in Höhe von (Prozent) (X,XXXXXX)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "11",
+              "label": "Nur wenn die Beteiligung im Sonderbetriebsvermögen gehalten wird: Bezogen auf die im Sonderbetriebsvermögen gehaltene Beteiligung sind natürliche Personen unmittelbar oder mittelbar über eine Personengesellschaft beteiligt in Höhe von (100 Prozent abzüglich Prozentsatz laut Zeile 10) (Prozent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "3 - Angaben für Körperschaften sowie für Mitunternehmerschaften und Organgesellschaften, sofern Körperschaften beteiligt sind",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "12",
+              "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 8b Absatz 1 in Verbindung mit § 8b Absatz 4 KStG beziehungsweise nach § 3 Nummer 41 Buchstabe a EStG oder nach DBA erfüllen (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "13",
+              "label": "Nur für Organgesellschaften: Steuerfreie Bezüge nach § 8b Absatz 1 und 4 KStG beziehungsweise nach § 3 Nummer 41 Buchstabe a EStG oder nach DBA (Betrag laut Zeile 12 multipliziert mit dem Prozentsatz laut Zeile 62 des Vordrucks GewSt 1 A) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "14",
+              "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 8b Absatz 1 in Verbindung mit § 8b Absatz 4 KStG beziehungsweise nach § 3 Nummer 41 Buchstabe a EStG oder nach DBA nicht erfüllen (Betrag laut Zeile 6 abzüglich Betrag laut Zeile 12) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "15",
+              "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG (wenn in Zeile 7 keine Eintragung gemacht wurde: 95 Prozent des Betrages laut Zeile 12; bei Mitunternehmerschaften und Organgesellschaften: zusätzlich multipliziert mit dem Prozentsatz laut Zeile 61 oder 62 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen zusätzlich multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "16",
+              "label": "Ausgangsbetrag für eine Kürzung nach § 9 Nummer 2a, 7 oder 8 GewStG (Betrag laut Zeile 14; nur ausfüllen, wenn in Zeile 7 und Zeile 14 eine Eintragung gemacht wurde) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "17",
+              "label": "Mit den Beträgen laut Zeile 16 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Betrag laut Zeile 8, höchstens Betrag laut Zeile 16) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "18",
+              "label": "Mit den Beträgen laut Zeile 16 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Betrag laut Zeile 9, höchstens Betrag laut Zeile 16 abzüglich Betrag laut Zeile 17) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "19",
+              "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG (Betrag laut Zeile 16 abzüglich Summe der Beträge laut Zeilen 17 und 18; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 61 oder 62 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "20",
+              "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Betrag laut Zeile 17; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 61 oder 62 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "4 - Angaben für Einzelunternehmen sowie für Mitunternehmerschaften und Organgesellschaften, sofern natürliche Personen beteiligt sind",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "21",
+              "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 3 Nummer 40 EStG erfüllen (nicht, sofern es sich um einen Fall der Steuerbefreiung nach § 3 Nummer 41 Buchstabe a EStG handelt) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21a",
+              "label": "Nur bei Organgesellschaften und sofern es sich um einen Fall der Steuerbefreiung nach § 3 Nummer 41 Buchstabe a EStG handelt: Steuerfreie Bezüge nach § 3 Nummer 41 Buchstabe a EStG (Betrag laut Zeile 6 multipliziert mit dem Prozentsatz laut Zeile 63 des Vordrucks GewSt 1 A) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "22",
+              "label": "Bezüge nach § 3 Nummer 40 EStG gekürzt um Betriebsausgaben nach § 3c Absatz 2 EStG vor Anwendung des Teileinkünfteverfahrens (Betrag laut Zeile 21 abzüglich der Summe der Beträge laut Zeilen 8 und 9 multipliziert mit dem Prozentsatz laut Zeile 63 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "23",
+              "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG (wenn in Zeile 7 keine Eintragung gemacht wurde: 40 Prozent des Betrages laut Zeile 21; abzüglich 40 Prozent des Betrages laut Zeilen 8 und 9, bei Mitunternehmerschaften und Organgesellschaften: zusätzlich multipliziert mit dem Prozentsatz laut Zeile 63 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen zusätzlich multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "24",
+              "label": "Ausgangsbetrag für eine Kürzung nach § 9 Nummer 2a, 7 oder 8 GewStG (Betrag laut Zeile 6; nur ausfüllen, wenn in Zeile 7 angegeben wurde, dass die Beteiligung die Voraussetzungen des § 9 Nummer 2a GewStG, § 9 Nummer 7 GewSt oder § 9 Nummer 8 GewStG erfüllt). (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "25",
+              "label": "Mit den Beträgen laut Zeile 24 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Betrag laut Zeile 8, höchstens Betrag laut Zeile 24) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "26",
+              "label": "Mit den Beträgen laut Zeile 24 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Betrag laut Zeile 9, höchstens Betrag laut Zeile 24 abzüglich Betrag laut Zeile 25) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "27",
+              "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG vor Anwendung des Teileinkünfteverfahrens (Betrag laut Zeile 24 abzüglich Summe der Beträge laut Zeilen 25 und 26; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 63 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "28",
+              "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Betrag laut Zeile 25; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 63 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ],
+  "anlage-emu": [
+    {
+      "context_label": "Anlage zur Gewerbesteuererklärung ( 1 A)",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Die Aufteilung erfolgt nach dem im Gesellschaftsvertrag für den Erhebungszeitraum festgelegten allgemeinen Gewinnverteilungsschlüssel. Vorabgewinnanteile sind nicht zu berücksichtigen (§ 10a Satz 4 GewStG).",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "3",
+              "label": "Name/Firma des Beteiligten",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Beteiligtennummer",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Identifikationsnummer des Beteiligten (bei natürlichen Personen)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Sofern noch keine Steuernummer vorliegt: Zuständiges Finanzamt",
+          "rows": [
+            {
+              "row": null,
+              "label": "Angaben sind nur vorzunehmen, wenn dem Beteiligten bisher weder eine Identifikationsnummer noch eine Steuernummer zugeteilt wurde.",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Anteilige Besteuerungsgrundlagen",
+          "rows": [
+            {
+              "row": "7",
+              "label": "Gewerbeertrag / Gewerbeverlust - Negativen Betrag mit Minuszeichen eintragen - - gegebenenfalls \"0\" - (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "8",
+              "label": "Von einem anderen Steuerschuldner im Falle des Rechtsformwechsels übernommener Gewerbeverlust aus der Zeit vor dem Rechtsformwechsel, soweit nach § 10a GewStG vortragsfähig (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "9",
+              "label": "Übernommener Gewerbeverlust im Fall der Einbringung des Betriebes einer Personengesellschaft in eine andere Personengesellschaft oder der Verschmelzung von Personengesellschaften (R 10a.3 Absatz 3 Satz 9 Nummer 5 Satz 1 und 2 GewStR 2009) oder im Fall der Anwachsung oder der Verschmelzung einer Personengesellschaft auf einen Gesellschafter (R 10a.3 Absatz 3 Satz 9 Nummer 4 GewStR 2009) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "10",
+              "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht abziehbarer Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "11",
+              "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht ausgleichsfähiger Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "12",
+              "label": "Aufgrund der Veräußerung oder Aufgabe von Teilbetrieben wegfallender vortragsfähiger Gewerbeverlust und Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ],
+  "hauptvordruck-gewst-1-a": [
+    {
+      "context_label": "1 - Allgemeine Angaben",
+      "sections": [
+        {
+          "section_label": "Unternehmen/Firma",
+          "rows": [
+            {
+              "row": "3",
+              "label": "Unternehmen/Firma",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "4",
+              "label": "Gegenstand des Unternehmens",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Empfangsbevollmächtigter / Postempfänger",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Der Steuerbescheid soll folgendem Empfangsbevollmächtigten / Postempfänger zugesandt werden. (Nur ausfüllen, wenn beim Finanzamt keine entsprechende Empfangsvollmacht vorliegt.)",
+                  "type": "note",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Anrede",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Namenszeile 1",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Namenszeile 2",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Straße und Hausnummer oder Postfach",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Postleitzahl und Ort",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Rechtsform / Art der Tätigkeit",
+          "rows": [
+            {
+              "row": "12",
+              "label": "Der Gewerbebetrieb wird als Einzelunternehmen betrieben",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "13",
+              "label": "Das Unternehmen wurde im Kalenderjahr 2020 überwiegend oder ausschließlich als Hausgewerbe betrieben (§ 11 Absatz 3 GewStG):",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "14",
+              "label": "Rechtsform des Unternehmens",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "Gesellschaft mit beschränkter Haftung",
+                "Unternehmergesellschaft (haftungsbeschränkt)",
+                "Aktiengesellschaft",
+                "Europäische Gesellschaft (SE)",
+                "Kommanditgesellschaft auf Aktien",
+                "Ausländische Rechtsform, die mit Körperschaften nach § 1 Absatz 1 Nummer 1 KStG vergleichbar ist",
+                "eingetragene Genossenschaft",
+                "Europäische Genossenschaft (SCE)",
+                "sonstige Genossenschaft im Sinne des Genossenschaftsgesetzes",
+                "Ausländische Rechtsform, die mit einer Körperschaft nach § 1 Absatz 1 Nummer 2 KStG vergleichbar ist",
+                "Versicherungsverein auf Gegenseitigkeit",
+                "Pensionsfondsverein auf Gegenseitigkeit",
+                "eingetragener Verein",
+                "wirtschaftlicher Verein",
+                "rechtsfähige Stiftung des privaten Rechts",
+                "sonstige juristische Person des privaten Rechts",
+                "Ausländische Rechtsform, die einer Körperschaft nach § 1 Absatz 1 Nummer 4 KStG vergleichbar ist",
+                "Nichtrechtsfähiger Verein",
+                "Nichtrechtsfähige Stiftung des privaten Rechts",
+                "Sonstiges Zweckvermögen",
+                "Ausländische Rechtsform, die einer Körperschaft oder einem Zweckvermögen nach § 1 Absatz 1 Nummer 5 KStG vergleichbar ist",
+                "Gebietskörperschaft",
+                "Rechtsfähige Anstalt des öffentlichen Rechts",
+                "Nichtrechtsfähige Anstalt des öffentlichen Rechts",
+                "Berufsständische Körperschaft des öffentlichen Rechts",
+                "Öffentlich-rechtliche Rundfunk- und Fernsehanstalt",
+                "Öffentlich-rechtliche Religionsgesellschaft",
+                "Rechtsfähige Stiftung des öffentlichen Rechts",
+                "Nichtrechtsfähige Stiftung des öffentlichen Rechts",
+                "Sonstige juristische Person des öffentlichen Rechts (zum Beispiel Zweckverband)",
+                "Ausländische Rechtsform, die einer öffentlich-rechtlichen Körperschaft nach § 1 Absatz 1 Nummer 6 KStG vergleichbar ist",
+                "Sondervermögen",
+                "Investmentaktiengesellschaft",
+                "Investmentkommanditgesellschaft",
+                "Europäischer Verbund für territoriale Zusammenarbeit",
+                "Atypisch stille Gesellschaft",
+                "Offene Handelsgesellschaft",
+                "Kommanditgesellschaft",
+                "GmbH und Co. KG",
+                "GmbH und Co. OHG",
+                "Aktiengesellschaft und Co. KG",
+                "Aktiengesellschaft und Co. OHG",
+                "Gesellschaft bürgerlichen Rechts",
+                "Europäische wirtschaftliche Interessenvereinigung (EWIV)",
+                "sonstige Personengesellschaften",
+                "Gemeinschaft (zum Beispiel Erben-, Grundstücksgemeinschaft)",
+                "Partenreederei (§§ 489 folgende HGB)",
+                "Partnerschaft (§ 1 PartGG)",
+                "Unterbeteiligung",
+                "ausländische Rechtsform, die einer Personengesellschaft entspricht"
+              ]
+            },
+            {
+              "row": "15",
+              "label": "Das Einzelunternehmen / die Personengesellschaft ist durch Rechtsformwechsel im Laufe des Kalenderjahres 2020 aus einer Personengesellschaft / einem Einzelunternehmen hervorgegangen: am (TT.MM.JJJJ)",
+              "type": "date",
+              "values": []
+            },
+            {
+              "row": "17",
+              "label": "Es handelt sich um ein Unternehmen im Sinne des § 7 Satz 5 GewStG in Verbindung mit § 8 Absatz 9 KStG (auch soweit Organgesellschaft)",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "17",
+              "label": "Anzahl der beigefügten Anlagen ÖHG",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "18",
+              "label": "Anzahl der übermittelten Anlagen EMU",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Angaben zur Betriebsstätte",
+          "rows": [
+            {
+              "row": "19",
+              "label": "Betriebsstätten bestanden im Kalenderjahr 2020 in mehreren Gemeinden:",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "Ja",
+                "Nein"
+              ]
+            },
+            {
+              "row": "19",
+              "label": "Betriebsstätte(n) erstreckte(n) sich im Kalenderjahr 2020 über mehrere Gemeinden:",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "Ja",
+                "Nein"
+              ]
+            },
+            {
+              "row": "20",
+              "label": "Die einzige Betriebsstätte wurde im Laufe des Kalenderjahrs 2020 nicht in eine andere Gemeinde verlegt",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "20",
+              "label": "Die einzige Betriebsstätte wurde im Laufe des Kalenderjahrs 2020 in eine andere Gemeinde verlegt",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "20",
+              "label": "am (TT.MM.JJJJ)",
+              "type": "date",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Ort der einzigen Betriebsstätte (bisher)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Ort der einzigen Betriebsstätte (neu)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Hebenummer",
+          "rows": [
+            {
+              "row": "22",
+              "label": "Hebenummer (Steuernummer) der Gemeinde (nicht in Zerlegungsfällen)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bei Betrieb des Unternehmens im Kalenderjahr 2020 nur als Reisegewerbe",
+          "rows": [
+            {
+              "row": "23",
+              "label": "Wohnsitzgemeinde(n), Dauer des Wohnsitzes in der / den Gemeinde(n)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bei Betriebseröffnung beziehungsweise Betriebsbeendigung im Erhebungszeitraum bei einer Personengesellschaft oder einem Einzelunternehmen",
+          "rows": [
+            {
+              "row": "24",
+              "label": "Die werbende Tätigkeit wurde begonnen am (TT.MM.JJJJ)",
+              "type": "date",
+              "values": []
+            },
+            {
+              "row": "25",
+              "label": "Die werbende Tätigkeit wurde 2020 beendet am (TT.MM)",
+              "type": "date",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Organträger",
+          "rows": [
+            {
+              "row": "30",
+              "label": "Das Unternehmen ist Organträger.",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Organgesellschaft",
+          "rows": [
+            {
+              "row": "31",
+              "label": "Das Unternehmen ist Organgesellschaft.",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "31",
+              "label": "Name des Organträgers",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "31",
+              "label": "zuständiges Finanzamt",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Steuernummer des Organträgers",
+              "rows": [],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Ergänzende Angaben zur Steuererklärung",
+          "rows": [
+            {
+              "row": null,
+              "label": "Wenn über die Angaben in der Steuererklärung hinaus weitere oder abweichende Angaben oder Sachverhalte berücksichtigt werden sollen, kreuzen Sie bitte dieses Feld an. Gleiches gilt, wenn bei den in der Steuererklärung erfassten Angaben bewusst eine von der Verwaltungsauffassung abweichende Rechtsauffassung zugrunde gelegt wurde. Falls Sie mit Abgabe der Steuererklärung lediglich Belege und Aufstellungen einreichen, ist keine Eintragung vorzunehmen.",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "32",
+              "label": "Über die Angaben in der Steuererklärung hinaus sind weitere oder abweichende Angaben oder Sachverhalte zu berücksichtigen.",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "32",
+              "label": "Ergänzende Angaben zur Steuererklärung",
+              "type": "",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "2 - Mitwirkung bei der Anfertigung dieser Erklärung",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Die Steuererklärung wurde unter Mitwirkung eines Angehörigen der steuerberatenden Berufe im Sinne der §§ 3 und 4 StBerG angefertigt.",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Name",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Vorname",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Straße, Hausnummer",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Postleitzahl, Ort",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Telefon",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Mandantennummer",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Mandantennummer für Bescheiddatenübermittlung",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Bearbeiterkennzeichen",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "zusätzliche Angaben",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "3 - Mitteilung von grenzüberschreitenden Steuergestaltungen",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Es wird eine grenzüberschreitende Steuergestaltung nach §§ 138d folgende AO genutzt, deren steuerlicher Vorteil sich erstmals im laufenden Erhebungszeitraum auswirken soll.",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Ordnungsmerkmal",
+          "rows": [],
+          "sections": [
+            {
+              "section_label": "Registriernummer",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Registriernummer",
+                  "type": "repeater",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": null,
+                  "rows": [
+                    {
+                      "row": "32b",
+                      "label": "Registriernummer",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "32c",
+                      "label": "Offenlegungsnummer",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "32d",
+                      "label": "Es liegen noch keine Registriernummer und Offenlegungsnummer vor (laut gesonderter Erläuterung).",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "32e",
+                      "label": "Bezeichnung der Steuergestaltungen, soweit noch keine Registrier- und Offenlegungsnummer vorliegen",
+                      "type": "text",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context_label": "4 - Gewinn aus Gewerbebetrieb",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "(Im Fall der Zeile 81 ist eine Eintragung nur in Zeile 81 zulässig, im Fall der Zeile 82 sind Eintragungen nur in Zeile 82 und gegebenenfalls in den Zeilen 61 und 62 sowie 94 und 95 zulässig; Zeilen 33 bis 34a, 36, 36a und 40a: negative Beträge mit Minuszeichen eintragen)",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "33",
+              "label": "Gewinn aus Gewerbebetrieb vor Anwendung des § 7 Satz 4 GewStG (ohne Beträge laut Zeilen 39a und 80 bis 80b) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "34",
+              "label": "Nur bei Personengesellschaften: Nach § 7 Satz 4 GewStG abzuziehende steuerfreie Einnahmen nach § 3 Nummer 40 EStG und § 8b KStG beziehungsweise hinzuzurechnende Beträge nach § 3c Absatz 2 EStG und § 8b KStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "34a",
+              "label": "Nur bei Personengesellschaften: Nach §§ 20, 42 und 43 InvStG abzuziehende steuerfreie Erträge beziehungsweise hinzuzurechnende Beträge nach §§ 21, 44 InvStG (Rz. 20.20 des BMF-Schreibens vom 21.05.2019, BStBl I 2019 Seite 527) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "35",
+              "label": "Der Gewerbebetrieb ist nach folgender Nummer des § 3 GewStG vollständig oder partiell von der Gewerbesteuer befreit:",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "36",
+              "label": "Von der Gewerbesteuer befreiter Gewinn aus Gewerbebetrieb laut Zeile 33 (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "36a",
+              "label": "Von der Gewerbesteuer nach § 13 GewStDV befreiter Anteil am Gewinn aus Gewerbebetrieb laut Zeile 33 (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "37",
+              "label": "Korrektur des Gewinns aus Gewerbebetrieb aufgrund der Erstattung von Aufwendungen, die in einem vorangegangenen Erhebungszeitraum der Hinzurechnung unterlegen haben (Eintrag mit negativem Vorzeichen) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "39a",
+              "label": "Gewinn des wirtschaftlichen Geschäftsbetriebs nach § 15 Absatz 4 InvStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "40",
+              "label": "Nur bei Personengesellschaften: Abzug von Kapitalertragsteuer gemäß Antrag nach § 36a Absatz 1 Satz 3 EStG: Abzuziehende nicht anrechenbare Kapitalertragsteuer nach § 36a Absatz 1 Satz 3 EStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "40a",
+              "label": "Anwendung des § 20 Absatz 5 (gegebenenfalls in Verbindung mit § 45 Absatz 2) InvStG: Gesamtbetrag der bei der Ermittlung des Gewinns aus Gewerbebetrieb vorgenommenen Teilfreistellungen aus unmittelbaren Beteiligungen nach §§ 20, 21 InvStG (gegebenenfalls in Verbindung mit § 43 Absatz 3 und § 44 InvStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "40b",
+              "label": "Anwendung des § 45 Absatz 1 InvStG: Korrekturbetrag nach § 45 Absatz 1 InvStG für die Ermittlung des Gewerbeertrags beim Anleger (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "5 - Hinzurechnungen",
+      "sections": [
+        {
+          "section_label": "Finanzierungsanteile nach § 8 Nummer 1 GewStG des (ersten) Wirtschaftsjahres (ohne Kürzung um die Beträge laut Zeilen 67 und 67a)",
+          "rows": [
+            {
+              "row": null,
+              "label": "(enden im Erhebungszeitraum zwei Wirtschaftsjahre, sind zusätzlich die Zeilen 48 bis 54 auszufüllen)",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Beträge in voller Höhe eintragen; der Hinzurechnungsbetrag wird von Amts wegen ermittelt.",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "41",
+              "label": "Entgelte für Schulden (§ 8 Nummer 1 Buchstabe a GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "42",
+              "label": "Renten und dauernde Lasten (§ 8 Nummer 1 Buchstabe b GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "43",
+              "label": "Gewinnanteile der stillen Gesellschafter (§ 8 Nummer 1 Buchstabe c GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "44",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung fremder beweglicher Betriebsanlagegüter (§ 8 Nummer 1 Buchstabe d Satz 1 GewStG) (ohne Beträge laut 44a) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "44a",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für Elektrofahrzeuge, begünstigte Hybridelektrofahrzeuge und Fahrräder im Sinne des § 8 Nummer 1 Buchstabe d Satz 2 GewStG aus Verträgen, die nach dem 31.12.2019 abgeschlossen worden sind (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "45",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung fremder unbeweglicher Betriebsanlagegüter (§ 8 Nummer 1 Buchstabe e GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "46",
+              "label": "Aufwendungen für die zeitlich befristete Überlassung von Rechten - insbesondere Konzessionen und Lizenzen - (§ 8 Nummer 1 Buchstabe f GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "47",
+              "label": "Im Betrag laut Zeile 46 enthaltene Vergütungen im Sinne des § 50a Absatz 1 Nummer 3 EStG an beschränkt steuerpflichtige Zahlungsempfänger (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Finanzierungsanteile nach § 8 Nummer 1 GewStG für ein zweites, im Erhebungszeitraum endendes Wirtschaftsjahr (ohne Kürzung um die Beträge laut Zeilen 67 und 67a)",
+          "rows": [
+            {
+              "row": null,
+              "label": "Beträge in voller Höhe eintragen; der Hinzurechnungsbetrag wird von Amts wegen ermittelt.",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "48",
+              "label": "Entgelte für Schulden (§ 8 Nummer 1 Buchstabe a GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "49",
+              "label": "Renten und dauernde Lasten (§ 8 Nummer 1 Buchstabe b GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "50",
+              "label": "Gewinnanteile der stillen Gesellschafter (§ 8 Nummer 1 Buchstabe c GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "51",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung fremder beweglicher Betriebsanlagegüter (§ 8 Nummer 1 Buchstabe d Satz 1 GewStG) (ohne Beträge laut Zeile 51a) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "51a",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für Elektrofahrzeuge, begünstigte Hybridelektrofahrzeuge und Fahrräder im Sinne des § 8 Nummer1 Buchstabe d Satz 2 GewStG aus Verträgen, die nach dem 31.12.2019 abgeschlossen worden sind (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "52",
+              "label": "Miet- und Pachtzinsen (einschließlich Leasingraten) für die Benutzung fremder unbeweglicher Betriebsanlagegüter (§ 8 Nummer 1 Buchstabe e GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "53",
+              "label": "Aufwendungen für die zeitlich befristete Überlassung von Rechten - insbesondere Konzessionen und Lizenzen - (§ 8 Nummer 1 Buchstabe f GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "54",
+              "label": "Im Betrag laut Zeile 53 enthaltene Vergütungen im Sinne des § 50a Absatz 1 Nummer 3 EStG an beschränkt steuerpflichtige Zahlungsempfänger (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Weitere Hinzurechnungen",
+          "rows": [
+            {
+              "row": "55",
+              "label": "Nur bei einer Kommanditgesellschaft auf Aktien: Gewinnanteile der in § 8 Nummer 4 GewStG bezeichneten Art an persönlich haftende Gesellschafter (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Anteile am Verlust von in- und / oder ausländischen Personengesellschaften (§ 8 Nummer 8 GewStG)",
+              "rows": [
+                {
+                  "row": "56",
+                  "label": "Anteile am Verlust von in- und/oder ausländischen Personengesellschaften (laut Einzelaufstellung) (§ 8 Nummer 8 GewStG; Betrag ohne Minuszeichen) (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": "Bezeichnung",
+                  "rows": [
+                    {
+                      "row": null,
+                      "label": "Bezeichnung",
+                      "type": "repeater",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            },
+            {
+              "section_label": "Hinzurechnung nach § 8 Nummer 9 bis 12 GewStG",
+              "rows": [
+                {
+                  "row": "57",
+                  "label": "Nur bei einer Körperschaft: Ausgaben im Sinne des § 9 Absatz 1 Nummer 2 KStG, soweit sie bei der Ermittlung des Gewinns laut Zeile 33 abgezogen worden sind (§ 8 Nummer 9 GewStG) (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "58",
+                  "label": "Ausschüttungs- und abführungsbedingte Gewinnminderungen bei Beteiligungsbesitz (§ 8 Nummer 10 GewStG); auch soweit die Gewinnminderung Folge einer Auskehrung von Liquidationsraten ist (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "59",
+                  "label": "Ausländische Steuern, soweit sie auf Gewinne oder Gewinnanteile entfallen, die nach § 9 GewStG gekürzt werden oder sonst nicht im Gewerbeertrag enthalten sind (§ 8 Nummer 12 GewStG) (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context_label": "Einzelaufstellung Verlustanteile",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "56",
+              "label": "Bezeichnung",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "56",
+              "label": "Betrag (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "6 - Gewinne aus Anteilen an bestimmten Körperschaften",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "61",
+              "label": "Nur bei Mitunternehmerschaften: Anteil der an der Mitunternehmerschaft unmittelbar oder mittelbar über andere Mitunternehmerschaften beteiligten Körperschaften in Höhe von (Prozent) (X,XXXXXX)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "62",
+              "label": "Nur bei Organgesellschaften: Anteil der an der Organgesellschaft unmittelbar oder mittelbar über Mitunternehmerschaften beteiligten Körperschaften in Höhe von (Prozent) (X,XXXXXX)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "63",
+              "label": "Bei Mitunternehmerschaften und Organgesellschaften: Anteil der an der Mitunternehmerschaft oder der Organgesellschaft unmittelbar oder mittelbar über andere Mitunternehmerschaften beteiligten natürlichen Personen (100 Prozent abzüglich Prozentsatz laut Zeile 61 oder 62) (Prozent) (X,XXXXXX)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Nur bei Organgesellschaften:",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "64",
+              "label": "Steuerfreie Bezüge nach § 8b Absatz 1 und 4 KStG beziehungsweise nach § 3 Nummer 41 Buchstabe a EStG oder nach DBA (Summe der Beträge laut Zeile 13 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "64a",
+              "label": "Steuerfreie Bezüge nach § 3 Nummer 41 Buchstabe a EStG (Summe der Beträge laut Zeile 21a aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "65",
+              "label": "Bezüge nach § 3 Nummer 40 EStG gekürzt um Betriebsausgaben nach § 3c Absatz 2 EStG vor Anwendung des Teileinkünfteverfahrens (Summe der positiven Beträge laut Zeile 22 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "65a",
+              "label": "Bezüge nach § 3 Nummer 40 EStG gekürzt um Betriebsausgaben nach § 3c Absatz 2 EStG vor Anwendung des Teileinkünfteverfahrens (Summe der negativen Beträge laut Zeile 22 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "66",
+              "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG, soweit auf Körperschaften entfallend (Summe der Beträge laut Zeile 15 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "66a",
+              "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG, soweit auf natürliche Personen entfallend (Summe der Beträge laut Zeile 23 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "67",
+              "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Summe der Beträge laut Zeile 20 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "67a",
+              "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Summe der Beträge laut Zeile 28 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "68",
+              "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG (Betrag laut Zeile 19 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "68a",
+              "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG vor Anwendung des Teileinkünfteverfahrens (Betrag laut Zeile 27 aller Anlagen BEG) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "7 - Kürzungen",
+      "sections": [
+        {
+          "section_label": "Einheitswert Grundbesitz (§ 9 Nummer 1 Satz 1 GewStG)",
+          "rows": [
+            {
+              "row": null,
+              "label": "Einheitswert (Ersatzwirtschaftswert) des am 1.1.2020 zum Betriebsvermögen gehörenden oder betrieblich genutzten und im Eigentum des Unternehmers stehenden Grundbesitzes, soweit dieser nicht von der Grundsteuer befreit ist (§ 9 Nummer 1 Satz 1 GewStG)",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "69",
+              "label": "Anzusetzender Wert in Euro (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Einheitswert in Euro",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Einheitswert in Euro",
+                  "type": "repeater",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": null,
+                  "rows": [
+                    {
+                      "row": "69",
+                      "label": "Einheitswert in Euro (Euro)",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Der Einheitswert ist anzusetzen mit 100 Prozent",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Der Einheitswert ist anzusetzen mit 140 Prozent",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Der Einheitswert ist anzusetzen mit 250 Prozent",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Der Einheitswert ist anzusetzen mit 400 Prozent",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Der Einheitswert ist anzusetzen mit 600 Prozent",
+                      "type": "checkbox",
+                      "values": []
+                    },
+                    {
+                      "row": "69",
+                      "label": "Zwischensumme zum anzusetzenden Einheitswert (Euro, Cent)",
+                      "type": "text",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_label": "Weitere Kürzungen",
+          "rows": [
+            {
+              "row": "70",
+              "label": "Erweiterte Kürzung bei einem Grundstücksunternehmen im Sinne des § 9 Nummer 1 Satz 2 folgende GewStG (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Anteile am Gewinn von in- und/oder ausländischen Personengesellschaften (§ 9 Nummer 2 GewStG)",
+          "rows": [
+            {
+              "row": "71",
+              "label": "Anteile am Gewinn von in- und/oder ausländischen Personengesellschaften (laut Einzelaufstellung) (§ 9 Nummer 2 GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Bezeichnung",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Bezeichnung",
+                  "type": "repeater",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Weitere Angaben",
+          "rows": [
+            {
+              "row": "72",
+              "label": "Nur bei persönlich haftendem Gesellschafter einer Kommanditgesellschaft auf Aktien: Die nach § 8 Nummer 4 GewStG dem Gewinn aus Gewerbebetrieb der KGaA hinzugerechneten Gewinnanteile eines persönlich haftenden Gesellschafters (§ 9 Nummer 2b GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "73",
+              "label": "Teil des Gewerbeertrages, der auf Betriebsstätten im Ausland entfällt, ohne Einkünfte im Sinne des § 7 Satz 8 GewStG (§ 9 Nummer 3 GewStG); negative Beträge mit Minuszeichen eintragen (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Zuwendungen (Spenden und Mitgliedsbeiträge) nach § 9 Nummer 5 GewStG",
+          "rows": [
+            {
+              "row": "74",
+              "label": "Zuwendungen im Kalenderjahr 2020 beziehungsweise im abweichenden Wirtschaftsjahr 2019/2020 zur Förderung steuerbegünstigter Zwecke im Sinne der §§ 52 bis 54 AO (§ 9 Nummer 5 Satz 1 GewStG); ohne Betrag, der in der Zeile 78 einzutragen ist (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "75",
+              "label": "Bei dem übernehmenden Unternehmen im Jahr der Vermögensübernahme: Auf dieses nach § 12 Absatz 3 in Verbindung mit § 15 Absatz 1, § 16, § 18 UmwStG übergegangener Zuwendungsvortrag gemäß § 9 Nummer 5 Satz 13 GewStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "76",
+              "label": "Im Falle einer Abspaltung oder Teilübertragung: Verringerung des verbleibenden Zuwendungsvortrags (§ 9 Nummer 5 Satz 13 GewStG) bei der übertragenden Körperschaft (§ 12 Absatz 3 in Verbindung mit § 15 Absatz 1, § 16, § 18 UmwStG) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Angaben für die Höchstbetragsberechnung nach § 9 Nummer 5 GewStG",
+              "rows": [
+                {
+                  "row": "77",
+                  "label": "Summe der gesamten Umsätze und der im Wirtschaftsjahr aufgewendeten Löhne und Gehälter (nur ausfüllen, wenn für Höchstbetragsberechnung erforderlich) (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            },
+            {
+              "section_label": "Nicht bei einer Körperschaft: Zuwendungen in das zu erhaltende Vermögen (Vermögensstock) einer Stiftung (§ 9 Nummer 5 Satz 9 GewStG)",
+              "rows": [
+                {
+                  "row": "78",
+                  "label": "Zuwendungen in das zu erhaltende Vermögen (Vermögensstock) einer Stiftung (§ 9 Nummer 5 Satz 9 GewStG) im Kalenderjahr 2020 beziehungsweise im abweichenden Wirtschaftsjahr 2019/2020 (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "79",
+                  "label": "Noch nicht abgezogene Zuwendungen in das zu erhaltende Vermögen (Vermögensstock) einer Stiftung (§ 9 Nummer 5 Satz 9 GewStG) aus 2011 bis 2019 (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "79",
+                  "label": "Von diesen Beträgen sollen im Erhebungszeitraum 2020 abgezogen werden (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context_label": "Einzelaufstellung Gewinnanteile von Personengesellschaften",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "71",
+              "label": "Bezeichnung",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "71",
+              "label": "Betrag (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "8 - Gewerbeertrag",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "- Hinzurechnungen und Kürzungen entfallen -",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bei Handelsschiffen im internationalen Verkehr (§ 5a EStG in Verbindung mit § 7 Satz 3 GewStG)",
+          "rows": [
+            {
+              "row": "80",
+              "label": "Nach § 5a Absatz 1 EStG ermittelter Gewinn (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "80a",
+              "label": "Hinzuzurechnender Unterschiedsbetrag nach § 5a Absatz 4 EStG und sonstige Hinzurechnungen im Sinne des § 5a Absatz 5 EStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "80b",
+              "label": "Hinzuzurechnende Vergütungen im Sinne des § 5a Absatz 4a Satz 3 EStG (gegebenenfalls gekürzt um damit im Zusammenhang stehende Aufwendungen) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Gewerbeertrag bei öffentlich-rechtlichen Rundfunkanstalten",
+          "rows": [
+            {
+              "row": "81",
+              "label": "Nach § 8 Absatz 1 Satz 3 KStG ermitteltes Einkommen aus dem Geschäft der Veranstaltung von Werbesendungen (§ 7 Satz 3 GewStG) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Im Falle der Spartentrennung bei Unternehmen im Sinne des § 7 Satz 5 GewStG",
+          "rows": [
+            {
+              "row": "82",
+              "label": "Maßgebender verbleibender Gewerbeertrag in den Fällen des § 7 Satz 5 GewStG in Verbindung mit § 8 Absatz 9 KStG (Betrag laut Zeile 71 aller Anlagen ÖHG) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "9 - Weitere Angaben",
+      "sections": [
+        {
+          "section_label": "Gewerbeertrag der Organgesellschaft(en)",
+          "rows": [
+            {
+              "row": null,
+              "label": "Bei mehreren Organgesellschaften (laut Einzelaufstellung)",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "83",
+              "label": "Gewerbeertrag der Organgesellschaft(en) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Name der Organgesellschaft",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Name der Organgesellschaft",
+                  "type": "repeater",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Zeilen 84 bis 84b: Bei Organträgern, soweit nicht selbst Organgesellschaft",
+          "rows": [
+            {
+              "row": null,
+              "label": "- soweit selbst Organgesellschaft, sind die Zeilen 85 bis 87d auszufüllen -",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Korrekturbeträge nach § 3 Nummer 40 Buchstabe a, § 3 Nummer 41 Buchstabe b, § 3c EStG und § 8b Absatz 2 und 3 KStG, § 12 Absatz 2 UmwStG in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 KStG und der Anwendung von § 34c Absatz 3 EStG",
+              "rows": [
+                {
+                  "row": "84",
+                  "label": "Summe der Korrekturbeträge zum Betrag laut Zeile 83 aufgrund der Anwendung des § 3 Nummer 40 Buchstabe a, § 3 Nummer 41 Buchstabe b, § 3c EStG, § 8b Absatz 2 und 3 KStG, § 12 Absatz 2 UmwStG in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 KStG und der Anwendung von § 34c Absatz 3 EStG (laut gesonderter Einzelaufstellung) (negative Beträge mit Minuszeichen) (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": "Name der Organgesellschaft",
+                  "rows": [
+                    {
+                      "row": null,
+                      "label": "Name der Organgesellschaft",
+                      "type": "repeater",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            },
+            {
+              "section_label": "Korrekturbeträge nach §§ 20, 21 InvStG",
+              "rows": [
+                {
+                  "row": "84a",
+                  "label": "Summe der Korrekturbeträge zum Betrag laut Zeile 83 aufgrund der Anwendung der §§ 20, 21 InvStG in Verbindung mit § 15 Satz 1 Nummer 2a und Satz 2 KStG gegebenenfalls in Verbindung mit § 43 Absatz 3 und § 45 Absatz 2 InvStG (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": "Name der Organgesellschaft",
+                  "rows": [
+                    {
+                      "row": null,
+                      "label": "Name der Organgesellschaft",
+                      "type": "repeater",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            },
+            {
+              "section_label": "Korrekturbeträge nach § 45 Absatz 1 InvStG",
+              "rows": [
+                {
+                  "row": "84b",
+                  "label": "Nur bei einer Körperschaft: Summe der Korrekturbeträge zum Betrag laut Zeile 83 aufgrund der Anwendung des § 45 Absatz 1 InvStG (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Nur bei einer Organgesellschaft",
+          "rows": [
+            {
+              "row": null,
+              "label": "Werte, die für die Ermittlung des Gewerbeertrages des Organträgers von Bedeutung sind. Ist die Organgesellschaft gleichzeitig Organträger: Einschließlich entsprechender Beträge ihrer Organgesellschaften (laut gesonderter Ermittlung) - negative Beträge mit Minuszeichen -",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "85",
+              "label": "Wenn der Organträger eine natürliche Person ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 3 Nummer 40 Buchstabe a, § 3 Nummer 41 Buchstabe b, § 3c EStG und § 12 Absatz 2 UmwStG in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 KStG sowie § 34c Absatz 3 EStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "86",
+              "label": "Wenn der Organträger eine Körperschaft ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 8b Absatz 2 und 3 KStG, § 12 Absatz 2 UmwStG und § 3 Nummer 41 Buchstabe b EStG in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 KStG sowie § 34c Absatz 3 EStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "87",
+              "label": "Wenn der Organträger eine Personengesellschaft ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 3 Nummer 40 Buchstabe a, § 3 Nummer 41 Buchstabe b, § 3c EStG, § 8b Absatz 2 und 3 KStG, § 12 Absatz 2 UmwStG in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 KStG sowie § 34c Absatz 3 EStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "87a",
+              "label": "Wenn der Organträger eine natürliche Person ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 15 Satz 1 Nummer 2a und Satz 2 KStG, insbesondere in den Fällen der §§ 20, 21 InvStG und § 43 Absatz 3 in Verbindung mit § 45 Absatz 2 InvStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "87b",
+              "label": "Wenn der Organträger eine Körperschaft ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 15 Satz 1 Nummer 2a und Satz 2 KStG, insbesondere in den Fällen der §§ 20, 21 InvStG und § 43 Absatz 3 in Verbindung mit § 45 Absatz 2 InvStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "87c",
+              "label": "Wenn der Organträger eine Personengesellschaft ist: Zu berücksichtigender Korrekturbetrag zum Gewerbeertrag aufgrund der Anwendung des § 15 Satz 1 Nummer 2a und Satz 2 KStG, insbesondere in den Fällen der §§ 20, 21 InvStG und § 43 Absatz 3 in Verbindung mit § 45 Absatz 2 InvStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "87d",
+              "label": "Wenn der Organträger eine Körperschaft ist: Zu berücksichtigender Korrekturbetrag aufgrund der Anwendung des § 45 Absatz 1 InvStG (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Im Falle einer Aufspaltung oder Verschmelzung einer Organgesellschaft",
+          "rows": [
+            {
+              "row": "88",
+              "label": "Von der Organgesellschaft selbst zu versteuernder Gewerbeertrag aus einem Übertragungsgewinn nach § 11 UmwStG (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "In Fällen des § 2 Absatz 4 Satz 3 und 4 UmwStG",
+          "rows": [
+            {
+              "row": "89",
+              "label": "Beim übernehmenden Rechtsträger: Positiver Gewerbeertrag des übertragenden oder einbringenden Rechtsträgers im Rückwirkungszeitraum (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "90",
+              "label": "Nur bei Organträgern: Beim Organträger des übernehmenden Rechtsträgers: Positiver Gewerbeertrag des auf die Organgesellschaft(en) übertragenden oder einbringenden Rechtsträgers im Rückwirkungszeitraum (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Minderung des laufenden Gewerbeverlustes wegen schädlichem Beteiligungserwerb oder Abspaltung",
+          "rows": [
+            {
+              "row": null,
+              "label": "Zeilen 91 und 92: Nur bei einer Körperschaft",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "90a",
+              "label": "Nur bei Körperschaften und Personengesellschaften, soweit an diesen eine Körperschaft unmittelbar oder mittelbar über eine oder mehrere Personengesellschaft(en) beteiligt ist: Höhe der gesamten zum Zeitpunkt des schädlichen Beteiligungserwerbs im Sinne von § 10a Satz 10 GewStG in Verbindung mit § 8c KStG im Inland vorhandenen gewerbesteuerpflichtigen stillen Reserven des Betriebsvermögens bei Anwendung der Stille-Reserven-Klausel; vergleiche gleich lautende Erlasse der obersten Finanzbehörden der Länder vom 29.11.2017; BStBl I 2017, Seite 1643 (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "91",
+              "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht ausgleichsfähiger Gewerbeverlust des laufenden Erhebungszeitraums (gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2, § 20 Absatz 6 Satz 4 UmwStG) (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "92",
+              "label": "Bei der übertragenden Körperschaft im Fall der Abspaltung wegfallender Gewerbeverlust aus dem laufenden Erhebungszeitraum (§ 18 Absatz 1 beziehungsweise § 19 Absatz 1 in Verbindung mit § 15 Absatz 1 Satz 1, § 15 Absatz 3 und § 16 Satz 1 UmwStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "93",
+              "label": "Nur bei einer Personengesellschaft, soweit an dieser eine Körperschaft unmittelbar oder mittelbar über eine oder mehrere Personengesellschaft(en) beteiligt ist: Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht ausgleichsfähiger Gewerbeverlust des laufenden Erhebungszeitraums (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "Gewerbeertrag der Organgesellschaft(en)",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "83a",
+              "label": "Name der Organgesellschaft",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "83a",
+              "label": "Betrag (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "Korrekturbeträge nach § 3 Nummer 40 Buchstabe a, § 3 Nummer 41 Buchstabe b, § 3c und § 8b Absatz 2 und 3 , § 12 Absatz 2 in Verbindung mit § 15 Satz 1 Nummer 2 und Satz 2 und der Anwendung von § 34c Absatz 3",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "84",
+              "label": "Name der Organgesellschaft",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "84",
+              "label": "Betrag (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "Korrekturbeträge nach §§ 20, 21",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "84a",
+              "label": "Name der Organgesellschaft",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "84a",
+              "label": "Betrag (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "10 - Angaben zum fortführungsgebundenen vortragsfähigen Gewerbeverlust nach § 10a Satz 10 in Verbindung mit § 8d",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "94",
+              "label": "Aufgrund einer beantragten Feststellung eines fortführungsgebundenen Körperschaftsteuer-Verlustvortrages ist § 8d KStG sinngemäß auf die Gewerbesteuerfehlbeträge anzuwenden (§ 10a Satz 10 GewStG).",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "95",
+              "label": "Wenn zum Schluss des vorangegangenen Erhebungszeitraums ein fortführungsgebundener Gewerbeverlust festgestellt wurde: Im Erhebungszeitraum sind Ereignisse im Sinne des § 8d Absatz 2 KStG eingetreten.",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "Ja",
+                "Nein"
+              ]
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "11 - Angaben zur Verlustfeststellung",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Zeilen 96 bis 107b nicht ausfüllen, wenn Anlage(n) ÖHG beigefügt ist/sind.",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "96",
+              "label": "Gewerbeertrag/Gewerbeverlust laut Anlage EMU (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "96",
+              "label": "Von einem anderen Steuerschuldner im Falle des Rechtsformwechsels übernommener Gewerbeverlust aus der Zeit vor dem Rechtsformwechsel, soweit nach § 10a GewStG vortragsfähig (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "97",
+              "label": "Übernommener Gewerbeverlust im Falle der Einbringung des Betriebs einer Personengesellschaft in eine andere Personengesellschaft oder der Verschmelzung von Personengesellschaften (R 10a.3 Absatz 3 Satz 9 Nummer 5 Satz 1 und 2 GewStR 2009) oder im Fall der Anwachsung oder der Verschmelzung einer Personengesellschaft auf einen Gesellschafter (R 10a.3 Absatz 3 Satz 9 Nummer 4 GewStR 2009) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "98",
+              "label": "Nur bei Organgesellschaften: Im Fall der Anwachsung einer Personengesellschaft auf eine Organgesellschaft: Im Betrag laut Zeile 97 enthaltener Verlust, der vor dem rechtswirksamen Abschluss des Gewinnabführungsvertrages bei der Personengesellschaft entstanden ist (R 10a.4 Satz 2 GewStR 2009) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "99",
+              "label": "Nur bei Betrieben gewerblicher Art: Übernommener vortragsfähiger Gewerbeverlust (§ 10a Satz 9 GewStG in Verbindung mit § 8 Absatz 8 KStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Nur bei einer Körperschaft:",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "100",
+              "label": "Bei der übertragenden Körperschaft im Fall der Abspaltung wegfallender Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (§ 18 Absatz 1 in Verbindung mit § 16 und § 15 Absatz 3 beziehungsweise § 19 Absatz 2 in Verbindung mit § 15 Absatz 3 UmwStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "101",
+              "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht abziehbarer Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1 und 2, § 20 Absatz 6 Satz 4 UmwStG) (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "102",
+              "label": "Erhalt des vortragsfähigen fortführungsgebundenen Gewerbeverlustes nach § 10a Satz 10 GewStG in Verbindung mit § 8d Absatz 2 Satz 1 zweiter Halbsatz KStG durch entsprechende Anwendung des § 8c Absatz 1 Satz 5 bis 8 KStG bezogen auf die zum Schluss des vorangegangenen Erhebungszeitraums vorhandenen stillen Reserven (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "103",
+              "label": "Nur bei einer Personengesellschaft, soweit an dieser eine Körperschaft unmittelbar oder mittelbar über eine oder mehrere Personengesellschaften beteiligt ist: Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht abziehbarer Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "104",
+              "label": "Nur bei einer Personengesellschaft oder aus einer Personengesellschaft hervorgegangenem Einzelunternehmen: Wegfallende vortragsfähige Gewerbeverluste und Gewerbeverluste des laufenden Erhebungszeitraums von Mitunternehmern, die im laufenden Erhebungszeitraum ausgeschieden sind (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Nur bei Personengesellschaften:",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "105",
+              "label": "Nach § 10a Satz 1 GewStG in Verbindung mit § 10a Satz 4 und 5 GewStG zu berücksichtigender Verlustabzug (höchstens 1 Million Euro) für Mitunternehmer, denen ein Anteil am vortragsfähigen Gewerbeverlust zum Schluss des vorangegangenen Erhebungszeitraums zuzurechnen ist (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "106",
+              "label": "Nach § 10a Satz 2 GewStG in Verbindung mit § 10a Satz 4 und 5 GewStG zu berücksichtigender Verlustabzug (60 Prozent des 1 Million Euro übersteigenden Gewerbeertrages) für Mitunternehmer, denen ein Anteil am vortragsfähigen Gewerbeverlust zum Schluss des vorangegangenen Erhebungszeitraums zuzurechnen ist (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "107",
+              "label": "Nur bei Personengesellschaften oder Einzelunternehmen: Aufgrund der Veräußerung oder Aufgabe von Teilbetrieben wegfallender vortragsfähiger Gewerbeverlust und Gewerbeverlust des laufenden Erhebungszeitraums (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "107a",
+              "label": "Nur bei Körperschaften: Aufgrund der Veräußerung oder Aufgabe eines angewachsenen Teilbetriebes wegfallender vortragsfähiger Gewerbeverlust (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "107b",
+              "label": "Nur bei Organgesellschaften: Im Betrag laut Zeile 107a enthaltener Verlust, der nach dem rechtswirksamen Abschluss des Gewinnabführungsvertrages bei der Personengesellschaft entstanden ist (R 10a.4 Satz 2 GewStR 2009) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": null,
+              "label": "Nur bei Personengesellschaften oder Einzelunternehmen - nur für Zwecke des § 35 EStG -",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "108",
+              "label": "Veräußerungs- oder Aufgabegewinn nach § 18 Absatz 3 UmwStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "109",
+              "label": "Nach Anwendung des § 3a Absatz 3 Satz 2 Nummer 1 EStG verbleibender geminderter Sanierungsertrag im Sinne des § 3a Absatz 3 Satz 1 EStG (§ 7b Absatz 2 Satz 1, gegebenenfalls in Verbindung mit Satz 2 und 3 beziehungsweise Absatz 3 GewStG) vor Anwendung des § 7b Absatz 2 Satz 1 Nummer 1 bis 3 GewStG (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "12 - Bei Rechtsformwechsel einer Personengesellschaft in ein Einzelunternehmen oder umgekehrt",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "110",
+              "label": "Einheitlich ermittelter Gewerbesteuermessbetrag des Gewerbebetriebs für den gesamten Erhebungszeitraum (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "111",
+              "label": "Für den Steuerschuldner (Einzelunternehmen) ermittelter Gewerbeertrag einschließlich Hinzurechnungen und Kürzungen (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "112",
+              "label": "Für den Steuerschuldner (Personengesellschaft) ermittelter Gewerbeertrag einschließlich Hinzurechnungen und Kürzungen (laut gesonderter Ermittlung) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

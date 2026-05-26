@@ -1,0 +1,635 @@
+[
+  {
+    "context_label": "Anlage Bekanntgabe",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Einwilligung in die elektronische Bekanntgabe des Gewerbesteuerbescheides durch die hebeberechtigte Gemeinde",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht auszufüllen:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- in Zerlegungsfällen",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- von Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wenn durch Landesverordnung das Land die Gewerbesteuer erhebt",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Angaben zur Bekanntgabe des Gewerbesteuerbescheides werden von der Finanzverwaltung an die nach § 4 GewStG hebeberechtigte Gemeinde nach den Grundsätzen des § 31 AO übermittelt und dort für die Bekanntgabe des Gewerbesteuerbescheides genutzt.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Elektronische Bekanntgabe an das gewerbesteuerpflichtige Unternehmen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Hinweise:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Allgemeine Informationen zur Einwilligung:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Über die vorgenommene Bereitstellung des Gewerbesteuerbescheides zum elektronischen Abruf (§ 122a Absatz 1 AO) wird eine unverschlüsselte E–Mail an die angegebene E–Mail–Adresse versandt, in der die Kurzbezeichnung des Gewerbesteuerbescheides sowie Informationen zum Datenabruf angegeben werden. Weitere personenbezogene Daten werden nicht wiedergegeben. Der Gewerbesteuerbescheid gilt am vierten Tag nach Absendung dieser E–Mail als rechtlich wirksam bekannt gegeben (§ 122a Absatz 4 Satz 1 AO).",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Einwilligung in die elektronische Bekanntgabe umfasst auch sämtliche gegebenenfalls erforderlich werdende geänderte Gewerbesteuerbescheide des Erhebungszeitraums.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die hier erteilte Einwilligung in die elektronische Bescheidbekanntgabe ist wirkungslos, wenn für den Gewerbebetrieb gegenüber einer hebeberechtigten Gemeinde bereits vor Abgabe dieser Einwilligung ein Empfangsbevollmächtigter bestellt wurde und die Bestellung vor Bekanntgabe des Gewerbesteuerbescheides nicht widerrufen wurde. Eine Einwilligung muss in diesem Fall gegenüber der hebeberechtigten Gemeinde erklärt werden. Andernfalls wird der Gewerbesteuerbescheid dem bestellten Empfangsbevollmächtigten bekannt gegeben.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Der Gewerbesteuerbescheid wird auch dem Bevollmächtigten bekannt gegeben, wenn gegenüber der hebeberechtigten Gemeinde ein Empfangsbevollmächtigter nach Abgabe dieser Einwilligung zur elektronischen Bescheidbekanntgabe bestimmt wird.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Einwilligung in die elektronische Bereitstellung des Gewerbesteuerbescheides zum Datenabruf kann jederzeit mit Wirkung für die Zukunft widerrufen werden. Entscheidend ist der Eingang des Widerrufs bei der hebeberechtigten Gemeinde.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Widerruf der Einwilligung:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Geht der Widerruf der Einwilligung zur elektronischen Bekanntgabe oder die Bestellung eines Empfangsbevollmächtigten erst nach dem Versand der elektronischen Benachrichtigung beziehungsweise Bereitstellung eines Bescheides zum Datenabruf bei der hebeberechtigten Gemeinde ein, wird der Widerruf oder die Bestellung des Empfangsbevollmächtigten für den – zum Abruf bereitgestellten – Bescheid nicht mehr wirksam. Es erfolgt eine Information über die Bereitstellung des Gewerbesteuerbescheides zum Abruf per E-Mail und der Gewerbesteuerbescheid wird durch Bekanntgabe gegenüber dem gewerbesteuerpflichtigen Unternehmen wirksam.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Geht der Widerruf der Einwilligung zur elektronischen Bekanntgabe oder die Bestellung eines Empfangsbevollmächtigten wenige Tage vor dem Versand der elektronischen Benachrichtigung beziehungsweise der Bereitstellung des Bescheides bei der hebeberechtigten Gemeinde ein, kann es in Einzelfällen aus technischen Gründen dennoch zu einer elektronischen Bekanntgabe kommen. In diesem Fall",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- kann die hebeberechtigte Gemeinde den zum Abruf bereitgestellten Bescheid nicht mehr löschen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- kann ein nachträglich bestimmter Empfangsbevollmächtigter den Bescheid nicht elektronisch abrufen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wurde der zum Abruf bereitgestellte Bescheid nicht wirksam bekannt gegeben.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wird die Bekanntgabe des Gewerbesteuerbescheides gegenüber dem Unternehmen oder dem nachträglich bestimmten Empfangsbevollmächtigten nachgeholt.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Sofern mit den vorgenannten Bedingungen kein Einverständnis besteht, ist eine Einwilligung, Gewerbesteuerbescheide durch Bereitstellung zum Datenabruf bekannt geben zu können, nicht möglich.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ausnahmen von der elektronischen Bekanntgabe:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die hebeberechtigte Gemeinde behält sich vor, Bescheide trotz Einwilligung in die elektronische Bekanntgabe auf andere Weise bekannt zu geben (zum Beispiel auf dem Postweg), wenn eine elektronische Bekanntgabe nach § 122a AO aus technischen Gründen nicht möglich sein sollte oder ein Erfordernis für die Bekanntgabe auf andere Weise besteht.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einwilligung in die Bekanntgabe des Bescheides in elektronischer Form",
+        "rows": [
+          {
+            "row": "1",
+            "label": "Die Hinweise zur Bekanntgabe in elektronischer Form wurden zur Kenntnis genommen.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Der Gewerbesteuerbescheid soll an den Gewerbebetrieb in elektronischer Form bekannt gegeben werden. Es erfolgt keine zusätzliche Bekanntgabe des Gewerbesteuerbescheides auf dem Postweg (siehe Abschnitt „Ausnahmen von der elektronischen Bekanntgabe“).",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Die Benachrichtigungen über den bereitstehenden Bescheid in elektronischer Form soll an folgende E-Mail-Adresse erfolgen:",
+        "rows": [
+          {
+            "row": "3",
+            "label": "E-Mail-Adresse",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Wiederholung E-Mail-Adresse (erneute Eingabe der E-Mail-Adresse)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Elektronische Bekanntgabe an Angehörige der steuerberatenden Berufe oder andere Empfangsbevollmächtigte",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Hinweise:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Allgemeine Informationen zur Einwilligung:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die elektronische Bekanntgabe von Gewerbesteuersteuerbescheiden durch die hebeberechtigte Gemeinde an Angehörige der steuerberatenden Berufe oder andere Empfangsbevollmächtigte setzt eine gesonderte Empfangsbevollmächtigung zur elektronischen Bekanntgabe in dieser Steuererklärung voraus.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Über die vorgenommene Bereitstellung des Gewerbesteuerbescheides zum elektronischen Abruf (§ 122a Absatz 1 AO) erhält der Empfangsbevollmächtigte eine unverschlüsselte E–Mail an die angegebene E–Mail–Adresse, in der die Kurzbezeichnung des Gewerbesteuerbescheides sowie Informationen zum Datenabruf angegeben werden. Weitere personenbezogene Daten werden nicht wiedergegeben. Der Gewerbesteuerbescheid gilt am vierten Tag nach Absendung dieser E–Mail als rechtlich wirksam bekannt gegeben (§ 122a Absatz 4 Satz 1 AO).",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Einwilligung in die elektronische Bekanntgabe umfasst auch sämtliche gegebenenfalls erforderlich werdende geänderte Gewerbesteuerbescheide des Erhebungszeitraums.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Einwilligung in die elektronische Bereitstellung des Gewerbesteuerbescheides zum Datenabruf kann jederzeit mit Wirkung für die Zukunft widerrufen werden. Entscheidend ist der Eingang des Widerrufs bei der hebeberechtigten Gemeinde.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Wird die Bestellung zum Empfangsbevollmächtigten des in dieser Steuererklärung genannten Angehörigen der steuerberatenden Berufe oder andere Empfangsbevollmächtigte bei der hebeberechtigten Gemeinde widerrufen, ist ein Datenabruf ab Zugang des Widerrufs bei dieser hebeberechtigten Gemeinde nicht mehr möglich.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Widerruf der Einwilligung:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Geht der Widerruf der Einwilligung zur elektronischen Bekanntgabe oder der Empfangsvollmacht erst nach Versand der elektronischen Benachrichtigung beziehungsweise Bereitstellung des Bescheides zum Datenabruf bei der hebeberechtigten Gemeinde ein, wird der Widerruf für den – zum Abruf bereitgestellten – Bescheid nicht mehr wirksam. Es erfolgt eine Information über die Bereitstellung des Gewerbesteuerbescheides zum Abruf per E-Mail und der Gewerbesteuerbescheid wird durch Bekanntgabe gegenüber dem Empfangsbevollmächtigten wirksam.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Geht der Widerruf der Einwilligung zur elektronischen Bekanntgabe oder der Empfangsvollmacht wenige Tage vor dem Versand der elektronischen Benachrichtigung beziehungsweise der Bereitstellung des Bescheides bei der hebeberechtigten Gemeinde ein, kann es in Einzelfällen aus technischen Gründen dennoch zu einer elektronischen Bekanntgabe kommen. In diesem Fall",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "– kann die hebeberechtigte Gemeinde den zum Abruf bereitgestellten Bescheid nicht mehr löschen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- kann ein anderer (neuer) Empfangsbevollmächtigter oder der Steuerpflichtige den Bescheid nicht elektronisch abrufen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wurde der gegenüber dem in dieser Steuererklärung genannten Empfangsbevollmächtigten zum Abruf bereitgestellte Bescheid gegenüber niemandem rechtlich wirksam bekannt gegeben.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wird die Bekanntgabe des Gewerbesteuerbescheides nachgeholt.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Sofern mit den vorgenannten Bedingungen kein Einverständnis besteht, ist eine Einwilligung, Gewerbesteuerbescheide durch Bereitstellung zum Datenabruf bekannt geben zu können, nicht möglich.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ausnahmen von der elektronischen Bekanntgabe:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die hebeberechtigte Gemeinde behält sich vor, Bescheide trotz Einwilligung in die elektronische Bekanntgabe auf andere Weise bekannt zu geben (zum Beispiel auf dem Postweg), wenn eine elektronische Bekanntgabe nach § 122a AO aus technischen Gründen nicht möglich sein sollte oder ein Erfordernis für die Bekanntgabe auf andere Weise besteht.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die mit dieser Steuererklärung erteilte Bekanntgabevollmacht für Angehörige der steuerberatenden Berufe im Sinne der §§ 3 und 4 StBerG oder andere Empfangsbevollmächtigte sowie die Einwilligung zur elektronischen Bekanntgabe geht anderen zuvor erteilten Bekanntgabevollmachten für diesen Erhebungszeitraum vor. Sollte die elektronische Bekanntgabe nicht möglich sein, ist die erteilte Empfangsvollmacht wirkungslos.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einwilligung in die Bekanntgabe des Bescheides in elektronischer Form",
+        "rows": [
+          {
+            "row": "5",
+            "label": "Die Hinweise zur Bekanntgabe in elektronischer Form wurden zur Kenntnis genommen.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Der Gewerbesteuerbescheid soll an den Empfangsbevollmächtigten in elektronischer Form bekannt gegeben werden. Es erfolgt keine zusätzliche Bekanntgabe des Gewerbesteuerbescheides auf dem Postweg (siehe Abschnitt „Ausnahmen von der elektronischen Bekanntgabe“).",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bestätigung der Datenübermittlung als Angehöriger der steuerberatenden Berufe",
+        "rows": [
+          {
+            "row": "7",
+            "label": "Es wird bestätigt, dass die Datenübermittlung durch Vertreter der steuerberatenden Berufe im Sinne des §§ 3 und 4 StBerG erfolgt.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Die Benachrichtigung über den bereitstehenden Bescheid in elektronischer Form soll an folgende E-Mail-Adresse erfolgen:",
+        "rows": [
+          {
+            "row": "8",
+            "label": "E-Mail-Adresse",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Wiederholung E-Mail-Adresse (erneute Eingabe der E-Mail-Adresse)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Empfangsbevollmächtigter bei elektronischer Bekanntgabe durch Bereitstellung zum Datenabruf (Gewerbesteuerbescheid)",
+        "rows": [
+          {
+            "row": null,
+            "label": "Nur ausfüllen, wenn der Gewerbesteuerbescheid nicht an das Unternehmen bekanntgegeben werden soll und wenn der Gemeinde keine entsprechende Empfangsvollmacht vorliegt.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Namenszeile 1",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Namenszeile 2",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Straße",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Postfach",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Postleitzahl",
+            "type": "",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

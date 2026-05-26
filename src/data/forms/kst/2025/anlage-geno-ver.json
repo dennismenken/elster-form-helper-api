@@ -1,0 +1,398 @@
+[
+  {
+    "context_label": "Anlage Geno/Ver",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Steuerbefreiung von Genossenschaften und Vereinen",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Genossenschaften und Vereine nach § 5 Absatz 1 Nummer 14",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Die Aufteilung der Einnahmen in steuerpflichtige und steuerfreie Tätigkeiten und die Ermittlung des Gewinns aus steuerpflichtigen Tätigkeiten werden/wurden gesondert übermittelt.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "1a",
+            "label": "Gesamteinnahmen (ohne Einnahmen nach § 5 Absatz 1 Nummer 14 Satz 3 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "1b",
+            "label": "Einnahmen nach § 5 Absatz 1 Nummer 14 Satz 2 KStG (partiell steuerpflichtiger Geschäftsbereich) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "1c",
+            "label": "Prozentsatz der Einnahmen aus nicht begünstigten Tätigkeiten (Betrag laut Zeile 1b dividiert durch den Betrag laut Zeile 1a multipliziert mit 100)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Genossenschaften und Vereine nach § 5 Absatz 1 Nummer 10",
+    "sections": [
+      {
+        "section_label": "Positionen der Gewinn- und Verlustrechnung",
+        "rows": [
+          {
+            "row": "3",
+            "label": "Umsatzerlöse aus der Hausbewirtschaftung",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "4",
+            "label": "Dazu: Umsatzerlöse aus dem Verkauf von Grundstücken",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "5",
+            "label": "Davon ab: nach Billigkeitsregelung auszunehmender Erlös",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "6",
+            "label": "Dazu: Umsatzerlöse aus Betreuungstätigkeit",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "7",
+            "label": "Dazu: Umsatzerlöse aus anderen Lieferungen und Leistungen",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "8",
+            "label": "Dazu: Einnahmen aus der Lieferung von Strom aus Anlagen, für den die Körperschaft unter den Voraussetzungen des § 21 Absatz 3 des Erneuerbare-Energien-Gesetzes einen Anspruch auf Zahlung eines Mieterstromzuschlags hat, oder aus der Bereitstellung von Strom aus Gebäudestromanlagen gemäß § 3 Nummer 20b des Energiewirtschaftsgesetzes zur Nutzung durch Letztverbraucher im Rahmen der Gemeinschaftlichen Gebäudeversorgung",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "10",
+            "label": "Dazu: Sonstige betriebliche Erträge",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "11",
+            "label": "Dazu: Erträge aus Beteiligungen an Kapitalgesellschaften (einschließlich Gewinnübernahme aus Organgesellschaften)",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "12",
+            "label": "Dazu: Erträge aus anderen Wertpapieren und Ausleihungen des Finanzanlagevermögens",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "13",
+            "label": "Dazu: Sonstige Zinsen und ähnliche Erträge",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "14",
+            "label": "Dazu: Außerordentliche Erträge",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "15",
+            "label": "Davon ab: Erträge aus der Auflösung von Rückstellungen",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "16",
+            "label": "Davon ab: Auflösung aktivisch abzusetzender Pauschalwertberichtigungen zu Forderungen",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "17",
+            "label": "Davon ab: Zahlungseingänge auf in früheren Jahren wertberichtigte Forderungen",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "18",
+            "label": "Davon ab: Erträge aus der Ausbuchung von Verbindlichkeiten",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "19",
+            "label": "Davon ab: Erträge aus Aufzinsung",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "20",
+            "label": "Davon ab: Eintrittsgelder",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Korrekturen der Positionen der Gewinn- und Verlustrechnung",
+        "rows": [
+          {
+            "row": "21",
+            "label": "Davon ab: Erträge aus dem Abgang von Gegenständen des Anlagevermögens",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "22",
+            "label": "Dazu: Veräußerungserlös aus dem Abgang von Gegenständen des Anlagevermögens",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "23",
+            "label": "Davon ab: Erträge aus dem Abgang von Wertpapieren des Umlaufvermögens",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "24",
+            "label": "Dazu: Veräußerungserlös aus dem Abgang von Wertpapieren des Umlaufvermögens",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "25",
+            "label": "Davon ab: Erträge aus Beteiligungen an Personengesellschaften",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "26",
+            "label": "Dazu: anteilige Einnahmen aus Beteiligungen an Personengesellschaften",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einnahmen/Ausgaben außerhalb der Gewinn- und Verlustrechnung",
+        "rows": [
+          {
+            "row": "27",
+            "label": "Dazu: Zum Beispiel Rückzahlungen von Darlehen (Aktivgeschäft) und anderen Ausleihungen mit einer Gesamtlaufzeit von mehr als einem Jahr sowie Tausch von Wertpapieren",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          },
+          {
+            "row": "28",
+            "label": "Dazu / Davon ab: Umsatzsteuer",
+            "type": "text",
+            "values": [
+              "Gesamt (Euro)",
+              "Nicht begünstigt (Euro)"
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Sonstiges – Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Bezeichnung",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Bezeichnung",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "29",
+                "label": "Dazu / Davon ab: Sonstiges",
+                "type": "text",
+                "values": [
+                  "Gesamt (Euro)",
+                  "Nicht begünstigt (Euro)"
+                ]
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Summe der Einnahmen",
+            "rows": [
+              {
+                "row": "30",
+                "label": "Summe",
+                "type": "text",
+                "values": [
+                  "Gesamt (Euro)",
+                  "Nicht begünstigt (Euro)"
+                ]
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Ermittlung des Prozentsatzes der Einnahmen aus nicht begünstigten Tätigkeiten",
+        "rows": [
+          {
+            "row": "30a",
+            "label": "Prozentsatz der Einnahmen aus nicht begünstigten Tätigkeiten ohne Einnahmen laut Zeile 8 Spalte 2 (Differenz der Beträge laut Zeile 30 Spalte 2 und Zeile 8 Spalte 2 dividiert durch Betrag laut Zeile 30 Spalte 1 multipliziert mit 100)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Prozentsatz der Einnahmen aus nicht begünstigten Tätigkeiten (Betrag laut Zeile 30 Spalte 2 dividiert durch Betrag laut Zeile 30 Spalte 1 multipliziert mit 100)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Betrieb von Gemeinschaftsanlagen und Folgeeinrichtungen",
+        "rows": [
+          {
+            "row": "32",
+            "label": "Es werden notwendige Gemeinschaftsanlagen und/oder Folgeeinrichtungen betrieben, die überwiegend von Mitgliedern benutzt werden.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Erläuterungen zur Notwendigkeit und zum Anteil der überwiegenden Nutzung werden/wurden gesondert übermittelt.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Beizufügende Unterlagen",
+        "rows": [
+          {
+            "row": "34",
+            "label": "Die Prüfungsberichte des zuständigen Prüfungsverbandes und je eine Abschrift der Bilanz, der Gewinn- und Verlustrechnung und des Geschäftsberichts für den Veranlagungszeitraum sowie die Ermittlung des Gewinns aus partiell steuerpflichtigen Tätigkeiten werden/wurden gesondert übermittelt.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,451 @@
+[
+  {
+    "context_label": "Anlagen AEV",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht nach DBA steuerfreie negative Einkünfte / Gewinnminderungen im Sinne des § 2a Absatz 1 EStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name des Staates",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des Staates",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage AEV",
+    "sections": [
+      {
+        "section_label": "Allgemeines",
+        "rows": [
+          {
+            "row": "2",
+            "label": "Einkünfte nach § 2a Absatz 1 Satz 1 Nummer ... EStG",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "1 (aus einer land- und forstwirtschaftlichen Betriebsstätte)",
+              "2 (aus einer gewerblichen Betriebsstätte)",
+              "3 (aus dem Ansatz des niedrigeren Teilwerts beziehungsweise aus der Veräußerung oder Entnahme von Anteilen oder aus der Auflösung oder Herabsetzung des Kapitals einer Drittstaaten-Körperschaft)",
+              "5 (aus einer stillen Gesellschaft und partiarischen Darlehen)",
+              "6a (aus Vermietung und Verpachtung von unbeweglichem Vermögen)",
+              "6b (aus entgeltlicher Überlassung von Schiffen)"
+            ]
+          },
+          {
+            "row": "3",
+            "label": "Name des Staates",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Afghanistan",
+              "Ägypten",
+              "Albanien",
+              "Algerien",
+              "Andorra",
+              "Angola",
+              "Antigua und Barbuda",
+              "Äquatorialguinea",
+              "Argentinien",
+              "Armenien",
+              "Aserbaidschan",
+              "Äthiopien",
+              "Australien",
+              "Bahamas",
+              "Bahrain",
+              "Bangladesch",
+              "Barbados",
+              "Belgien",
+              "Belize",
+              "Benin",
+              "Bhutan",
+              "Bolivien",
+              "Bosnien und Herzegowina",
+              "Botsuana",
+              "Brasilien",
+              "Brunei Darussalam",
+              "Bulgarien",
+              "Burkina Faso",
+              "Burundi",
+              "Chile",
+              "China",
+              "Cookinseln",
+              "Costa Rica",
+              "Cote d'Ivoire",
+              "Dänemark",
+              "Dominica",
+              "Dominikanische Republik",
+              "Dschibuti",
+              "Ecuador",
+              "El Salvador",
+              "Eritrea",
+              "Estland",
+              "Eswatini",
+              "Fidschi",
+              "Finnland",
+              "Frankreich",
+              "Gabun",
+              "Gambia",
+              "Georgien",
+              "Ghana",
+              "Grenada",
+              "Griechenland",
+              "Guatemala",
+              "Guinea",
+              "Guinea-Bissau",
+              "Guyana",
+              "Haiti",
+              "Honduras",
+              "Indien",
+              "Indonesien",
+              "Irak",
+              "Iran",
+              "Irland",
+              "Island",
+              "Israel",
+              "Italien",
+              "Jamaika",
+              "Japan",
+              "Jemen",
+              "Jordanien",
+              "Kambodscha",
+              "Kamerun",
+              "Kanada",
+              "Kap Verde",
+              "Kasachstan",
+              "Katar",
+              "Kenia",
+              "Kirgisistan",
+              "Kiribati",
+              "Kolumbien",
+              "Komoren",
+              "Kongo",
+              "Kongo, Demokratische Republik",
+              "Korea, Demokratische Volksrepublik",
+              "Korea, Republik",
+              "Kosovo",
+              "Kroatien",
+              "Kuba",
+              "Kuwait",
+              "Laos",
+              "Lesotho",
+              "Lettland",
+              "Libanon",
+              "Liberia",
+              "Libyen",
+              "Liechtenstein",
+              "Litauen",
+              "Luxemburg",
+              "Madagaskar",
+              "Malawi",
+              "Malaysia",
+              "Malediven",
+              "Mali",
+              "Malta",
+              "Marokko",
+              "Marshallinseln",
+              "Mauretanien",
+              "Mauritius",
+              "Mexiko",
+              "Föderierte Staaten von Mikronesien",
+              "Moldau",
+              "Monaco",
+              "Mongolei",
+              "Montenegro",
+              "Mosambik",
+              "Myanmar",
+              "Namibia",
+              "Nauru",
+              "Nepal",
+              "Neuseeland",
+              "Nicaragua",
+              "Niederlande",
+              "Niger",
+              "Nigeria",
+              "Niue",
+              "Nordmazedonien",
+              "Norwegen",
+              "Oman",
+              "Österreich",
+              "Pakistan",
+              "Palau",
+              "Panama",
+              "Papua-Neuguinea",
+              "Paraguay",
+              "Peru",
+              "Philippinen",
+              "Polen",
+              "Portugal",
+              "Ruanda",
+              "Rumänien",
+              "Russische Föderation",
+              "Salomonen",
+              "Sambia",
+              "Samoa",
+              "San Marino",
+              "Sao Tome und Principe",
+              "Saudi-Arabien",
+              "Schweden",
+              "Schweiz",
+              "Senegal",
+              "Serbien",
+              "Seychellen",
+              "Sierra Leone",
+              "Simbabwe",
+              "Singapur",
+              "Slowakei",
+              "Slowenien",
+              "Somalia",
+              "Spanien",
+              "Sri Lanka",
+              "St. Kitts und Nevis",
+              "St. Lucia",
+              "St. Vincent und die Grenadinen",
+              "Südafrika",
+              "Sudan",
+              "Südsudan",
+              "Surinam",
+              "Syrien",
+              "Tadschikistan",
+              "Tansania",
+              "Thailand",
+              "Timor-Leste",
+              "Togo",
+              "Tonga",
+              "Trinidad und Tobago",
+              "Tschad",
+              "Tschechische Republik",
+              "Tunesien",
+              "Türkei",
+              "Turkmenistan",
+              "Tuvalu",
+              "Uganda",
+              "Ukraine",
+              "Ungarn",
+              "Uruguay",
+              "USA",
+              "Usbekistan",
+              "Vanuatu",
+              "Vatikanstadt",
+              "Venezuela",
+              "Vereinigte Arabische Emirate",
+              "Vereinigtes Königreich",
+              "Vietnam",
+              "Weißrussland",
+              "Zentralafrikanische Republik",
+              "Zypern",
+              "* nicht in Liste / Unterlagen werden eingereicht *"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anfangsbestand",
+        "rows": [
+          {
+            "row": "4",
+            "label": "Verbleibende negative Einkünfte / Gewinnminderungen zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4a",
+            "label": "Davon ab: Untergang der festgestellten verbleibenden fortführungsgebundenen negativen Einkünfte / Gewinnminderungen aufgrund eines schädlichen Ereignisses im Sinne des § 8d Absatz 2 KStG (Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4b",
+            "label": "Dazu: Erhalt der fortführungsgebundenen verbleibenden negativen Einkünfte / Gewinnminderungen nach § 8d Absatz 2 Satz 1 zweiter Halbsatz KStG durch entsprechende Anwendung des § 8c Absatz 1 Satz 5 bis 8 KStG bezogen auf die zum Schluss des vorangegangenen Veranlagungszeitraums vorhandenen stillen Reserven (höchstens Betrag laut Zeile 4a; laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Davon ab: Nicht zu berücksichtigende negative Einkünfte / Gewinnminderungen nach § 8c KStG (gegebenenfalls in Verbindung mit § 2 Absatz 4 Satz 1, § 20 Absatz 6 Satz 4 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Davon ab: Im Falle der Abspaltung: Verringerung der verbleibenden negativen Einkünfte / Gewinnminderungen bei der übertragenden Körperschaft (§ 15 Absatz 3, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8a",
+            "label": "Davon ab: Minderung der verbleibenden negativen Einkünfte / Gewinnminderungen nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe d EStG (gegebenenfalls anteiliger Betrag laut Zeile 29 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Negative Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums",
+        "rows": [
+          {
+            "row": "9",
+            "label": "Dazu: negative Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums(ohne solche aus Mitunternehmerschaften; Übertrag nach Zeile 26 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Dazu: negative Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums aus Beteiligungen an Mitunternehmerschaften (laut gesonderter und einheitlicher Feststellung; Übertrag nach Zeile 26 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10a",
+            "label": "Davon ab: Minderung der negativen Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums aufgrund eines schädlichen Beteiligungserwerbs (§ 8c KStG) oder durch Abspaltung (§ 15 Absatz 3, § 16 UmwStG) zum Ende des Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10b",
+            "label": "Davon ab: Minderung der negativen Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums im Sinne der Zeilen 9 und 10 nach § 3a Absatz 3 Satz 2 Nummer 11 Buchstabe d EStG (gegebenenfalls anteiliger Betrag laut Zeile 29 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Positive Einkünfte des laufenden Veranlagungszeitraums",
+        "rows": [
+          {
+            "row": "11",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          },
+          {
+            "row": "12",
+            "label": "Positive Einkünfte des laufenden Veranlagungszeitraums(ohne solche aus Mitunternehmerschaften)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "13",
+            "label": "Positive Einkünfte des laufenden Veranlagungszeitraums aus Beteiligungen an Mitunternehmerschaften (laut gesonderter und einheitlicher Feststellung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "14",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "15",
+            "label": "Davon ab: Betrag laut Zeile 14 Vorspalte, höchstens Betrag aus Zeile 11 (Übertrag nach Zeile 27 der Anlage ZVE)",
+            "type": "text",
+            "values": [
+              "Hauptspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Endbestand",
+        "rows": [
+          {
+            "row": "16",
+            "label": "Verbleibende negative Einkünfte / Gewinnminderungen zum Schluss des Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Fortführungsgebundener Verlustvortrag nach § 8d KStG",
+        "rows": [
+          {
+            "row": "17",
+            "label": "Verbleibende fortführungsgebundene negative Einkünfte / Gewinnminderungen zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Davon ab: Untergang der festgestellten verbleibenden fortführungsgebundenen negativen Einkünfte / Gewinnminderungen aufgrund eines schädlichen Ereignisses im Sinne des § 8d Absatz 2 KStG (Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Davon ab: Wegfall der Fortführungsgebundenheit bei Vorliegen eines schädlichen Beteiligungserwerbs nach § 8c KStG (Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Davon ab: In den wegfallenden negativen Einkünften / Gewinnminderungen enthaltene fortführungsgebundene negative Einkünfte / Gewinnminderungen (im Betrag laut Zeile 7 enthalten, höchstens Betrag laut Zeile 17 abzüglich Summe der Beträge laut Zeilen 18 und 19) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Davon ab: Verrechnung mit den fortführungsgebundenen negativen Einkünften / Gewinnminderungen (Beträge laut Zeilen 8a und 15, höchstens Betrag laut Zeile 17 abzüglich Summe der Beträge laut Zeilen 18 bis 20) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Wenn im Veranlagungszeitraum ein schädlicher Beteiligungserwerb im Sinne des § 8c KStG erfolgte und die Voraussetzungen zur Anwendung des § 8d KStG erfüllt sind:Dazu: Zugang zu den fortführungsgebundenen negativen Einkünften / Gewinnminderungen(Betrag laut Zeile 16 abzüglich Betrag laut Zeile 17 zuzüglich Summe der Beträge laut Zeilen 18 bis 22) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Im Betrag laut Zeile 16 enthaltene zum Schluss des Veranlagungszeitraums verbleibende fortführungsgebundene negative Einkünfte / Gewinnminderungen (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

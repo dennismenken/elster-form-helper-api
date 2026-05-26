@@ -1,0 +1,166 @@
+[
+  {
+    "context_label": "Anlage SPIFA",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Anrechnung oder Abzug ausländischer Steuern aus Spezial-Investmentfonds über Personen- und Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Anlage ist pro Personengesellschaft oder Organgesellschaft für jede mittelbare Beteiligung an einem Spezial-Investmentfonds abzugeben, soweit ausländische Steuern angerechnet oder abgezogen werden sollen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Die Angaben auf dieser Anlage stammen aus der Feststellung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Die Angaben auf dieser Anlage stammen aus der Feststellung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage SPIFA",
+    "sections": [
+      {
+        "section_label": "Allgemeine Angaben",
+        "rows": [
+          {
+            "row": "1",
+            "label": "Die Angaben auf dieser Anlage stammen aus der Feststellung",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "einer Organgesellschaft",
+              "einer Personengesellschaft"
+            ]
+          },
+          {
+            "row": "2",
+            "label": "Bezeichnung der Organgesellschaft oder der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Bezeichnung des Spezial-Investmentfonds",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "ISIN",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Die nachfolgenden Angaben der Anlage SPIFA ergeben sich aus der Feststellung vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Eine Feststellung ist noch nicht erfolgt.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Feststellungen, wenn der Anleger der unbeschränkten Körperschaftsteuerpflicht unterliegt",
+        "rows": [
+          {
+            "row": "9",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Einkünfte (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Für den Steuerabzug nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Nur bei Organgesellschaften: Feststellungen, wenn der Anleger der unbeschränkten Einkommensteuerpflicht unterliegt und die Spezial-Investmentanteile im Betriebsvermögen hält",
+        "rows": [
+          {
+            "row": "12",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Einkünfte (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Für die Steueranrechnung nach § 47 Absatz 1 InvStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Für den Steuerabzug nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG maßgebende ausländische Steuer (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anrechnung/Abzug ausländischer Steuern",
+        "rows": [
+          {
+            "row": "20",
+            "label": "Nicht bei Organgesellschaften:Der Antrag auf Abzug vom Einkommen nach § 47 Absatz 4 Satz 1 InvStG in Verbindung mit § 34c Absatz 2 EStG wird gestellt.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "21",
+            "label": "Nicht bei Organgesellschaften: Nach § 47 Absatz 4 Satz 1 in Verbindung mit § 34c Absatz 2 EStG abzuziehende ausländische Steuer (wenn Antrag in Zeile 20 gestellt: Betrag laut Zeile 11) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

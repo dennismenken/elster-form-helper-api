@@ -1,0 +1,203 @@
+[
+  {
+    "context_label": "Anlage ZwiG",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Angaben zu Besteuerungsgrundlagen aus ausländischen Zwischengesellschaften § 7 AStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Für jede Ausschüttung, Veräußerung oder Einlagenrückgewähr ist eine gesonderte Anlage ZwiG auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung der Zwischengesellschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung der Zwischengesellschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage ZwiG",
+    "sections": [
+      {
+        "section_label": "Allgemeine Angaben",
+        "rows": [
+          {
+            "row": "1",
+            "label": "Bezeichnung der Zwischengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Diese Anlage ZwiG enthält die Werte des Feststellungsbescheids vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Ein Feststellungsbescheid ist bisher nicht ergangen.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Weitere Angaben, wenn Besteuerungsgrundlagen nach §§ 7 bis 13 AStG über eine Organgesellschaft oder eine Personengesellschaft zu berücksichtigen sind",
+            "rows": [
+              {
+                "row": "5",
+                "label": "Die Angaben auf dieser Anlage stammen aus der Feststellung",
+                "type": "select",
+                "values": [
+                  "Keine Angabe",
+                  "einer Organgesellschaft",
+                  "einer Personengesellschaft"
+                ]
+              },
+              {
+                "row": "6",
+                "label": "Name der Organgesellschaft oder Personengesellschaft",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Hinzurechnungsbesteuerung (§ 10 und § 12 AStG)",
+        "rows": [
+          {
+            "row": "10",
+            "label": "Beginn des Wirtschaftsjahres der Zwischengesellschaft; laut gesonderter (und gegebenenfalls einheitlicher) Feststellung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Ende des Wirtschaftsjahres der Zwischengesellschaft; laut gesonderter (und gegebenenfalls einheitlicher) Feststellung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Hinzurechnungsbetrag nach § 10 Absatz 1 AStG; laut gesonderter (und gegebenenfalls einheitlicher) Feststellung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Ausländische Steuern nach § 12 AStG; laut gesonderter (und gegebenenfalls einheitlicher) Feststellung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Betrag nach § 10 Absatz 6 AStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Kürzungsbetrag nach § 11 AStG",
+        "rows": [
+          {
+            "row": "30",
+            "label": "Art des Vorgangs",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ausschüttung",
+              "Veräußerung",
+              "Einlagenrückgewähr"
+            ]
+          },
+          {
+            "row": "31",
+            "label": "Maßgebendes Datum für die zeitliche Zurechnung bei Bilanzierung (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Maßgebendes Datum für die zeitliche Zurechnung bei Gewinnermittlung nach § 4 Absatz 3 EStG oder für Einkunftsarten nach § 2 Absatz 1 Nummer 4 bis 7 EStG (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "33",
+            "label": "Bezüge nach § 11 Absatz 1 AStG beziehungsweise Gewinne nach § 11 Absatz 4 AStG (Betrag nach § 11 Absatz 2 AStG vor Berücksichtigung von Steuerbefreiungen beim Feststellungsbeteiligten) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "34",
+            "label": "Nach § 8b KStG steuerfreie Bezüge und Gewinne laut Zeile 33 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "35",
+            "label": "Steuerfreier Teil des Bezugs nach § 20 Absatz 1 Nummer 3 oder 3a EStG, wenn der Anleger der Körperschaftsteuer unterliegt (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Nur bei Organgesellschaften",
+            "rows": [
+              {
+                "row": "36",
+                "label": "In Zeile 34 nicht enthaltene Beträge, die nach § 3 Nummer 40 EStG steuerfrei sind (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "37",
+                "label": "Steuerfreier Teil des Bezugs nach § 20 Absatz 1 Nummer 3 oder 3a EStG, wenn der Anleger der Einkommensteuer unterliegt (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  }
+]

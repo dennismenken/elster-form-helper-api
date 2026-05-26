@@ -1,0 +1,300 @@
+[
+  {
+    "context_label": "Anlagen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Beteiligung an Körperschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Anwendung des § 9 Nummer 2a, 7 oder 8 beziehungsweise des § 8 Nummer 5 GewStG;",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Anwendung des § 7a GewStG bei einer Organgesellschaft",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Bezeichnung der Körperschaft",
+            "rows": [
+              {
+                "row": null,
+                "label": "Bezeichnung der Körperschaft",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben zur Körperschaft, an der die Beteiligung besteht",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1a",
+            "label": "ISIN (soweit vorhanden)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Bezeichnung der Körperschaft",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anschrift der Körperschaft",
+        "rows": [
+          {
+            "row": "3",
+            "label": "Straße",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Adressergänzung",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Postleitzahl",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Postleitzahl (Ausland)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5a",
+            "label": "Ansässigkeitsstaat",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Angaben zur Ausschüttung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "6",
+            "label": "Gesamtbetrag der im Wirtschaftsjahr erhaltenen Bezüge im Sinne des § 20 Absatz 1 Nummer 1, 2, 9 und 10 Buchstabe a EStG aus dieser Beteiligung (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Die Beteiligung erfüllt die Voraussetzungen des",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "§ 9 Nummer 2a GewStG",
+              "§ 9 Nummer 7 GewStG",
+              "§ 9 Nummer 8 GewStG"
+            ]
+          },
+          {
+            "row": "8",
+            "label": "Mit den Bezügen laut Zeile 6 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Mit den Bezügen laut Zeile 6 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Nur wenn die Beteiligung im Sonderbetriebsvermögen gehalten wird:Bezogen auf die im Sonderbetriebsvermögen gehaltene Beteiligung sind Körperschaften unmittelbar oder mittelbar über eine Personengesellschaft beteiligt in Höhe von (Prozent) (X,XXXXXX)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Nur wenn die Beteiligung im Sonderbetriebsvermögen gehalten wird:Bezogen auf die im Sonderbetriebsvermögen gehaltene Beteiligung sind natürliche Personen unmittelbar oder mittelbar über eine Personengesellschaft beteiligt in Höhe von (100 % abzüglich Prozentsatz laut Zeile 10)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Angaben für Körperschaften sowie für Mitunternehmerschaften und Organgesellschaften, sofern Körperschaften beteiligt sind",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "12",
+            "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 8b Absatz 1 und 4 KStG oder nach DBA erfüllen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Nur für Organgesellschaften:Steuerfreie Bezüge nach § 8b Absatz 1 und 4 KStG oder nach DBA (Betrag laut Zeile 12 multipliziert mit dem Prozentsatz laut Zeile 71 des Vordrucks GewSt 1 A) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 8b Absatz 1 und 4 KStG oder nach DBA nicht erfüllen (Betrag laut Zeile 6 abzüglich Betrag laut Zeile 12) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG (wenn in Zeile 7 keine Eintragung gemacht wurde: 95 % des Betrages laut Zeile 12; bei Mitunternehmerschaften und Organgesellschaften: zusätzlich multipliziert mit dem Prozentsatz laut Zeile 70 oder 71 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen zusätzlich multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Ausgangsbetrag für eine Kürzung nach § 9 Nummer 2a, 7 oder 8 GewStG (Betrag laut Zeile 14; nur ausfüllen, wenn in Zeile 7 und Zeile 14 eine Eintragung gemacht wurde) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Mit den Beträgen laut Zeile 16 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Betrag laut Zeile 8, höchstens Betrag laut Zeile 16) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Mit den Beträgen laut Zeile 16 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Betrag laut Zeile 9, höchstens Betrag laut Zeile 16 abzüglich Betrag laut Zeile 17) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG (Betrag laut Zeile 16 abzüglich Summe der Beträge laut Zeilen 17 und 18; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 70 oder 71 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Betrag laut Zeile 17; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 70 oder 71 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 10: stattdessen multipliziert mit dem Prozentsatz laut Zeile 10) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Angaben für Einzelunternehmen sowie für Mitunternehmerschaften und Organgesellschaften, sofern natürliche Personen beteiligt sind",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "21",
+            "label": "Bezüge laut Zeile 6, die die Voraussetzungen der Steuerbefreiung nach § 3 Nummer 40 EStG erfüllen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Bezüge nach § 3 Nummer 40 EStG gekürzt um Betriebsausgaben nach § 3c Absatz 2 EStG vor Anwendung des Teileinkünfteverfahrens (Betrag laut Zeile 21 abzüglich der Summe der Beträge laut Zeilen 8 und 9 multipliziert mit dem Prozentsatz laut Zeile 72 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Hinzurechnungsbetrag nach § 8 Nummer 5 GewStG (wenn in Zeile 7 keine Eintragung gemacht wurde: 40 % des Betrages laut Zeile 21; abzüglich 40 % der Beträge laut Zeilen 8 und 9, bei Mitunternehmerschaften und Organgesellschaften: zusätzlich multipliziert mit dem Prozentsatz laut Zeile 72 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen zusätzlich multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Ausgangsbetrag für eine Kürzung nach § 9 Nummer 2a, 7 oder 8 GewStG (Betrag laut Zeile 6; nur ausfüllen, wenn in Zeile 7 angegeben wurde, dass die Beteiligung die Voraussetzungen des § 9 Nummer 2a GewStG, § 9 Nummer 7 GewStG oder § 9 Nummer 8 GewStG erfüllt). (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Mit den Beträgen laut Zeile 24 in unmittelbarem Zusammenhang stehende Aufwendungen im Sinne des § 8 Nummer 1 GewStG (Betrag laut Zeile 8, höchstens Betrag laut Zeile 24) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Mit den Beträgen laut Zeile 24 in unmittelbarem Zusammenhang stehende andere Aufwendungen (Betrag laut Zeile 9, höchstens Betrag laut Zeile 24 abzüglich Betrag laut Zeile 25) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Kürzung nach § 9 Nummer 2a, 7 und 8 GewStG vor Anwendung des Teileinkünfteverfahrens (Betrag laut Zeile 24 abzüglich Summe der Beträge laut Zeilen 25 und 26; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 72 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Kürzung des Hinzurechnungsbetrages nach § 8 Nummer 1 GewStG aufgrund des § 9 Nummer 2a Satz 3 zweiter Halbsatz GewStG, § 9 Nummer 7 Satz 2 beziehungsweise § 9 Nummer 8 Satz 2 GewStG (Betrag laut Zeile 25; bei Mitunternehmerschaften und Organgesellschaften: multipliziert mit dem Prozentsatz laut Zeile 72 des Vordrucks GewSt 1 A, bei Eintragung in Zeile 11: stattdessen multipliziert mit dem Prozentsatz laut Zeile 11) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,1551 @@
+[
+  {
+    "context_label": "Anlagen 1 F",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Ermittlung des steuerlichen Einlagekontos (§ 27 Absatz 2 KStG) und des durch Umwandlung von Rücklagen entstandenen Nennkapitals (§ 28 Absatz 1 Satz 3 KStG)",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage KSt 1 F gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage 1 F",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Datum des Eintritts in die unbeschränkte Steuerpflicht im laufenden Wirtschaftsjahr (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Im Wirtschaftsjahr erfolgte Gewinnausschüttungen / Leistungen",
+    "sections": [
+      {
+        "section_label": "Einzelangaben",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Art der Leistung",
+            "rows": [
+              {
+                "row": null,
+                "label": "Art der Leistung",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": null,
+                "rows": [
+                  {
+                    "row": "3",
+                    "label": "Art der Leistung",
+                    "type": "select",
+                    "values": [
+                      "Keine Angabe",
+                      "Gewinnausschüttungen, die auf einem ordentlichen Gewinnverteilungsbeschluss beruhen",
+                      "verdeckte Gewinnausschüttungen",
+                      "Abschlagszahlung auf das Liquidationsergebnis",
+                      "Leistungen im Sinne des § 20 Absatz 1 Nummer 9 und 10 Buchstabe a EStG",
+                      "Gewinnanteile, die entnommen wurden oder deren Auszahlung verlangt werden kann, nach § 1a Absatz 3 Satz 5 KStG"
+                    ]
+                  },
+                  {
+                    "row": "4",
+                    "label": "Datum des Gewinnverteilungsbeschlusses (TT.MM.JJJJ)",
+                    "type": "date",
+                    "values": []
+                  },
+                  {
+                    "row": "4",
+                    "label": "Datum des Abflusses (TT.MM.JJJJ)",
+                    "type": "date",
+                    "values": []
+                  },
+                  {
+                    "row": "5",
+                    "label": "Bruttobetrag der Leistung (Euro)",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "6",
+                    "label": "Bescheinigte Minderung des Einlagekontos (Euro)",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Summenangaben",
+        "rows": [
+          {
+            "row": "7",
+            "label": "Summe der im Wirtschaftsjahr erbrachten Gewinnausschüttungen und sonstigen Leistungen (zum Beispiel Gewinnausschüttungen, die auf einem den gesellschaftsrechtlichen Vorschriften entsprechenden Gewinnverteilungsbeschluss beruhen; verdeckte Gewinnausschüttungen; Abschlagszahlungen auf das Liquidationsergebnis, soweit diese nicht als Nennkapitalrückzahlung nach § 28 Absatz 2 KStG zu beurteilen sind; Leistungen nach § 20 Absatz 1 Nummer 9 und 10 Buchstabe a EStG; bei Organgesellschaften: einschließlich geleisteter Ausgleichszahlungen und verdeckter Gewinnausschüttungen an außenstehende Anteilseigner; ohne den in Zeile 8 enthaltenen Betrag) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 1 KStG, Betrag laut Zeile 22) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben und bei der Körperschaft zu berücksichtigen sind, obwohl sie nicht Organträger der Organgesellschaft ist (vermittelnde Körperschaft) (Betrag laut Zeile 292 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Bescheinigte Minderung des steuerlichen Einlagekontos zu den Zeilen 8 und 9 (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Im Wirtschaftsjahr erbrachte Leistungen ohne Leistungen aus der Rückzahlung von Nennkapital nach § 28 Absatz 2 KStG (Summe der Beträge laut Zeilen 7 bis 9) (Übertrag nach Zeile 47) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Summe der bescheinigten Minderung des steuerlichen Einlagekontos zu den in Zeilen 7, 8 und 9 enthaltenen Beträgen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Bei mehr als einer Gewinnausschüttung/Leistung:Es wurde mindestens eine Bescheinigung über die Minderung des steuerlichen Einlagekontos ausgestellt",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Im Falle einer Liquidation: Bescheinigte Minderung(en) des steuerlichen Einlagekontos für die Schlussauskehrung, soweit nicht Nennkapital ausgekehrt wird (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Kapitalertragsteuer wurde durch die Körperschaft nicht angemeldet, weil die Voraussetzungen des § 43 Absatz 1 Satz 1 Nummer 1a EStG (Sammelverwahrung oder Sonderverwahrung) vorliegen und damit die auszahlende Stelle die Kapitalertragsteuer anzumelden hat",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Eine der Leistungen laut Zeile 7 oder die Auszahlung des Nennkapitals aufgrund einer Kapitalherabsetzung laut Zeile 76 ist nicht dem Beteiligungsverhältnis entsprechend (disquotal) erfolgt (BMF-Schreiben vom 17.12.2013, BStBl I 2014, 63)",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Ermittlung des ausschüttbaren Gewinns (§ 27 Absatz 1 Satz 5 )",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Stets ausfüllen, wenn im Wirtschaftsjahr Leistungen nach § 27 KStG erbracht wurden und zum Schluss des vorangegangenen Wirtschaftsjahres beziehungsweise zum Zeitpunkt des Eintritts in die unbeschränkte Steuerpflicht ein steuerliches Einlagekonto bestand.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Zeilen 17 bis 19: Beträge zum Schluss des vorangegangenen Wirtschaftsjahres beziehungsweise zum Zeitpunkt des Eintritts in die unbeschränkte Steuerpflicht",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "17",
+            "label": "Eigenkapital laut Steuerbilanz (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Nennkapital (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "19",
+            "label": "Positiver Bestand des steuerlichen Einlagekontos (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "20",
+            "label": "Ausschüttbarer Gewinn (§ 27 Absatz 1 Satz 5 KStG; wenn negativ, dann \"0\" eintragen) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Mehr-/Minderabführungen nach § 27 Absatz 6",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Zeilen 21 bis 32: Nur bei Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "21",
+            "label": "Jahresüberschuss/-fehlbetrag laut Handels- oder Steuerbilanz (Betrag laut Zeile 11 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22",
+            "label": "Mehrabführungen, die ihre Ursache in vororganschaftlicher Zeit haben nach § 14 Absatz 3 Satz 1 KStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "23",
+            "label": "Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben nach § 14 Absatz 3 Satz 2 KStG (Übertrag nach Zeile 93) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "24",
+            "label": "Verrechenbare Verluste nach § 15a EStG, durch die keine Mehrabführung entsteht (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "25",
+            "label": "Verrechnung mit verrechenbaren Verlusten nach § 15a EStG, durch die keine Mehrabführung entstanden ist (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Einlagen der Gesellschafter (§ 8 Absatz 3 Satz 3 KStG), die erfolgswirksam gebucht und bis zum Ende des Wirtschaftsjahres geleistet wurden (Betrag laut Zeile 93 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Einlagen der Gesellschafter (§ 8 Absatz 3 Satz 3 KStG), die erfolgswirksam gebucht aber nicht bis zum Ende des Wirtschaftsjahres geleistet wurden (Betrag laut Zeile 94 der Anlage GK) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Sonstige Korrekturen (laut gesonderter Erläuterung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "30",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben nach § 14 Absatz 4 Satz 2 KStG (Übertrag nach Zeile 44) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "32",
+            "label": "Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben nach § 14 Absatz 4 Satz 1 KStG (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Ermittlung des steuerlichen Einlagekontos (§ 27 Absatz 2 Satz 1 ) und des durch Umwandlung von Rücklagen entstandenen Nennkapitals (§ 28 Absatz 1 Satz 3 )",
+    "sections": [
+      {
+        "section_label": "Anfangsbestände",
+        "rows": [
+          {
+            "row": "40",
+            "label": "Bei Eintritt in die unbeschränkte Steuerpflicht:Zum Zeitpunkt des Eintritts in die unbeschränkte Steuerpflicht vorhandener Bestand der nicht in das Nennkapital geleisteten Einlagen (§ 27 Absatz 2 Satz 3 KStG)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "41",
+            "label": "Bei Eintritt in die unbeschränkte Steuerpflicht: Zum Zeitpunkt des Eintritts in die unbeschränkte Steuerpflicht vorhandener Bestand des Sonderausweises nach § 28 Absatz 1 Satz 3 KStG",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "42",
+            "label": "Bestand nach § 27 Absatz 2 Satz 1 KStG zum Schluss des vorangegangenen Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "43",
+            "label": "Bestand nach § 28 Absatz 1 Satz 3 KStG zum Schluss des vorangegangenen Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Organschaftliche Mehrabführung",
+        "rows": [
+          {
+            "row": "44",
+            "label": "Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben nach § 14 Absatz 4 Satz 2 KStG (Betrag laut Zeile 31)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "45",
+            "label": "Mehrabführungen, die ihre Ursache in organschaftlicher Zeit haben und bei der Körperschaft zu berücksichtigen sind, obwohl sie nicht Organträger der Organgesellschaft ist (vermittelnde Körperschaft) (Betrag laut Zeile 295 der Anlage GK)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verrechnung von Leistungen mit dem steuerlichen Einlagekonto",
+        "rows": [
+          {
+            "row": "46",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "47",
+            "label": "Im Wirtschaftsjahr erbrachte Leistungen ohne Leistungen aus der Rückzahlung von Nennkapital nach § 28 Absatz 2 KStG (Betrag laut Zeile 11)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "48",
+            "label": "Ausschüttbarer Gewinn (§ 27 Absatz 1 Satz 5 KStG) - Betrag laut Zeile 20",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "49",
+            "label": "Summe",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "50",
+            "label": "Abzug vom steuerlichen Einlagekonto, wenn nur eine Leistung vorliegt oder keine Minderung des steuerlichen Einlagekontos bescheinigt wurde:Betrag laut Zeile 12, höchstens der kleinste der positiven Beträge laut Zeilen 46 und 49",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "51",
+            "label": "Abzug vom steuerlichen Einlagekonto, wenn mehrere Leistungen erbracht wurden und die Minderung des steuerlichen Einlagekontos bescheinigt wurde",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "52",
+            "label": "Im Wirtschaftsjahr geleisteter Teil des Kaufpreises, der über den Nennbetrag der erworbenen Anteile hinausgeht",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "53",
+            "label": "Abzug vom steuerlichen Einlagekonto:Betrag laut Zeile 52 abzüglich Betrag laut Zeile 20,wenn Differenz positiv; höchstens positiver Betrag laut Zeile 46",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "54",
+            "label": "Abzug vom steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "55",
+            "label": "Leistungen, die das steuerliche Einlagekonto erst nach dem steuerlichen Übertragungsstichtag mindern (gegebenenfalls anteiliger Betrag der Zeilen 50, 51 oder 54)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Herabsetzung des Nennkapitals (außerhalb einer Umwandlung)",
+        "rows": [
+          {
+            "row": "56",
+            "label": "Betrag der Herabsetzung des Nennkapitals (ohne fiktive Herabsetzung bei Auflösung der Körperschaft nach § 28 Absatz 2 KStG)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "57",
+            "label": "Ausstehende Einlagen in das Nennkapital (nur, soweit die Einzahlungsverpflichtung des Anteilseigners entfällt)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "58",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 41 beziehungsweise Zeile 43 oder dem Betrag laut Zeile 56 abzüglich Betrag laut Zeile 57",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "59",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "60",
+            "label": "Vom Betrag der Herabsetzung des Nennkapitals laut Zeile 56 sind zur Auszahlung vorgesehen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Auflösung der Körperschaft",
+        "rows": [
+          {
+            "row": "70",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "71",
+            "label": "Betrag des Nennkapitals zum Zeitpunkt der Auflösung der Körperschaft im Wirtschaftsjahr (zum Beispiel: Liquidationsbeschluss) nach § 28 Absatz 2 KStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "72",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "73",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 70 oder dem Betrag laut Zeile 71 abzüglich Betrag laut Zeile 72",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "74",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Rückzahlung des Nennkapitals (§ 28 Absatz 2 KStG)",
+        "rows": [
+          {
+            "row": "75",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "76",
+            "label": "Betrag der Rückzahlung des Nennkapitals, soweit hierauf § 28 Absatz 2 Satz 2 folgende KStG anzuwenden ist; bei Liquidation: ohne Beträge der Schlussauskehrung",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "77",
+            "label": "Betrag laut Zeile 76 soweit der Sonderausweis im Jahr der Kapitalherabsetzung oder der Auflösung der Körperschaft gemindert wurde= Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 2 EStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "78",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "79",
+            "label": "Abzug vom steuerlichen Einlagekonto (höchstens in Höhe des positiven Betrages laut Zeile 75)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "80",
+            "label": "Übersteigender Betrag= Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 2 EStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Erwerb eigener Anteile (fiktive Kapitalherabsetzung)",
+        "rows": [
+          {
+            "row": "80a",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "81",
+            "label": "Nennbetrag der erworbenen eigenen Anteile",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "82",
+            "label": "Ausstehende Einlagen in das Nennkapital (nur, soweit die Einzahlungsverpflichtung entfällt)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "83",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "84",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "85",
+            "label": "Im Wirtschaftsjahr geleisteter Kaufpreis der erworbenen eigenen Anteile (nur soweit auf die Rückzahlung des Nennkapitals entfallend; Betrag im Sinne der Zeile 83)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "86",
+            "label": "Abzug des Kaufpreises der erworbenen eigenen Anteile laut Zeile 85 vom steuerlichen Einlagekonto (höchstens in Höhe des positiven Betrages laut Zeile 84)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "87",
+            "label": "Differenzbetrag zwischen Nennbetrag und Kaufpreis",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "88",
+            "label": "Ausstehende Einlagen in das Nennkapital (nur, soweit die Einzahlungsverpflichtung entfällt)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "89",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 80a oder dem Betrag laut Zeile 87 abzüglich Betrag laut Zeile 88",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "90",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Im Wirtschaftsjahr geleistete Einlagen",
+        "rows": [
+          {
+            "row": "91",
+            "label": "Einlagen, die in diesem Wirtschaftsjahr einkommenswirksam berücksichtigt worden sind, einschließlich entsprechender Erhöhungsbeträge nach § 23 Absatz 2 und 3 UmwStG (Betrag laut Zeile 93 der Anlage GK)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "92",
+            "label": "Nicht erfolgswirksam gebuchte Einlagen nach § 8 Absatz 3 Satz 4 KStG (Betrag laut Zeile 78 der Anlage GK)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "93",
+            "label": "Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben (§ 14 Absatz 3 Satz 2 KStG; Betrag laut Zeile 23)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "94",
+            "label": "Minderabführungen, die ihre Ursache in vororganschaftlicher Zeit haben und bei der Körperschaft zu berücksichtigen sind, obwohl sie nicht Organträger der Organgesellschaft ist (vermittelnde Körperschaft) (Betrag laut Zeile 293 der Anlage GK)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "95",
+            "label": "Sonstige im Wirtschaftsjahr geleistete Einlagen (zum Beispiel Zugänge bei Einbringung nach §§ 20 oder 21 UmwStG in eine bestehende Körperschaft, Agio, Einlagen, die in einem früheren Wirtschaftsjahr einkommensmindernd berücksichtigt worden sind, Erhöhungsbeträge nach § 23 Absatz 2 und 3 UmwStG); ohne Beträge im Sinne der Zeilen 91 bis 93",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Weiterveräußerung eigener Anteile zu einem Veräußerungspreis über dem Nennbetrag",
+        "rows": [
+          {
+            "row": "96",
+            "label": "Differenzbetrag zwischen Nennbetrag und Veräußerungspreis",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Organschaftliche Minderabführungen",
+        "rows": [
+          {
+            "row": "97",
+            "label": "Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben nach § 14 Absatz 4 Satz 1 KStG (Betrag laut Zeile 32)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "98",
+            "label": "Minderabführungen, die ihre Ursache in organschaftlicher Zeit haben und bei der Körperschaft zu berücksichtigen sind, obwohl sie nicht Organträger der Organgesellschaft ist (vermittelnde Körperschaft) (Betrag laut Zeile 294 der Anlage GK)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anpassungen beim übernehmenden Rechtsträger bei Verschmelzungen, Auf- und Abspaltungen",
+        "rows": [
+          {
+            "row": null,
+            "label": "(Zeilen 100 bis 113 nicht bei mehreren Übernahmen ausfüllen - siehe dazu Zeile 114)",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "99",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "100",
+            "label": "Steuerliches Einlagekonto des übertragenden Rechtsträgers, gegebenenfalls gekürzt im Verhältnis der unmittelbaren oder mittelbaren Beteiligung des übernehmenden Rechtsträgers an dem übertragenden Rechtsträger (§ 29 Absatz 2 Satz 2, § 29 Absatz 6 KStG)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "101",
+            "label": "Fiktive Herabsetzung des Nennkapitals (§ 29 Absatz 1 KStG): Betrag des Nennkapitals des übernehmenden Rechtsträgers am steuerlichen Übertragungsstichtag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "102",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "103",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 99 oder dem Betrag laut Zeile 101 abzüglich Betrag laut Zeile 102",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "104",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "105",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "106",
+            "label": "Minderung des steuerlichen Einlagekontos des übernehmenden Rechtsträgers im Verhältnis der Beteiligung des übertragenden Rechtsträgers am übernehmenden Rechtsträger (§ 29 Absatz 2 Satz 3 KStG)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "107",
+            "label": "Hinzurechnung des steuerlichen Einlagekontos des übertragenden Rechtsträgers",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "108",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "109",
+            "label": "Bei Beteiligung des übertragenden Rechtsträgers am übernehmenden Rechtsträger: Betrag des Nennkapitals;in allen anderen Fällen: Betrag der Erhöhung des Nennkapitals (nicht enthalten sein dürfen Beträge, die auf baren Zuzahlungen beziehungsweise Sacheinlagen beruhen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "110",
+            "label": "Ausstehende Einlagen in das Nennkapital (Betrag laut Zeile 102)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "111",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "112",
+            "label": "Hierfür Minderung eines positiven Bestandes des steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "113",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "114",
+            "label": "Bei mehreren Übernahmen: Beträge im Sinne der Zeilen 112 und 113 laut gesonderter Ermittlung jeweils für jede Übernahme entsprechend der Zeilen 100 bis 111 Hilfe zum Begriff anzeigen",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Erhöhung des Nennkapitals durch Umwandlung von Rücklagen (§ 28 Absatz 1 KStG) - außerhalb einer Umwandlung im Sinne des UmwStG",
+        "rows": [
+          {
+            "row": "115",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "116",
+            "label": "Betrag der Erhöhung des Nennkapitals",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "117",
+            "label": "Bei Abbruch der Liquidation (Fortsetzungsbeschluss):Betrag des Nennkapitals gekürzt um ausstehende Einlagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "118",
+            "label": "Hierfür Minderung eines positiven Bestandes des steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "119",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Weiterveräußerung eigener Anteile zu einem Veräußerungspreis unter dem Nennbetrag oder Einziehung eigener Anteile ohne Kapitalherabsetzung",
+        "rows": [
+          {
+            "row": "120",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "121",
+            "label": "Bei Weiterveräußerung:Differenzbetrag zwischen Nennbetrag und Veräußerungspreis;Bei Einziehung ohne Kapitalherabsetzung:Nennbetrag der eingezogenen eigenen Anteile",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "122",
+            "label": "Hierfür Minderung eines positiven Bestandes des steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "123",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anpassungen beim übertragenden Rechtsträger bei Abspaltung",
+        "rows": [
+          {
+            "row": "124",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "125",
+            "label": "Betrag des Nennkapitals am steuerlichen Übertragungsstichtag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "126",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "127",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 124 oder dem Betrag laut Zeile 125 abzüglich Betrag laut Zeile 126",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "128",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "129",
+            "label": "Zwischensumme (Übertrag nach Zeile 130)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "130",
+            "label": "Betrag laut Zeile 129 Spalte 3",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "131",
+            "label": "Korrektur um in den Zeilen 56 bis 119 enthaltene Zu- und Abgänge aufgrund von Sachverhalten, die nach dem steuerlichen Übertragungsstichtag verwirklicht wurden (laut gesonderter Ermittlung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "132",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "133",
+            "label": "Der für die Abspaltung maßgebende Zähler nach § 29 Absatz 3 KStG",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "134",
+            "label": "Der für die Abspaltung maßgebende Nenner nach § 29 Absatz 3 KStG",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "135",
+            "label": "Verringerung des steuerlichen Einlagekontos nach § 29 Absatz 3 KStG (Betrag laut Zeile 132 multipliziert mit dem Betrag laut Zeile 133 dividiert durch den Betrag laut Zeile 134)",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "136",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "137",
+            "label": "Höhe des Nennkapitals nach der Übertragung",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "138",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "139",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "140",
+            "label": "Hierfür Minderung eines positiven Bestandes des steuerlichen Einlagekontos bis zu dessen Verbrauch",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "141",
+            "label": "Verbleibender Betrag: Nennkapitalerhöhung aus sonstigen Rücklagen",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "142",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "143",
+            "label": "Verringerung des steuerlichen Einlagekontos im Falle von Leistungen, die nicht bis zum steuerlichen Übertragungsstichtag erfolgt sind beziehungsweise als erfolgt gelten:- Betrag laut Zeile 55 höchstens Summe der Beträge laut Zeile 131 Vorspalte und Zeile 142 Spalte 3, wenn Summe positiv oder- insoweit nach § 27 Absatz 5 KStG zu berücksichtigender Betrag",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Anpassung beim übertragenden Rechtsträger bei Verschmelzung, Aufspaltung oder beim Formwechsel auf eine Personengesellschaft",
+        "rows": [
+          {
+            "row": "144",
+            "label": "Fiktive Herabsetzung des Nennkapitals (§ 29 Absatz 1 KStG): Betrag des Nennkapitals am steuerlichen Übertragungsstichtag",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "145",
+            "label": "Ausstehende Einlagen in das Nennkapital",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "146",
+            "label": "Verringerung des Sonderausweises bis zu dessen Verbrauch; niedrigerer Betrag laut Zeile 142, Spalte 4 oder dem Betrag laut Zeile 144 abzüglich Betrag laut Zeile 145",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "147",
+            "label": "Verbleibender Betrag: Gutschrift beim steuerlichen Einlagekonto",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)",
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "148",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Zugang nach § 35 KStG",
+        "rows": [
+          {
+            "row": "149",
+            "label": "Zugang nach § 35 KStG aufgrund eines Verlustabzugs",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Verminderung des Sonderausweises und des steuerlichen Einlagekontos nach § 28 Absatz 3 KStG",
+        "rows": [
+          {
+            "row": "150",
+            "label": "Zwischensumme",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          },
+          {
+            "row": "151",
+            "label": "Abzug des Betrages laut Zeile 150 Spalte 4 - maximal in Höhe des positiven Betrages laut Zeile 150 Spalte 3 - jeweils in Spalten 3 und 4",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Endbestände zum Schluss des Wirtschaftsjahres",
+        "rows": [
+          {
+            "row": "152",
+            "label": "Endbestände zum Schluss des Wirtschaftsjahres",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)",
+              "Sonderausweis (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Ermittlung der kapitalertragsteuerpflichtigen Leistungen in Fällen der Liquidation",
+        "rows": [
+          {
+            "row": "160",
+            "label": "Vom Betrag laut Zeile 152 Spalte 3 sind aus einer erfolgten Nennkapitalherabsetzung oder Auflösung der Körperschaft noch zur Auszahlung vorgesehen",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "161",
+            "label": "Verbleibendes Einlagekonto",
+            "type": "text",
+            "values": [
+              "Steuerliches Einlagekonto (Euro)"
+            ]
+          },
+          {
+            "row": "162",
+            "label": "Auszukehrendes Eigenkapital laut Liquidationsschlussbilanz (Schlussauskehrung)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "163",
+            "label": "Teil der Schlussauskehrung, in deren Höhe der Sonderausweis bei Auflösung der Körperschaft und gegebenenfalls einer Nennkapitalherabsetzung gemindert wurde= Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 2 EStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "164",
+            "label": "Positiver Bestand des steuerlichen Einlagekontos oder nach § 27 Absatz 5 KStG zu berücksichtigender Betrag (niedrigerer Betrag der Zeilen 14, 161 und 162 abzüglich Zeile 163; wenn in Zeile 14 kein Betrag eingetragen, hier \"0\" eintragen)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "165",
+            "label": "Nennkapitalrückzahlung (Betrag laut Zeile 160, höchstens Betrag laut Zeile 162 abzüglich Summe der Beträge laut Zeilen 163 und 164)",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          },
+          {
+            "row": "166",
+            "label": "Verbleibender Betrag= Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 2 EStG",
+            "type": "text",
+            "values": [
+              "Vorspalte (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Ermittlung der Bezüge nach § 7 bei Abspaltung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "167",
+            "label": "Zum steuerlichen Übertragungsstichtag ausgewiesenes Eigenkapital laut Steuerbilanz des übertragenden Rechtsträgers (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "168",
+            "label": "Steuerliches Einlagekonto zum Übertragungsstichtag (Betrag laut Zeile 132) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "169",
+            "label": "Verbleibender Betrag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "170",
+            "label": "Auf Personengesellschaften übergehende Anteile am Nennkapital (Zähler)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "171",
+            "label": "Nennkapital (Nenner)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "172",
+            "label": "Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 1 EStG(Betrag laut Zeile 169 multipliziert mit dem Betrag laut Zeile 170 dividiert durch den Betrag laut Zeile 171) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "7 - Ermittlung der Bezüge nach § 7 bei Verschmelzung, Aufspaltung oder bei Formwechsel in eine Personengesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "173",
+            "label": "Zum steuerlichen Übertragungsstichtag ausgewiesenes Eigenkapital laut Steuerbilanz des übertragenden Rechtsträgers (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "174",
+            "label": "Steuerliches Einlagekonto zum Übertragungsstichtag (Betrag laut Zeile 148 Spalte 3) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "175",
+            "label": "Verbleibender Betrag (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "176",
+            "label": "Auf Personengesellschaften oder natürliche Personen übergehende Anteile am Nennkapital (Zähler)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "177",
+            "label": "Nennkapital (Nenner)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "178",
+            "label": "Bezüge des Anteilseigners nach § 20 Absatz 1 Nummer 1 EStG(Betrag laut Zeile 175 multipliziert mit dem Betrag laut Zeile 176 dividiert durch den Betrag laut Zeile 177) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - Im Wirtschaftsjahr geleistete Einlagen",
+    "sections": [
+      {
+        "section_label": "Einlage",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name des leistenden Anteilseigners",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name des leistenden Anteilseigners",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Einlage",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "200",
+            "label": "Name des leistenden Anteilseigners",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "202",
+            "label": "Identifikationsnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "203",
+            "label": "Wirtschafts-Identifikationsnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "204",
+            "label": "Zeitpunkt der Leistung der Einlage (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "205",
+            "label": "Art der Einlage",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Bareinlage",
+              "Sacheinlage"
+            ]
+          },
+          {
+            "row": "206",
+            "label": "Bei Sacheinlagen: Bezeichnung der Einlage",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

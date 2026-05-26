@@ -1,0 +1,427 @@
+[
+  {
+    "context_label": "Anlage OG",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Hinzurechnungen/Kürzungen bei Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Enden in einem Veranlagungszeitraum zwei Wirtschaftsjahre, ist für jedes Wirtschaftsjahr die Anlage OG gesondert auszufüllen.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Steuerpflichtige ist Organgesellschaft:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "1",
+            "label": "Bezeichnung des Organträgers",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Straße, Hausnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Postleitzahl",
+            "type": "",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Wirtschafts-Identifikationsnummer des Organträgers",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Wirtschaftsjahr der Organgesellschaft vom (TT.MM.JJJJ)",
+            "type": "daterange",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Finanzielle Eingliederung",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Unmittelbare Beteiligung des Organträgers an den Stimmrechten der Organgesellschaft zum Ende des Wirtschaftsjahres der Organgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Mittelbare Beteiligung des Organträgers an den Stimmrechten der Organgesellschaft über Kapitalgesellschaften zum Ende des Wirtschaftsjahres der Organgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Mittelbare Beteiligung des Organträgers an den Stimmrechten der Organgesellschaft über Personengesellschaften zum Ende des Wirtschaftsjahres der Organgesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "Stimmrechte, die nicht unmittelbar oder mittelbar dem Organträger zugerechnet werden",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "10",
+            "label": "Anzahl der Stimmrechte, die mindestens für die finanzielle Eingliederung nach § 14 Absatz 1 Satz 1 Nummer 1 KStG erforderlich sind",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Empfangsbevollmächtigter / Postempfänger",
+        "rows": [
+          {
+            "row": null,
+            "label": "Der Feststellungsbescheid nach § 14 Absatz 5 KStG für den Organträger soll folgendem von den Zeilen 1 bis 3 abweichenden Empfangsbevollmächtigten/Postempfänger zugesandt werden:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Namenszeile 1",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "12",
+            "label": "Namenszeile 2",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Namenszeile 3",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Namenszeile 4",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Straße/Postfach",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "16",
+            "label": "Straße",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Postleitzahl und Ort",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Ermittlung des dem Organträger zuzurechnenden Einkommens",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "25",
+            "label": "Einkommen der Organgesellschaft vor Zurechnung an den Organträger (Betrag laut Zeile 43 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "26",
+            "label": "Davon ab: 20/17 der eigenen Ausgleichszahlungen der Organgesellschaft an ihre außenstehenden Anteilseigner (§ 16 Satz 1 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Davon ab: 20/17 der verdeckten Gewinnausschüttungen der Organgesellschaft an ihre außenstehenden Anteilseigner (§ 16 Satz 1 KStG in Verbindung mit R 14.6 Absatz 4 Satz 4 KStR 2022) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "28",
+            "label": "Davon ab: Ausgleichszahlungen des Organträgers an außenstehende Anteilseigner der Organgesellschaft nach § 16 Satz 2 KStG (Übertrag nach Zeile 45 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "29",
+            "label": "Dazu: 14/17 des Betrages aus Zeile 28 (§ 16 Satz 2 KStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "31",
+            "label": "Dem Organträger zuzurechnendes Einkommen (Übertrag nach Zeile 44 der Anlage ZVE mit umgekehrtem Vorzeichen) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "— ohne die Werte der vorgelagerten Organgesellschaften —",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Von der Organgesellschaft unmittelbar verwirklichte Tatbestände",
+        "rows": [
+          {
+            "row": "40",
+            "label": "Bezüge nach § 20 Absatz 1 Nummer 1, 2 und 9 EStG, die nicht in Zeile 156 der Anlage GK enthalten sind (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "41",
+            "label": "Betriebsvermögensminderungen (Aufwendungen) und weitere Beträge nach § 3c Absatz 2 EStG, die mit den Bezügen nach § 20 Absatz 1 Nummer 1, 2 und 9 EStG in wirtschaftlichem Zusammenhang oder einem Veranlassungszusammenhang nach § 3c Absatz 2 Satz 6 EStG stehen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "46",
+            "label": "Positiver/negativer Anleger-Teilfreistellungsgewinn nach § 49 Absatz 1 Satz 1 Nummer 3 in Verbindung mit § 49 Absatz 1 Satz 2 InvStG für natürliche Personen als Anleger, die ihre Spezial-Investmentanteile im Betriebsvermögen halten und nicht die Voraussetzungen des § 20 Absatz 1 Satz 4 und Satz 5 InvStG erfüllen (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "47",
+            "label": "Im Falle einer Umwandlung mit steuerlicher Rückwirkung auf/in die Organgesellschaft (übernehmender Rechtsträger): In dem dem Organträger zuzurechnenden Einkommen enthaltene positive Einkünfte des übertragenden oder einbringenden Rechtsträgers im Rückwirkungszeitraum (§ 2 Absatz 4 Satz 4 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "48",
+            "label": "Zinsaufwendungen des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 2 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "49",
+            "label": "Zinserträge des laufenden Wirtschaftsjahres nach § 4h Absatz 3 Satz 3 EStG (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "51",
+            "label": "Nach § 6 Absatz 2 Satz 1, § 6 Absatz 2a Satz 2 und § 7 EStG abgesetzte Beträge (Abschreibungen) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Von der Organgesellschaft mittelbar über eine Personengesellschaft verwirklichte Tatbestände",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der Personengesellschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der Personengesellschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "59",
+                "label": "Betrag, um den die Einkünfte aus der Mitunternehmerschaft zu korrigieren sind, wenn der Organträger der Körperschaftsteuer unterliegt(ein abzuziehender Betrag ist mit negativem Vorzeichen einzugeben) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "59a",
+                "label": "Betrag, um den die Einkünfte aus der Mitunternehmerschaft zu korrigieren sind, wenn der Organträger der Einkommensteuer unterliegt(ein abzuziehender Betrag ist mit negativem Vorzeichen einzugeben) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "60",
+                "label": "Betrag, um den die Einkünfte aus der Personengesellschaft aus vermögensverwaltenden Tätigkeiten zu korrigieren sind, wenn der Organträger der Körperschaftsteuer unterliegt(ein abzuziehender Betrag ist mit negativem Vorzeichen einzugeben) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "60a",
+                "label": "Betrag, um den die Einkünfte aus der Personengesellschaft aus vermögensverwaltenden Tätigkeiten zu korrigieren sind, wenn der Organträger der Einkommensteuer unterliegt(ein abzuziehender Betrag ist mit negativem Vorzeichen einzugeben) (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "61",
+                "label": "Steuerfreier Teil der Einkünfte nach §§ 3 Nummer 40, 3c Absatz 2 EStG und § 4 Absatz 7 UmwStG (Euro)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "62",
+                "label": "Im Falle einer Umwandlung mit steuerlicher Rückwirkung auf/in eine Personengesellschaft (übernehmender Rechtsträger), an der die Organgesellschaft beteiligt ist:In dem dem Organträger zuzurechnenden Einkommen enthaltene positive Einkünfte des übertragenden oder einbringenden Rechtsträgers im Rückwirkungszeitraum (laut gesonderter und einheitlicher Feststellung) (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Angaben zum Progressionsvorbehalt bei nach DBA steuerfreien Einkünften",
+        "rows": [
+          {
+            "row": "63",
+            "label": "Nach DBA steuerfreie ausländische Einkünfte, die für Zwecke des Progressionsvorbehalts nach deutschem Steuerrecht ermittelt wurden (ohne ausländische Einkünfte, die dem § 2a EStG unterliegen, laut gesonderter Ermittlung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "64",
+            "label": "Es liegen nach DBA steuerfreie ausländische Einkünfte vor, die dem § 2a EStG unterliegen (laut gesonderter Einzelaufstellung)",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Art der Einkünfte nach § 2a EStG",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Art der Einkünfte nach § 2a EStG",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "66",
+                        "label": "Art der Einkünfte nach § 2a EStG",
+                        "type": "select",
+                        "values": [
+                          "Keine Angabe",
+                          "land- und forstwirtschaftliche Betriebsstätte",
+                          "gewerbliche Betriebsstätte",
+                          "stille Gesellschaft und partiarisches Darlehen",
+                          "Vermietung und Verpachtung von unbeweglichem Vermögen",
+                          "entgeltliche Überlassung von Schiffen"
+                        ]
+                      },
+                      {
+                        "row": "65",
+                        "label": "Name des Staates/Fonds",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "67",
+                        "label": "Einzelbetrag (Euro)",
+                        "type": "text",
+                        "values": []
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_label": "Verbleibender Sanierungsertrag",
+        "rows": [
+          {
+            "row": "68",
+            "label": "Verbleibender Sanierungsertrag nach § 3a Absatz 3 Satz 4 EStG (Betrag laut Zeile 44 der Anlage SAN) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

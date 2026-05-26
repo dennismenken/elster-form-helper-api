@@ -1,0 +1,929 @@
+[
+  {
+    "context_label": "Hauptvordruck ( 1)",
+    "sections": []
+  },
+  {
+    "context_label": "1 - Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Bezeichnung der Körperschaft, Personenvereinigung oder Vermögensmasse",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "1a",
+            "label": "Wirtschafts-Identifikationsnummer",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Art der Steuerpflicht (Sitz und Geschäftsleitung im Veranlagungszeitraum)",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Ort der Geschäftsleitung nach § 10 AO",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Staat (nur angeben, wenn im Ausland)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Afghanistan",
+              "Ägypten",
+              "Albanien",
+              "Algerien",
+              "Andorra",
+              "Angola",
+              "Antigua und Barbuda",
+              "Äquatorialguinea",
+              "Argentinien",
+              "Armenien",
+              "Aserbaidschan",
+              "Äthiopien",
+              "Australien",
+              "Bahamas",
+              "Bahrain",
+              "Bangladesch",
+              "Barbados",
+              "Belgien",
+              "Belize",
+              "Benin",
+              "Bhutan",
+              "Bolivien",
+              "Bosnien und Herzegowina",
+              "Botsuana",
+              "Brasilien",
+              "Brunei Darussalam",
+              "Bulgarien",
+              "Burkina Faso",
+              "Burundi",
+              "Chile",
+              "China",
+              "Cookinseln",
+              "Costa Rica",
+              "Cote d'Ivoire",
+              "Dänemark",
+              "Dominica",
+              "Dominikanische Republik",
+              "Dschibuti",
+              "Ecuador",
+              "El Salvador",
+              "Eritrea",
+              "Estland",
+              "Eswatini",
+              "Fidschi",
+              "Finnland",
+              "Frankreich",
+              "Gabun",
+              "Gambia",
+              "Georgien",
+              "Ghana",
+              "Grenada",
+              "Griechenland",
+              "Guatemala",
+              "Guinea",
+              "Guinea-Bissau",
+              "Guyana",
+              "Haiti",
+              "Honduras",
+              "Indien",
+              "Indonesien",
+              "Irak",
+              "Iran",
+              "Irland",
+              "Island",
+              "Israel",
+              "Italien",
+              "Jamaika",
+              "Japan",
+              "Jemen",
+              "Jordanien",
+              "Kambodscha",
+              "Kamerun",
+              "Kanada",
+              "Kap Verde",
+              "Kasachstan",
+              "Katar",
+              "Kenia",
+              "Kirgisistan",
+              "Kiribati",
+              "Kolumbien",
+              "Komoren",
+              "Kongo",
+              "Kongo, Demokratische Republik",
+              "Korea, Demokratische Volksrepublik",
+              "Korea, Republik",
+              "Kosovo",
+              "Kroatien",
+              "Kuba",
+              "Kuwait",
+              "Laos",
+              "Lesotho",
+              "Lettland",
+              "Libanon",
+              "Liberia",
+              "Libyen",
+              "Liechtenstein",
+              "Litauen",
+              "Luxemburg",
+              "Madagaskar",
+              "Malawi",
+              "Malaysia",
+              "Malediven",
+              "Mali",
+              "Malta",
+              "Marokko",
+              "Marshallinseln",
+              "Mauretanien",
+              "Mauritius",
+              "Mexiko",
+              "Föderierte Staaten von Mikronesien",
+              "Moldau",
+              "Monaco",
+              "Mongolei",
+              "Montenegro",
+              "Mosambik",
+              "Myanmar",
+              "Namibia",
+              "Nauru",
+              "Nepal",
+              "Neuseeland",
+              "Nicaragua",
+              "Niederlande",
+              "Niger",
+              "Nigeria",
+              "Niue",
+              "Nordmazedonien",
+              "Norwegen",
+              "Oman",
+              "Österreich",
+              "Pakistan",
+              "Palau",
+              "Panama",
+              "Papua-Neuguinea",
+              "Paraguay",
+              "Peru",
+              "Philippinen",
+              "Polen",
+              "Portugal",
+              "Ruanda",
+              "Rumänien",
+              "Russische Föderation",
+              "Salomonen",
+              "Sambia",
+              "Samoa",
+              "San Marino",
+              "Sao Tome und Principe",
+              "Saudi-Arabien",
+              "Schweden",
+              "Schweiz",
+              "Senegal",
+              "Serbien",
+              "Seychellen",
+              "Sierra Leone",
+              "Simbabwe",
+              "Singapur",
+              "Slowakei",
+              "Slowenien",
+              "Somalia",
+              "Spanien",
+              "Sri Lanka",
+              "St. Kitts und Nevis",
+              "St. Lucia",
+              "St. Vincent und die Grenadinen",
+              "Südafrika",
+              "Sudan",
+              "Südsudan",
+              "Surinam",
+              "Syrien",
+              "Tadschikistan",
+              "Tansania",
+              "Thailand",
+              "Timor-Leste",
+              "Togo",
+              "Tonga",
+              "Trinidad und Tobago",
+              "Tschad",
+              "Tschechische Republik",
+              "Tunesien",
+              "Türkei",
+              "Turkmenistan",
+              "Tuvalu",
+              "Uganda",
+              "Ukraine",
+              "Ungarn",
+              "Uruguay",
+              "USA",
+              "Usbekistan",
+              "Vanuatu",
+              "Vatikanstadt",
+              "Venezuela",
+              "Vereinigte Arabische Emirate",
+              "Vereinigtes Königreich",
+              "Vietnam",
+              "Weißrussland",
+              "Zentralafrikanische Republik",
+              "Zypern",
+              "* nicht in Liste / Unterlagen werden eingereicht *"
+            ]
+          },
+          {
+            "row": "7",
+            "label": "Ort des Sitzes nach § 11 AO",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Staat (nur angeben, wenn im Ausland)",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Afghanistan",
+              "Ägypten",
+              "Albanien",
+              "Algerien",
+              "Andorra",
+              "Angola",
+              "Antigua und Barbuda",
+              "Äquatorialguinea",
+              "Argentinien",
+              "Armenien",
+              "Aserbaidschan",
+              "Äthiopien",
+              "Australien",
+              "Bahamas",
+              "Bahrain",
+              "Bangladesch",
+              "Barbados",
+              "Belgien",
+              "Belize",
+              "Benin",
+              "Bhutan",
+              "Bolivien",
+              "Bosnien und Herzegowina",
+              "Botsuana",
+              "Brasilien",
+              "Brunei Darussalam",
+              "Bulgarien",
+              "Burkina Faso",
+              "Burundi",
+              "Chile",
+              "China",
+              "Cookinseln",
+              "Costa Rica",
+              "Cote d'Ivoire",
+              "Dänemark",
+              "Dominica",
+              "Dominikanische Republik",
+              "Dschibuti",
+              "Ecuador",
+              "El Salvador",
+              "Eritrea",
+              "Estland",
+              "Eswatini",
+              "Fidschi",
+              "Finnland",
+              "Frankreich",
+              "Gabun",
+              "Gambia",
+              "Georgien",
+              "Ghana",
+              "Grenada",
+              "Griechenland",
+              "Guatemala",
+              "Guinea",
+              "Guinea-Bissau",
+              "Guyana",
+              "Haiti",
+              "Honduras",
+              "Indien",
+              "Indonesien",
+              "Irak",
+              "Iran",
+              "Irland",
+              "Island",
+              "Israel",
+              "Italien",
+              "Jamaika",
+              "Japan",
+              "Jemen",
+              "Jordanien",
+              "Kambodscha",
+              "Kamerun",
+              "Kanada",
+              "Kap Verde",
+              "Kasachstan",
+              "Katar",
+              "Kenia",
+              "Kirgisistan",
+              "Kiribati",
+              "Kolumbien",
+              "Komoren",
+              "Kongo",
+              "Kongo, Demokratische Republik",
+              "Korea, Demokratische Volksrepublik",
+              "Korea, Republik",
+              "Kosovo",
+              "Kroatien",
+              "Kuba",
+              "Kuwait",
+              "Laos",
+              "Lesotho",
+              "Lettland",
+              "Libanon",
+              "Liberia",
+              "Libyen",
+              "Liechtenstein",
+              "Litauen",
+              "Luxemburg",
+              "Madagaskar",
+              "Malawi",
+              "Malaysia",
+              "Malediven",
+              "Mali",
+              "Malta",
+              "Marokko",
+              "Marshallinseln",
+              "Mauretanien",
+              "Mauritius",
+              "Mexiko",
+              "Föderierte Staaten von Mikronesien",
+              "Moldau",
+              "Monaco",
+              "Mongolei",
+              "Montenegro",
+              "Mosambik",
+              "Myanmar",
+              "Namibia",
+              "Nauru",
+              "Nepal",
+              "Neuseeland",
+              "Nicaragua",
+              "Niederlande",
+              "Niger",
+              "Nigeria",
+              "Niue",
+              "Nordmazedonien",
+              "Norwegen",
+              "Oman",
+              "Österreich",
+              "Pakistan",
+              "Palau",
+              "Panama",
+              "Papua-Neuguinea",
+              "Paraguay",
+              "Peru",
+              "Philippinen",
+              "Polen",
+              "Portugal",
+              "Ruanda",
+              "Rumänien",
+              "Russische Föderation",
+              "Salomonen",
+              "Sambia",
+              "Samoa",
+              "San Marino",
+              "Sao Tome und Principe",
+              "Saudi-Arabien",
+              "Schweden",
+              "Schweiz",
+              "Senegal",
+              "Serbien",
+              "Seychellen",
+              "Sierra Leone",
+              "Simbabwe",
+              "Singapur",
+              "Slowakei",
+              "Slowenien",
+              "Somalia",
+              "Spanien",
+              "Sri Lanka",
+              "St. Kitts und Nevis",
+              "St. Lucia",
+              "St. Vincent und die Grenadinen",
+              "Südafrika",
+              "Sudan",
+              "Südsudan",
+              "Surinam",
+              "Syrien",
+              "Tadschikistan",
+              "Tansania",
+              "Thailand",
+              "Timor-Leste",
+              "Togo",
+              "Tonga",
+              "Trinidad und Tobago",
+              "Tschad",
+              "Tschechische Republik",
+              "Tunesien",
+              "Türkei",
+              "Turkmenistan",
+              "Tuvalu",
+              "Uganda",
+              "Ukraine",
+              "Ungarn",
+              "Uruguay",
+              "USA",
+              "Usbekistan",
+              "Vanuatu",
+              "Vatikanstadt",
+              "Venezuela",
+              "Vereinigte Arabische Emirate",
+              "Vereinigtes Königreich",
+              "Vietnam",
+              "Weißrussland",
+              "Zentralafrikanische Republik",
+              "Zypern",
+              "* nicht in Liste / Unterlagen werden eingereicht *"
+            ]
+          },
+          {
+            "row": "8",
+            "label": "Wegen der Verlegung des Ortes des Sitzes und/oder der Geschäftsleitung vom Ausland ins Inland oder vom Inland ins Ausland besteht im laufenden Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Verlegung vom Ausland ins Inland",
+              "Verlegung vom Inland ins Ausland"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Rechtsform",
+        "rows": [
+          {
+            "row": "9",
+            "label": "Rechtsform",
+            "type": "radio",
+            "values": [
+              "Keine Angabe",
+              "Gesellschaft mit beschränkter Haftung",
+              "Unternehmergesellschaft (haftungsbeschränkt)",
+              "Aktiengesellschaft",
+              "Europäische Gesellschaft (SE)",
+              "Kommanditgesellschaft auf Aktien",
+              "Ausländische Rechtsform, die mit Körperschaften nach § 1 Absatz 1 Nummer 1 KStG vergleichbar ist",
+              "Offene Handelsgesellschaft",
+              "Kommanditgesellschaften",
+              "GmbH & Co. KG",
+              "GmbH & Co. OHG",
+              "AG & Co. KG",
+              "AG & Co. OHG",
+              "Gesellschaft bürgerlichen Rechts",
+              "eingetragene Gesellschaft bürgerlichen Rechts",
+              "Europäische wirtschaftliche Interessenvereinigung",
+              "Partnerschaft",
+              "Ausländische Rechtsform, die einer Personengesellschaft entspricht",
+              "eingetragene Genossenschaft",
+              "Europäische Genossenschaft",
+              "sonstige Genossenschaft im Sinne des Genossenschaftsgesetzes",
+              "Ausländische Rechtsform, die einer Körperschaft nach § 1 Absatz 1 Nummer 1 KStG vergleichbar ist",
+              "Versicherungsverein auf Gegenseitigkeit",
+              "Pensionsfondsverein auf Gegenseitigkeit",
+              "eingetragener Verein",
+              "wirtschaftlicher Verein",
+              "rechtsfähige Stiftung des privaten Rechts",
+              "sonstige juristische Person des privaten Rechts",
+              "Ausländische Rechtsform, die einer Körperschaft nach § 1 Absatz 1 Nummer 4 KStG vergleichbar ist",
+              "Verein ohne Rechtspersönlichkeit",
+              "Nicht rechtsfähige Stiftung des privaten Rechts",
+              "Sonstiges Zweckvermögen",
+              "Ausländische Rechtsform, die einer Körperschaft oder einem Zweckvermögen nach § 1 Absatz 1 Nummer 5 KStG vergleichbar ist",
+              "Sondervermögen",
+              "Investmentaktiengesellschaft",
+              "Investmentkommanditgesellschaft",
+              "Gebietskörperschaft",
+              "Rechtsfähige Anstalt des öffentlichen Rechts",
+              "Nicht rechtsfähige Anstalt des öffentlichen Rechts",
+              "Berufsständische Körperschaft des öffentlichen Rechts",
+              "Öffentlich-rechtliche Rundfunk- und Fernsehanstalt",
+              "Öffentlich-rechtliche Religionsgesellschaft",
+              "Rechtsfähige Stiftung des öffentlichen Rechts",
+              "Nicht rechtsfähige Stiftung des öffentlichen Rechts",
+              "Sonstige juristische Person des öffentlichen Rechts (zum Beispiel Zweckverband)",
+              "Ausländische Rechtsform, die einer öffentlich-rechtlichen Körperschaft nach § 1 Absatz 1 Nummer 6 KStG vergleichbar ist"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "2 - Mitwirkung bei der Anfertigung dieser Erklärung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Bei der Anfertigung dieser Erklärung hat mitgewirkt:",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "101",
+            "label": "Name",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "101",
+            "label": "Vorname",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "101",
+            "label": "Straße, Hausnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "101",
+            "label": "Postleitzahl, Ort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "100a",
+            "label": "Telefonische Rückfragen unter Telefonnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "102",
+            "label": "Mandantennummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "102",
+            "label": "Bearbeiterkennzeichen",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "102",
+            "label": "zusätzliche Angaben",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "100",
+            "label": "Die Steuererklärung wurde unter Mitwirkung einer selbständig und eigenverantwortlich tätigen und zur Hilfeleistung in Steuersachen nach §§ 3 und 4 StBerG befugten Person oder Vereinigung angefertigt.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - Angaben zur Steuerbefreiung",
+    "sections": [
+      {
+        "section_label": "Auswahl der Steuerbefreiungsnorm",
+        "rows": [
+          {
+            "row": "10",
+            "label": "Die Körperschaft ist nach der folgenden Nummer des § 5 Absatz 1 KStG von der Körperschaftsteuer befreit:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Nr. 3 - Rechtsfähige Pensions-, Sterbe-, Kranken- und Unterstützungskassen",
+              "Nr. 5 - Berufsverbände",
+              "Nr. 7 - Parteien und kommunale Wählervereinigungen",
+              "Nr. 9 - Gemeinnützige, mildtätige oder kirchliche Zwecke",
+              "Nr. 10 - Wohnungsgenossenschaften und -vereine",
+              "Nr. 14 - Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 14 KStG",
+              "Nr. 16 - Körperschaften im Rahmen des Einlagensicherungssystems",
+              "Nr. 18 - Wirtschaftsförderungsgesellschaften",
+              "Nr. 19 - Gesamthafenbetriebe",
+              "Nr. 21 - Nicht öffentlich-rechtliche Arbeitsgemeinschaften Medizinischer Dienst der Krankenversicherung",
+              "Nr. 22 - Gemeinsame Einrichtungen der Tarifvertragsparteien"
+            ]
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Umfang der Steuerbefreiung",
+        "rows": [
+          {
+            "row": "11",
+            "label": "Die Körperschaft ist vollumfänglich von der Körperschaftsteuer befreit.",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - Ergänzende Angaben zur Steuererklärung",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "13",
+            "label": "Über die Angaben in der Steuererklärung hinaus sind weitere oder abweichende Angaben oder Sachverhalte zu berücksichtigen.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Ergänzende Angaben zur Steuererklärung",
+            "type": "",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "5 - Wirtschaftsjahr",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "14",
+            "label": "Erstes Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Erstes Wirtschaftsjahr bis (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Gegebenenfalls zweites Wirtschaftsjahr vom (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "14",
+            "label": "Gegebenenfalls zweites Wirtschaftsjahr bis (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          },
+          {
+            "row": "14a",
+            "label": "Die Körperschaft wurde im Veranlagungszeitraum neu gegründet.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "15",
+            "label": "Die Körperschaft wurde aufgelöst und befindet sich in Abwicklung (Liquidation). Als Wirtschaftsjahr wurde der Besteuerungszeitraum nach § 11 KStG angegeben. Datum der Auflösung: (TT.MM.JJJJ)",
+            "type": "date",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "6 - Weitere Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "16",
+            "label": "Das Unternehmen hält Anteile, auf die § 8b Absatz 7 KStG anzuwenden ist.",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "17",
+            "label": "Es handelt sich um ein Unternehmen, auf das § 8 Absatz 9 KStG anzuwenden ist, oder um eine Organgesellschaft, auf deren Organträger § 8 Absatz 9 KStG anzuwenden ist (wenn ja: zusätzlich Anlage(n) ÖHK übermitteln).",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "17a",
+            "label": "Bei Investmentfonds: Art des Investmentfonds:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Investmentfonds im Sinne des § 1 Absatz 2 InvStG",
+              "Spezial-Investmentfonds im Sinne des § 26 InvStG"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "7 - Weitere Angaben zu Betrieben gewerblicher Art nach § 1 Absatz 1 Nummer 6 und wirtschaftlichen Geschäftsbetrieben nach § 20 Absatz 1 Nummer 10 Buchstabe b Satz 4",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "17b",
+            "label": "Nur bei Stiftungen des öffentlichen Rechts:Die Trägerkörperschaft dient ausschließlich und unmittelbar gemeinnützigen oder mildtätigen Zwecken. Eine Bescheinigung nach § 44a Absatz 7 Satz 1 Nummer 2 in Verbindung mit Satz 2 EStG wurde ausgestellt (NV-Art 36).",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "18",
+            "label": "Organisationsform des Betriebs gewerblicher Art:",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Betrieb gewerblicher Art mit eigener Rechtspersönlichkeit",
+              "Regiebetrieb",
+              "Eigenbetrieb / eigenbetriebsähnliche Einrichtung"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "8 - Name und Anschrift der Anteilseigner",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Auszufüllen von Kapitalgesellschaften und Genossenschaften sowie vergleichbaren ausländischen Rechtsformen. Beteiligungen unter 1 % beziehungsweise Anteile im Streubesitz können jeweils in einer Position als Summe eingetragen werden.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Einzelaufstellung der Angaben zu Anteilseignern",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name (bei natürlichen Personen Vor- und Nachname)",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name (bei natürlichen Personen Vor- und Nachname)",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Allgemeine Angaben zu den Anteilseignern",
+        "rows": [
+          {
+            "row": "26",
+            "label": "Eine Aufstellung über die erstmalige oder geänderte von der Höhe der Beteiligung abweichende Verteilung der Stimmrechte wird gesondert übermittelt (einschließlich Erläuterung zur abweichenden Verteilung).",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "27",
+            "label": "Die oben genannten Angaben zu den Anteilseignern haben sich gegenüber dem Vorjahr geändert.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Einzelaufstellung der Angaben zu Anteilseignern",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "21a",
+            "label": "Die Angaben haben sich bei diesem Anteilseigner gegenüber dem Vorjahr geändert.",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          },
+          {
+            "row": "22b",
+            "label": "Name (bei natürlichen Personen Vor- und Nachname)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22c",
+            "label": "Straße und Hausnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22d",
+            "label": "Postleitzahl und Wohnort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22a",
+            "label": "Identifikationsnummer",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "22a",
+            "label": "Wirtschafts-Identifikationsnummer",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Besitzdauer",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Höhe der Beteiligung in Euro",
+            "rows": [
+              {
+                "row": null,
+                "label": "Höhe der Beteiligung in Euro",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "9 - Angaben zu Belegen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Grundsätzlich brauchen Sie keine Belege mit Ihrer Steuererklärung einzureichen. Bitte bewahren Sie Ihre Unterlagen für eventuelle Rückfragen auf und reichen diese nur auf Anforderung durch Ihr Finanzamt nach. Beabsichtigen Sie dennoch Belege einzureichen, kreuzen Sie bitte das nachfolgende Feld an. Reichen Sie Belege und separate Aufstellungen nur dann ein, wenn sich dies ausdrücklich aus den Vordrucken und Anleitungen ergibt.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Belege werden nachgereicht",
+            "type": "checkbox",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

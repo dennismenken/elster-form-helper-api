@@ -1,0 +1,220 @@
+[
+  {
+    "context_label": "Anlage UN",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "zur Umsatzsteuererklärung für im Ausland ansässige Unternehmer",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "1 - A. Allgemeine Angaben",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "2",
+            "label": "Wirtschafts-Identifikationsnummer",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bankverbindung",
+        "rows": [
+          {
+            "row": "3",
+            "label": "IBAN",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "BIC (nur bei Bankverbindungen außerhalb des Europäischen Wirtschaftsraums)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Name des Geldinstituts (Zweigstelle) und Ort",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Kontonummer (nur bei Bankverbindungen außerhalb des Europäischen Zahlungsverkehrsraums - SEPA)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Kontoinhaber laut Zeile 5 auf Vordruck USt2A",
+            "type": "checkbox",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Name des Kontoinhabers",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Bevollmächtigter/Empfangsbevollmächtigter",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": null,
+            "rows": [
+              {
+                "row": "8",
+                "label": "Zur Wahrnehmung der steuerlichen Pflichten und Rechte als Bevollmächtigter (§ 80 AO) ist bestellt:",
+                "type": "checkbox",
+                "values": []
+              },
+              {
+                "row": "8",
+                "label": "Zum Empfang von Schriftstücken als Empfangsbevollmächtigter (§ 123 AO) ist bestellt:",
+                "type": "checkbox",
+                "values": []
+              },
+              {
+                "row": "9",
+                "label": "Name",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "10",
+                "label": "Straße",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "11",
+                "label": "Hausnummer",
+                "type": "",
+                "values": []
+              },
+              {
+                "row": "12",
+                "label": "Postleitzahl",
+                "type": "",
+                "values": []
+              },
+              {
+                "row": "13",
+                "label": "Postleitzahl zum Postfach",
+                "type": "",
+                "values": []
+              }
+            ],
+            "sections": [
+              {
+                "section_label": "Kontakt",
+                "rows": [
+                  {
+                    "row": "14",
+                    "label": "Telefon",
+                    "type": "text",
+                    "values": []
+                  },
+                  {
+                    "row": "15",
+                    "label": "E-Mail-Adresse",
+                    "type": "text",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Angaben zur Unterschrift",
+            "rows": [
+              {
+                "row": "16",
+                "label": "Die Umsatzsteuererklärung wurde vom Bevollmächtigten elektronisch authentifiziert übermittelt. Die Voraussetzungen des § 150 Absatz 3 AO liegen vor.",
+                "type": "checkbox",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "2 - B. Vorsteuer-Vergütungsverfahren beim Bundeszentralamt für Steuern",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "17",
+            "label": "Ist für das Kalenderjahr 2025 die Vergütung von Vorsteuern in einem besonderen Verfahren(§ 18 Absatz 9 UStG, §§ 59 bis 61a UStDV) beantragt worden?",
+            "type": "select",
+            "values": [
+              "Keine Angabe",
+              "Ja",
+              "Nein"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "3 - C. Anrechenbare Beträge",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "18",
+            "label": "Bei der Beförderungseinzelbesteuerung entrichtete Umsatzsteuer(§ 18 Absatz 5b Satz 2 UStG) – Belege bitte gesondert übermitteln -(zu übertragen in Zeile 117 der Umsatzsteuererklärung) (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "4 - D. Ergänzende Angaben zu Umsätzen",
+    "sections": [
+      {
+        "section_label": "In den steuerpflichtigen Umsätzen enthaltene Umsätze",
+        "rows": [
+          {
+            "row": "19",
+            "label": "Innergemeinschaftliche Fernverkäufe aus dem übrigen Gemeinschaftsgebiet (§ 3c UStG)",
+            "type": "text",
+            "values": [
+              "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+            ]
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

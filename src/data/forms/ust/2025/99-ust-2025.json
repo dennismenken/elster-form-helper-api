@@ -1,0 +1,1676 @@
+{
+  "00-hauptvordruck-ust-2-a": [
+    {
+      "context_label": "Hauptvordruck (USt 2 A)",
+      "sections": []
+    },
+    {
+      "context_label": "1 - A. Allgemeine Angaben",
+      "sections": [
+        {
+          "section_label": "Angaben zum Unternehmen",
+          "rows": [
+            {
+              "row": "4",
+              "label": "Wirtschafts-Identifikationsnummer",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Name des Unternehmers",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "6",
+              "label": "ggf. abweichender Firmenname",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "7",
+              "label": "Art des Unternehmens",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Adresse oder Postfach",
+              "rows": [
+                {
+                  "row": "8",
+                  "label": "Straße",
+                  "type": "",
+                  "values": []
+                },
+                {
+                  "row": "9",
+                  "label": "Adressergänzung",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "10",
+                  "label": "Postleitzahl",
+                  "type": "",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Postleitzahl zum Postfach",
+                  "type": "",
+                  "values": []
+                }
+              ],
+              "sections": []
+            },
+            {
+              "section_label": "Kontakt",
+              "rows": [
+                {
+                  "row": "12",
+                  "label": "Telefon",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "13",
+                  "label": "E-Mail-Adresse",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Im Ausland ansässiger Unternehmer",
+          "rows": [
+            {
+              "row": "14",
+              "label": "Im Ausland ansässiger Unternehmer. Bitte tätigen Sie in diesem Fall auch Angaben auf der Anlage UN.",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Fiskalvertreter",
+          "rows": [
+            {
+              "row": "15",
+              "label": "Fiskalvertreter. Bitte tätigen Sie in diesem Fall auch Angaben auf der Anlage FV.",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Kleinunternehmer",
+          "rows": [
+            {
+              "row": "16",
+              "label": "Wechsel von der Kleinunternehmer-Regelung (§ 19 UStG) zur RegelbesteuerungDatum des Wechsels (TT.MM.JJJJ)",
+              "type": "date",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Dauer der Unternehmereigenschaft",
+          "rows": [
+            {
+              "row": null,
+              "label": "(falls nicht vom 1. Januar bis zum 31. Dezember 2025)",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "17",
+              "label": "1. Zeitraum (TT.MM-TT.MM)",
+              "type": "date",
+              "values": []
+            },
+            {
+              "row": "18",
+              "label": "2. Zeitraum (TT.MM-TT.MM)",
+              "type": "date",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Art der Besteuerung",
+          "rows": [
+            {
+              "row": "19",
+              "label": "Die Steuer wurde berechnet anhand:",
+              "type": "radio",
+              "values": [
+                "Keine Angabe",
+                "vereinbarten Entgelten (§ 16 Absatz 1 Satz 1 UStG)",
+                "vereinnahmten Entgelten (§ 20 UStG)",
+                "vereinnahmten Entgelten nur für einzelne Unternehmensteile (§ 20 Satz 1 Nummer 2 in Verbindung mit Satz 2 oder § 20 Satz 1 Nummer 3 UStG)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Verrechnung / Abtretung",
+          "rows": [
+            {
+              "row": null,
+              "label": "– Ein Erstattungsbetrag wird auf das dem Finanzamt benannte Konto überwiesen, soweit der Betrag nicht mit Steuerschulden verrechnet wird. –",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "20",
+              "label": "Verrechnung des Erstattungsbetrages erwünscht / Erstattungsbetrag ist abgetreten (Geben Sie bitte Verrechnungswünsche auf dem Formular „Sonstige Nachricht an das Finanzamt“ an).",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Ergänzende Angaben zur Steuererklärung",
+          "rows": [
+            {
+              "row": null,
+              "label": "Wenn über die Angaben in der Steuererklärung hinaus weitere oder abweichende Angaben oder Sachverhalte berücksichtigt werden sollen, kreuzen Sie bitte dieses Feld an. Gleiches gilt, wenn bei den in der Steuererklärung erfassten Angaben bewusst eine von der Verwaltungsauffassung abweichende Rechtsauffassung zugrunde gelegt wurde. Falls Sie mit Abgabe der Steuererklärung lediglich Belege und Aufstellungen einreichen, ist keine Eintragung vorzunehmen.",
+              "type": "note",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Über die Angaben in der Steuererklärung hinaus sind weitere oder abweichende Angaben oder Sachverhalte zu berücksichtigen.",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Ergänzende Angaben zur Steuererklärung",
+              "type": "",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "2 - Bei der Anfertigung dieser Steuererklärung einschließlich der Anlagen hat mitgewirkt:",
+      "sections": [
+        {
+          "section_label": "Kanzlei",
+          "rows": [
+            {
+              "row": "21",
+              "label": "Bearbeiterkennzeichen",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Mandantennummer",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bearbeiter",
+          "rows": [
+            {
+              "row": "21",
+              "label": "Name",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21",
+              "label": "Vorname",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Adresse oder Postfach",
+          "rows": [
+            {
+              "row": "21a",
+              "label": "Straße, Hausnummer",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21a",
+              "label": "Postleitzahl, Wohnort",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Kontakt",
+          "rows": [
+            {
+              "row": "21b",
+              "label": "Telefon",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "21b",
+              "label": "zusätzliche Angaben",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Mitwirkung bei der Steuererklärung",
+          "rows": [
+            {
+              "row": "117",
+              "label": "Die Steuererklärung wurde unter Mitwirkung einer selbständig und eigenverantwortlich tätigen und zur Hilfeleistung in Steuersachen nach §§ 3 und 4 des Steuerberatungsgesetzes befugten Person oder Vereinigung angefertigt.",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "3 - B. Steuerpflichtige Lieferungen, sonstige Leistungen und unentgeltliche Wertabgaben",
+      "sections": [
+        {
+          "section_label": "Umsätze zum allgemeinen Steuersatz",
+          "rows": [
+            {
+              "row": "22",
+              "label": "Lieferungen und sonstige Leistungen zu 19 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "23",
+              "label": "Unentgeltliche Wertabgaben - Lieferungen nach § 3 Absatz 1b UStG zu 19 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "24",
+              "label": "Unentgeltliche Wertabgaben - Sonstige Leistungen nach § 3 Absatz 9a UStG zu 19 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Umsätze zum ermäßigten Steuersatz von 7 %",
+          "rows": [
+            {
+              "row": "25",
+              "label": "Lieferungen und sonstige Leistungen zu 7 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "26",
+              "label": "Unentgeltliche Wertabgaben - Lieferungen nach § 3 Absatz 1b UStG zu 7 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "27",
+              "label": "Unentgeltliche Wertabgaben - Sonstige Leistungen nach § 3 Absatz 9a UStG zu 7 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Umsätze zum ermäßigten Steuersatz von 0 %",
+          "rows": [
+            {
+              "row": "28",
+              "label": "Lieferungen und sonstige Leistungen zu 0 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            },
+            {
+              "row": "29",
+              "label": "Unentgeltliche Wertabgaben - Lieferungen nach § 3 Absatz 1b UStG zu 0 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            },
+            {
+              "row": "30",
+              "label": "Unentgeltliche Wertabgaben - Sonstige Leistungen nach § 3 Absatz 9a UStG zu 0 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Umsätze zu anderen Steuersätzen",
+          "rows": [
+            {
+              "row": "31",
+              "label": "Umsätze zu anderen Steuersätzen",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Umsätze land- und forstwirtschaftlicher Betriebe nach § 24 UStG",
+          "rows": [
+            {
+              "row": "32",
+              "label": "Lieferungen in das übrige Gemeinschaftsgebiet an Abnehmer mit Umsatzsteuer-Identifikationsnummer",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            },
+            {
+              "row": "33",
+              "label": "Steuerpflichtige Umsätze (einschließlich unentgeltlicher Wertabgaben) von Getränken, die in der Anlage 2 zum UStG nicht aufgeführt sind, sowie von alkoholischen Flüssigkeiten (zum Beispiel Wein) - Umsätze zu anderen Steuersätzen",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "34",
+              "label": "Übrige steuerpflichtige Umsätze land- und forstwirtschaftlicher Betriebe, für die keine Steuer zu entrichten ist",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Wechsel von der Kleinunternehmer-Regelung (§ 19 UStG) zur Regelbesteuerung beziehungsweise Durchschnittssatzbesteuerung (§ 24 UStG)",
+          "rows": [
+            {
+              "row": "35",
+              "label": "Steuer (Nachsteuer) auf vereinnahmte Anzahlungen infolge des Wechsels der Besteuerungsform (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Nachsteuer auf versteuerte Anzahlungen und ähnlichem wegen Steuersatzänderung",
+          "rows": [
+            {
+              "row": "36",
+              "label": "Nachsteuer auf versteuerte Anzahlungen und ähnlichem wegen Steuersatzänderung (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "37",
+              "label": "Summe der Steuer (zu übertragen in Zeile 103) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "4 - C. Steuerfreie Lieferungen, sonstige Leistungen und unentgeltliche Wertabgaben",
+      "sections": [
+        {
+          "section_label": "Steuerfreie Umsätze mit Vorsteuerabzug",
+          "rows": [],
+          "sections": [
+            {
+              "section_label": "a) Innergemeinschaftliche Lieferungen (§ 4 Nummer 1 Buchstabe b UStG)",
+              "rows": [
+                {
+                  "row": "38",
+                  "label": "an Abnehmer mit Umsatzsteuer-Identifikationsnummer (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "39",
+                  "label": "neuer Fahrzeuge an Abnehmer ohne Umsatzsteuer-Identifikationsnummer (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "40",
+                  "label": "neuer Fahrzeuge außerhalb eines Unternehmens (§ 2a UStG) (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            },
+            {
+              "section_label": "b) Weitere steuerfreie Umsätze mit Vorsteuerabzug (z. B. nach § 4 Nummer 1 Buchstabe a, 2 bis 7 UStG)",
+              "rows": [
+                {
+                  "row": "41",
+                  "label": "Ausfuhrlieferungen (§ 4 Nummer 1 Buchstabe a UStG) (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "42",
+                  "label": "Umsätze nach §",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "42",
+                  "label": "Umsätze nach § ... UStG (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "43",
+                  "label": "Umsätze im Sinne des Offshore-Steuerabkommens, des Zusatzabkommens zum NATO-Truppenstatut und des Ergänzungsabkommens zum Protokoll über die NATO-Hauptquartiere (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "44",
+                  "label": "Reiseleistungen nach § 25 Absatz 2 UStG (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "45",
+                  "label": "Summe der Zeilen 42 bis 44 (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Steuerfreie Umsätze ohne Vorsteuerabzug",
+          "rows": [],
+          "sections": [
+            {
+              "section_label": "a) nicht zum Gesamtumsatz (§ 19 Absatz 2 UStG) gehörend",
+              "rows": [
+                {
+                  "row": "46",
+                  "label": "nach § 4 Nummer 12 UStG (Vermietung und Verpachtung von Grundstücken) (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "47",
+                  "label": "nach § 4 Nummer",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "47",
+                  "label": "nach § 4 Nummer ... UStG (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            },
+            {
+              "section_label": "b) zum Gesamtumsatz (§ 19 Absatz 2 UStG) gehörend",
+              "rows": [
+                {
+                  "row": "48",
+                  "label": "nach § 19 Absatz 1 UStG (Euro)",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "49",
+                  "label": "nach §",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "49",
+                  "label": "nach § ... UStG (Euro)",
+                  "type": "text",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context_label": "5 - D. Innergemeinschaftliche Erwerbe",
+      "sections": [
+        {
+          "section_label": "Steuerfreie innergemeinschaftliche Erwerbe",
+          "rows": [
+            {
+              "row": "50",
+              "label": "von bestimmten Gegenständen und Anlagegold nach §§ 4b und 25c UStG",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Steuerpflichtige innergemeinschaftliche Erwerbe (§ 1a UStG)",
+          "rows": [
+            {
+              "row": "51",
+              "label": "zum Steuersatz von 19 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "52",
+              "label": "zum Steuersatz von 7 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "53",
+              "label": "zum Steuersatz von 0 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            },
+            {
+              "row": "54",
+              "label": "zu anderen Steuersätzen",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "55",
+              "label": "neuer Fahrzeuge (§ 1b Absatz 2 und 3 UStG) von Lieferern ohne Umsatzsteuer-Identifikationsnummer zum allgemeinen Steuersatz",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "56",
+              "label": "Summe der Steuer (zu übertragen in Zeile 104) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "6 - E. Steuerschuldner bei Auslagerung (§ 13a Absatz 1 Nummer 6 )",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "57",
+              "label": "Lieferungen, die der Auslagerung vorangegangen sind (§ 4 Nummer 4a Satz 1 Buchstabe a Satz 2 UStG)",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "58",
+              "label": "Summe der Steuer (zu übertragen in Zeile 105) (Übertrag aus Zeile 57) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "7 - F. Innergemeinschaftliche Dreiecksgeschäfte (§ 25b )",
+      "sections": [
+        {
+          "section_label": "Lieferungen des ersten Abnehmers",
+          "rows": [
+            {
+              "row": "59",
+              "label": "Bemessungsgrundlage ohne Umsatzsteuer",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Lieferungen, für die der letzte Abnehmer die Umsatzsteuer schuldet",
+          "rows": [
+            {
+              "row": "60",
+              "label": "zum Steuersatz von 19 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "61",
+              "label": "zum Steuersatz von 7 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "62",
+              "label": "zum Steuersatz von 0 %",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            },
+            {
+              "row": "63",
+              "label": "zu anderen Steuersätzen",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "64",
+              "label": "Summe der Steuer (zu übertragen in Zeile 106) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "8 - G. Leistungsempfänger als Steuerschuldner (§ 13b )",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "65",
+              "label": "Sonstige Leistungen nach § 3a Absatz 2 UStG eines im übrigen Gemeinschaftsgebiet ansässigen Unternehmers (§ 13b Absatz 1 UStG)",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "66",
+              "label": "Umsätze, die unter das GrEStG fallen (§ 13b Absatz 2 Nummer 3 UStG)",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "67",
+              "label": "Andere Leistungen (§ 13b Absatz 2 Nummer 1, 2, 4 bis 12 UStG)",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)",
+                "Steuer (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "68",
+              "label": "Summe der Steuer (zu übertragen in Zeile 107) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "9 - H. Ergänzende Angaben zu Umsätzen",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "69",
+              "label": "Umsätze, die auf Grund eines Verzichts auf Steuerbefreiung (§ 9 UStG) als steuerpflichtig behandelt worden sind (in Abschnitt B enthalten) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "70",
+              "label": "Steuerpflichtige Umsätze des leistenden Unternehmers, für die der Leistungsempfänger die Steuer nach § 13b Absatz 5 UStG schuldet (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "71",
+              "label": "Telekommunikations-, Rundfunk- und Fernsehdienstleistungen sowie auf elektronischem Weg erbrachte sonstige Leistungen an im übrigen Gemeinschaftsgebiet ansässige Nichtunternehmer sowie innergemeinschaftliche Fernverkäufe in das übrige Gemeinschaftsgebiet unter der Voraussetzung des § 3a Absatz 5 Sätze 3 und 4 UStG und § 3c Absatz 4 Sätze 1 und 2 UStG (in Abschnitt B oder C enthalten) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "72",
+              "label": "Telekommunikations-, Rundfunk- und Fernsehdienstleistungen sowie auf elektronischem Weg erbrachte sonstige Leistungen an im übrigen Gemeinschaftsgebiet ansässige Nichtunternehmer sowie innergemeinschaftliche Fernverkäufe in das übrige Gemeinschaftsgebiet unter der Voraussetzung des § 3a Absatz 5 Sätze 3 und 4 UStG und § 3c Absatz 4 Sätze 1 und 2 UStG (in anderen EU-Mitgliedstaaten zu versteuern) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "73",
+              "label": "Nicht steuerbare Geschäftsveräußerung im Ganzen gemäß § 1 Absatz 1a UStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "74",
+              "label": "Nicht steuerbare sonstige Leistungen gemäß § 18b Satz 1 Nummer 2 UStG (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "75",
+              "label": "Übrige nicht steuerbare Umsätze (Leistungsort nicht im Inland) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "76",
+              "label": "In den Zeilen 72, 74 und 75 enthaltene Umsätze, die nach § 15 Absatz 2 und 3 UStG den Vorsteuerabzug ausschließen (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "77",
+              "label": "Auf den inländischen Streckenanteil entfallende Umsätze grenzüberschreitender Personenbeförderungen im Luftverkehr (§ 26 Absatz 3 UStG) (Euro)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "78",
+              "label": "Minderung der Bemessungsgrundlage nach § 17 Absatz 1 Satz 1 in Verbindung mit Absatz 2 Nummer 1 Satz 1 UStG für uneinbringliche Forderungsentgelte (in Abschnitt B enthalten) (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "10 - I. Abziehbare Vorsteuerbeträge",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "(ohne die Berichtigung nach § 15a UStG)",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "79",
+              "label": "Vorsteuerbeträge aus Rechnungen von anderen Unternehmern (§ 15 Absatz 1 Satz 1 Nummer 1 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "80",
+              "label": "Vorsteuerbeträge aus innergemeinschaftlichen Erwerben von Gegenständen (§ 15 Absatz 1 Satz 1 Nummer 3 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "81",
+              "label": "Entstandene Einfuhrumsatzsteuer (§ 15 Absatz 1 Satz 1 Nummer 2 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "82",
+              "label": "Vorsteuerabzug für die Steuer, die der Abnehmer als Auslagerer nach § 13a Absatz 1 Nummer 6 UStG schuldet (§ 15 Absatz 1 Satz 1 Nummer 5 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "83",
+              "label": "Vorsteuerbeträge aus Leistungen im Sinne des § 13b UStG (§ 15 Absatz 1 Satz 1 Nummer 4 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "84",
+              "label": "Vorsteuerbeträge nach dem Durchschnittssatz für bestimmte Körperschaften, Personenvereinigungen und Vermögensmassen (§ 23a UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "85",
+              "label": "Vorsteuerabzug für innergemeinschaftliche Lieferungen neuer Fahrzeuge außerhalb eines Unternehmens (§ 2a UStG) sowie von Kleinunternehmern im Sinne des § 19 Absatz 1 UStG (§ 15 Absatz 4a UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "86",
+              "label": "Vorsteuerbeträge aus innergemeinschaftlichen Dreiecksgeschäften(§ 25b Absatz 5 UStG) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "87",
+              "label": "Summe der Vorsteuerbeträge (zu übertragen in Zeile 109) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Ergänzende Angabe",
+          "rows": [
+            {
+              "row": "88",
+              "label": "Minderung der abziehbaren Vorsteuerbeträge nach § 17 Absatz 1 Satz 2 in Verbindung mit Absatz 2 Nummer 1 Satz 1 UStG (in den Zeilen 79, 84 und 85 enthalten) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "11 - J. Berichtigung des Vorsteuerabzugs (§ 15a )",
+      "sections": [
+        {
+          "section_label": "Angaben zur erstmaligen Verwendung von Grundstücken, Grundstücksteilen, Gebäuden oder Gebäudeteilen",
+          "rows": [
+            {
+              "row": "89",
+              "label": "Sind im Kalenderjahr 2025 Grundstücke, Grundstücksteile, Gebäude oder Gebäudeteile, für die Vorsteuer abgezogen worden ist, erstmals tatsächlich verwendet worden?",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Angaben zu den Grundstücken oder Gebäuden",
+              "rows": [],
+              "sections": [
+                {
+                  "section_label": "Lage des Grundstücks oder Gebäudes",
+                  "rows": [
+                    {
+                      "row": null,
+                      "label": "Lage des Grundstücks oder Gebäudes",
+                      "type": "repeater",
+                      "values": []
+                    }
+                  ],
+                  "sections": [
+                    {
+                      "section_label": null,
+                      "rows": [
+                        {
+                          "row": "89",
+                          "label": "Lage des Grundstücks oder Gebäudes",
+                          "type": "text",
+                          "values": []
+                        },
+                        {
+                          "row": "89",
+                          "label": "Zeitpunkt der erstmaligen tatsächlichen Verwendung (TT.MM.JJJJ)",
+                          "type": "date",
+                          "values": []
+                        },
+                        {
+                          "row": "89",
+                          "label": "Art der Verwendung im Erstjahr",
+                          "type": "text",
+                          "values": []
+                        },
+                        {
+                          "row": "89",
+                          "label": "Umfang der Verwendung im Erstjahr (X,XX)",
+                          "type": "text",
+                          "values": []
+                        },
+                        {
+                          "row": "89",
+                          "label": "insgesamt angefallene Vorsteuer (Euro)",
+                          "type": "text",
+                          "values": []
+                        },
+                        {
+                          "row": "89",
+                          "label": "in den Vorjahren - Investitionsphase - bereits abgezogene Vorsteuer (Euro)",
+                          "type": "text",
+                          "values": []
+                        }
+                      ],
+                      "sections": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_label": "Haben sich im Jahr 2025 die für den ursprünglichen Vorsteuerabzug maßgebenden Verhältnisse geändert bei",
+          "rows": [
+            {
+              "row": "90",
+              "label": "1. Grundstücken, Grundstücksteilen, Gebäuden oder Gebäudeteilen, die innerhalb der letzten 10 Jahre erstmals tatsächlich und nicht nur einmalig zur Ausführung von Umsätzen verwendet worden sind?",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "91",
+              "label": "2. anderen Wirtschaftsgütern und sonstigen Leistungen, die innerhalb der letzten 5 Jahre erstmals tatsächlich und nicht nur einmalig zur Ausführung von Umsätzen verwendet worden sind?",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "92",
+              "label": "3. Wirtschaftsgütern und sonstigen Leistungen, die nur einmalig zur Ausführung von Umsätzen verwendet worden sind?",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Die Verhältnisse, die ursprünglich für die Beurteilung des Vorsteuerabzugs maßgebend waren, haben sich seitdem geändert durch:",
+          "rows": [
+            {
+              "row": "93",
+              "label": "Veräußerung",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "93",
+              "label": "Lieferung im Sinne des § 3 Absatz 1b UStG",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "93",
+              "label": "Wechsel der Besteuerungsform, § 15a Absatz 7 UStG",
+              "type": "checkbox",
+              "values": []
+            }
+          ],
+          "sections": [
+            {
+              "section_label": "Nutzungsänderung",
+              "rows": [
+                {
+                  "row": "94",
+                  "label": "Wechsel der Besteuerungsform im Rahmen der Kleinunternehmer-Regelung",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "95",
+                  "label": "Nutzungsänderung, und zwar",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "96",
+                  "label": "Übergang von steuerpflichtiger zu steuerfreier Vermietung oder umgekehrt beziehungsweise Änderung des Verwendungsschlüssels bei gemischt genutzten Grundstücken (insbesondere bei Mieterwechsel).",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "97",
+                  "label": "steuerfreie Vermietung bisher eigengewerblich genutzter Räume oder umgekehrt; Übergang von einer Vermietung für NATO- oder ähnliche Zwecke zu einer nach § 4 Nummer 12 UStG steuerfreien Vermietung.",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "98",
+                  "label": "Andere Gründe für die geänderte Beurteilung des Vorsteuerabzugs:",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "98",
+                  "label": "Begründung",
+                  "type": "",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        },
+        {
+          "section_label": "Vorsteuerberichtigungsbeträge",
+          "rows": [
+            {
+              "row": "99",
+              "label": "zu 1. (z. B. Grundstücke, § 15a Absatz 1 Satz 2 UStG) Hilfe zum Begriff anzeigen",
+              "type": "text",
+              "values": [
+                "nachträglich abziehbar (Euro, Cent)",
+                "zurückzuzahlen (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "100",
+              "label": "zu 2. (z. B. andere Wirtschaftsgüter, § 15a Absatz 1 Satz 1 UStG) Hilfe zum Begriff anzeigen",
+              "type": "text",
+              "values": [
+                "nachträglich abziehbar (Euro, Cent)",
+                "zurückzuzahlen (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "101",
+              "label": "zu 3. (z. B. Wirtschaftsgüter, § 15a Absatz 2 UStG) Hilfe zum Begriff anzeigen",
+              "type": "text",
+              "values": [
+                "nachträglich abziehbar (Euro, Cent)",
+                "zurückzuzahlen (Euro, Cent)"
+              ]
+            },
+            {
+              "row": "102",
+              "label": "Summe (zu übertragen in Zeile 110 beziehungsweise Zeile 112)",
+              "type": "text",
+              "values": [
+                "nachträglich abziehbar (Euro, Cent)",
+                "zurückzuzahlen (Euro, Cent)"
+              ]
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "12 - K. Berechnung der zu entrichtenden Umsatzsteuer",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "103",
+              "label": "Umsatzsteuer auf steuerpflichtige Lieferungen, sonstige Leistungen und unentgeltliche Wertabgaben (aus Zeile 37) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "104",
+              "label": "Umsatzsteuer auf innergemeinschaftliche Erwerbe (aus Zeile 56) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "105",
+              "label": "Umsatzsteuer, die vom Auslagerer oder Lagerhalter geschuldet wird (§ 13a Absatz 1 Nummer 6 UStG) (aus Zeile 58) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "106",
+              "label": "Umsatzsteuer, die vom letzten Abnehmer im innergemeinschaftlichen Dreiecksgeschäft geschuldet wird (§ 25b Absatz 2 UStG) (aus Zeile 64) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "107",
+              "label": "Umsatzsteuer, die vom Leistungsempfänger nach § 13b UStG geschuldet wird (aus Zeile 68) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "108",
+              "label": "Zwischensumme (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "109",
+              "label": "Abziehbare Vorsteuerbeträge (aus Zeile 87) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "110",
+              "label": "Vorsteuerbeträge, die auf Grund des § 15a UStG nachträglich abziehbar sind (aus Zeile 102) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "111",
+              "label": "Verbleibender Betrag (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "112",
+              "label": "Vorsteuerbeträge, die auf Grund des § 15a UStG zurückzuzahlen sind (aus Zeile 102) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "113",
+              "label": "In Rechnungen unrichtig oder unberechtigt ausgewiesene Steuerbeträge (§ 14c UStG) sowie Steuerbeträge, die nach § 6a Absatz 4 Satz 2 UStG geschuldet werden (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "114",
+              "label": "Steuerbeträge, die nach § 17 Absatz 1 Satz 7 UStG geschuldet werden (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "115",
+              "label": "Steuer- und Vorsteuerbeträge, die auf frühere Besteuerungszeiträume entfallen (nur für Kleinunternehmer, die § 19 Absatz 1 UStG anwenden) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "116",
+              "label": "UmsatzsteuerÜberschuss - dem Betrag wird ein Minuszeichen vorangestellt - (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "117",
+              "label": "Anrechenbare Beträge (aus Zeile 18 der Anlage UN) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Steuer",
+          "rows": [
+            {
+              "row": "118",
+              "label": "Verbleibende UmsatzsteuerVerbleibender Überschuss - dem Betrag wird ein Minuszeichen vorangestellt - (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "119",
+              "label": "Manuelle Eingabe der verbleibenden Umsatzsteuer / des verbleibenden Überschusses (Euro, Cent)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "119",
+              "label": "Vorauszahlungssoll 2025 (einschließlich Sondervorauszahlung) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Noch an die Finanzkasse zu entrichten - Abschlusszahlung / Erstattungsanspruch -",
+          "rows": [
+            {
+              "row": "120",
+              "label": "Noch an die Finanzkasse zu entrichten - Abschlusszahlung - Erstattungsanspruch - dem Betrag wird ein Minuszeichen vorangestellt - (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "Ein Umsatzsteuerbescheid ergeht nur, wenn von Ihrer Berechnung der Umsatzsteuer abgewichen wird.",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ],
+  "anlage-fv": [
+    {
+      "context_label": "Anlage FV zur Umsatzsteuererklärung",
+      "sections": [
+        {
+          "section_label": "Allgemeine Angaben",
+          "rows": [
+            {
+              "row": "2",
+              "label": "Wirtschafts-Identifikationsnummer",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Aufstellung aller vertretenen Unternehmer",
+          "rows": [],
+          "sections": [
+            {
+              "section_label": "Unternehmer",
+              "rows": [
+                {
+                  "row": null,
+                  "label": "Unternehmer",
+                  "type": "repeater",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": null,
+                  "rows": [
+                    {
+                      "row": "3",
+                      "label": "Name des vertretenen Unternehmers",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "3",
+                      "label": "Anschrift des vertretenen Unternehmers",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "3",
+                      "label": "Falls vorhanden: Umsatzsteuer-Identifikationsnummer des vertretenen Unternehmers",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "3",
+                      "label": "Summe der jeweiligen Bemessungsgrundlagen (Euro)",
+                      "type": "text",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "section_label": "Summe",
+          "rows": [
+            {
+              "row": "14",
+              "label": "Summe (Euro)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ],
+  "anlage-un": [
+    {
+      "context_label": "Anlage UN",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": null,
+              "label": "zur Umsatzsteuererklärung für im Ausland ansässige Unternehmer",
+              "type": "note",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "1 - A. Allgemeine Angaben",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "2",
+              "label": "Wirtschafts-Identifikationsnummer",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bankverbindung",
+          "rows": [
+            {
+              "row": "3",
+              "label": "IBAN",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "4",
+              "label": "BIC (nur bei Bankverbindungen außerhalb des Europäischen Wirtschaftsraums)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "5",
+              "label": "Name des Geldinstituts (Zweigstelle) und Ort",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "6",
+              "label": "Kontonummer (nur bei Bankverbindungen außerhalb des Europäischen Zahlungsverkehrsraums - SEPA)",
+              "type": "text",
+              "values": []
+            },
+            {
+              "row": "7",
+              "label": "Kontoinhaber laut Zeile 5 auf Vordruck USt2A",
+              "type": "checkbox",
+              "values": []
+            },
+            {
+              "row": "7",
+              "label": "Name des Kontoinhabers",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        },
+        {
+          "section_label": "Bevollmächtigter/Empfangsbevollmächtigter",
+          "rows": [],
+          "sections": [
+            {
+              "section_label": null,
+              "rows": [
+                {
+                  "row": "8",
+                  "label": "Zur Wahrnehmung der steuerlichen Pflichten und Rechte als Bevollmächtigter (§ 80 AO) ist bestellt:",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "8",
+                  "label": "Zum Empfang von Schriftstücken als Empfangsbevollmächtigter (§ 123 AO) ist bestellt:",
+                  "type": "checkbox",
+                  "values": []
+                },
+                {
+                  "row": "9",
+                  "label": "Name",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "10",
+                  "label": "Straße",
+                  "type": "text",
+                  "values": []
+                },
+                {
+                  "row": "11",
+                  "label": "Hausnummer",
+                  "type": "",
+                  "values": []
+                },
+                {
+                  "row": "12",
+                  "label": "Postleitzahl",
+                  "type": "",
+                  "values": []
+                },
+                {
+                  "row": "13",
+                  "label": "Postleitzahl zum Postfach",
+                  "type": "",
+                  "values": []
+                }
+              ],
+              "sections": [
+                {
+                  "section_label": "Kontakt",
+                  "rows": [
+                    {
+                      "row": "14",
+                      "label": "Telefon",
+                      "type": "text",
+                      "values": []
+                    },
+                    {
+                      "row": "15",
+                      "label": "E-Mail-Adresse",
+                      "type": "text",
+                      "values": []
+                    }
+                  ],
+                  "sections": []
+                }
+              ]
+            },
+            {
+              "section_label": "Angaben zur Unterschrift",
+              "rows": [
+                {
+                  "row": "16",
+                  "label": "Die Umsatzsteuererklärung wurde vom Bevollmächtigten elektronisch authentifiziert übermittelt. Die Voraussetzungen des § 150 Absatz 3 AO liegen vor.",
+                  "type": "checkbox",
+                  "values": []
+                }
+              ],
+              "sections": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "context_label": "2 - B. Vorsteuer-Vergütungsverfahren beim Bundeszentralamt für Steuern",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "17",
+              "label": "Ist für das Kalenderjahr 2025 die Vergütung von Vorsteuern in einem besonderen Verfahren(§ 18 Absatz 9 UStG, §§ 59 bis 61a UStDV) beantragt worden?",
+              "type": "select",
+              "values": [
+                "Keine Angabe",
+                "Ja",
+                "Nein"
+              ]
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "3 - C. Anrechenbare Beträge",
+      "sections": [
+        {
+          "section_label": null,
+          "rows": [
+            {
+              "row": "18",
+              "label": "Bei der Beförderungseinzelbesteuerung entrichtete Umsatzsteuer(§ 18 Absatz 5b Satz 2 UStG) – Belege bitte gesondert übermitteln -(zu übertragen in Zeile 117 der Umsatzsteuererklärung) (Euro, Cent)",
+              "type": "text",
+              "values": []
+            }
+          ],
+          "sections": []
+        }
+      ]
+    },
+    {
+      "context_label": "4 - D. Ergänzende Angaben zu Umsätzen",
+      "sections": [
+        {
+          "section_label": "In den steuerpflichtigen Umsätzen enthaltene Umsätze",
+          "rows": [
+            {
+              "row": "19",
+              "label": "Innergemeinschaftliche Fernverkäufe aus dem übrigen Gemeinschaftsgebiet (§ 3c UStG)",
+              "type": "text",
+              "values": [
+                "Bemessungsgrundlage ohne Umsatzsteuer (Euro)"
+              ]
+            }
+          ],
+          "sections": []
+        }
+      ]
+    }
+  ]
+}

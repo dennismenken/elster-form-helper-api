@@ -1,0 +1,79 @@
+[
+  {
+    "context_label": "Anlage Bekanntgabe",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Einwilligung in die elektronische Bekanntgabe des Gewerbesteuerbescheides durch die hebeberechtigte Gemeinde",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nicht auszufüllen:",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- in Zerlegungsfällen",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- von Organgesellschaften",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "- wenn durch Landesverordnung das Land die Gewerbesteuer erhebt",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Die Angaben zur Bekanntgabe des Gewerbesteuerbescheides werden von der Finanzverwaltung an die nach § 4 GewStG hebeberechtigte Gemeinde nach den Grundsätzen des § 31 AO übermittelt und dort für die Bekanntgabe des Gewerbesteuerbescheides genutzt.",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

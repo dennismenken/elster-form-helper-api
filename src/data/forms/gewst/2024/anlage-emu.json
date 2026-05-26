@@ -1,0 +1,163 @@
+[
+  {
+    "context_label": "Anlagen",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Angaben zur mitunternehmerbezogenen Verlustverrechnung",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Name/Firma des Beteiligten",
+            "rows": [
+              {
+                "row": null,
+                "label": "Name/Firma des Beteiligten",
+                "type": "repeater",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "context_label": "Anlage",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Nummer des Beteiligten laut Anlage FB",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Angaben zum Beteiligten",
+        "rows": [
+          {
+            "row": null,
+            "label": "Alle nachstehenden Eintragungen sind ausschließlich mit den auf den jeweiligen Beteiligten entfallenden Werten vorzunehmen.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": null,
+            "label": "Die Aufteilung erfolgt nach dem im Gesellschaftsvertrag für den Erhebungszeitraum festgelegten allgemeinen Gewinnverteilungsschlüssel. Vorabgewinnanteile sind nicht zu berücksichtigen (§ 10a Satz 4 GewStG). Bei abweichendem Wirtschaftsjahr erfolgt die Verteilung entsprechend dem gesellschaftsvertraglich maßgebenden allgemeinen Gewinnverteilungsschlüssel auf die in diesem abweichenden Wirtschaftsjahr beteiligten Mitunternehmer.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Name/Firma des Beteiligten",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Identifikationsnummer des Beteiligten (bei natürlichen Personen)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5a",
+            "label": "Wirtschafts-Identifikationsnummer des Beteiligten",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": [
+          {
+            "section_label": "Sofern noch keine Steuernummer vorliegt: Zuständiges Finanzamt",
+            "rows": [
+              {
+                "row": null,
+                "label": "Angaben sind nur vorzunehmen, wenn dem Beteiligten bisher weder eine Identifikationsnummer noch eine Steuernummer zugeteilt wurde.",
+                "type": "note",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Anteilige Besteuerungsgrundlagen",
+            "rows": [
+              {
+                "row": "7",
+                "label": "Gewerbeertrag/Gewerbeverlust - Negativen Betrag mit Minuszeichen eintragen -- ggf. \"0,00\" - (Euro, Cent)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "8",
+                "label": "Von einem Einzelunternehmen im Falle des Rechtsformwechsels übernommener Gewerbeverlust aus der Zeit vor dem Rechtsformwechsel, soweit nach § 10a GewStG vortragsfähig (Euro, Cent)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "9",
+                "label": "Übernommener Gewerbeverlust im Fall der Einbringung des Betriebes einer Personengesellschaft in eine andere Personengesellschaft oder der Verschmelzung von Personengesellschaften (R 10a.3 Absatz 3 Satz 9 Nummer 5 Satz 1 und 2 GewStR 2009) oder im Falle der Anwachsung oder der Verschmelzung einer Personengesellschaft auf einen Gesellschafter (R 10a.3 Absatz 3 Satz 9 Nummer 4 GewStR 2009) (Euro, Cent)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "10",
+                "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht abziehbarer Gewerbeverlust aus vorangegangenen Erhebungszeiträumen (Euro, Cent)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "11",
+                "label": "Nach § 10a Satz 10 GewStG in Verbindung mit § 8c KStG nicht ausgleichsfähiger Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+                "type": "text",
+                "values": []
+              },
+              {
+                "row": "12",
+                "label": "Aufgrund der Veräußerung oder Aufgabe von Teilbetrieben wegfallender vortragsfähiger Gewerbeverlust und Gewerbeverlust des laufenden Erhebungszeitraums (Euro, Cent)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Für den laufenden Erhebungszeitraum maßgebende Besteuerungsgrundlagen, die im vorangegangenen Erhebungszeitraum ermittelt wurden",
+        "rows": [
+          {
+            "row": null,
+            "label": "Diese Werte werden lediglich für die Probeberechnung in Elster herangezogen. Das Finanzamt verwendet die zum Schluss des vorangegangenen Erhebungszeitraums ermittelten Werte.",
+            "type": "note",
+            "values": []
+          },
+          {
+            "row": "13",
+            "label": "Zum Schluss des vorangegangenen Erhebungszeitraums ermittelter vortragsfähiger Gewerbeverlust (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

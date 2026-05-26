@@ -1,0 +1,61 @@
+[
+  {
+    "context_label": "Anlage Invest-Verluste",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Verbleibende nicht ausgeglichene negative Einkünfte nach § 6 Absatz 8 InvStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "1",
+            "label": "Verbleibende nicht ausgeglichene negative Einkünfte zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Dazu: Zu übernehmende verbleibende nicht ausgeglichene negative Einkünfte bei Verschmelzung (§ 23 InvStG) (laut gesonderter Erläuterung) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Dazu: Negative Einkünfte des laufenden Veranlagungszeitraums (negativer Betrag laut Zeile 53 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "5",
+            "label": "Davon ab: Verrechnung positiver Einkünfte des laufenden Veranlagungszeitraums mit nicht ausgeglichenen negativen Einkünften (positiver Betrag laut Zeile 53 der Anlage ZVE; höchstens Betrag laut Zeile 4) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "6",
+            "label": "Verbleibende nicht ausgeglichene negative Einkünfte zum Schluss des Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]

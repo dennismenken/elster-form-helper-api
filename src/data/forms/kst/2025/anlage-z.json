@@ -1,0 +1,227 @@
+[
+  {
+    "context_label": "Anlage Z",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": null,
+            "label": "Verbleibender Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 und 10 KStG in Verbindung mit § 10d Absatz 4 EStG",
+            "type": "note",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Ermittlung des verbleibenden Zuwendungsvortrags",
+        "rows": [
+          {
+            "row": "1",
+            "label": "Verbleibender Zuwendungsvortrag zum Schluss des vorangegangenen Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "2",
+            "label": "Davon ab: Im Falle einer Abspaltung oder Teilübertragung im laufenden Veranlagungszeitraum: Verringerung des verbleibenden Zuwendungsvortrags bei der übertragenden Körperschaft (§ 12 Absatz 3 UmwStG in Verbindung mit § 15 Absatz 1, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "3",
+            "label": "Dazu: Bei der übernehmenden Körperschaft im Jahr der Vermögensübernahme: Auf die übernehmende Körperschaft im laufenden Veranlagungszeitraum übergegangener Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 KStG in Verbindung mit § 12 Absatz 3 UmwStG (gegebenenfalls in Verbindung mit § 15 Absatz 1 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Zuwendungen für steuerbegünstigte Zwecke laut gesonderter Einzelaufstellung",
+        "rows": [],
+        "sections": [
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Steuernummer der Personengesellschaft",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Steuernummer der Personengesellschaft",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "4",
+                "label": "Dazu: Im Kalenderjahr 2025 beziehungsweise im Wirtschaftsjahr 2024/2025 geleistete Zuwendungen (Spenden und Mitgliedsbeiträge) für steuerbegünstigte Zwecke nach §§ 52 bis 54 AO aus Beteiligung an einer Personengesellschaft (laut gesonderter und einheitlicher Feststellung) (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          },
+          {
+            "section_label": "Einzelangaben",
+            "rows": [],
+            "sections": [
+              {
+                "section_label": "Name des Empfängers",
+                "rows": [
+                  {
+                    "row": null,
+                    "label": "Name des Empfängers",
+                    "type": "repeater",
+                    "values": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "section_label": null,
+                    "rows": [
+                      {
+                        "row": "5",
+                        "label": "Name des Empfängers",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "5",
+                        "label": "Betrag laut Bestätigung (Euro, Cent)",
+                        "type": "text",
+                        "values": []
+                      },
+                      {
+                        "row": "5",
+                        "label": "Der Empfänger liegt im",
+                        "type": "select",
+                        "values": [
+                          "Keine Angabe",
+                          "Inland",
+                          "EU-/EWR-Ausland"
+                        ]
+                      }
+                    ],
+                    "sections": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "section_label": "Summe",
+            "rows": [
+              {
+                "row": "5",
+                "label": "Dazu: Im Kalenderjahr 2025 beziehungsweise im Wirtschaftsjahr 2024/2025 geleistete Zuwendungen (Spenden und Mitgliedsbeiträge) für steuerbegünstigte Zwecke nach §§ 52 bis 54 AO laut Zuwendungsbestätigungen (Euro)",
+                "type": "text",
+                "values": []
+              }
+            ],
+            "sections": []
+          }
+        ]
+      },
+      {
+        "section_label": "Fortführung der Ermittlung des verbleibenden Zuwendungsvortrags",
+        "rows": [
+          {
+            "row": "6",
+            "label": "Zwischensumme (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7",
+            "label": "Davon ab: Unter Beachtung der Höchstbeträge abziehbare Zuwendungen (Übertrag nach Zeile 34 der Anlage ZVE) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7a",
+            "label": "Davon ab: Minderung des verbleibenden Zuwendungsvortrags durch Abspaltung oder Teilübertragung zum Ende des Veranlagungszeitraums (§ 12 Absatz 3 UmwStG in Verbindung mit § 15 Absatz 1, § 16 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "7b",
+            "label": "Dazu: Bei der übernehmenden Körperschaft im Jahr der Vermögensübernahme: Auf die übernehmende Körperschaft zum Ende des Veranlagungszeitraums übergegangener Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 KStG in Verbindung mit § 12 Absatz 3 UmwStG (gegebenenfalls in Verbindung mit § 15 Absatz 1 UmwStG) (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "8",
+            "label": "Verbleibender Zuwendungsvortrag zum Schluss des Veranlagungszeitraums (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "9",
+            "label": "In Zeile 5 enthaltene Zuwendungen an Empfänger im EU-/EWR-Ausland (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      },
+      {
+        "section_label": "Angaben zur Höchstbetragsberechnung",
+        "rows": [
+          {
+            "row": "10",
+            "label": "Summe der gesamten Umsätze sowie der im Kalenderjahr 2025 aufgewendeten Löhne und Gehälter (Euro)",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "11",
+            "label": "Summe der gesamten Umsätze sowie der im Kalenderjahr 2025 aufgewendeten Löhne und Gehälter aus Beteiligung an einer Personengesellschaft (Euro)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  },
+  {
+    "context_label": "Personengesellschaft",
+    "sections": [
+      {
+        "section_label": null,
+        "rows": [
+          {
+            "row": "4",
+            "label": "Wirtschafts-Identifikationsnummer der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Name der Personengesellschaft",
+            "type": "text",
+            "values": []
+          },
+          {
+            "row": "4",
+            "label": "Betrag (Euro, Cent)",
+            "type": "text",
+            "values": []
+          }
+        ],
+        "sections": []
+      }
+    ]
+  }
+]
