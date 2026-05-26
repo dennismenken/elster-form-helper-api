@@ -6,17 +6,25 @@ import type { ToolDefinition } from "./envelope.js";
 
 const TaxTypeSchema = z.enum(TAX_TYPES as ["kst", "gewst", "ust"]);
 
-export const listTaxTypesTool: ToolDefinition<Record<string, never>, { tax_types: TaxType[] }> = {
+export const listTaxTypesTool: ToolDefinition<{ filter?: string }, { tax_types: TaxType[] }> = {
   name: "list_tax_types",
-  description: "Return the closed list of tax types this server can serve (`kst`, `gewst`, `ust`).",
-  inputSchema: z.object({}).strict(),
+  description:
+    "Return the closed list of tax types this server can serve (`kst`, `gewst`, `ust`). The optional `filter` is a case-insensitive substring; an empty or omitted filter returns all types.",
+  // The optional `filter` keeps this tool's input schema non-empty. Some MCP
+  // clients (notably Claude Desktop in certain versions) handle no-argument
+  // tools poorly and time out on the first call; a single optional parameter
+  // sidesteps that without changing behaviour for callers that pass nothing.
+  inputSchema: z.object({ filter: z.string().optional() }).strict(),
   outputSchema: z.object({
     tax_types: z.array(TaxTypeSchema),
   }),
-  handler: async (_input, ctx) => {
+  handler: async (input, ctx) => {
+    const filter = (input.filter ?? "").trim().toLowerCase();
     const present: TaxType[] = [];
     for (const t of TAX_TYPES) {
-      if (ctx.catalogue.yearsByTaxType.has(t)) present.push(t);
+      if (!ctx.catalogue.yearsByTaxType.has(t)) continue;
+      if (filter.length > 0 && !t.includes(filter)) continue;
+      present.push(t);
     }
     return {
       data: { tax_types: present },

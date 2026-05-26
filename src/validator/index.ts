@@ -124,20 +124,16 @@ function validateDate(raw: unknown): ValidationResult {
 }
 
 function validateDateRange(raw: unknown): ValidationResult {
-  if (typeof raw === "string") {
-    // Accept "DD.MM.YYYY - DD.MM.YYYY" notation as a convenience.
-    const parts = raw.split(/\s*[-–]\s*/);
-    if (parts.length !== 2) {
-      return {
-        valid: false,
-        error: "Expected a daterange in the form 'DD.MM.YYYY - DD.MM.YYYY' or { from, to }.",
-        expected_format: "DD.MM.YYYY - DD.MM.YYYY",
-      };
-    }
-    return validateDateRangePair(parts[0]!, parts[1]!);
-  }
-  if (typeof raw === "object" && raw !== null) {
-    const obj = raw as { from?: unknown; to?: unknown };
+  // First, normalize the input: some MCP clients (notably Claude Desktop in
+  // certain versions) stringify an object argument when the tool's input
+  // schema declares the field as `unknown`. If `raw` is a string that parses
+  // as a JSON object with from/to keys, recover it transparently — the
+  // caller's intent is clear and rejecting it would be user-hostile.
+  const recovered = tryRecoverObjectFromJsonString(raw);
+  const value = recovered ?? raw;
+
+  if (typeof value === "object" && value !== null) {
+    const obj = value as { from?: unknown; to?: unknown };
     if (typeof obj.from !== "string" || typeof obj.to !== "string") {
       return {
         valid: false,
@@ -147,11 +143,43 @@ function validateDateRange(raw: unknown): ValidationResult {
     }
     return validateDateRangePair(obj.from, obj.to);
   }
+
+  if (typeof value === "string") {
+    // Accept "DD.MM.YYYY - DD.MM.YYYY" notation as a convenience.
+    const parts = value.split(/\s*[-–]\s*/);
+    if (parts.length !== 2) {
+      return {
+        valid: false,
+        error: "Expected a daterange in the form 'DD.MM.YYYY - DD.MM.YYYY' or { from, to }.",
+        expected_format: "DD.MM.YYYY - DD.MM.YYYY",
+      };
+    }
+    return validateDateRangePair(parts[0]!, parts[1]!);
+  }
+
   return {
     valid: false,
     error: "Expected a daterange string or object with from/to fields.",
     expected_format: "{ from: 'DD.MM.YYYY', to: 'DD.MM.YYYY' }",
   };
+}
+
+/**
+ * If the input is a string that looks like a JSON-encoded object, attempt to
+ * parse it. Returns the parsed object on success, null otherwise. This is
+ * defensive plumbing for MCP clients that stringify structured tool arguments;
+ * the regular string path is unaffected.
+ */
+function tryRecoverObjectFromJsonString(raw: unknown): object | null {
+  if (typeof raw !== "string") return null;
+  const trimmed = raw.trim();
+  if (!trimmed.startsWith("{") || !trimmed.endsWith("}")) return null;
+  try {
+    const parsed: unknown = JSON.parse(trimmed);
+    return typeof parsed === "object" && parsed !== null ? parsed : null;
+  } catch {
+    return null;
+  }
 }
 
 function validateDateRangePair(fromStr: string, toStr: string): ValidationResult {

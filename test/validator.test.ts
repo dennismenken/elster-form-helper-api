@@ -55,6 +55,22 @@ describe("validateValue", () => {
     expect(c.valid).toBe(false);
   });
 
+  it("recovers daterange from a JSON-stringified object (Claude Desktop quirk)", () => {
+    const l = line({ value_type: "daterange" });
+    const stringified = '{"from":"01.01.2025","to":"31.12.2025"}';
+    const r = validateValue(l, stringified);
+    expect(r.valid).toBe(true);
+    expect(r.valid && (r.normalized_value as { from: string; to: string }).from).toBe("01.01.2025");
+    expect(r.valid && (r.normalized_value as { from: string; to: string }).to).toBe("31.12.2025");
+  });
+
+  it("does not mis-recover regular strings that happen to start with curly brace", () => {
+    const l = line({ value_type: "daterange" });
+    // Malformed JSON: should fall through to string path and fail there.
+    const r = validateValue(l, "{not really json");
+    expect(r.valid).toBe(false);
+  });
+
   it("rejects note and repeater lines", () => {
     expect(validateValue(line({ value_type: "note", line_number: null }), "x").valid).toBe(false);
     expect(validateValue(line({ value_type: "repeater" }), "x").valid).toBe(false);
