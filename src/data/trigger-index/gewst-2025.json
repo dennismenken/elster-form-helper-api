@@ -1,0 +1,98 @@
+{
+  "tax_type": "gewst",
+  "year": "2025",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0)",
+  "help_markdown": "elster_gewst2025_help.md",
+  "forms": [
+    {
+      "slug": "00-gewerbesteuererkl-rung",
+      "name": "00 Gewerbesteuererklärung",
+      "form_kind": "main",
+      "mandatory": true,
+      "description": "Hauptvordruck der Gewerbesteuererklärung (GewSt 1 A) zur Ermittlung des Gewerbeertrags und des Gewerbesteuermessbetrags; dient zugleich als Grundlage für die gesonderte Feststellung des vortragsfähigen Gewerbeverlustes und des Zuwendungsvortrags.",
+      "triggers": [
+        {
+          "condition": "Die Gewerbesteuererklärung (Vordruck GewSt 1 A) ist von jedem im Inland gewerbesteuerpflichtigen Unternehmen für den jeweiligen Erhebungszeitraum elektronisch zu übermitteln.",
+          "machine_check": null,
+          "help_source": "elster_gewst2025_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Übermitteln Sie bitte für jedes selbständige Unternehmen eine Gewerbesteuererklärung.",
+          "machine_check": null,
+          "help_source": "elster_gewst2025_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a/allgemeines-zur-gewerbesteuererkl-rung",
+          "confidence": "certain",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-beg",
+      "name": "Anlage BEG",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage BEG for GEWST 2025. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-bekanntgabe",
+      "name": "Anlage Bekanntgabe",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage Bekanntgabe for GEWST 2025. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-emu",
+      "name": "Anlage EMU",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage EMU allocates trade losses (Gewerbeverluste) and the relevant trade income (maßgebender Gewerbeertrag) of a partnership (Mitunternehmerschaft) to the individual partners, required when a trade loss arises in the current assessment period or a carry-forward loss was established at the end of the prior period.",
+      "triggers": [
+        {
+          "condition": "Die Anlage EMU (Zerlegung des Gewerbesteuermessbetrags auf mehrere Gemeinden) ist zu übermitteln, wenn das Unternehmen Betriebsstätten in mehreren Gemeinden unterhält.",
+          "machine_check": {
+            "key": "has_multiple_municipalities",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_gewst2025_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Die Anlage EMU dient der Zurechnung der sich für die Mitunternehmerschaft insgesamt ergebenden Gewerbeverluste und des maßgebenden Gewerbeertrages zu den einzelnen Mitunternehmern (§ 10a Satz 4 und 5 GewStG), wenn sich für den laufenden Erhebungszeitraum ein Gewerbeverlust ergibt.",
+          "machine_check": null,
+          "help_source": "elster_gewst2025_help.md#anlage-emu/anlage-emu",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage EMU dient der Zurechnung der sich für die Mitunternehmerschaft insgesamt ergebenden Gewerbeverluste und des maßgebenden Gewerbeertrages zu den einzelnen Mitunternehmern (§ 10a Satz 4 und 5 GewStG), wenn zum Schluss des vorangegangenen Erhebungszeitraums ein vortragsfähiger Gewerbeverlust durch das Finanzamt festgestellt wurde.",
+          "machine_check": null,
+          "help_source": "elster_gewst2025_help.md#anlage-emu/anlage-emu",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-hg-zur-spartentrennung",
+      "name": "Anlage ÖHG zur Spartentrennung",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage ÖHG zur Spartentrennung for GEWST 2025. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    }
+  ],
+  "warnings": [
+    "no help section found for form 'anlage-beg'; triggers left empty",
+    "no help section found for form 'anlage-bekanntgabe'; triggers left empty",
+    "no help section found for form 'anlage-hg-zur-spartentrennung'; triggers left empty",
+    "overrides/gewst-2025.json declares form 'anlage-beg' but no such form exists in the catalog; entry ignored",
+    "overrides/gewst-2025.json declares form 'anlage-hg-zur-spartentrennung' but no such form exists in the catalog; entry ignored"
+  ]
+}

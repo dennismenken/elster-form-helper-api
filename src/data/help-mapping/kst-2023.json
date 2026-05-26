@@ -1,0 +1,1104 @@
+{
+  "tax_type": "kst",
+  "year": "2023",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_help_mapping.ts v1 (deterministic, heuristic)",
+  "help_markdown": "elster_kst2023_help.md",
+  "mapping": {
+    "00-hauptvordruck-kst-1:10": {
+      "page_label": "Angaben zur Steuerbefreiung",
+      "help_source": "elster_kst2023_help.md#hinweise-zum-vordruck-kst-1/angaben-zur-steuerbefreiung/zeile-10",
+      "snippet": "Verpflichtung zur Übermittlung der Anlagen GK und ZVE sowie der Gewerbesteuererklärung\nBei Vorliegen von wirtschaftlichen Geschäftsbetrieben, die keine Zweckbetriebe sind, deren Einnahmen insgesamt mehr als 45.000 € im Veranlagungszeitraum betragen und deren Einkommen insgesamt den Freibetrag nach § 24 KStG beziehungsweise § 11 Absatz 1 Satz 3 Nummer 2 GewStG (5.000 € ) übersteigen, sind Sie verpflichtet, die Anlagen GK und ZVE sowie die Gewerbesteuererklärung zu übermitteln."
+    },
+    "00-hauptvordruck-kst-1:17": {
+      "page_label": "Weitere Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zum-vordruck-kst-1/weitere-angaben/zeile-17",
+      "snippet": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapital gesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese:\n- mehr als eine Tätigkeit ausübt, die bei einer juristischen Person des öffentlichen Rechts jeweils zu einem Betrieb gewerblicher Art führen würde, die gegebenenfalls aber nach § 4 Absatz 6 KStG zusammengefasst werden könnten,\n- neben mindestens einer wirtschaftlichen Tätigkeit auch eine Tätigkeit im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt oder\n- mehrere Tätigkeiten im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.\nDie Anlage ..."
+    },
+    "00-hauptvordruck-kst-1:26": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zum-vordruck-kst-1/zeile-26",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:10": {
+      "page_label": "Aktienfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/aktienfonds/zeile-10",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:11": {
+      "page_label": "Aktienfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/aktienfonds/zeile-11",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:13": {
+      "page_label": "Aktienfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/aktienfonds/zeile-13",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:14": {
+      "page_label": "Aktienfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/aktienfonds/zeile-14",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:16": {
+      "page_label": "Mischfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/mischfonds/zeile-16",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:17": {
+      "page_label": "Mischfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/mischfonds/zeile-17",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:19": {
+      "page_label": "Mischfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/mischfonds/zeile-19",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:2": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/zeile-2",
+      "snippet": "Investmenterträge aus einem ausländischen Invest mentfonds erfassen Sie bei dem Staat, aus dem die Investmenterträge stammen. Die Anrechnung ausländischer Steuern aus Spezial-Investmentfonds erfolgt über die Anlagen SPIF und SPIFA."
+    },
+    "anlage-aest:20": {
+      "page_label": "Mischfonds",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/mischfonds/zeile-20",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:22": {
+      "page_label": "Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/immobilienfonds-im-sinne-des-2-absatz-9-satz-1-invstg/zeile-22",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:23": {
+      "page_label": "Immobilienfonds im Sinne des § 2 Absatz 9 Satz 1 InvStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/immobilienfonds-im-sinne-des-2-absatz-9-satz-1-invstg/zeile-23",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:25": {
+      "page_label": "Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/auslands-immobilienfonds-im-sinne-des-2-absatz-9-satz-2-invstg/zeile-25",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:26": {
+      "page_label": "Auslands-Immobilienfonds im Sinne des § 2 Absatz 9 Satz 2 InvStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/auslands-immobilienfonds-im-sinne-des-2-absatz-9-satz-2-invstg/zeile-26",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:28": {
+      "page_label": "Übrige ausländische Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/brige-ausl-ndische-eink-nfte/zeile-28",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:30": {
+      "page_label": "Übrige ausländische Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/brige-ausl-ndische-eink-nfte/zeile-30",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:4": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 8b KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-8b-kstg/zeile-4-und-4a",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:41": {
+      "page_label": "Abzuziehende ausländische Steuern nach § 34c Absatz 2 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/abzuziehende-ausl-ndische-steuern-nach-34c-absatz-2-estg/zeile-41",
+      "snippet": "Bei Organgesellschaften wird über den Abzug oder die Anrechnung ausländischer Steuern nach § 26 Absatz 1 KStG in Verbindung mit § 34c Absatz 1 und 2 EStG erst auf Ebene des Organträgers entschieden. Das Einkommen der Organgesellschaft, das dem Organträger zugerechnet wird, darf daher nicht um ausländische Steuern nach § 34c Absatz 2 EStG gemindert worden sein."
+    },
+    "anlage-aest:42": {
+      "page_label": "Abzuziehende ausländische Steuern nach § 34c Absatz 2 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/abzuziehende-ausl-ndische-steuern-nach-34c-absatz-2-estg/zeile-42",
+      "snippet": "Bei Organgesellschaften wird über den Abzug oder die Anrechnung ausländischer Steuern nach § 26 Absatz 1 KStG in Verbindung mit § 34c Absatz 1 und 2 EStG erst auf Ebene des Organträgers entschieden. Das Einkommen der Organgesellschaft, das dem Organträger zugerechnet wird, darf daher nicht um ausländische Steuern nach § 34c Absatz 2 EStG gemindert worden sein.\nEin Antrag auf Abzug der ausländischen Steuern können Sie nur einheitlich für alle anrechenbaren Steuern eines Staates stellen, vergleiche R 26 Absatz 3 Satz 4 KStR 2022."
+    },
+    "anlage-aest:4a": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 8b KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-8b-kstg/zeile-4-und-4a",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:5": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 8b KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-8b-kstg/zeile-5-und-5a",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:5a": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 8b KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-8b-kstg/zeile-5-und-5a",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:7": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 3 Nummer 40 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-3-nummer-40-estg/zeile-7",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aest:8": {
+      "page_label": "Bezüge und Veräußerungsgewinne nach § 3 Nummer 40 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/bez-ge-und-ver-u-erungsgewinne-nach-3-nummer-40-estg/zeile-8",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aev:10": {
+      "page_label": "Negative Einkünfte / Gewinnminderungen des laufenden Veranlagungszeitraums",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/negative-eink-nfte-gewinnminderungen-des-laufenden-veranlagungszeitraums/zeile-10",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-aev:13": {
+      "page_label": "Positive Einkünfte des laufenden Veranlagungszeitraums",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/positive-eink-nfte-des-laufenden-veranlagungszeitraums/zeile-13",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-aev:3": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/allgemeines/zeile-3",
+      "snippet": "Bei Einkünften nach § 2a Absatz 1 Satz 1 Nummer 6b EStG nehmen Sie bitte keine Eintragungen zum Staat vor, da diese Einkünfte staatenübergreifend verrechnet werden können."
+    },
+    "anlage-aev:4b": {
+      "page_label": "Anfangsbestand",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/anfangsbestand/zeile-4b",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-aev:5": {
+      "page_label": "Anfangsbestand",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/anfangsbestand/zeile-5",
+      "snippet": "Nehmen Sie hier bitte auch Eintragungen vor für Verluste im Sinne des § 8d Absatz 1 Satz 2 Nummer 1 KStG und auch Verluste, die bei einer früheren Einstellung oder Ruhendstellung vor dem 01.01.2016 entstanden sind (Randnummer 79 des BMF -Schreibens vom 18.03.2021, BStBl I 2021, Seite 363 )."
+    },
+    "anlage-ber:1": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/allgemeines/zeile-1",
+      "snippet": "Steuerbefreite Körperschaften werden im Allgemeinen nur in dreijährigem Abstand geprüft, wenn nicht zum Beispiel wegen umfangreicher wirtschaftlicher Betätigungen und/oder – bei Berufsverbänden – wegen der Unterstützung und Förderung politischer Parteien regelmäßig Steuern anfallen. Zur Entlastung der Vertreter der steuerbefreiten Körperschaften greift das Finanzamt bei der Prüfung soweit wie möglich auf die bei den Körperschaften in der Regel schon vorhandenen Unterlagen zurück (Bilanz, Gewinn- und Verlustrechnung beziehungsweise Aufstellung über sämtliche Einnahmen und Ausgaben, Aufstellung ..."
+    },
+    "anlage-ber:14": {
+      "page_label": "Wirtschaftliche Betätigung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/wirtschaftliche-bet-tigung/zeile-14",
+      "snippet": "Ein wirtschaftlicher Geschäftsbetrieb ist eine selbständige nachhaltige Tätigkeit, durch die Einnahmen oder andere wirtschaftliche Vorteile erzielt werden und die über den Rahmen einer Vermögensverwaltung hinausgeht. Die Absicht, Gewinn zu erzielen, ist nicht erforderlich (§ 14 AO ). Ein wirtschaftlicher Geschäftsbetrieb kann entweder steuerbegünstigt (Zweckbetrieb) oder steuerpflichtig sein.\nNicht als wirtschaftlicher Geschäftsbetrieb gilt die Vermögensverwaltung . Diese liegt in der Regel vor, wenn Vermögen genutzt wird, zum Beispiel Kapitalvermögen verzinslich angelegt oder unbewegliches ..."
+    },
+    "anlage-ber:3": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/allgemeines/zeile-3",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-ber:30": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2022)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2022/zeile-30",
+      "snippet": "Einnahmen in diesem Sinne sind alle Zugänge an Mitteln in dem jeweiligen Kalenderjahr (R 5.7 Absatz 3 Satz 2 und 3 KStR 2022).\nZu den Einnahmen/Mitteln eines Berufsverbandes gehören insbesondere Mitgliedsbeiträge, Umlagen, Zuschüsse, Gewinne aus wirtschaftlichen Geschäftsbetrieben, Rücklagen, Erträge aus der Vermögensverwaltung und das entsprechende Vermögen.\nBeteiligung an einer Personengesellschaft Bei Beteiligung an einer Personengesellschaft gehört der Gewinnanteil an der Personengesellschaft zu den Mitteln eines Berufsverbandes.\nBeteiligung an einer Kapitalgesellschaft Bei Beteiligung an ..."
+    },
+    "anlage-ber:31": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2022)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2022/zeile-31",
+      "snippet": "Zuwendungen für steuerbegünstigte gemeinnützige, mildtätige oder kirchliche Zwecke stellen in erster Linie Spenden an Empfänger im Sinne des § 10b Absatz 1 Satz 2 EStG dar."
+    },
+    "anlage-ber:32": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2022)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2022/zeile-32",
+      "snippet": "Für die Mittelverwendung ist es ohne Bedeutung, aus welchen Quellen die verwendeten Mittel stammen.\nEine Mittelüberlassung liegt auch bei verdeckten Zuwendungen vor, zum Beispiel bei Zuwendungen ohne ausreichende Gegenleistung. Das gilt auch bei einer unentgeltlichen oder verbilligten Raumüberlassung und bei einer zinslosen oder zinsverbilligten Darlehensgewährung. Verdeckte Zuwendungen sind mit den entstandenen anteiligen Kosten anzusetzen.\nBerufsverbände unterliegen im Fall der Verwendung von Mitteln für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien ..."
+    },
+    "anlage-ber:33": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2021)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2021/zeile-33",
+      "snippet": "Einnahmen in diesem Sinne sind alle Zugänge an Mitteln in dem jeweiligen Kalenderjahr (R 5.7 Absatz 3 Satz 2 und 3 KStR 2022).\nZu den Einnahmen/Mitteln eines Berufsverbandes gehören insbesondere Mitgliedsbeiträge, Umlagen, Zuschüsse, Gewinne aus wirtschaftlichen Geschäftsbetrieben, Rücklagen, Erträge aus der Vermögensverwaltung und das entsprechende Vermögen.\nBeteiligung an einer Personengesellschaft Bei Beteiligung an einer Personengesellschaft gehört der Gewinnanteil an der Personengesellschaft zu den Mitteln eines Berufsverbandes.\nBeteiligung an einer Kapitalgesellschaft Bei Beteiligung an ..."
+    },
+    "anlage-ber:34": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2021)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2021/zeile-34",
+      "snippet": "Zuwendungen für steuerbegünstigte gemeinnützige, mildtätige oder kirchliche Zwecke stellen in erster Linie Spenden an Empfänger im Sinne des § 10b Absatz 1 Satz 2 EStG dar."
+    },
+    "anlage-ber:35": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2021)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2021/zeile-35",
+      "snippet": "Für die Mittelverwendung ist es ohne Bedeutung, aus welchen Quellen die verwendeten Mittel stammen.\nEine Mittelüberlassung liegt auch bei verdeckten Zuwendungen vor, zum Beispiel bei Zuwendungen ohne ausreichende Gegenleistung. Das gilt auch bei einer unentgeltlichen oder verbilligten Raumüberlassung und bei einer zinslosen oder zinsverbilligten Darlehensgewährung. Verdeckte Zuwendungen sind mit den entstandenen anteiligen Kosten anzusetzen.\nBerufsverbände unterliegen im Fall der Verwendung von Mitteln für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien ..."
+    },
+    "anlage-ber:36": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2020)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2020/zeile-36",
+      "snippet": "Einnahmen in diesem Sinne sind alle Zugänge an Mitteln in dem jeweiligen Kalenderjahr (R 5.7 Absatz 3 Satz 2 und 3 KStR 2022).\nZu den Einnahmen/Mitteln eines Berufsverbandes gehören insbesondere Mitgliedsbeiträge, Umlagen, Zuschüsse, Gewinne aus wirtschaftlichen Geschäftsbetrieben, Rücklagen, Erträge aus der Vermögensverwaltung und das entsprechende Vermögen.\nBeteiligung an einer Personengesellschaft Bei Beteiligung an einer Personengesellschaft gehört der Gewinnanteil an der Personengesellschaft zu den Mitteln eines Berufsverbandes.\nBeteiligung an einer Kapitalgesellschaft Bei Beteiligung an ..."
+    },
+    "anlage-ber:37": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2020)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2020/zeile-37",
+      "snippet": "Zuwendungen für steuerbegünstigte gemeinnützige, mildtätige oder kirchliche Zwecke stellen in erster Linie Spenden an Empfänger im Sinne des § 10b Absatz 1 Satz 2 EStG dar."
+    },
+    "anlage-ber:38": {
+      "page_label": "Angaben zur Mittelverwendung (Mittelverwendung im Jahr 2020)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/angaben-zur-mittelverwendung-mittelverwendung-im-jahr-2020/zeile-38",
+      "snippet": "Für die Mittelverwendung ist es ohne Bedeutung, aus welchen Quellen die verwendeten Mittel stammen.\nEine Mittelüberlassung liegt auch bei verdeckten Zuwendungen vor, zum Beispiel bei Zuwendungen ohne ausreichende Gegenleistung. Das gilt auch bei einer unentgeltlichen oder verbilligten Raumüberlassung und bei einer zinslosen oder zinsverbilligten Darlehensgewährung. Verdeckte Zuwendungen sind mit den entstandenen anteiligen Kosten anzusetzen.\nBerufsverbände unterliegen im Fall der Verwendung von Mitteln für die unmittelbare oder mittelbare Unterstützung oder Förderung politischer Parteien ..."
+    },
+    "anlage-ber:5": {
+      "page_label": "Mitgliederbeiträge",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/mitgliederbeitr-ge/zeile-5",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gem:1": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeile-1",
+      "snippet": "Steuerbefreite Körperschaften werden im Allgemeinen nur in dreijährigem Abstand geprüft, wenn nicht zum Beispiel wegen umfangreicher wirtschaftlicher Betätigungen und/oder – bei Berufsverbänden – wegen der Unterstützung und Förderung politischer Parteien regelmäßig Steuern anfallen. Zur Entlastung der Vertreter der steuerbefreiten Körperschaften greift das Finanzamt bei der Prüfung soweit wie möglich auf die bei den Körperschaften in der Regel schon vorhandenen Unterlagen zurück (Bilanz, Gewinn- und Verlustrechnung beziehungsweise Aufstellung über sämtliche Einnahmen und Ausgaben, Aufstellung ..."
+    },
+    "anlage-gem:12": {
+      "page_label": "Wirtschaftliche Betätigung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/wirtschaftliche-bet-tigung/zeile-12",
+      "snippet": "Verpflichtung zur Übermittlung der Anlagen GK und ZVE sowie der Gewerbesteuererklärung\nBei Vorliegen von wirtschaftlichen Geschäftsbetrieben, die keine Zweckbetriebe sind, deren Einnahmen insgesamt mehr als 45.000 € im Veranlagungszeitraum betragen und deren Einkommen insgesamt den Freibetrag nach § 24 KStG beziehungsweise § 11 Absatz 1 Satz 3 Nummer 2 GewStG (5.000 € ) übersteigen, sind Sie verpflichtet, die Anlagen GK und ZVE sowie die Gewerbesteuererklärung zu übermitteln."
+    },
+    "anlage-gem:31": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeile-31",
+      "snippet": "Die Wohlfahrtspflege nach § 66 AO darf „nicht des Erwerbs wegen“ unterhalten werden. Danach ist eine Anerkennung als steuerbegünstigter Zweckbetrieb dann auszuschließen, wenn Gewinne angestrebt werden, die den konkreten Finanzierungsbedarf übersteigen ( BFH -Urteil I R 17/12 vom 27.11.2013 ( BStBl II 2016, Seite 68)).\nMaßgeblich ist der konkrete Finanzierungsbedarf der wohlfahrtspflegerischen Gesamtsphäre der Körperschaft. Er umfasst die Erträge, die für den Betrieb und die Fortführung der Einrichtung(en) der Wohlfahrtspflege notwendig sind und beinhaltet auch eine zulässige Rücklagenbildung ..."
+    },
+    "anlage-gem:46": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeilen-46-und-47",
+      "snippet": "Besteht für einen oder mehrere der bezahlten Sportler beschränkte Steuerpflicht, sind Sie verpflichtet, einen Steuerabzug nach § 50a Absatz 2 in Verbindung mit § 50a Absatz 1 Nummer 1 EStG vorzunehmen. In diesen Fällen erfassen Sie bitte die Angaben in den Zeilen 30 bis 37 der Anlage WA . Übermitteln Sie bitte für diese bezahlten Sportler eine Anmeldung über den Steuerabzug nach § 50a EStG ."
+    },
+    "anlage-gem:47": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeilen-46-und-47",
+      "snippet": "Besteht für einen oder mehrere der bezahlten Sportler beschränkte Steuerpflicht, sind Sie verpflichtet, einen Steuerabzug nach § 50a Absatz 2 in Verbindung mit § 50a Absatz 1 Nummer 1 EStG vorzunehmen. In diesen Fällen erfassen Sie bitte die Angaben in den Zeilen 30 bis 37 der Anlage WA . Übermitteln Sie bitte für diese bezahlten Sportler eine Anmeldung über den Steuerabzug nach § 50a EStG ."
+    },
+    "anlage-gem:54c": {
+      "page_label": "Rücklagen zum Ende des letzten Jahres des Prüfungszeitraums",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/r-cklagen-zum-ende-des-letzten-jahres-des-pr-fungszeitraums/zeile-54c",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gem:58": {
+      "page_label": "Rücklagen zum Ende des letzten Jahres des Prüfungszeitraums",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/r-cklagen-zum-ende-des-letzten-jahres-des-pr-fungszeitraums/zeile-58",
+      "snippet": "Nach § 62 Absatz 1 Nummer 3 AO darf eine steuerbegünstigte Körperschaft höchstens ein Drittel des Überschusses der Einnahmen über die Ausgaben aus der Vermögensverwaltung und darüber hinaus höchstens 10 % ihrer sonstigen nach § 55 Absatz 1 Nummer 5 AO zeitnah zu verwendenden Mittel einer freien Rücklage zuführen. Ist der Höchstbetrag für die Bildung der freien Rücklage in einem Jahr nicht ausgeschöpft, kann diese unterbliebene Zuführung in den folgenden zwei Jahren nachgeholt werden. Zum Begriff der Vermögensverwaltung siehe Hilfetext zu Wirtschaftlicher Geschäftsbetrieb."
+    },
+    "anlage-gem:59": {
+      "page_label": "Rücklagen zum Ende des letzten Jahres des Prüfungszeitraums",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/r-cklagen-zum-ende-des-letzten-jahres-des-pr-fungszeitraums/zeile-59",
+      "snippet": "Nach § 62 Absatz 1 Nummer 4 AO darf eine steuerbegünstigte Körperschaft Mittel für den Erwerb von Gesellschaftsrechten zur Erhaltung der prozentualen Beteiligung an einer Kapitalgesellschaft ansammeln oder nach § 58 Nummer 10 AO im Jahr des Zuflusses verwenden. Der zulässige Höchstbetrag für die Zuführung von Mitteln zu der freien Rücklage nach § 62 Absatz 1 Nummer 3 AO vermindert sich um diese Beträge."
+    },
+    "anlage-gem:6": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeile-6",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gem:63": {
+      "page_label": "Zuführung von Vermögen / Ausstattung anderer Körperschaften",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zuf-hrung-von-verm-gen-ausstattung-anderer-k-rperschaften/zeile-63",
+      "snippet": "Außerdem können folgende Zuwendungen dem Vermögen der Körperschaft zugeführt werden (§ 62 Absatz 3 AO ):\n- Zuwendungen von Todes wegen, wenn der Erblasser keine Verwendung für den laufenden Aufwand der Körperschaft vorgeschrieben hat;\n- Zuwendungen, bei denen der Zuwendende ausdrücklich erklärt, dass sie zur Ausstattung der Körperschaft mit Vermögen oder zur Erhöhung des Vermögens bestimmt sind;\n- Zuwendungen auf Grund eines Spendenaufrufs der Körperschaft, wenn aus dem Spendenaufruf ersichtlich ist, dass Beträge zur Aufstockung des Vermögens erbeten werden;\n- Sachzuwendungen, die ihrer Natur ..."
+    },
+    "anlage-gem:8": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/zeile-8",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-geno-ver:1": {
+      "page_label": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 14 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg/zeile-1",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-geno-ver:29": {
+      "page_label": "Einnahmen/Ausgaben außerhalb der Gewinn- und Verlustrechnung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/einnahmen-ausgaben-au-erhalb-der-gewinn-und-verlustrechnung/zeile-29",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-geno-ver:33": {
+      "page_label": "Einnahmen/Ausgaben außerhalb der Gewinn- und Verlustrechnung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/einnahmen-ausgaben-au-erhalb-der-gewinn-und-verlustrechnung/zeile-33",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-geno-ver:34": {
+      "page_label": "Einnahmen/Ausgaben außerhalb der Gewinn- und Verlustrechnung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/einnahmen-ausgaben-au-erhalb-der-gewinn-und-verlustrechnung/zeile-34",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gk:11": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-11",
+      "snippet": "Der Inhalt der Bilanz sowie die Gewinn- und Verlustrechnung übermitteln Sie bitte nach amtlich vorgeschriebenem Datensatz (§ 5b Absatz 1 in Verbindung mit § 51 Absatz 4 Nummer 1 Buchstabe b EStG und § 87 b Absatz 1 AO ). Die gesetzliche Verpflichtung zur elektronischen Übermittlung bezieht sich auf den Inhalt der Bilanz und der Gewinn- und Verlustrechnung. Übermitteln Sie entweder den Inhalt der Handelsbilanz, ergänzt um eine steuerliche Überleitungsrechnung, oder eine gesonderte Steuerbilanz. Die hierzu herausgegebenen BMF -Schreiben sind im BStBl Teil I veröffentlicht. Sie können diese ..."
+    },
+    "anlage-gk:12": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-12",
+      "snippet": "Bei partieller Steuerpflicht: Gewinn/Verlust aus dem steuerpflichtigen Bereich laut gesonderter Ermittlung."
+    },
+    "anlage-gk:13": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-13",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gk:131": {
+      "page_label": "Sachverhalte mit Auslandsbezug",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/sachverhalte-mit-auslandsbezug/zeile-131",
+      "snippet": "Ohne entsprechende Beträge der Organgesellschaft(en)."
+    },
+    "anlage-gk:137": {
+      "page_label": "Sachverhalte mit Auslandsbezug",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/sachverhalte-mit-auslandsbezug/zeile-137",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-gk:138": {
+      "page_label": "Sachverhalte mit Auslandsbezug",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/sachverhalte-mit-auslandsbezug/zeile-138",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-gk:139": {
+      "page_label": "Sachverhalte mit Auslandsbezug",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/sachverhalte-mit-auslandsbezug/zeile-139",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-gk:142": {
+      "page_label": "Sachverhalte mit Auslandsbezug",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/sachverhalte-mit-auslandsbezug/zeile-142",
+      "snippet": "Ohne entsprechende Beträge der Organgesellschaft(en).\nBitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-gk:156": {
+      "page_label": "Anwendung des § 8b KStG und vergleichbarer Vorschriften",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/anwendung-des-8b-kstg-und-vergleichbarer-vorschriften/zeile-156",
+      "snippet": "Ausschüttungen einer REIT -Körperschaft stellen beim Empfänger grundsätzlich Bezüge nach § 20 Absatz 1 Nummer 1 EStG dar. Nach § 19 Absatz 3 REITG ist § 8b KStG auf diese Bezüge nicht anzuwenden. Solche Bezüge dürfen nicht bei nach § 8b KStG steuerfreien Bezügen eingetragen werden.\nDies gilt jedoch nicht, wenn in den Ausschüttungen nach Maßgabe des § 19a REITG vorbelastete Teile des Gewinns enthalten sind. Insoweit ist § 8b KStG grundsätzlich anwendbar.\nFür die Beurteilung der Steuerfreiheit § 8b Absatz 1 in Verbindung mit § 8b Absatz 4 KStG kommt es auf die Höhe der Beteiligung zu Beginn des ..."
+    },
+    "anlage-gk:202": {
+      "page_label": "Anwendung des § 8b KStG und vergleichbarer Vorschriften",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/anwendung-des-8b-kstg-und-vergleichbarer-vorschriften/zeile-202",
+      "snippet": "Wenn der Organträger der Körperschaftsteuer unterliegt (vergleiche Zeile 14 der Anlage OT), berücksichtigen Sie bitte im Organkreis die Kürzungen und Hinzurechnungen nach § 8b KStG bei der Ermittlung des Betrages berücksichtigt, um den das dem Organträger zuzurechnende Einkommen zu korrigieren ist,"
+    },
+    "anlage-gk:22": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-22",
+      "snippet": "Für die Einkommensermittlung ist auch der Mitunternehmer einer Personengesellschaft, die Organträger ist, wie ein Organträger zu behandeln. In diesem Fall übermitteln Sie bitte die Anlage OT. Das zuzurechnende Einkommen aus dem Organschaftsverhältnis erfassen Sie bitte nicht als Einkünfte aus der Beteiligung in den Zeilen 17 beziehungsweise 18 der Anlage GK. Das zuzurechnende Einkommen der Organgesellschaft tragen Sie auf der Anlage OT in Zeile 13 ein. In den Zeilen 270 bis 280 der Anlage GK sind keine Angaben vorzunehmen.\nFalls die gesonderte und einheitliche Feststellung noch nicht ..."
+    },
+    "anlage-gk:23": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-23",
+      "snippet": "Für die Einkommensermittlung ist auch der Mitunternehmer einer Personengesellschaft, die Organträger ist, wie ein Organträger zu behandeln. In diesem Fall übermitteln Sie bitte die Anlage OT. Das zuzurechnende Einkommen aus dem Organschaftsverhältnis erfassen Sie bitte nicht als Einkünfte aus der Beteiligung in den Zeilen 17 beziehungsweise 18 der Anlage GK. Das zuzurechnende Einkommen der Organgesellschaft tragen Sie auf der Anlage OT in Zeile 13 ein. In den Zeilen 270 bis 280 der Anlage GK sind keine Angaben vorzunehmen.\nFalls die gesonderte und einheitliche Feststellung noch nicht ..."
+    },
+    "anlage-gk:266": {
+      "page_label": "Veräußerung und Teilwertab- und -zuschreibung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/ver-u-erung-und-teilwertab-und-zuschreibung/zeilen-266-267-und-268",
+      "snippet": "Die Anleger-Gewinnberechnungen des § 49 Absatz 1 Satz 1 und Absatz 2 bis 4 InvStG (Anleger-Aktiengewinn, Anleger-Abkommensgewinn und Anleger-Teilfreistellungsgewinn) führen Sie bitte bei einem bilanziellen Ansatz der Spezial-Investmentanteile mit einem niedrigeren Teilwert nach § 6 Absatz 1 Nummer 2 Satz 2 EStG und bei einer Teilwertzuschreibung nach § 6 Absatz 1 Nummer 2 Satz 3 EStG durch. Die Anleger-Gewinne ermitteln Sie dabei besitzzeitanteilig anhand der auf Fondsebene stichtagsbezogen ermittelten Fonds-Aktiengewinne, Fonds-Abkommensgewinne und Fonds-Teilfreistellungsgewinne im Sinne des ..."
+    },
+    "anlage-gk:267": {
+      "page_label": "Veräußerung und Teilwertab- und -zuschreibung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/ver-u-erung-und-teilwertab-und-zuschreibung/zeilen-266-267-und-268",
+      "snippet": "Die Anleger-Gewinnberechnungen des § 49 Absatz 1 Satz 1 und Absatz 2 bis 4 InvStG (Anleger-Aktiengewinn, Anleger-Abkommensgewinn und Anleger-Teilfreistellungsgewinn) führen Sie bitte bei einem bilanziellen Ansatz der Spezial-Investmentanteile mit einem niedrigeren Teilwert nach § 6 Absatz 1 Nummer 2 Satz 2 EStG und bei einer Teilwertzuschreibung nach § 6 Absatz 1 Nummer 2 Satz 3 EStG durch. Die Anleger-Gewinne ermitteln Sie dabei besitzzeitanteilig anhand der auf Fondsebene stichtagsbezogen ermittelten Fonds-Aktiengewinne, Fonds-Abkommensgewinne und Fonds-Teilfreistellungsgewinne im Sinne des ..."
+    },
+    "anlage-gk:268": {
+      "page_label": "Veräußerung und Teilwertab- und -zuschreibung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/ver-u-erung-und-teilwertab-und-zuschreibung/zeilen-266-267-und-268",
+      "snippet": "Die Anleger-Gewinnberechnungen des § 49 Absatz 1 Satz 1 und Absatz 2 bis 4 InvStG (Anleger-Aktiengewinn, Anleger-Abkommensgewinn und Anleger-Teilfreistellungsgewinn) führen Sie bitte bei einem bilanziellen Ansatz der Spezial-Investmentanteile mit einem niedrigeren Teilwert nach § 6 Absatz 1 Nummer 2 Satz 2 EStG und bei einer Teilwertzuschreibung nach § 6 Absatz 1 Nummer 2 Satz 3 EStG durch. Die Anleger-Gewinne ermitteln Sie dabei besitzzeitanteilig anhand der auf Fondsebene stichtagsbezogen ermittelten Fonds-Aktiengewinne, Fonds-Abkommensgewinne und Fonds-Teilfreistellungsgewinne im Sinne des ..."
+    },
+    "anlage-gk:32": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-32-und-36",
+      "snippet": "Wird der Überschuss nach § 64 Absatz 5 AO geschätzt oder nach § 64 Absatz 6 AO pauschal ermittelt, sind dadurch auch die damit zusammenhängenden tatsächlichen Aufwendungen der Körperschaft abgegolten; Sie können sie nicht zusätzlich abziehen."
+    },
+    "anlage-gk:33": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-33",
+      "snippet": "Der branchenübliche Reingewinn beträgt bei der Verwertung von Altpapier 5 % und bei der Verwertung von anderem Altmaterial 20 % der Einnahmen. Zu den maßgeblichen Einnahmen gehört nicht die im Bruttopreis enthaltene Umsatzsteuer.\nWird kein Antrag auf Schätzung des Überschusses aus der Verwertung von Altmaterial nach § 64 Absatz 5 AO gestellt, ermitteln Sie den Überschuss nach den allgemeinen Grundsätzen (Gegenüberstellung der gesamten Einnahmen und Ausgaben des steuerpflichtigen wirtschaftlichen Geschäftsbetriebs – siehe Zeilen 11 bis 14 der Anlage Gem)."
+    },
+    "anlage-gk:34": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-34",
+      "snippet": "Wird kein Antrag gestellt, den Gewinn des steuerpflichtigen wirtschaftlichen Geschäftsbetriebs nach § 64 Absatz 6 AO pauschal mit 15 % der Einnahmen anzusetzen, ermitteln Sie den Überschuss nach den allgemeinen Grundsätzen (Gegenüberstellung der gesamten Einnahmen und Ausgaben des steuerpflichtigen wirtschaftlichen Geschäftsbetriebs – siehe Zeilen 11 bis 14 der Anlage Gem)."
+    },
+    "anlage-gk:36": {
+      "page_label": "Bilanzielles Ergebnis",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-32-und-36",
+      "snippet": "Wird der Überschuss nach § 64 Absatz 5 AO geschätzt oder nach § 64 Absatz 6 AO pauschal ermittelt, sind dadurch auch die damit zusammenhängenden tatsächlichen Aufwendungen der Körperschaft abgegolten; Sie können sie nicht zusätzlich abziehen."
+    },
+    "anlage-gk:47": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:48": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:49": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:50": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:51": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:52": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:53": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:54": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:55": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:56": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:57": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:58": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:59": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:60": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:61": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:62": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:63": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:64": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:65": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:66": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeilen-47-bis-66",
+      "snippet": "Grundsätzlich tragen Sie bitte nur Verlustverrechnungsbeschränkungen ein, die auf Ebene der Körperschaft angewendet werden. Verlustverrechnungsbeschränkungen, die auf Ebene von Personengesellschaften angewendet werden, an denen die Körperschaft beteiligt ist, sind in dem in Zeile 17 der Anlage GK eingetragenen Wert berücksichtigt. Die Verlustverrechnungsbeschränkung des § 15 Absatz 4 Satz 6 folgende EStG wenden Sie bitte auf Ebene der atypisch still beteiligten Körperschaft an."
+    },
+    "anlage-gk:81": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeile-81",
+      "snippet": "Eine im laufenden Wirtschaftsjahr als Ertrag erfasste Forschungszulage berücksichtigen Sie bitte mit negativem Vorzeichen. Eine im laufenden Wirtschaftsjahr als Aufwand erfasste Korrektur einer gewährten Forschungszulage erfassen Sie bitte mit positivem Vorzeichen."
+    },
+    "anlage-gk:82": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeile-82",
+      "snippet": "Tragen Sie hier bitte den Solidaritätszuschlag einschließlich des anzurechnenden Solidaritätszuschlags zur Kapitalertragsteuer (bei einem Organträger: ohne den anzurechnenden Solidaritätszuschlag zur Kapitalertragsteuer der Organgesellschaft) ein."
+    },
+    "anlage-gk:87": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeile-87",
+      "snippet": "Ohne entsprechende Beträge der Organgesellschaft(en)."
+    },
+    "anlage-gk:88": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeile-88",
+      "snippet": "Tragen Sie hier bitte die Beträge nach der Verrechnung mit Erstattungen ein. Bei Zinsen nach § 233a AO berücksichtigen Sie hier nur solche Erstattungsbeträge, die auf der Minderung zuvor festgesetzter Nachzahlungszinsen beruhen. Erstattungszinsen nach § 233a AO berücksichtigen Sie bitte nicht, da es sich insoweit nicht um die nachträgliche Herabsetzung nicht abzugsfähiger Betriebsausgaben der Vorjahre handelt. Vergleiche R 10.1 Absatz 2 KStR 2022."
+    },
+    "anlage-gk:93": {
+      "page_label": "Außerbilanzielle Korrekturen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/au-erbilanzielle-korrekturen/zeile-93",
+      "snippet": "Im Falle des Wiederauflebens einer Forderung eines Gesellschafters nach vorangegangenem Forderungsverzicht gegen Besserungsschein berücksichtigen Sie bitte den im Zeitpunkt des Verzichts werthaltigen Teil in Zeile 93 der Anlage GK und in Zeile 91 der Anlage KSt 1 F als Negativbetrag."
+    },
+    "anlage-gr:16": {
+      "page_label": "Berechnung der genossenschaftlichen Rückvergütung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-gr/berechnung-der-genossenschaftlichen-r-ckverg-tung/zeile-16",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-hk-zur-spartentrennung:1": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/allgemeine-angaben/zeile-1",
+      "snippet": "Der einzelnen Sparte weisen Sie bitte in den Anlagen ÖHK und ÖHG zur Spartentrennung immer jeweils dieselbe laufende Nummer zu. Beachten Sie bitte, dass die laufende Nummer der Sparte der im vorangegangenen Veranlagungszeitraum für diese Sparte auf der Anlage ÖHK verwendeten laufenden Nummer entspricht."
+    },
+    "anlage-hk-zur-spartentrennung:206": {
+      "page_label": "Korrekturen nach § 2 Absatz 4 Satz 3 und 4 UmwStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/korrekturen-nach-2-absatz-4-satz-3-und-4-umwstg/zeilen-206-und-207",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-hk-zur-spartentrennung:207": {
+      "page_label": "Korrekturen nach § 2 Absatz 4 Satz 3 und 4 UmwStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/korrekturen-nach-2-absatz-4-satz-3-und-4-umwstg/zeilen-206-und-207",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-hk-zur-spartentrennung:213": {
+      "page_label": "Angaben zu § 2 Absatz 4 Satz 3 und 4 UmwStG bei Organgesellschaften",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/angaben-zu-2-absatz-4-satz-3-und-4-umwstg-bei-organgesellschaften/zeilen-213-und-214",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-hk-zur-spartentrennung:214": {
+      "page_label": "Angaben zu § 2 Absatz 4 Satz 3 und 4 UmwStG bei Organgesellschaften",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/angaben-zu-2-absatz-4-satz-3-und-4-umwstg-bei-organgesellschaften/zeilen-213-und-214",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-hk-zur-spartentrennung:215": {
+      "page_label": "Ermittlung des abziehbaren Verlustes und des Verlustvortrags der einzelnen Sparte (§ 10d EStG in Verbindung mit § 31 Absatz 1 und § 8 Absatz 9 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/ermittlung-des-abziehbaren-verlustes-und-des-verlustvortrags-der-einzelnen-sparte-10d-estg-in-verbindung-mit-31-absatz-1-und-8-absatz-9-kstg/zeile-215",
+      "snippet": "In den Fällen der Randnummer 75 des BMF -Schreibens vom 12.11.2009, BStBl I , Seite 1303 tragen Sie hier bitte den festgeschriebenen und wieder auflebenden Verlustvortrag ein."
+    },
+    "anlage-hk-zur-spartentrennung:217": {
+      "page_label": "Ermittlung des abziehbaren Verlustes und des Verlustvortrags der einzelnen Sparte (§ 10d EStG in Verbindung mit § 31 Absatz 1 und § 8 Absatz 9 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/ermittlung-des-abziehbaren-verlustes-und-des-verlustvortrags-der-einzelnen-sparte-10d-estg-in-verbindung-mit-31-absatz-1-und-8-absatz-9-kstg/zeile-217",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-hk-zur-spartentrennung:218": {
+      "page_label": "Ermittlung des abziehbaren Verlustes und des Verlustvortrags der einzelnen Sparte (§ 10d EStG in Verbindung mit § 31 Absatz 1 und § 8 Absatz 9 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/ermittlung-des-abziehbaren-verlustes-und-des-verlustvortrags-der-einzelnen-sparte-10d-estg-in-verbindung-mit-31-absatz-1-und-8-absatz-9-kstg/zeile-218",
+      "snippet": "Nicht ausgeglichene Verlustvorträge einzelner gleichartiger Betriebe gewerblicher Art aus der Zeit vor einer Zusammenfassung im Sinne des § 4 Absatz 6 Satz 1 Nummer 1 KStG können Sie auch bei dem zusammengefassten Betrieb gewerblicher Art abziehen. Tragen Sie dazu bitte die auf Veranlagungszeiträume vor der Zusammenfassung entfallenden Verlustvorträge der bisher einzelnen gleichartigen Betriebe gewerblicher Art ein."
+    },
+    "anlage-hk-zur-spartentrennung:219": {
+      "page_label": "Ermittlung des abziehbaren Verlustes und des Verlustvortrags der einzelnen Sparte (§ 10d EStG in Verbindung mit § 31 Absatz 1 und § 8 Absatz 9 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/ermittlung-des-abziehbaren-verlustes-und-des-verlustvortrags-der-einzelnen-sparte-10d-estg-in-verbindung-mit-31-absatz-1-und-8-absatz-9-kstg/zeile-219",
+      "snippet": "Nehmen Sie hier bitte auch Eintragungen vor für Verluste im Sinne des § 8d Absatz 1 Satz 2 Nummer 1 KStG und auch Verluste, die bei einer früheren Einstellung oder Ruhendstellung vor dem 01.01.2016 entstanden sind (Randnummer 79 des BMF -Schreibens vom 18.03.2021, BStBl I 2021, Seite 363 ).\nBitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-hk-zur-spartentrennung:224": {
+      "page_label": "Negativer Gesamtbetrag der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/negativer-gesamtbetrag-der-eink-nfte/zeile-224",
+      "snippet": "Das Finanzamt nimmt ohne Antrag einen zweijährigen Verlustrücktrag in maximaler Höhe vor (§ 10d Absatz 1 Satz 1 und Satz 2 EStG). Auf Antrag können Sie von dem Verlustrücktrag insgesamt absehen (§ 10d Absatz 1 Satz 6 EStG). Eine Begrenzung des Verlustrücktrags auf eine bestimmte Höhe ist dabei nicht zulässig. Möchten Sie vom Verlustrücktrag absehen, tragen Sie hier bitte eine „Null“ ein."
+    },
+    "anlage-invest-verluste:2": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-invest-verluste/zeile-2",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kassen:1": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-1",
+      "snippet": "Steuerbefreite Körperschaften werden im Allgemeinen nur in dreijährigem Abstand geprüft, wenn nicht zum Beispiel wegen umfangreicher wirtschaftlicher Betätigungen und/oder – bei Berufsverbänden – wegen der Unterstützung und Förderung politischer Parteien regelmäßig Steuern anfallen. Zur Entlastung der Vertreter der steuerbefreiten Körperschaften greift das Finanzamt bei der Prüfung soweit wie möglich auf die bei den Körperschaften in der Regel schon vorhandenen Unterlagen zurück (Bilanz, Gewinn- und Verlustrechnung beziehungsweise Aufstellung über sämtliche Einnahmen und Ausgaben, Aufstellung ..."
+    },
+    "anlage-kassen:4": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-4",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kassen:6": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-6",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kassen:60": {
+      "page_label": "Ermittlung des tatsächlichen Kassenvermögens zum Ende des Wirtschaftsjahres und gegebenenfalls der Überdotierung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/ermittlung-des-tats-chlichen-kassenverm-gens-zum-ende-des-wirtschaftsjahres-und-gegebenenfalls-der-berdotierung/zeile-60",
+      "snippet": "Die für das Kalenderjahr zu zahlende Körperschaftsteuer ist bei der Ermittlung des tatsächlichen Kassenvermögens des betreffenden Jahres als Schuld abziehbar."
+    },
+    "anlage-kassen:8": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-8",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kst-1-f:100": {
+      "page_label": "Bei Beteiligung des übernehmenden Rechtsträgers am übertragenen Rechtsträger oder bei nicht bestehendem Beteiligungsverhältnis der an der Umwandlung beteiligten Rechtsträger",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/bei-beteiligung-des-bernehmenden-rechtstr-gers-am-bertragenen-rechtstr-ger-oder-bei-nicht-bestehendem-beteiligungsverh-ltnis-der-an-der-umwandlung-beteiligten-rechtstr-ger/zeile-100",
+      "snippet": "Bei einer Verschmelzung zur Neugründung nehmen Sie bitte die Eintragungen zur Anwendung des § 29 KStG in Zeile 40 der Anlage KSt 1 F vor."
+    },
+    "anlage-kst-1-f:114": {
+      "page_label": "Anpassung des Nennkapitals des übernehmenden Rechtsträgers (§ 29 Absatz 4 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/anpassung-des-nennkapitals-des-bernehmenden-rechtstr-gers-29-absatz-4-kstg/zeile-114",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kst-1-f:13": {
+      "page_label": "Im Wirtschaftsjahr erfolgte Gewinnausschüttungen/Leistungen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/im-wirtschaftsjahr-erfolgte-gewinnaussch-ttungen-leistungen/zeile-13",
+      "snippet": "Es liegen mehrere Leistungen vor, wenn zum Beispiel mehrere Gewinnausschüttungen im Wirtschaftsjahr abgeflossen sind oder offene und verdeckte Gewinnausschüttungen vorliegen. Mehrere Leistungen liegen nicht vor, wenn eine Ausschüttung/Leistung an mehrere Anteilseigner erfolgte."
+    },
+    "anlage-kst-1-f:131": {
+      "page_label": "Verringerung des steuerlichen Einlagenkontos im Verhältnis des übergehenden Vermögens nach § 29 Absatz 3 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/verringerung-des-steuerlichen-einlagenkontos-im-verh-ltnis-des-bergehenden-verm-gens-nach-29-absatz-3-kstg/zeile-131",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kst-1-f:149": {
+      "page_label": "Zugang nach § 35 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/zugang-nach-35-kstg/zeile-149",
+      "snippet": "Enden zwei Wirtschaftsjahre in einem Veranlagungszeitraum, teilen Sie bitte den Zugang zum steuerlichen Einlagekonto nach § 35 KStG im Verhältnis der Einkünfte aus Gewerbebetrieb auf die Wirtschaftsjahre auf. Sind nur in einem Wirtschaftsjahr die Einkünfte aus Gewerbebetrieb positiv, berücksichtigen Sie den Zugang nach § 35 KStG ausschließlich in diesem Wirtschaftsjahr."
+    },
+    "anlage-kst-1-f:160": {
+      "page_label": "Ermittlungen der kapitalertragsteuerpflichtigen Leistungen in Fällen der Liquidation",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/zugang-nach-35-kstg/ermittlungen-der-kapitalertragsteuerpflichtigen-leistungen-in-f-llen-der-liquidation/zeile-160",
+      "snippet": "Im Falle einer Herabsetzung des Nennkapitals ist ein Direktzugriff auf das Einlagekonto möglich, soweit die Rückzahlung des Nennkapitals im Herabsetzungsbeschluss vorgesehen war oder es sich um einen Anwendungsfall des BFH-Urteils I R 31/13 vom 21.10.2014 (BStBl II 2016, Seite 411) handelt."
+    },
+    "anlage-kst-1-f:166": {
+      "page_label": "Ermittlungen der kapitalertragsteuerpflichtigen Leistungen in Fällen der Liquidation",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/zugang-nach-35-kstg/ermittlungen-der-kapitalertragsteuerpflichtigen-leistungen-in-f-llen-der-liquidation/zeile-166",
+      "snippet": "Die Bezüge des Anteilseigners unterliegen dem Kapitalertragsteuerabzug. Hierfür übermitteln Sie bitte eine Kapitalertragsteueranmeldung."
+    },
+    "anlage-kst-1-f:172": {
+      "page_label": "Ermittlung der Bezüge nach § 7 UmwStG bei Abspaltung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/ermittlung-der-bez-ge-nach-7-umwstg-bei-abspaltung/zeile-172",
+      "snippet": "Die Bezüge des Anteilseigners unterliegen dem Kapitalertragsteuerabzug. Hierfür übermitteln Sie bitte eine Kapitalertragsteueranmeldung."
+    },
+    "anlage-kst-1-f:178": {
+      "page_label": "Ermittlung der Bezüge nach § 7 UmwStG bei Verschmelzung, Aufspaltung oder Formwechsel in eine Personengesellschaft",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/ermittlung-der-bez-ge-nach-7-umwstg-bei-verschmelzung-aufspaltung-oder-formwechsel-in-eine-personengesellschaft/zeile-178",
+      "snippet": "Die Bezüge des Anteilseigners unterliegen dem Kapitalertragsteuerabzug. Hierfür übermitteln Sie bitte eine Kapitalertragsteueranmeldung."
+    },
+    "anlage-kst-1-f:18": {
+      "page_label": "Ermittlung des ausschüttbaren Gewinns (§ 27 Absatz 1 Satz 5 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/ermittlung-des-aussch-ttbaren-gewinns-27-absatz-1-satz-5-kstg/zeile-18",
+      "snippet": "Im Falle des Erwerbs eigener Anteile tragen Sie hier das um den Nennbetrag der eigenen Anteile gekürzte Nennkapital ein."
+    },
+    "anlage-kst-1-f:29": {
+      "page_label": "Mehr-/Minderabführungen nach § 27 Absatz 6 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/mehr-minderabf-hrungen-nach-27-absatz-6-kstg/zeile-29",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kst-1-f:30": {
+      "page_label": "Mehr-/Minderabführungen nach § 27 Absatz 6 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/mehr-minderabf-hrungen-nach-27-absatz-6-kstg/zeile-30",
+      "snippet": "Der Wert der Zeile 30 der Anlage KSt 1 F muss der Differenz aus den Werten der Zeilen 32 und 31 der Anlage KSt 1 F entsprechen."
+    },
+    "anlage-kst-1-f:45": {
+      "page_label": "Organschaftliche Mehrabführung",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/organschaftliche-mehrabf-hrung/zeile-45",
+      "snippet": "Eine mittelbare Organschaft liegt vor, wenn sich die finanzielle Eingliederung der Organgesellschaft in den Organträger entweder ausschließlich durch eine mittelbare Beteiligung des Organträgers an der Organgesellschaft über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt oder durch Addition einer unmittelbaren und einer mittelbaren Beteiligung über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt.\nErgibt sich die finanzielle Eingliederung der Organgesellschaft hingegen bereits durch eine unmittelbare Beteiligung des Organträgers an der Organgesellschaft, liegt keine ..."
+    },
+    "anlage-kst-1-f:52": {
+      "page_label": "Verrechnung von Leistungen mit dem steuerlichen Einlagekonto",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/verrechnung-von-leistungen-mit-dem-steuerlichen-einlagekonto/zeile-52",
+      "snippet": "Gilt entsprechend im Falle der Leistung einer Entschädigungszahlung bei der Einziehung eigener Anteile ohne einen vorangegangenen Erwerb. Ist bei der Einziehung nicht zugleich eine Kapitalherabsetzung erfolgt, beachten Sie bitte zusätzlich die Zeilen 121 bis 123 der Anlage KSt 1 F."
+    },
+    "anlage-kst-1-f:60": {
+      "page_label": "Herabsetzung des Nennkapitals (außerhalb einer Umwandlung)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/herabsetzung-des-nennkapitals-au-erhalb-einer-umwandlung/zeile-60",
+      "snippet": "Im Falle einer Herabsetzung des Nennkapitals ist ein Direktzugriff auf das Einlagekonto möglich, soweit die Rückzahlung des Nennkapitals im Herabsetzungsbeschluss vorgesehen war oder es sich um einen Anwendungsfall des BFH-Urteils I R 31/13 vom 21.10.2014 (BStBl II 2016, Seite 411) handelt."
+    },
+    "anlage-kst-1-f:76": {
+      "page_label": "Rückzahlung des Nennkapitals (§ 28 Absatz 2 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/r-ckzahlung-des-nennkapitals-28-absatz-2-kstg/zeile-76",
+      "snippet": "Im Falle einer Herabsetzung des Nennkapitals ist ein Direktzugriff auf das Einlagekonto möglich, soweit die Rückzahlung des Nennkapitals im Herabsetzungsbeschluss vorgesehen war oder es sich um einen Anwendungsfall des BFH-Urteils I R 31/13 vom 21.10.2014 (BStBl II 2016, Seite 411) handelt."
+    },
+    "anlage-kst-1-f:80": {
+      "page_label": "Rückzahlung des Nennkapitals (§ 28 Absatz 2 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/r-ckzahlung-des-nennkapitals-28-absatz-2-kstg/zeile-80",
+      "snippet": "Die Bezüge des Anteilseigners unterliegen dem Kapitalertragsteuerabzug. Hierfür übermitteln Sie bitte eine Kapitalertragsteueranmeldung."
+    },
+    "anlage-kst-1-f:9": {
+      "page_label": "Im Wirtschaftsjahr erfolgte Gewinnausschüttungen/Leistungen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/im-wirtschaftsjahr-erfolgte-gewinnaussch-ttungen-leistungen/zeile-9",
+      "snippet": "Eine mittelbare Organschaft liegt vor, wenn sich die finanzielle Eingliederung der Organgesellschaft in den Organträger entweder ausschließlich durch eine mittelbare Beteiligung des Organträgers an der Organgesellschaft über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt oder durch Addition einer unmittelbaren und einer mittelbaren Beteiligung über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt.\nErgibt sich die finanzielle Eingliederung der Organgesellschaft hingegen bereits durch eine unmittelbare Beteiligung des Organträgers an der Organgesellschaft, liegt keine ..."
+    },
+    "anlage-kst-1-f:91": {
+      "page_label": "Im Wirtschaftsjahr geleistete Einlagen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/im-wirtschaftsjahr-geleistete-einlagen/zeile-91",
+      "snippet": "Im Falle des Wiederauflebens einer Forderung eines Gesellschafters nach vorangegangenem Forderungsverzicht gegen Besserungsschein berücksichtigen Sie bitte den im Zeitpunkt des Verzichts werthaltigen Teil in Zeile 93 der Anlage GK und in Zeile 91 der Anlage KSt 1 F als Negativbetrag."
+    },
+    "anlage-kst-1-f:94": {
+      "page_label": "Im Wirtschaftsjahr geleistete Einlagen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/im-wirtschaftsjahr-geleistete-einlagen/zeile-94",
+      "snippet": "Eine mittelbare Organschaft liegt vor, wenn sich die finanzielle Eingliederung der Organgesellschaft in den Organträger entweder ausschließlich durch eine mittelbare Beteiligung des Organträgers an der Organgesellschaft über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt oder durch Addition einer unmittelbaren und einer mittelbaren Beteiligung über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt.\nErgibt sich die finanzielle Eingliederung der Organgesellschaft hingegen bereits durch eine unmittelbare Beteiligung des Organträgers an der Organgesellschaft, liegt keine ..."
+    },
+    "anlage-kst-1-f:98": {
+      "page_label": "Organschaftliche Minderabführungen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-f/organschaftliche-minderabf-hrungen/zeile-98",
+      "snippet": "Eine mittelbare Organschaft liegt vor, wenn sich die finanzielle Eingliederung der Organgesellschaft in den Organträger entweder ausschließlich durch eine mittelbare Beteiligung des Organträgers an der Organgesellschaft über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt oder durch Addition einer unmittelbaren und einer mittelbaren Beteiligung über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt.\nErgibt sich die finanzielle Eingliederung der Organgesellschaft hingegen bereits durch eine unmittelbare Beteiligung des Organträgers an der Organgesellschaft, liegt keine ..."
+    },
+    "anlage-kst-1-fa:21": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/zeile-21",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-kst-1-fa:36a": {
+      "page_label": "Herabsetzung des Nennkapitals (außerhalb einer Umwandlung oder Zusammenfassung mit einem anderen Betrieb gewerblicher Art)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/herabsetzung-des-nennkapitals-au-erhalb-einer-umwandlung-oder-zusammenfassung-mit-einem-anderen-betrieb-gewerblicher-art/zeile-36a",
+      "snippet": "Im Falle einer Herabsetzung des Nennkapitals ist ein Direktzugriff auf das Einlagekonto möglich, soweit die Rückzahlung des Nennkapitals im Herabsetzungsbeschluss vorgesehen war oder es sich um einen Anwendungsfall des BFH-Urteils I R 31/13 vom 21.10.2014 (BStBl II 2016, Seite 411) handelt."
+    },
+    "anlage-kst-1-fa:37": {
+      "page_label": "Rückzahlung des Nennkapitals (§ 28 Absatz 2 KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/r-ckzahlung-des-nennkapitals-28-absatz-2-kstg/zeile-37",
+      "snippet": "Im Falle einer Herabsetzung des Nennkapitals ist ein Direktzugriff auf das Einlagekonto möglich, soweit die Rückzahlung des Nennkapitals im Herabsetzungsbeschluss vorgesehen war oder es sich um einen Anwendungsfall des BFH-Urteils I R 31/13 vom 21.10.2014 (BStBl II 2016, Seite 411) handelt."
+    },
+    "anlage-kst-1-fa:68": {
+      "page_label": "Ermittlung der kapitalertragsteuerpflichtigen Leistungen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/ermittlung-der-kapitalertragsteuerpflichtigen-leistungen/zeile-68",
+      "snippet": "Zum Beispiel: Bei Ermittlung des Gewinns durch Betriebsvermögensvergleich oder Umsätzen von mehr als 350.000 € im Kalenderjahr oder Gewinn von mehr als 30.000 € im Wirtschaftsjahr"
+    },
+    "anlage-kst-1-fa:6d": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/zeile-6d",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-og:48": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-48-und-49",
+      "snippet": "Wenn in dem dem Organträger zugerechneten Einkommen der Organgesellschaften Zinsaufwendungen und Zinserträge im Sinne des § 4h Absatz 3 EStG enthalten sind, beziehen Sie diese bei Anwendung des § 4h Absatz 1 EStG beim Organträger ein (§ 15 Satz 1 Nummer 3 Satz 3 KStG ). Dabei berücksichtigen Sie bitte auch die Zinsaufwendungen und Zinserträge, die aufgrund von Darlehensverhältnissen zwischen Organträger und Organgesellschaften innerhalb des Organkreises geleistet wurden.\nSofern bei der Einkommensermittlung einer Organgesellschaft eine Verlustkürzung nach § 8c KStG aufgrund eines schädlichen ..."
+    },
+    "anlage-og:49": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-48-und-49",
+      "snippet": "Wenn in dem dem Organträger zugerechneten Einkommen der Organgesellschaften Zinsaufwendungen und Zinserträge im Sinne des § 4h Absatz 3 EStG enthalten sind, beziehen Sie diese bei Anwendung des § 4h Absatz 1 EStG beim Organträger ein (§ 15 Satz 1 Nummer 3 Satz 3 KStG ). Dabei berücksichtigen Sie bitte auch die Zinsaufwendungen und Zinserträge, die aufgrund von Darlehensverhältnissen zwischen Organträger und Organgesellschaften innerhalb des Organkreises geleistet wurden.\nSofern bei der Einkommensermittlung einer Organgesellschaft eine Verlustkürzung nach § 8c KStG aufgrund eines schädlichen ..."
+    },
+    "anlage-og:51": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeile-51",
+      "snippet": "Sofern bei der Einkommensermittlung einer Organgesellschaft eine Verlustkürzung nach § 8c KStG aufgrund eines schädlichen Beteiligungserwerbs vorgenommen wurde, tragen Sie bitte die nach § 8c KStG gekürzten Werte ein.\nHier tragen Sie bitte auch die Beträge ein, die der Organgesellschaft mittelbar über eine vermögensverwaltende Personengesellschaft anteilig zuzurechnen sind."
+    },
+    "anlage-og:52": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeile-52",
+      "snippet": "Sofern bei der Einkommensermittlung einer Organgesellschaft eine Verlustkürzung nach § 8c KStG aufgrund eines schädlichen Beteiligungserwerbs vorgenommen wurde, tragen Sie bitte die nach § 8c KStG gekürzten Werte ein.\nHier tragen Sie bitte auch die Beträge ein, die der Organgesellschaft mittelbar über eine vermögensverwaltende Personengesellschaft anteilig zuzurechnen sind."
+    },
+    "anlage-og:62": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeile-62",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-og:63": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeile-63",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-og:64": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-64-bis-67",
+      "snippet": "Bei nach DBA steuerfreien Einkünften wirkt sich § 2a Absatz 1 und 2 EStG im Rahmen des Progressionsvorbehaltes auf den Steuersatz aus (vergleiche H 2a „Allgemeines“ EStH ). In der Einzelaufstellung erfassen Sie bitte folgende Angaben: Name des Staates, Höhe der Einkünfte, Art der Einkünfte im Sinne des § 2a Absatz 1 Satz 1 EStG ."
+    },
+    "anlage-og:65": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-64-bis-67",
+      "snippet": "Bei nach DBA steuerfreien Einkünften wirkt sich § 2a Absatz 1 und 2 EStG im Rahmen des Progressionsvorbehaltes auf den Steuersatz aus (vergleiche H 2a „Allgemeines“ EStH ). In der Einzelaufstellung erfassen Sie bitte folgende Angaben: Name des Staates, Höhe der Einkünfte, Art der Einkünfte im Sinne des § 2a Absatz 1 Satz 1 EStG ."
+    },
+    "anlage-og:66": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-64-bis-67",
+      "snippet": "Bei nach DBA steuerfreien Einkünften wirkt sich § 2a Absatz 1 und 2 EStG im Rahmen des Progressionsvorbehaltes auf den Steuersatz aus (vergleiche H 2a „Allgemeines“ EStH ). In der Einzelaufstellung erfassen Sie bitte folgende Angaben: Name des Staates, Höhe der Einkünfte, Art der Einkünfte im Sinne des § 2a Absatz 1 Satz 1 EStG ."
+    },
+    "anlage-og:67": {
+      "page_label": "Werte, die für die Besteuerung des Organträgers von Bedeutung sind",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og/werte-die-f-r-die-besteuerung-des-organtr-gers-von-bedeutung-sind/zeilen-64-bis-67",
+      "snippet": "Bei nach DBA steuerfreien Einkünften wirkt sich § 2a Absatz 1 und 2 EStG im Rahmen des Progressionsvorbehaltes auf den Steuersatz aus (vergleiche H 2a „Allgemeines“ EStH ). In der Einzelaufstellung erfassen Sie bitte folgende Angaben: Name des Staates, Höhe der Einkünfte, Art der Einkünfte im Sinne des § 2a Absatz 1 Satz 1 EStG ."
+    },
+    "anlage-ot:4": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ot/allgemeine-angaben/zeile-4",
+      "snippet": "Für die Einkommensermittlung ist auch der Mitunternehmer einer Personengesellschaft, die Organträger ist, wie ein Organträger zu behandeln. In diesem Fall übermitteln Sie bitte die Anlage OT. Das zuzurechnende Einkommen aus dem Organschaftsverhältnis erfassen Sie bitte nicht als Einkünfte aus der Beteiligung in den Zeilen 17 beziehungsweise 18 der Anlage GK. Das zuzurechnende Einkommen der Organgesellschaft tragen Sie auf der Anlage OT in Zeile 13 ein. In den Zeilen 270 bis 280 der Anlage GK sind keine Angaben vorzunehmen."
+    },
+    "anlage-ot:5": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ot/allgemeine-angaben/zeile-5",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-ot:6": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ot/allgemeine-angaben/zeile-6",
+      "snippet": "Für die Einkommensermittlung ist auch der Mitunternehmer einer Personengesellschaft, die Organträger ist, wie ein Organträger zu behandeln. In diesem Fall übermitteln Sie bitte die Anlage OT. Das zuzurechnende Einkommen aus dem Organschaftsverhältnis erfassen Sie bitte nicht als Einkünfte aus der Beteiligung in den Zeilen 17 beziehungsweise 18 der Anlage GK. Das zuzurechnende Einkommen der Organgesellschaft tragen Sie auf der Anlage OT in Zeile 13 ein. In den Zeilen 270 bis 280 der Anlage GK sind keine Angaben vorzunehmen."
+    },
+    "anlage-ot:7": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ot/allgemeine-angaben/zeile-7",
+      "snippet": "Eine mittelbare Organschaft liegt vor, wenn sich die finanzielle Eingliederung der Organgesellschaft in den Organträger entweder ausschließlich durch eine mittelbare Beteiligung des Organträgers an der Organgesellschaft über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt oder durch Addition einer unmittelbaren und einer mittelbaren Beteiligung über eine vermittelnde Gesellschaft (Zwischengesellschaft) ergibt.\nErgibt sich die finanzielle Eingliederung der Organgesellschaft hingegen bereits durch eine unmittelbare Beteiligung des Organträgers an der Organgesellschaft, liegt keine ..."
+    },
+    "anlage-part:1": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-part/allgemeines/zeile-1",
+      "snippet": "Steuerbefreite Körperschaften werden im Allgemeinen nur in dreijährigem Abstand geprüft, wenn nicht zum Beispiel wegen umfangreicher wirtschaftlicher Betätigungen und/oder – bei Berufsverbänden – wegen der Unterstützung und Förderung politischer Parteien regelmäßig Steuern anfallen. Zur Entlastung der Vertreter der steuerbefreiten Körperschaften greift das Finanzamt bei der Prüfung soweit wie möglich auf die bei den Körperschaften in der Regel schon vorhandenen Unterlagen zurück (Bilanz, Gewinn- und Verlustrechnung beziehungsweise Aufstellung über sämtliche Einnahmen und Ausgaben, Aufstellung ..."
+    },
+    "anlage-part:3": {
+      "page_label": "Allgemeines",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-part/allgemeines/zeile-3",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-san:19": {
+      "page_label": "Ermittlungen des verbleibenden Sanierungsertrags nach § 3a Absatz 3 Satz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-san/ermittlungen-des-verbleibenden-sanierungsertrags-nach-3a-absatz-3-satz-4-estg/zeile-19",
+      "snippet": "Eintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ausschließlich Tatbestände aus der beschränkten Steuerpflicht ein."
+    },
+    "anlage-san:33": {
+      "page_label": "Ermittlungen des verbleibenden Sanierungsertrags nach § 3a Absatz 3 Satz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-san/ermittlungen-des-verbleibenden-sanierungsertrags-nach-3a-absatz-3-satz-4-estg/zeile-33",
+      "snippet": "Eintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ausschließlich Tatbestände aus der beschränkten Steuerpflicht ein."
+    },
+    "anlage-san:42a": {
+      "page_label": "Ermittlungen des verbleibenden Sanierungsertrags nach § 3a Absatz 3 Satz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-san/ermittlungen-des-verbleibenden-sanierungsertrags-nach-3a-absatz-3-satz-4-estg/zeile-42a",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-san:5": {
+      "page_label": "Ermittlungen des verbleibenden Sanierungsertrags nach § 3a Absatz 3 Satz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-san/ermittlungen-des-verbleibenden-sanierungsertrags-nach-3a-absatz-3-satz-4-estg/zeile-5",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-verluste:14": {
+      "page_label": "Anfangsbestand",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-verluste/anfangsbestand/zeile-14",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-verluste:14a": {
+      "page_label": "Anfangsbestand",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-verluste/anfangsbestand/zeile-14a",
+      "snippet": "Nicht ausgeglichene Verlustvorträge einzelner gleichartiger Betriebe gewerblicher Art aus der Zeit vor einer Zusammenfassung im Sinne des § 4 Absatz 6 Satz 1 Nummer 1 KStG können Sie auch bei dem zusammengefassten Betrieb gewerblicher Art abziehen. Tragen Sie dazu bitte die auf Veranlagungszeiträume vor der Zusammenfassung entfallenden Verlustvorträge der bisher einzelnen gleichartigen Betriebe gewerblicher Art ein."
+    },
+    "anlage-verluste:15": {
+      "page_label": "Anfangsbestand",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-verluste/anfangsbestand/zeile-15",
+      "snippet": "Nehmen Sie hier bitte auch Eintragungen vor für Verluste im Sinne des § 8d Absatz 1 Satz 2 Nummer 1 KStG und auch Verluste, die bei einer früheren Einstellung oder Ruhendstellung vor dem 01.01.2016 entstanden sind (Randnummer 79 des BMF -Schreibens vom 18.03.2021, BStBl I 2021, Seite 363 ).\nBitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-verluste:20": {
+      "page_label": "Negativer Gesamtbetrag der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-verluste/negativer-gesamtbetrag-der-eink-nfte/zeile-20",
+      "snippet": "Das Finanzamt nimmt ohne Antrag einen zweijährigen Verlustrücktrag in maximaler Höhe vor (§ 10d Absatz 1 Satz 1 und Satz 2 EStG). Auf Antrag können Sie von dem Verlustrücktrag insgesamt absehen (§ 10d Absatz 1 Satz 6 EStG). Eine Begrenzung des Verlustrücktrags auf eine bestimmte Höhe ist dabei nicht zulässig. Möchten Sie vom Verlustrücktrag absehen, tragen Sie hier bitte eine „Null“ ein."
+    },
+    "anlage-wa:11": {
+      "page_label": "Anrechnung ausländischer Steuer nach § 50d Absatz 10 Satz 5 EStG in Verbindung mit § 26 Absatz 1 KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-ausl-ndischer-steuer-nach-50d-absatz-10-satz-5-estg-in-verbindung-mit-26-absatz-1-kstg/zeile-11",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wa:11e": {
+      "page_label": "Angaben zum schädlichen Beteiligungserwerb nach § 8c KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/angaben-zum-sch-dlichen-beteiligungserwerb-nach-8c-kstg/zeile-11e",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wa:12": {
+      "page_label": "Angaben zum fortführungsgebundenen Verlust- und/oder Zinsvortrag nach § 8d KStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/angaben-zum-fortf-hrungsgebundenen-verlust-und-oder-zinsvortrag-nach-8d-kstg/zeile-12",
+      "snippet": "Die Voraussetzungen für eine Anwendung von § 8d KStG bei einem vom Kalenderjahr abweichenden Wirtschaftsjahr ergeben sich aus Randnummer 15 des BMF -Schreibens vom 18.03.2021, BStBl I 2021 Seite 363. Der Antrag ist in der Steuererklärung für den Veranlagungszeitraum zu stellen, in dem das Wirtschaftsjahr endet, in das der schädliche Beteiligungserwerb fällt (Randnummer 9 des BMF -Schreibens vom 18.03.2021, BStBl I 2021 Seite 363)."
+    },
+    "anlage-wa:15": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/zeile-15",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wa:2": {
+      "page_label": "Anrechnung von Abzugssteuern nach § 36 Absatz 2 Nummer 2 in Verbindung mit § 36a EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-von-abzugssteuern-nach-36-absatz-2-nummer-2-in-verbindung-mit-36a-estg/zeile-2",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wa:29": {
+      "page_label": "Länderbezogener Bericht multinationaler Unternehmensgruppen nach § 138a AO",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/zeile-29",
+      "snippet": "Den Länderschlüssel finden sie auf der Internetseite https://www.bzst.de/DE/Unternehmen/Intern_Informationsaustausch/CountryByCountryReporting/Steuererklaerungen/steuererklaerungen_node.html."
+    },
+    "anlage-wa:4": {
+      "page_label": "Anrechnung von Abzugssteuern nach § 36 Absatz 2 Nummer 2 in Verbindung mit § 36a EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-von-abzugssteuern-nach-36-absatz-2-nummer-2-in-verbindung-mit-36a-estg/zeilen-4-und-5",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-wa:5": {
+      "page_label": "Anrechnung von Abzugssteuern nach § 36 Absatz 2 Nummer 2 in Verbindung mit § 36a EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-von-abzugssteuern-nach-36-absatz-2-nummer-2-in-verbindung-mit-36a-estg/zeilen-4-und-5",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-wa:6": {
+      "page_label": "Anrechnung von Abzugssteuern nach § 36 Absatz 2 Nummer 2 in Verbindung mit § 36a EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-von-abzugssteuern-nach-36-absatz-2-nummer-2-in-verbindung-mit-36a-estg/zeile-6",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wa:8": {
+      "page_label": "Anrechnung von Steuerabzugsbeträgen nach § 50a EStG bei beschränkt Steuerpflichtigen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/anrechnung-von-steuerabzugsbetr-gen-nach-50a-estg-bei-beschr-nkt-steuerpflichtigen/zeile-8",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-wif:39": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-wif/zeile-39",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-z:11": {
+      "page_label": "Verbleibender Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 und 10 KStG in Verbindung mit § 10d Absatz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-z/verbleibender-zuwendungsvortrag-nach-9-absatz-1-nummer-2-satz-9-und-10-kstg-in-verbindung-mit-10d-absatz-4-estg/zeile-11",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-z:4": {
+      "page_label": "Verbleibender Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 und 10 KStG in Verbindung mit § 10d Absatz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-z/verbleibender-zuwendungsvortrag-nach-9-absatz-1-nummer-2-satz-9-und-10-kstg-in-verbindung-mit-10d-absatz-4-estg/zeile-4",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-z:5": {
+      "page_label": "Verbleibender Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 und 10 KStG in Verbindung mit § 10d Absatz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-z/verbleibender-zuwendungsvortrag-nach-9-absatz-1-nummer-2-satz-9-und-10-kstg-in-verbindung-mit-10d-absatz-4-estg/zeile-5",
+      "snippet": "Spenden und Mitgliedsbeiträge für steuerbegünstigte Zwecke sind auf Anforderung des Finanzamtes durch eine Bestätigung nachzuweisen, soweit der Zuwendungsempfänger diese Bestätigung nicht elektronisch an die Finanzverwaltung übermittelt hat."
+    },
+    "anlage-z:7": {
+      "page_label": "Verbleibender Zuwendungsvortrag nach § 9 Absatz 1 Nummer 2 Satz 9 und 10 KStG in Verbindung mit § 10d Absatz 4 EStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-z/verbleibender-zuwendungsvortrag-nach-9-absatz-1-nummer-2-satz-9-und-10-kstg-in-verbindung-mit-10d-absatz-4-estg/zeile-7",
+      "snippet": "Der Höchstbetrag der abziehbaren Zuwendungen ist der höhere Betrag aus 20 % des Einkommens im Sinne des § 9 Absatz 2 Satz 1 KStG (Zeile 32 der Anlage ZVE) und 4 Promille der Summe der gesamten Umsätze sowie der im Kalenderjahr aufgewendeten Löhne und Gehälter (Zeilen 10 und 11 der Anlage Z)."
+    },
+    "anlage-zinsschranke:11": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-11",
+      "snippet": "Wenn in dem dem Organträger zugerechneten Einkommen der Organgesellschaften Zinsaufwendungen und Zinserträge im Sinne des § 4h Absatz 3 EStG enthalten sind, beziehen Sie diese bei Anwendung des § 4h Absatz 1 EStG beim Organträger ein (§ 15 Satz 1 Nummer 3 Satz 3 KStG ). Dabei berücksichtigen Sie bitte auch die Zinsaufwendungen und Zinserträge, die aufgrund von Darlehensverhältnissen zwischen Organträger und Organgesellschaften innerhalb des Organkreises geleistet wurden."
+    },
+    "anlage-zinsschranke:12": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-12",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zinsschranke:15": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-15",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zinsschranke:16": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-16",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zinsschranke:7": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-7",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zinsschranke:8": {
+      "page_label": "Abziehbare Zinsen und Zinsvortrag (§ 4h EStG in Verbindung mit § 8 Absatz 1, § 8a KStG)",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zinsschranke/abziehbare-zinsen-und-zinsvortrag-4h-estg-in-verbindung-mit-8-absatz-1-8a-kstg/zeile-8",
+      "snippet": "Nehmen Sie hier bitte auch Eintragungen vor für Verluste im Sinne des § 8d Absatz 1 Satz 2 Nummer 1 KStG und auch Verluste, die bei einer früheren Einstellung oder Ruhendstellung vor dem 01.01.2016 entstanden sind (Randnummer 79 des BMF -Schreibens vom 18.03.2021, BStBl I 2021, Seite 363 )."
+    },
+    "anlage-zve:1": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-1",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zve:10": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-10",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zve:11": {
+      "page_label": "Einkünfte aus Kapitalvermögen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/eink-nfte-aus-kapitalverm-gen/zeile-11",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zve:11a": {
+      "page_label": "Einkünfte aus Kapitalvermögen",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/eink-nfte-aus-kapitalverm-gen/zeile-11a",
+      "snippet": "Soweit Sie Anträge nach § 32d Absatz 2 Nummer 3 Satz 1 EStG stellen möchten, stellen Sie diese bitte innerhalb der gesonderten Ermittlung der Einkünfte ()gesonderte Anlage). Bezeichnen Sie dafür die jeweiligen Beteiligungen genau. Einkünfte aus Kapitalvermögen, für die die Körperschaftsteuer bereits durch den Steuerabzug abgegolten ist oder für die kein deutsches Besteuerungsrecht besteht, tragen Sie für beschränkt steuerpflichtige Körperschaften hier nicht ein."
+    },
+    "anlage-zve:12": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-12",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zve:17": {
+      "page_label": "Einkünfte, für die der Antrag nach § 32 Absatz 2 Nummer2 KStG gestellt wird",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/eink-nfte-f-r-die-der-antrag-nach-32-absatz-2-nummer2-kstg-gestellt-wird/zeile-17",
+      "snippet": "Das Bundeszentralamt für Steuern ist für Veranlagungen nach § 32 Absatz 2 Nummer 2 KStG zuständig, sofern ausschließlich beschränkt steuerpflichtige Einkünfte bezogen wurden, die dem Steuerabzug nach § 50a Absatz 1 Nummer 1 oder 2 EStG unterlegen haben. In diesem Fall übermitteln Sie bitte die Steuererklärung an das Bundeszentralamt für Steuern als zuständige Finanzbehörde. Werden sowohl Einkünfte, die dem Steuerabzug nach § 50a Absatz 1 EStG unterlegen haben als auch weitere inländische Einkünfte bezogen, und wird eine Veranlagung beantragt, übermitteln Sie bitte die Steuererklärung an das ..."
+    },
+    "anlage-zve:1a": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-1a",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zve:1b": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-1b",
+      "snippet": "Tragen Sie hier bitte nur Einkünfte aus Beteiligungen an Personengesellschaften ein, die nicht dem Betriebsvermögen eines eigenen Betriebs zugeordnet sind.\nFalls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zve:31": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-31",
+      "snippet": "Sind die mit der Sanierung in Zusammenhang stehenden Betriebsvermögensminderungen und Betriebsausgaben in den dem Sanierungsjahr vorangehenden Veranlagungszeiträumen entstanden, rechnen Sie diese nur hinzu, soweit sie nicht in den festgestellten Verlustvorträgen enthalten sind (§ 3c Absatz 4 Satz 2 EStG).\nSind die mit der Sanierung in Zusammenhang stehenden Betriebsvermögensminderungen und Betriebsausgaben in den dem Sanierungsjahr folgenden Veranlagungszeiträumen entstanden, rechnen Sie diese nur hinzu, soweit sie den verbleibenden Sanierungsertrag nach § 3a Absatz 3 Satz 4 EStG nicht ..."
+    },
+    "anlage-zve:35": {
+      "page_label": "Ermittlung des Gesamtbetrags der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-gesamtbetrags-der-eink-nfte/zeile-35",
+      "snippet": "Ohne entsprechende Beträge der Organgesellschaft(en)."
+    },
+    "anlage-zve:37": {
+      "page_label": "Ermittlung des Gesamtbetrags der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-gesamtbetrags-der-eink-nfte/zeile-37",
+      "snippet": "Liegt bei einer Umwandlung im Rückwirkungszeitraum beim übertragenden Rechtsträger ein Anwendungsfall des § 8c KStG vor, tragen Sie hier auch den insoweit nicht zu berücksichtigenden Verlust des laufenden Veranlagungszeitraums ein.\nDen einzutragenden Wert ermitteln Sie bitte gegebenenfalls unter Berücksichtigung der Randnummer 32 des BMF-Schreibens vom 28.11.2017, BStBl I 2017, Seite 1645.\nBitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über ..."
+    },
+    "anlage-zve:4": {
+      "page_label": "Einkünfte aus Gewerbebetrieb",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/eink-nfte-aus-gewerbebetrieb/zeile-4",
+      "snippet": "Eintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ausschließlich Tatbestände aus der beschränkten Steuerpflicht ein."
+    },
+    "anlage-zve:42": {
+      "page_label": "Ermittlung des Gesamtbetrags der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-gesamtbetrags-der-eink-nfte/zeile-42",
+      "snippet": "Eintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ausschließlich Tatbestände aus der beschränkten Steuerpflicht ein."
+    },
+    "anlage-zve:49": {
+      "page_label": "Ermittlung des Gesamtbetrags der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-gesamtbetrags-der-eink-nfte/zeile-49",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zve:50": {
+      "page_label": "Ermittlung des Gesamtbetrags der Einkünfte",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-gesamtbetrags-der-eink-nfte/zeile-50",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    },
+    "anlage-zve:60": {
+      "page_label": "Ermittlung des zu versteuernden Einkommens",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-zu-versteuernden-einkommens/zeile-60",
+      "snippet": "Eintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ausschließlich Tatbestände aus der beschränkten Steuerpflicht ein."
+    },
+    "anlage-zve:69": {
+      "page_label": "Ermittlung des zu versteuernden Einkommens",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-zu-versteuernden-einkommens/zeile-69",
+      "snippet": "Der Freibetrag nach § 24 KStG steht nur solchen Körperschaften, Personenvereinigungen und Vermögensmassen zu, deren Leistungen bei den Empfängern nicht zu den Einnahmen im Sinne des § 20 Absatz 1 Nummer 1, 2, 3 oder 3a EStG gehören. Er kommt nicht in Betracht, wenn der Freibetrag nach § 25 KStG beansprucht werden kann. Die Regelung des § 24 KStG gilt auch in den Fällen einer nur teilweisen Steuerpflicht. Vergleiche im Einzelnen R 24 der KStR 2022."
+    },
+    "anlage-zve:76": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-76",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zve:7a": {
+      "page_label": "Einkünfte aus Gewerbebetrieb",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/eink-nfte-aus-gewerbebetrieb/zeile-7a",
+      "snippet": "Bei der Ermittlung dieser Beträge berücksichtigen Sie bitte alle Einkünfteermittlungsvorschriften (zum Beispiel § 8b KStG, § 4h EStG in Verbindung mit § 8 Absatz 1 und § 8a KStG und das Teilfreistellungsverfahren (§§ 20, 21 InvStG)) .\nEintragungen zu dieser Zeile sind für unbeschränkt steuerpflichtige Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 und 6 KStG (zum Beispiel Kapitalgesellschaften) grundsätzlich nicht zulässig. Liegt bei solchen Körperschaften im Veranlagungszeitraum sowohl beschränkte als auch unbeschränkte Steuerpflicht vor, tragen Sie bitte in dieser Zeile ..."
+    },
+    "anlage-zve:9": {
+      "page_label": null,
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/zeile-9",
+      "snippet": "Bitte übermitteln Sie Belege und andere Dokumente zur Steuererklärung elektronisch (Belegnachreichung zur Steuererklärung). Dies ist sowohl über\nhttps://www.elster.de/eportal/formulare-leistungen/alleformulare/belegnachreichung als auch über andere Softwareanbieter möglich."
+    },
+    "anlage-zwig:33": {
+      "page_label": "Kürzungsbetrag nach § 11 AStG",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-zwig/k-rzungsbetrag-nach-11-astg/zeile-33",
+      "snippet": "Bei der Eintragung berücksichtigen Sie bitte die Begrenzung nach § 11 Absatz 2 Satz 2 AStG (Hinzurechnungskorrekturvolumen)."
+    },
+    "anlage-zwig:4": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-zwig/allgemeine-angaben/zeile-4",
+      "snippet": "Falls die gesonderte und einheitliche Feststellung noch nicht durchgeführt wurde, tragen Sie den auf die Körperschaft entfallenden Wert laut Feststellungserklärung oder den voraussichtlich zu berücksichtigenden Wert ein. Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein."
+    }
+  },
+  "warnings": [
+    "form '00-hauptvordruck-kst-1' has 24 line(s) in form data without help mapping: 1, 6, 7, 8, 9, 101, 100a, 102, ...",
+    "form 'anlage-aest' has 22 line(s) in form data without help mapping: 3, 3a, 3b, 6, 9, 12, 15, 18, ...",
+    "form 'anlage-aev' has 21 line(s) in form data without help mapping: 2, 4, 4a, 7, 8, 8a, 9, 10a, ...",
+    "form 'anlage-ber' has 13 line(s) in form data without help mapping: 2, 4, 5a, 6, 7, 16, 16a, 16b, ...",
+    "form 'anlage-gem' has 44 line(s) in form data without help mapping: 2, 3, 5, 7, 4, 9, 9a, 9b, ...",
+    "form 'anlage-geno-ver' has 32 line(s) in form data without help mapping: 1a, 1b, 1c, 3, 4, 5, 6, 7, ...",
+    "form 'anlage-gk' has 203 line(s) in form data without help mapping: 1, 2, 21, 24, 25, 26, 27, 28, ...",
+    "form 'anlage-gr' has 17 line(s) in form data without help mapping: 1, 2, 3, 4, 6, 7, 9, 10, ...",
+    "form 'anlage-hk-zur-spartentrennung' has 184 line(s) in form data without help mapping: 2, 3, 4, 5, 6, 7, 8, 9, ...",
+    "form 'anlage-invest-verluste' has 5 line(s) in form data without help mapping: 1, 3, 4, 5, 6",
+    "form 'anlage-kassen' has 52 line(s) in form data without help mapping: 2, 3, 5, 7, 13, 14, 19, 20, ...",
+    "form 'anlage-kst-1-f' has 134 line(s) in form data without help mapping: 1, 2, 3, 4, 5, 6, 7, 8, ...",
+    "form 'anlage-kst-1-fa' has 82 line(s) in form data without help mapping: 1, 1a, 2, 3, 7, 8, 9, 10, ...",
+    "form 'anlage-og' has 34 line(s) in form data without help mapping: 1, 2, 3, 5, 6, 7, 8, 9, ...",
+    "form 'anlage-ot' has 34 line(s) in form data without help mapping: 2, 3a, 8, 9, 10, 13, 14, 14a, ...",
+    "form 'anlage-part' has 10 line(s) in form data without help mapping: 2, 4, 6, 7, 8, 11, 12, 13, ...",
+    "form 'anlage-san' has 48 line(s) in form data without help mapping: 1, 2, 3, 4, 5a, 5b, 5c, 5d, ...",
+    "form 'anlage-spif' has 57 line(s) in form data without help mapping: 1, 2, 4, 5, 6, 7, 10, 11, ...",
+    "form 'anlage-spifa' has 14 line(s) in form data without help mapping: 1, 2, 4, 5, 7, 8, 9, 10, ...",
+    "form 'anlage-verluste' has 29 line(s) in form data without help mapping: 11, 13, 16, 17, 18, 19, 19a, 19b, ...",
+    "form 'anlage-wa' has 42 line(s) in form data without help mapping: 3, 7, 9, 10, 11a, 11b, 11c, 11d, ...",
+    "form 'anlage-wif' has 20 line(s) in form data without help mapping: 1, 5, 6, 17, 33, 34, 35, 36, ...",
+    "form 'anlage-z' has 8 line(s) in form data without help mapping: 1, 2, 3, 6, 7a, 8, 9, 10",
+    "form 'anlage-zinsschranke' has 95 line(s) in form data without help mapping: 3, 4, 5, 6, 8a, 9, 13, 14, ...",
+    "form 'anlage-zve' has 71 line(s) in form data without help mapping: 2, 3, 5, 6, 7, 12a, 13, 14, ...",
+    "form 'anlage-zwig' has 15 line(s) in form data without help mapping: 1, 3, 5, 6, 10, 11, 12, 13, ...",
+    "no help section found for form 'anlage-steuergestaltung' (display: 'Anlage Steuergestaltung')"
+  ]
+}

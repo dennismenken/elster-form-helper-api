@@ -1,0 +1,119 @@
+{
+  "tax_type": "gewst",
+  "year": "2023",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0)",
+  "help_markdown": "elster_gewst2023_help.md",
+  "forms": [
+    {
+      "slug": "00-gewerbesteuererkl-rung",
+      "name": "00 Gewerbesteuererklärung",
+      "form_kind": "main",
+      "mandatory": true,
+      "description": "Hauptvordruck der Gewerbesteuererklärung (GewSt 1 A) für die Ermittlung und Erklärung des Gewerbeertrags, des Gewerbesteuermessbetrags sowie ggf. des vortragsfähigen Gewerbeverlustes und des Zuwendungsvortrags für den Erhebungszeitraum 2023.",
+      "triggers": [
+        {
+          "condition": "Die Gewerbesteuererklärung (Vordruck GewSt 1 A) ist von jedem im Inland gewerbesteuerpflichtigen Unternehmen für den jeweiligen Erhebungszeitraum elektronisch zu übermitteln.",
+          "machine_check": null,
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Übermitteln Sie bitte für jedes selbständige Unternehmen eine Gewerbesteuererklärung.",
+          "machine_check": null,
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a/allgemeines-zur-gewerbesteuererkl-rung",
+          "confidence": "certain",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-beg",
+      "name": "Anlage BEG",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage BEG covers exemptions and reductions (Befreiungen/Vergünstigungen) for trade tax purposes, particularly regarding income from shareholdings in corporations (§ 9 Nr. 2a, 7, 8 GewStG) held by partnerships or corporate entities, including organschaft constellations.",
+      "triggers": [
+        {
+          "condition": "Die Anlage BEG (Begünstigungen) ist zu übermitteln, wenn das Unternehmen eine Gewerbesteuerbefreiung oder Vergünstigung in Anspruch nimmt, insbesondere bei steuerbegünstigten Körperschaften.",
+          "machine_check": {
+            "key": "is_tax_privileged",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a",
+          "confidence": "high",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Wenn Anteile an Körperschaften von Mitunternehmerschaften im Gesamthands- und Sonderbetriebsvermögen gehalten werden, übermitteln Sie bitte jeweils getrennte Anlagen BEG.",
+          "machine_check": {
+            "key": "is_tax_privileged",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_gewst2023_help.md#anlage-beg/anlage-beg",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-bekanntgabe",
+      "name": "Anlage Bekanntgabe",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage Bekanntgabe for GEWST 2023. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-emu",
+      "name": "Anlage EMU",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage EMU is used to allocate trade losses (Gewerbeverluste) and the relevant trade income (maßgebender Gewerbeertrag) of a partnership (Mitunternehmerschaft) to the individual partners (Mitunternehmer) pursuant to § 10a sentences 4 and 5 GewStG, when a trade loss arises in the current assessment period or a carry-forward trade loss was established at the end of the preceding period.",
+      "triggers": [
+        {
+          "condition": "Die Anlage EMU (Zerlegung des Gewerbesteuermessbetrags auf mehrere Gemeinden) ist zu übermitteln, wenn das Unternehmen Betriebsstätten in mehreren Gemeinden unterhält.",
+          "machine_check": {
+            "key": "has_multiple_municipalities",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Die Anlage EMU braucht nicht abgegeben zu werden, wenn bei gleichem Gesellschafterbestand und gleicher Beteiligungsquote eine gesellschafterbezogene Berechnung unterbleiben kann (R 10a.3 Absatz 3 Satz 6 GewStR 2009) – es sei denn, bei einzelnen Mitunternehmern müssen Verlustkürzungen nach § 10a GewStG in Verbindung mit § 8c KStG vorgenommen werden.",
+          "machine_check": null,
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a/anlage-emu",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage EMU ist zu übermitteln, wenn sich für den laufenden Erhebungszeitraum ein Gewerbeverlust ergibt oder zum Schluss des vorangegangenen Erhebungszeitraums ein vortragsfähiger Gewerbeverlust durch das Finanzamt festgestellt wurde.",
+          "machine_check": null,
+          "help_source": "elster_gewst2023_help.md#anleitung-zur-gewerbesteuererkl-rung-erkl-rung-zur-gesonderten-feststellung-des-gewerbeverlustes-und-zur-gesonderten-feststellung-des-zuwendungsvortrags-vordruck-gewst-1-a/anlage-emu",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-hg-zur-spartentrennung",
+      "name": "Anlage ÖHG zur Spartentrennung",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage ÖHG zur Spartentrennung for GEWST 2023. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    }
+  ],
+  "warnings": [
+    "no help section found for form 'anlage-bekanntgabe'; triggers left empty",
+    "no help section found for form 'anlage-hg-zur-spartentrennung'; triggers left empty",
+    "overrides/gewst-2023.json declares form 'anlage-hg-zur-spartentrennung' but no such form exists in the catalog; entry ignored"
+  ]
+}

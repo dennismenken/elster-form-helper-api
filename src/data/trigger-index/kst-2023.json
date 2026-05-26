@@ -1,0 +1,549 @@
+{
+  "tax_type": "kst",
+  "year": "2023",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0)",
+  "help_markdown": "elster_kst2023_help.md",
+  "forms": [
+    {
+      "slug": "00-hauptvordruck-kst-1",
+      "name": "00 Hauptvordruck KSt 1",
+      "form_kind": "main",
+      "mandatory": true,
+      "description": "Hauptvordruck KSt 1 is the main corporate income tax return form (Körperschaftsteuererklärung) required for all corporations and other entities subject to German corporate income tax (KSt). It collects general identification data, tax exemption information, and other core declarations.",
+      "triggers": [
+        {
+          "condition": "Der Hauptvordruck KSt 1 ist stets abzugeben, wenn eine Körperschaftsteuererklärung einzureichen ist.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zum-vordruck-kst-1",
+          "confidence": "certain",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-aest",
+      "name": "Anlage AESt",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage AESt is used to report foreign income and foreign taxes for the purposes of crediting or deducting foreign taxes (§ 26 KStG in conjunction with § 34c EStG) in cases without an applicable double taxation agreement or where a DTA permits crediting.",
+      "triggers": [
+        {
+          "condition": "Eintragungen auf der Anlage AESt sind nur zulässig bei Sachverhalten ohne anwendbares DBA oder soweit ein DBA die Anrechnung zulässt.",
+          "machine_check": {
+            "key": "has_foreign_operations",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aest/anrechnung-abzug-ausl-ndischer-steuern",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-aev",
+      "name": "Anlage AEV",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage AEV records non-treaty-exempt negative income and profit reductions under § 2a Abs. 1 EStG from foreign operations, to be completed per country and per type of income for corporate income tax purposes.",
+      "triggers": [
+        {
+          "condition": "Die Anlage AEV füllen Sie bitte pro Staat und pro Art der Einkünfte aus. (Nicht nach DBA steuerfreie negative Einkünfte / Gewinnminderungen im Sinne des § 2a Absatz 1 EStG)",
+          "machine_check": {
+            "key": "has_foreign_operations",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-aev/nicht-nach-dba-steuerfreie-negative-eink-nfte-gewinnminderungen-im-sinne-des-2a-absatz-1-estg",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-ber",
+      "name": "Anlage Ber",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Ber is used by tax-exempt (steuerbefreite) corporations to report on their activities, membership fees, economic business operations, and use of funds, enabling the tax authority to verify whether the conditions for tax exemption are met.",
+      "triggers": [
+        {
+          "condition": "Die Finanzbehörden sind verpflichtet, auch steuerbefreite Körperschaften regelmäßig zu überprüfen. Sie müssen prüfen, ob die Voraussetzungen für die Gewährung der Steuervergünstigungen wegen der Förderung steuerbefreiter Zwecke nach der Satzung und nach der tatsächlichen Geschäftsführung erfüllt wurden.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "in",
+            "value": [
+              "non_profit",
+              "association"
+            ]
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/allgemeines-zur-anlage-ber",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-gem",
+      "name": "Anlage Gem",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Gem is filed by tax-exempt (gemeinnützige/mildtätige/kirchliche) corporations to document compliance with the conditions for tax exemption, including their economic activities, purpose-related operations (Zweckbetriebe), reserves, and asset management, as part of the regular review by the tax authorities.",
+      "triggers": [
+        {
+          "condition": "Die Finanzbehörden sind verpflichtet, auch steuerbefreite Körperschaften regelmäßig zu überprüfen. Sie müssen prüfen, ob die Voraussetzungen für die Gewährung der Steuervergünstigungen wegen der Förderung steuerbefreiter Zwecke nach der Satzung und nach der tatsächlichen Geschäftsführung erfüllt wurden.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "non_profit"
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gem/allgemeines-zur-anlage-gem",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-geno-ver",
+      "name": "Anlage Geno Ver",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Geno Ver is an annex for cooperatives (Genossenschaften) and associations (Vereine) subject to KSt, covering income/expense items outside the profit and loss account and supporting data required under § 5 Abs. 1 Nr. 10 and Nr. 14 KStG.",
+      "triggers": [
+        {
+          "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 10 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
+          "machine_check": {
+            "key": "legal_form",
+            "op": "in",
+            "value": [
+              "eG",
+              "e.V."
+            ]
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-10-kstg",
+          "confidence": "medium",
+          "source": "llm"
+        },
+        {
+          "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 14 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
+          "machine_check": {
+            "key": "legal_form",
+            "op": "in",
+            "value": [
+              "eG",
+              "e.V."
+            ]
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-gk",
+      "name": "Anlage GK",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage GK is used to determine the income from commercial operations (Gewerbebetrieb) for corporate income tax purposes, including balance sheet results, outside-balance-sheet corrections, foreign-source items, §8b KStG adjustments, and Organschaft profit corrections.",
+      "triggers": [
+        {
+          "condition": "Die Anlage GK ist von jeder Kapitalgesellschaft (z. B. GmbH, UG, AG, SE, KGaA) zur Ermittlung der Einkünfte aus Gewerbebetrieb für die Körperschaftsteuer 2023 zu übermitteln.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "commercial"
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Bei steuerbegünstigten Körperschaften mit wirtschaftlichem Geschäftsbetrieb ist die Anlage GK zu übermitteln, wenn die Einnahmen 45.000 € im Veranlagungszeitraum übersteigen.",
+          "machine_check": {
+            "key": "has_economic_business_activity",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-gk",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-gr",
+      "name": "Anlage GR",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage GR is used to calculate the cooperative rebate (genossenschaftliche Rückvergütung) for cooperatives (eingetragene Genossenschaften) in the corporate income tax return.",
+      "triggers": [
+        {
+          "condition": "Die Anlage GR ist von eingetragenen Genossenschaften (eG) zur Berechnung der genossenschaftlichen Rückvergütung zu übermitteln.",
+          "machine_check": {
+            "key": "legal_form",
+            "op": "==",
+            "value": "eG"
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-gr/berechnung-der-genossenschaftlichen-r-ckverg-tung",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-hk-zur-spartentrennung",
+      "name": "Anlage ÖHK zur Spartentrennung",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage ÖHK is filed for the Spartentrennung (sector separation) under § 8 Abs. 9 KStG. It applies to Kapitalgesellschaften subject to § 8 Abs. 7 Satz 1 Nr. 2 KStG exercising multiple qualifying activities, as well as to Organträger of such entities and Organgesellschaften where the Spartenrechnung must be performed at the Organträger level.",
+      "triggers": [
+        {
+          "condition": "Die Anlage ÖHK ist ebenfalls abzugeben von Kapitalgesellschaften oder Betrieben gewerblicher Art, die Organträger einer solchen Eigengesellschaft nach § 8 Absatz 7 Satz 1 Nummer 1 KStG sind.",
+          "machine_check": {
+            "key": "is_organschaft_parent",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage ÖHK ist ebenfalls abzugeben von Organgesellschaften, wenn bei dem (gegebenenfalls mittelbaren) Organträger nach § 15 Satz 1 Nummer 5 KStG die Spartenrechnung nach § 8 Absatz 9 KStG durchzuführen ist.",
+          "machine_check": {
+            "key": "is_organschaft_subsidiary",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehr als eine Tätigkeit ausübt, die bei einer juristischen Person des öffentlichen Rechts jeweils zu einem Betrieb gewerblicher Art führen würde, die gegebenenfalls aber nach § 4 Absatz 6 KStG zusammengefasst werden könnten.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehrere Tätigkeiten im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese neben mindestens einer wirtschaftlichen Tätigkeit auch eine Tätigkeit im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-invest-verluste",
+      "name": "Anlage Invest-Verluste",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Invest-Verluste records losses from investment activities for corporate income tax purposes.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-kassen",
+      "name": "Anlage Kassen",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Kassen is filed by pension support funds (Unterstützungskassen) and tax-exempt corporations under § 1 Abs. 1 Nr. 1–3 KStG (e.g. GmbH) to report their fund assets, potential over-endowment, and related tax data for corporate income tax purposes.",
+      "triggers": [
+        {
+          "condition": "Für Unterstützungskassen und steuerbefreite Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 KStG (zum Beispiel GmbH) übermitteln Sie die Steuererklärung bitte jährlich.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-1",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-kst-1-f",
+      "name": "Anlage KSt 1 F",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage KSt 1 F tracks the steuerliches Einlagekonto (§ 27 KStG), distributions/leistungen, Mehr-/Minderabführungen in Organschaften, capital reductions, acquisition of own shares, contributions, and restructuring-related adjustments for corporate income tax purposes.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-kst-1-fa",
+      "name": "Anlage KSt 1 Fa",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage KSt 1 Fa is used for the determination of the tax-relevant equity accounts (steuerliches Einlagekonto, Nennkapital) and capital gains tax-liable distributions for Betriebe gewerblicher Art (BgA) and tax-exempt bodies with economic business activities, including reductions of nominal capital and contributions into corporations.",
+      "triggers": [
+        {
+          "condition": "Die Anlage KSt 1 Fa ist für Betriebe gewerblicher Art (juristische Personen des öffentlichen Rechts) sowie für steuerbefreite Körperschaften mit wirtschaftlichem Geschäftsbetrieb zu übermitteln.",
+          "machine_check": {
+            "key": "legal_form",
+            "op": "==",
+            "value": "BgA"
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa",
+          "confidence": "medium",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage KSt 1 Fa ist für steuerbefreite Körperschaften mit wirtschaftlichem Geschäftsbetrieb zu übermitteln.",
+          "machine_check": {
+            "key": "has_economic_business_activity",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-kst-1-fa/einbringung-eines-gesamten-betriebs-gewerblicher-art-oder-eines-wirtschaftlichen-gesch-ftsbetriebs-in-eine-kapitalgesellschaft",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-og",
+      "name": "Anlage OG",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage OG is filed by an Organgesellschaft (subsidiary in a tax consolidation group / Organschaft) to report values relevant for the taxation of the Organträger, including income attribution, interest expenses/income, and other consolidation-related data.",
+      "triggers": [
+        {
+          "condition": "Die Anlage OG ist von der Organgesellschaft zu übermitteln, wenn ein Organschaftsverhältnis besteht (die Körperschaft ist Organgesellschaft im Sinne des § 14 KStG).",
+          "machine_check": {
+            "key": "is_organschaft_subsidiary",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-og",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-ot",
+      "name": "Anlage OT",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage OT is filed by an Organträger (controlling entity in a fiscal unity/Organschaft) to report the income attributed from its Organgesellschaft(en), including relevant values for the taxation of the Organträger under §§ 14, 15 KStG.",
+      "triggers": [
+        {
+          "condition": "Für die Einkommensermittlung ist auch der Mitunternehmer einer Personengesellschaft, die Organträger ist, wie ein Organträger zu behandeln. In diesem Fall übermitteln Sie bitte die Anlage OT.",
+          "machine_check": {
+            "key": "is_organschaft_parent",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ot/allgemeines-zur-anlage-ot",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-part",
+      "name": "Anlage Part",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Part is filed by tax-exempt bodies (e.g. political parties, associations) to report their activities, economic business operations, and related income/expenditure for the three-year examination period under KSt.",
+      "triggers": [
+        {
+          "condition": "Steuerbefreite Körperschaften werden im Allgemeinen nur in dreijährigem Abstand geprüft. Es reicht deshalb, wenn Sie die Angaben für das letzte Jahr des Prüfungszeitraums in der Steuererklärung erfassen.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-part/allgemeines/zeile-1",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-san",
+      "name": "Anlage SAN",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage SAN is used to calculate the remaining restructuring income (verbleibender Sanierungsertrag) pursuant to § 3a Abs. 3 Satz 4 EStG for corporate income tax purposes, including amounts attributable from participations in partnerships that have themselves realized restructuring income.",
+      "triggers": [
+        {
+          "condition": "Ermittlungen des verbleibenden Sanierungsertrags nach § 3a Absatz 3 Satz 4 EStG",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-san/ermittlungen-des-verbleibenden-sanierungsertrags-nach-3a-absatz-3-satz-4-estg",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-spif",
+      "name": "Anlage SPIF",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage SPIF reports the corporation's share of income from partnerships (Personengesellschaften), including foreign partnerships where no separate unified assessment is required, for corporate income tax purposes.",
+      "triggers": [
+        {
+          "condition": "Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein.",
+          "machine_check": {
+            "key": "has_foreign_operations",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-spif/allgemeine-angaben",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-spifa",
+      "name": "Anlage SPIFA",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage SPIFA reports the corporation's share of income from partnerships (Personengesellschaften) subject to separate and uniform assessment, including participations in foreign partnerships where no separate assessment is required.",
+      "triggers": [
+        {
+          "condition": "Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein.",
+          "machine_check": {
+            "key": "has_foreign_operations",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-spifa/allgemeine-angaben",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-steuergestaltung",
+      "name": "Anlage Steuergestaltung",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage Steuergestaltung for KST 2023. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-verluste",
+      "name": "Anlage Verluste",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Verluste records loss carryforwards and loss carrybacks for corporate income tax purposes, including opening balances of unused losses and the current year's negative total income figure.",
+      "triggers": [
+        {
+          "condition": "Die Anlage Verluste ist relevant, wenn Verlustvorträge vorhanden sind oder ein negativer Gesamtbetrag der Einkünfte im Veranlagungszeitraum entstanden ist.",
+          "machine_check": {
+            "key": "has_loss_carryforward",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-verluste",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-wa",
+      "name": "Anlage WA",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage WA covers various additional declarations for corporate income tax, including crediting of withholding taxes (§36 Abs. 2 Nr. 2, §50a, §50d EStG), harmful share acquisitions (§8c KStG), continuity-bound loss/interest carryforwards (§8d KStG), country-by-country reporting (§138a AO), and Corona subsidies.",
+      "triggers": [
+        {
+          "condition": "Bei inländischen Konzernobergesellschaften oder beauftragten Gesellschaften im Sinne des § 138a AO übermitteln Sie bitte dem Bundeszentralamt für Steuern (BZSt) einen länderbezogenen Bericht nach § 138a Absatz 2 AO.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao",
+          "confidence": "high",
+          "source": "llm"
+        },
+        {
+          "condition": "Corona-Zuschüsse sind neben der Erfassung in der Gewinnermittlung zusätzlich hier (Körperschaftsteuererklärung, Anlage WA, Zeile 40) zu erklären.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/corona-soforthilfen-berbr-ckungshilfen-und-vergleichbare-zusch-sse",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-wif",
+      "name": "Anlage WiFö",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage WiFö is an annex to the corporate income tax return related to economic development (Wirtschaftsförderung). The help text provides guidance on electronic document submission for this annex.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-z",
+      "name": "Anlage Z",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Z documents the remaining donation carryforward (Zuwendungsvortrag) pursuant to § 9 Abs. 1 Nr. 2 KStG in conjunction with § 10d Abs. 4 EStG, including deductible donations and membership fees for tax-privileged purposes and the applicable maximum deduction amounts.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-zinsschranke",
+      "name": "Anlage Zinsschranke",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage Zinsschranke reports the limitation of interest deductions under § 4h EStG in conjunction with § 8 Abs. 1 and § 8a KStG, including deductible interest expenses, interest carryforwards, and EBITDA-based calculations for corporate income tax purposes.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-zve",
+      "name": "Anlage ZVE",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage ZVE is used to calculate the taxable income (zu versteuerndes Einkommen) for corporate income tax purposes, covering all income categories, deductions, and adjustments leading to the final taxable amount.",
+      "triggers": [
+        {
+          "condition": "Die Anlage ZVE zur Ermittlung des zu versteuernden Einkommens 2023 ist grundsätzlich von jeder unbeschränkt steuerpflichtigen Körperschaft zu übermitteln und bündelt sämtliche Einkunftsarten zur Berechnung des Gesamtbetrags und des zu versteuernden Einkommens.",
+          "machine_check": {
+            "key": "business_type",
+            "op": "==",
+            "value": "commercial"
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Wurde für Einkünfte im Sinne des § 6 Absatz 3 Satz 1 InvStG beziehungsweise sonstige inländische Einkünfte nach § 6 Absatz 5 InvStG eines Investmentfonds kein Steuerabzug oder ein zu niedriger Steuerabzug vorgenommen oder ein Steuerabzug zu Unrecht erstattet, übermitteln Sie bitte insoweit für den Investmentfonds eine Körperschaftsteuererklärung. Den ermittelten Wert erfassen Sie mit in Zeile 76 der Anlage ZVE.",
+          "machine_check": null,
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-zve/ermittlung-des-zu-versteuernden-einkommens/nachzuholender-steuerabzug-bei-investmentfonds",
+          "confidence": "high",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-zwig",
+      "name": "Anlage ZwiG",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage ZwiG reports income from intermediate companies (Zwischengesellschaften) subject to German foreign tax law (AStG), including allocated income from foreign partnerships and reduction amounts under § 11 AStG.",
+      "triggers": [
+        {
+          "condition": "Falls bei einer Beteiligung an einer ausländischen Personengesellschaft keine gesonderte Feststellung durchzuführen ist, tragen Sie die anteiligen Einkünfte laut gesonderter Einzelaufstellung ein.",
+          "machine_check": {
+            "key": "has_foreign_operations",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_kst2023_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-zwig/allgemeine-angaben/zeile-4",
+          "confidence": "medium",
+          "source": "llm"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "no help section found for form 'anlage-steuergestaltung'; triggers left empty"
+  ]
+}

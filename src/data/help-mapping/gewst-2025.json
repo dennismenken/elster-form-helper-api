@@ -1,0 +1,16 @@
+{
+  "tax_type": "gewst",
+  "year": "2025",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_help_mapping.ts v1 (deterministic, heuristic)",
+  "help_markdown": "elster_gewst2025_help.md",
+  "mapping": {},
+  "warnings": [
+    "form '00-gewerbesteuererkl-rung' has 169 line(s) in form data without help mapping: 3, 4, 5, 10, 11, 12, 13, 14, ...",
+    "form 'anlage-emu' has 11 line(s) in form data without help mapping: 3, 5, 5a, 7, 8, 9, 9a, 10, ...",
+    "no help section found for form 'anlage-beg' (display: 'Anlage BEG')",
+    "no help section found for form 'anlage-bekanntgabe' (display: 'Anlage Bekanntgabe')",
+    "no help section found for form 'anlage-hg-zur-spartentrennung' (display: 'Anlage ÖHG zur Spartentrennung')"
+  ]
+}

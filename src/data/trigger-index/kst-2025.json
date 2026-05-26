@@ -17,7 +17,8 @@
           "condition": "Der Hauptvordruck KSt 1 ist stets abzugeben, wenn eine Körperschaftsteuererklärung einzureichen ist.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zum-vordruck-kst-1",
-          "confidence": "certain"
+          "confidence": "certain",
+          "source": "llm"
         }
       ]
     },
@@ -36,7 +37,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-aest/anrechnung-abzug-ausl-ndischer-steuern",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -55,7 +57,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-aev/nicht-nach-dba-steuerfreie-negative-eink-nfte-gewinnminderungen-im-sinne-des-2a-absatz-1-estg",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -78,7 +81,8 @@
             ]
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ber/allgemeines-zur-anlage-ber",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -97,7 +101,8 @@
             "value": "non_profit"
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-gem/allgemeines-zur-anlage-gem",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -112,7 +117,8 @@
           "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 10 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-10-kstg",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         },
         {
           "condition": "Genossenschaften und Vereine im Sinne des § 5 Absatz 1 Nummer 14 KStG sind verpflichtet, den Inhalt der Bilanz sowie der Gewinn- und Verlustrechnung nach amtlich vorgeschriebenem Datensatz zu übermitteln.",
@@ -122,7 +128,8 @@
             "value": "eG"
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-genossenschaften-vereine/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg/genossenschaften-und-vereine-im-sinne-des-5-absatz-1-nummer-14-kstg",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -152,7 +159,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-32-und-36",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -171,7 +179,8 @@
             "value": "eG"
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-gr/berechnung-der-genossenschaftlichen-r-ckverg-tung",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -190,7 +199,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage ÖHK ist ebenfalls abzugeben von Organgesellschaften, wenn bei dem (gegebenenfalls mittelbaren) Organträger nach § 15 Satz 1 Nummer 5 KStG die Spartenrechnung nach § 8 Absatz 9 KStG durchzuführen ist.",
@@ -200,25 +210,29 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehr als eine Tätigkeit ausübt, die bei einer juristischen Person des öffentlichen Rechts jeweils zu einem Betrieb gewerblicher Art führen würde, die gegebenenfalls aber nach § 4 Absatz 6 KStG zusammengefasst werden könnten.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese mehrere Tätigkeiten im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage ÖHK übermitteln Sie bitte, wenn für eine Kapitalgesellschaft § 8 Absatz 7 Satz 1 Nummer 2 KStG zur Anwendung kommt und diese neben mindestens einer wirtschaftlichen Tätigkeit auch eine Tätigkeit im Sinne des § 8 Absatz 7 Satz 2 letzter Halbsatz KStG ausübt.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-hk-spartentrennung/anlage-hk-zur-spartentrennung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -241,7 +255,8 @@
           "condition": "Für Unterstützungskassen und steuerbefreite Körperschaften im Sinne des § 1 Absatz 1 Nummer 1 bis 3 KStG (zum Beispiel GmbH) übermitteln Sie die Steuererklärung bitte jährlich.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kassen/allgemeines/zeile-1",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -256,13 +271,15 @@
           "condition": "Im Falle einer Vermögensübertragung auf eine Personengesellschaft oder eine natürliche Person oder des Formwechsels in eine Personengesellschaft füllen Sie bitte die Zeilen 167 folgende der Anlage KSt 1 F stets zusätzlich aus.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kst-1-f/anpassung-beim-bertragenden-rechtstr-ger-bei-abspaltung",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage KSt 1 F ist zu übermitteln, wenn im Wirtschaftsjahr Gewinnausschüttungen oder sonstige Leistungen erfolgt sind, die mit dem steuerlichen Einlagekonto zu verrechnen sind oder den ausschüttbaren Gewinn nach § 27 Absatz 1 Satz 5 KStG betreffen.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kst-1-f/im-wirtschaftsjahr-erfolgte-gewinnaussch-ttungen-leistungen",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         },
         {
           "condition": "Mehr- und Minderabführungen nach § 27 Absatz 6 KStG sind einzutragen, wenn eine Organschaft besteht.",
@@ -272,7 +289,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kst-1-f/mehr-minderabf-hrungen-nach-27-absatz-6-kstg",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -291,7 +309,8 @@
             "value": "BgA"
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kst-1-fa",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Die Anlage KSt 1 Fa ist für steuerbegünstigte Körperschaften mit wirtschaftlichem Geschäftsbetrieb zu übermitteln, wenn eine Einbringung eines wirtschaftlichen Geschäftsbetriebs in eine Kapitalgesellschaft vorliegt.",
@@ -301,7 +320,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-kst-1-fa/einbringung-eines-gesamten-betriebs-gewerblicher-art-oder-eines-wirtschaftlichen-gesch-ftsbetriebs-in-eine-kapitalgesellschaft",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -320,7 +340,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-og",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -339,7 +360,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ot/allgemeines-zur-anlage-ot",
-          "confidence": "certain"
+          "confidence": "certain",
+          "source": "llm"
         }
       ]
     },
@@ -358,7 +380,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-part/wirtschaftliche-bet-tigung/eigene-t-tigkeit-beteiligungen-an-personengesellschaften-und-beteiligungen-an-kapitalgesellschaften/wirtschaftlicher-gesch-ftsbetrieb",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -405,7 +428,8 @@
           "condition": "Das Finanzamt nimmt ohne Antrag einen zweijährigen Verlustrücktrag in maximaler Höhe vor (§ 10d Absatz 1 Satz 1 und Satz 2 EStG).",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-verluste/negativer-gesamtbetrag-der-eink-nfte/zeile-20",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         },
         {
           "condition": "Nehmen Sie hier bitte auch Eintragungen vor für Verluste im Sinne des § 8d Absatz 1 Satz 2 Nummer 1 KStG und auch für Verluste, die bei einer früheren Einstellung oder Ruhendstellung vor dem 01.01.2016 entstanden sind.",
@@ -415,7 +439,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-verluste/anfangsbestand/zeile-15",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         },
         {
           "condition": "Nicht ausgeglichene Verlustvorträge einzelner gleichartiger Betriebe gewerblicher Art aus der Zeit vor einer Zusammenfassung im Sinne des § 4 Absatz 6 Satz 1 Nummer 1 KStG können Sie auch bei dem zusammengefassten Betrieb gewerblicher Art abziehen.",
@@ -425,7 +450,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-verluste/anfangsbestand/zeile-14a",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -440,13 +466,15 @@
           "condition": "Bei inländischen Konzernobergesellschaften oder beauftragten Gesellschaften im Sinne des § 138a AO übermitteln Sie bitte dem Bundeszentralamt für Steuern (BZSt) einen länderbezogenen Bericht nach § 138a Absatz 2 AO.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Corona-Zuschüsse sind neben der Erfassung in der Gewinnermittlung zusätzlich hier (Körperschaftsteuererklärung, Anlage WA, Zeile 40) zu erklären.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-wa/l-nderbezogener-bericht-multinationaler-unternehmensgruppen-nach-138a-ao/corona-soforthilfen-berbr-ckungshilfen-und-vergleichbare-zusch-sse",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         }
       ]
     },
@@ -469,7 +497,8 @@
           "condition": "Der Höchstbetrag der abziehbaren Zuwendungen ist der höhere Betrag aus 20 % des Einkommens im Sinne des § 9 Absatz 2 Satz 1 KStG (Zeile 32 der Anlage ZVE) und 4 Promille der Summe der gesamten Umsätze sowie der im Kalenderjahr aufgewendeten Löhne und Gehälter (Zeilen 10 und 11 der Anlage Z).",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-z/verbleibender-zuwendungsvortrag-nach-9-absatz-1-nummer-2-satz-9-und-10-kstg-in-verbindung-mit-10d-absatz-4-estg/zeile-7",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -503,7 +532,8 @@
           "condition": "Wurde für Einkünfte im Sinne des § 6 Absatz 3 Satz 1 InvStG beziehungsweise sonstige inländische Einkünfte nach § 6 Absatz 5 InvStG eines Investmentfonds kein Steuerabzug oder ein zu niedriger Steuerabzug vorgenommen oder ein Steuerabzug zu Unrecht erstattet, übermitteln Sie bitte insoweit für den Investmentfonds eine Körperschaftsteuererklärung. Den ermittelten Wert erfassen Sie mit in Zeile 76 der Anlage ZVE.",
           "machine_check": null,
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-zve/ermittlung-des-zu-versteuernden-einkommens/nachzuholender-steuerabzug-bei-investmentfonds",
-          "confidence": "high"
+          "confidence": "high",
+          "source": "llm"
         },
         {
           "condition": "Bei steuerbegünstigten Körperschaften mit wirtschaftlichem Geschäftsbetrieb ist die Anlage ZVE zu übermitteln, wenn die Einnahmen 45.000 € im Veranlagungszeitraum übersteigen (vgl. Anlage GK und ZVE bei steuerbegünstigten Körperschaften).",
@@ -513,7 +543,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-zve",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     },
@@ -532,7 +563,8 @@
             "value": true
           },
           "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-ber/hinweise-zur-anlage-zwig",
-          "confidence": "medium"
+          "confidence": "medium",
+          "source": "llm"
         }
       ]
     }

@@ -307,21 +307,71 @@ async function main(): Promise<void> {
       "anlage-zinsschranke has 0 triggers (source has none)"
     );
 
-    header("Degraded mode: forms work for KSt 2024, triggers/snippets do not");
+    header("Full coverage for KSt 2024 (the typical previous filing year)");
     const ist2024 = await callTool<{ forms: unknown[] }>(client, "list_forms", {
       tax_type: "kst",
       year: "2024",
     });
-    expect(ist2024.ok && (ist2024.data?.forms.length ?? 0) > 0, "KSt 2024 forms still loaded");
+    expect(ist2024.ok && (ist2024.data?.forms.length ?? 0) > 0, "KSt 2024 forms loaded");
     const line2024 = await callTool<{ help_snippet: string | null }>(client, "get_line", {
       tax_type: "kst",
       year: "2024",
       form_slug: "anlage-gk",
       line_number: "11",
     });
-    expect(line2024.data?.help_snippet === null, "KSt 2024 returns null snippet");
-    const warnings = (line2024 as ToolEnvelope).warnings ?? [];
-    expect(warnings.length > 0, "warning surfaced for missing help mapping");
+    expect(
+      (line2024.data?.help_snippet ?? "").length > 0,
+      "KSt 2024 help_snippet is populated (not in degraded mode)"
+    );
+
+    header("Coverage for GewSt 2025");
+    const gewst = await callTool<{ recommended: { slug: string }[] }>(client, "recommend_forms", {
+      tax_type: "gewst",
+      year: "2025",
+      profile: {
+        legal_form: "GmbH",
+        fiscal_year_end: "2025-12-31",
+        has_multiple_municipalities: true,
+        has_spartentrennung: false,
+        is_tax_privileged: false,
+        has_organschaft: false,
+      },
+    });
+    expect(gewst.ok, "GewSt 2025 recommend_forms ok");
+    if (gewst.ok && gewst.data) {
+      const slugs = gewst.data.recommended.map((r) => r.slug);
+      expect(slugs.includes("00-gewerbesteuererkl-rung"), "GewSt Hauptvordruck recommended");
+      expect(slugs.includes("anlage-emu"), "Anlage EMU recommended for multi-municipality case");
+    }
+
+    header("Coverage for USt 2025");
+    const ust = await callTool<{ recommended: { slug: string }[] }>(client, "recommend_forms", {
+      tax_type: "ust",
+      year: "2025",
+      profile: {
+        legal_form: "GmbH",
+        is_small_business: false,
+        has_intra_community_supplies: true,
+        has_fiscal_representation: false,
+      },
+    });
+    expect(ust.ok, "USt 2025 recommend_forms ok");
+    if (ust.ok && ust.data) {
+      const slugs = ust.data.recommended.map((r) => r.slug);
+      expect(slugs.includes("00-hauptvordruck-ust-2-a"), "USt Hauptvordruck recommended");
+      expect(slugs.includes("anlage-un"), "Anlage UN recommended for intra-community supplies");
+    }
+
+    header("Degraded mode still works for uncovered older years (KSt 2021)");
+    const old = await callTool<{ help_snippet: string | null }>(client, "get_line", {
+      tax_type: "kst",
+      year: "2021",
+      form_slug: "anlage-gk",
+      line_number: "11",
+    });
+    expect(old.data?.help_snippet === null, "KSt 2021 (no help-mapping) returns null snippet");
+    const oldWarnings = (old as ToolEnvelope).warnings ?? [];
+    expect(oldWarnings.length > 0, "warning surfaced for KSt 2021 missing help mapping");
   } finally {
     await client.close();
     await transport.close();

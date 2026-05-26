@@ -1,0 +1,110 @@
+{
+  "tax_type": "ust",
+  "year": "2023",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_help_mapping.ts v1 (deterministic, heuristic)",
+  "help_markdown": "elster_ust2023_help.md",
+  "mapping": {
+    "anlage-un:10": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:11": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:12": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:13": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:14": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:15": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeile-15-unterschrift-durch-den-bevollm-chtigten",
+      "snippet": "Die Umsatzsteuererklärung kann vom Bevollmächtigten authentifiziert übermittelt werden."
+    },
+    "anlage-un:16": {
+      "page_label": "Vorsteuer-Vergütungsverfahren beim BZSt",
+      "help_source": "elster_ust2023_help.md#anlage-un/vorsteuer-verg-tungsverfahren-beim-bzst/zeile-16",
+      "snippet": "Ist für das Kalenderjahr 2023 das Vorsteuer-Vergütungsverfahren beim Bundeszentralamt für Steuern bereits durchgeführt worden?\nDann übermitteln Sie bitte dem Finanzamt Rechnungs- und Einfuhrbelege im Original zum Nachweis der abziehbaren Vorsteuerbeträge (§ 62 Absatz 2 UStDV ).\nBitte tragen Sie in den Zeilen 79 bis 88 des Hauptvordrucks nur Vorsteuerbeträge ein, die nicht bereits im Vorsteuer-Vergütungsverfahren vom Bundeszentralamt für Steuern vergütet worden sind (§ 62 Absatz 1 UStDV )."
+    },
+    "anlage-un:17": {
+      "page_label": "Anrechenbare Beträge",
+      "help_source": "elster_ust2023_help.md#anlage-un/anrechenbare-betr-ge/zeile-17-anrechenbare-betr-ge-bei-bef-rderungseinzelbesteuerung",
+      "snippet": "Soll Umsatzsteuer, die im Verfahren der Beförderungseinzelbesteuerung (§ 16 Absatz 5 UStG ) gezahlt wurde, angerechnet werden?\nDann übermitteln Sie bitte dem Finanzamt alle von den Zolldienststellen ausgehändigten Durchschriften der Umsatzsteuererklärungen ( Vordruckmuster 2603 ) mit allen Steuerquittungen, damit die Steuer angerechnet werden kann.\nTragen Sie bitte alle Personenbeförderungsleistungen, die nach § 3b Absatz 1 UStG im Inland bewirkt werden, in Teilseite 4 des Hauptvordrucks (Zeilen 22, 25 bzw. 31) ein."
+    },
+    "anlage-un:18": {
+      "page_label": "Anrechenbare Beträge",
+      "help_source": "elster_ust2023_help.md#anlage-un/anrechenbare-betr-ge/zeile-18-anrechenbare-betr-ge-bei-sicherheitsleistungen",
+      "snippet": "Haben Sie Sicherheitsleistungen nach § 18 Absatz 12 UStG entrichtet?\nDann reichen Sie bitte die von den Zolldienststellen ausgehändigten Durchschriften der Anordnungen von Sicherheitsleistungen ( Vordruckmuster 2605 ) mit allen Quittungen ein, damit die Sicherheitsleistungen angerechnet werden können.\nTragen Sie bitte alle Personenbeförderungsleistungen, die nach § 3b Absatz 1 UStG im Inland bewirkt und die nicht in einem besonderen Besteuerungsverfahren nach § 18i oder § 18j UStG erklärt werden, auf in Teilseite 4 des Hauptvordrucks (Zeilen 22, 25 bzw. 31) ein."
+    },
+    "anlage-un:2": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-2-bis-6-steuererstattungen-bankverbindung",
+      "snippet": "Sie erhalten Steuererstattungen vom Finanzamt nur unbar.\nBitte geben Sie die IBAN für Steuererstattungen innerhalb des Europäischen Zahlungsverkehrsraums ( Single Euro Payments Area , SEPA ) an, zu dem alle Länder der EU , des EWR sowie das Vereinigte Königreich, Gibraltar, Monaco, San Marino, Saint Barthelemy, Saint Pierre und Miquelon, Mayotte, Guernsey, Jersey, Isle of Man, die Schweiz, Andorra und der Staat Vatikanstadt gehören.\nTragen Sie bitte zusätzlich zur IBAN auch die BIC für Steuererstattungen im SEPA -Zahlungsverkehr in Länder außerhalb des EU -/ EWR -Raums ein.\nTragen Sie bei ..."
+    },
+    "anlage-un:20": {
+      "page_label": "Ergänzende Angaben zu Umsätzen",
+      "help_source": "elster_ust2023_help.md#anlage-un/erg-nzende-angaben-zu-ums-tzen/zeile-20-innergemeinschaftliche-fernverk-ufe-aus-dem-brigen-gemeinschaftsgebiet-3c-ustg",
+      "snippet": "Innergemeinschaftliche Fernverkäufe aus dem übrigen Gemeinschaftsgebiet unterliegen nach § 3c Absatz 1 UStG der Umsatzbesteuerung im Inland, wenn folgende Voraussetzungen erfüllt sind:\n1. Die Liefergegenstände wurden vom liefernden Unternehmer befördert oder versendet.\n2. Die Beförderung oder Versendung endet im Inland oder in den in § 1 Absatz 3 UStG bezeichneten Gebieten.\n3. Der Abnehmer ista) eine Privatpersonoderb) – ein Unternehmer, der nur steuerfreie Umsätze ausführt, die den Vorsteuerabzug ausschließen, – ein Kleinunternehmer, für dessen Umsätze die Umsatzsteuer nicht erhoben wird (§ ..."
+    },
+    "anlage-un:3": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-2-bis-6-steuererstattungen-bankverbindung",
+      "snippet": "Sie erhalten Steuererstattungen vom Finanzamt nur unbar.\nBitte geben Sie die IBAN für Steuererstattungen innerhalb des Europäischen Zahlungsverkehrsraums ( Single Euro Payments Area , SEPA ) an, zu dem alle Länder der EU , des EWR sowie das Vereinigte Königreich, Gibraltar, Monaco, San Marino, Saint Barthelemy, Saint Pierre und Miquelon, Mayotte, Guernsey, Jersey, Isle of Man, die Schweiz, Andorra und der Staat Vatikanstadt gehören.\nTragen Sie bitte zusätzlich zur IBAN auch die BIC für Steuererstattungen im SEPA -Zahlungsverkehr in Länder außerhalb des EU -/ EWR -Raums ein.\nTragen Sie bei ..."
+    },
+    "anlage-un:3c": {
+      "page_label": "Ergänzende Angaben zu Umsätzen",
+      "help_source": "elster_ust2023_help.md#anlage-un/erg-nzende-angaben-zu-ums-tzen/zeile-20-innergemeinschaftliche-fernverk-ufe-aus-dem-brigen-gemeinschaftsgebiet-3c-ustg",
+      "snippet": "Innergemeinschaftliche Fernverkäufe aus dem übrigen Gemeinschaftsgebiet unterliegen nach § 3c Absatz 1 UStG der Umsatzbesteuerung im Inland, wenn folgende Voraussetzungen erfüllt sind:\n1. Die Liefergegenstände wurden vom liefernden Unternehmer befördert oder versendet.\n2. Die Beförderung oder Versendung endet im Inland oder in den in § 1 Absatz 3 UStG bezeichneten Gebieten.\n3. Der Abnehmer ista) eine Privatpersonoderb) – ein Unternehmer, der nur steuerfreie Umsätze ausführt, die den Vorsteuerabzug ausschließen, – ein Kleinunternehmer, für dessen Umsätze die Umsatzsteuer nicht erhoben wird (§ ..."
+    },
+    "anlage-un:4": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-2-bis-6-steuererstattungen-bankverbindung",
+      "snippet": "Sie erhalten Steuererstattungen vom Finanzamt nur unbar.\nBitte geben Sie die IBAN für Steuererstattungen innerhalb des Europäischen Zahlungsverkehrsraums ( Single Euro Payments Area , SEPA ) an, zu dem alle Länder der EU , des EWR sowie das Vereinigte Königreich, Gibraltar, Monaco, San Marino, Saint Barthelemy, Saint Pierre und Miquelon, Mayotte, Guernsey, Jersey, Isle of Man, die Schweiz, Andorra und der Staat Vatikanstadt gehören.\nTragen Sie bitte zusätzlich zur IBAN auch die BIC für Steuererstattungen im SEPA -Zahlungsverkehr in Länder außerhalb des EU -/ EWR -Raums ein.\nTragen Sie bei ..."
+    },
+    "anlage-un:5": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-2-bis-6-steuererstattungen-bankverbindung",
+      "snippet": "Sie erhalten Steuererstattungen vom Finanzamt nur unbar.\nBitte geben Sie die IBAN für Steuererstattungen innerhalb des Europäischen Zahlungsverkehrsraums ( Single Euro Payments Area , SEPA ) an, zu dem alle Länder der EU , des EWR sowie das Vereinigte Königreich, Gibraltar, Monaco, San Marino, Saint Barthelemy, Saint Pierre und Miquelon, Mayotte, Guernsey, Jersey, Isle of Man, die Schweiz, Andorra und der Staat Vatikanstadt gehören.\nTragen Sie bitte zusätzlich zur IBAN auch die BIC für Steuererstattungen im SEPA -Zahlungsverkehr in Länder außerhalb des EU -/ EWR -Raums ein.\nTragen Sie bei ..."
+    },
+    "anlage-un:6": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-2-bis-6-steuererstattungen-bankverbindung",
+      "snippet": "Sie erhalten Steuererstattungen vom Finanzamt nur unbar.\nBitte geben Sie die IBAN für Steuererstattungen innerhalb des Europäischen Zahlungsverkehrsraums ( Single Euro Payments Area , SEPA ) an, zu dem alle Länder der EU , des EWR sowie das Vereinigte Königreich, Gibraltar, Monaco, San Marino, Saint Barthelemy, Saint Pierre und Miquelon, Mayotte, Guernsey, Jersey, Isle of Man, die Schweiz, Andorra und der Staat Vatikanstadt gehören.\nTragen Sie bitte zusätzlich zur IBAN auch die BIC für Steuererstattungen im SEPA -Zahlungsverkehr in Länder außerhalb des EU -/ EWR -Raums ein.\nTragen Sie bei ..."
+    },
+    "anlage-un:7": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:8": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    },
+    "anlage-un:9": {
+      "page_label": "Allgemeine Angaben",
+      "help_source": "elster_ust2023_help.md#anlage-un/allgemeine-angaben/zeilen-7-bis-14-angaben-zur-bevollm-chtigung",
+      "snippet": "Sie können sich im Verwaltungsverfahren durch einen Bevollmächtigten vertreten lassen. Die Vollmacht ermächtigt jedoch nicht zum Empfang von Steuererstattungen und Steuervergütungen. Bitte beachten Sie, dass ein Widerruf einer zuvor erteilten Vollmacht erst wirksam wird, wenn dieser dem Finanzamt zugeht (§ 80 AO ).\nFür die Zustellung von Schriftstücken können Sie gegenüber dem Finanzamt einen inländischen Empfangsbevollmächtigten benennen (§ 123 AO )."
+    }
+  },
+  "warnings": [
+    "form '00-hauptvordruck-ust-2-a' has 116 line(s) in form data without help mapping: 4, 5, 6, 7, 8, 9, 10, 11, ...",
+    "form 'anlage-un' has 1 line(s) in form data without help mapping: 19",
+    "no help section found for form 'anlage-fv' (display: 'Anlage FV')"
+  ]
+}

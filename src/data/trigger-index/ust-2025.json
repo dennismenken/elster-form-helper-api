@@ -1,0 +1,72 @@
+{
+  "tax_type": "ust",
+  "year": "2025",
+  "data_commit": "ec80baa",
+  "generated_at": "2026-05-26T14:30:49+02:00",
+  "generated_by": "scripts/build_trigger_index.ts v1 (claude-sonnet-4-6 primary, claude-opus-4-7 fallback, temperature=0)",
+  "help_markdown": "elster_ust2025_help.md",
+  "forms": [
+    {
+      "slug": "00-hauptvordruck-ust-2-a",
+      "name": "00 Hauptvordruck USt 2 A",
+      "form_kind": "main",
+      "mandatory": true,
+      "description": "Hauptvordruck USt 2 A is the main form for the annual VAT return (Umsatzsteuererklärung) in Germany. It includes the previously separate Anlage UR (now integrated on pages 4–10) and is always required when filing a VAT return.",
+      "triggers": [
+        {
+          "condition": "Der Hauptvordruck USt 2 A (Umsatzsteuererklärung) ist von jedem umsatzsteuerpflichtigen Unternehmer und auch von Kleinunternehmern, die zur Regelbesteuerung optiert haben oder zur Abgabe aufgefordert wurden, elektronisch für das Kalenderjahr (oder Wirtschaftsjahr) zu übermitteln.",
+          "machine_check": null,
+          "help_source": "elster_ust2025_help.md#anleitung-zur-umsatzsteuererkl-rung",
+          "confidence": "certain",
+          "source": "maintainer_override"
+        },
+        {
+          "condition": "Zur Umsatzsteuererklärung gehören der Hauptvordruck (USt 2 A) und die Anlage UN. Der Hauptvordruck ist stets einzureichen.",
+          "machine_check": null,
+          "help_source": "elster_ust2025_help.md#anleitung-zur-umsatzsteuererkl-rung/abgabe-der-umsatzsteuererkl-rung",
+          "confidence": "certain",
+          "source": "llm"
+        }
+      ]
+    },
+    {
+      "slug": "anlage-fv",
+      "name": "Anlage FV",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Annex Anlage FV for UST 2025. No Hinweise section in help markdown — review manually.",
+      "triggers": []
+    },
+    {
+      "slug": "anlage-un",
+      "name": "Anlage UN",
+      "form_kind": "annex",
+      "mandatory": false,
+      "description": "Anlage UN is filed by entrepreneurs whose domicile, registered office, or place of management is outside the scope of the German VAT Act (UStG). It supplements the main VAT return with bank details for refunds, authorization/representative information, input tax refund procedure data, and supplementary turnover information for such non-resident taxpayers.",
+      "triggers": [
+        {
+          "condition": "Sind Sie Unternehmer und haben Ihren Wohnsitz, Sitz oder Ihre Geschäftsleitung außerhalb des Geltungsbereichs des UStG?",
+          "machine_check": null,
+          "help_source": "elster_ust2025_help.md#anlage-un/allgemeines",
+          "confidence": "certain",
+          "source": "llm"
+        },
+        {
+          "condition": "Die Anlage UN ist zu übermitteln, wenn das Unternehmen innergemeinschaftliche Lieferungen erbringt oder sonstige im Inland steuerpflichtige Umsätze als im Ausland ansässiger Unternehmer ausführt.",
+          "machine_check": {
+            "key": "has_intra_community_supplies",
+            "op": "==",
+            "value": true
+          },
+          "help_source": "elster_ust2025_help.md#anleitung-zur-umsatzsteuererkl-rung",
+          "confidence": "high",
+          "source": "maintainer_override"
+        }
+      ]
+    }
+  ],
+  "warnings": [
+    "no help section found for form 'anlage-fv'; triggers left empty",
+    "overrides/ust-2025.json declares form 'anlage-fv' but no such form exists in the catalog; entry ignored"
+  ]
+}

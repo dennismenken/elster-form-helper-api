@@ -91,6 +91,8 @@ export const GewstProfileSchema = z.object({
     .nullable(),
   has_multiple_municipalities: z.boolean().nullable(),
   has_spartentrennung: z.boolean().nullable(),
+  is_tax_privileged: z.boolean().nullable(),
+  has_organschaft: z.boolean().nullable(),
 });
 export type GewstProfile = z.infer<typeof GewstProfileSchema>;
 
@@ -110,7 +112,18 @@ export const GewstProfileMeta: Record<keyof GewstProfile, ProfileFieldMeta> = {
   },
   has_spartentrennung: {
     question_de: "Sind Tätigkeiten in Sparten zu trennen (typisch für Betriebe gewerblicher Art)?",
-    impact_de: "Steuert, ob Anlage HG zur Spartentrennung benötigt wird.",
+    impact_de: "Steuert, ob Anlage HG / ÖHG zur Spartentrennung benötigt wird.",
+  },
+  is_tax_privileged: {
+    question_de:
+      "Ist das Unternehmen gemeinnützig, mildtätig oder kirchlich anerkannt und beantragt eine Gewerbesteuerbefreiung?",
+    impact_de: "Steuert, ob die Anlage BEG (Befreiungen/Vergünstigungen) zu übermitteln ist.",
+  },
+  has_organschaft: {
+    question_de:
+      "Besteht eine gewerbesteuerliche Organschaft (Organträger- oder Organgesellschaftsstellung)?",
+    impact_de:
+      "Steuert spezifische Eintragungen im Hauptvordruck zur Zurechnung von Erträgen aus Organschaften.",
   },
 };
 
@@ -183,6 +196,8 @@ export const PROFILE_DEFINITIONS: Record<TaxType, ProfileDefinition> = {
       fiscal_year_end: null,
       has_multiple_municipalities: null,
       has_spartentrennung: null,
+      is_tax_privileged: null,
+      has_organschaft: null,
     }),
     fieldOrder: Object.keys(GewstProfileMeta),
   },
