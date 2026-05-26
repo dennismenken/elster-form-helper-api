@@ -1,9 +1,29 @@
 services:
-  elster-form-helper-api:
-    image: elster-form-helper-api:latest
-    env_file:
-      - .env
+  elster-forms-api:
+    image: elster-forms-api:latest
     build:
       context: .
       dockerfile: Dockerfile
+    container_name: elster-forms-api
     restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      # Override `.env` for the container if needed. The Bearer token is
+      # required for the HTTP transport — startup fails fast when unset.
+      TRANSPORT: "http"
+      HOST: "0.0.0.0"
+      PORT: "8080"
+      SESSIONS_DIR: "/app/data/sessions"
+    ports:
+      - "${PUBLIC_PORT:-8080}:8080"
+    volumes:
+      - elster-sessions:/app/data/sessions
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://127.0.0.1:8080/healthz || exit 1"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  elster-sessions:

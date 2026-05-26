@@ -1,191 +1,345 @@
-# Elster Form Helper API
+# elster-forms-api
 
-Diese API ist eine ergänzende Wissensschicht zu den offiziellen Ausfüllhilfen der Elster Formulare für Umsatzsteuer (USt), Körperschaftsteuer (KSt) und Gewerbesteuer (GewSt). Sie liefert strukturierte Metadaten pro Feld, damit Schulungen, interaktive Lernumgebungen und LLM gestützte Chats präzisere und kontextreiche Hilfestellungen geben können.
+A [Model Context Protocol](https://modelcontextprotocol.io) server that lets
+LLMs help users prepare German ELSTER tax returns for trade tax (GewSt),
+corporate income tax (KSt) and value-added tax (USt), years 2020-2025,
+**without ever loading whole form schemas into the model's context**.
 
-## Ziel
-Erweiterung der Ausfüllhilfen um maschinenlesbare, kontextualisierte Informationen zu jedem Formularfeld. Dadurch werden Verständnis, Validierung, Fehlerprävention und didaktische Aufbereitung verbessert.
+Forms have hundreds of lines each; loading one full annex into context already
+burns five-figure token counts. This server exposes narrow, deterministic
+read-only tools — the model fetches only the line, page or help snippet it
+needs at any given step. Every response carries provenance so the LLM can
+cite its sources and end users can verify what is shown to them.
 
-## Anwendungsfälle
-* LLM Chat Assistent zur Beantwortung von Fragen zu einzelnen Feldern
-* Schulungsmodus der Beispielbeschreibungen und Stolpersteine anzeigt
-* Automatisierte Prüfung von Eingaben gegen einfache Validierungsregeln
-* Generierung erklärender Tooltips in Weboberflächen oder internen Portalen
-* Ableitung strukturierter Prompts für Retrieval Augmented Generation Workflows
+The server does **not** submit returns to ELSTER. It describes structure and
+content. Users still file through the official ELSTER portal themselves.
 
-## Didaktische Ausrichtung
-JSON Strukturen enthalten Felder und Auswahlwerte. Optionale didaktische Zusatzschlüssel können ergänzt werden (z B lernhinweise beispiele typischeFehler) sofern vorhanden.
+## Highlights
 
-## Funktionsumfang
-* Auslieferung vorbereiteter JSON Dateien je Formular, Jahr und Steuerart
-* Authentifizierung per statischem Bearer Token
-* Betrieb per Node.js direkt oder via Docker Compose
-* Lesbare verschachtelte Struktur (context_label -> sections -> rows)
+- **23 MCP tools** covering discovery, form structure, line metadata, help
+  search, value validation, form recommendation, and persistent sessions.
+- **Self-contained at runtime.** The ELSTER form data, official help
+  markdowns, trigger index and help mapping all ship under `src/data/`.
+  No upstream fetch, no submodule, works offline.
+- **Two transports.** `stdio` for Claude Desktop / Claude Code, streamable
+  HTTP behind Bearer auth for self-hosted deployments.
+- **Anti-hallucination by design.** Every output has a provenance envelope.
+  Unknown slugs and line numbers come back with Levenshtein suggestions.
+  The server's `initialize` response instructs the model to refuse to
+  invent identifiers.
+- **Graceful degradation.** Missing trigger index or help mapping for a
+  given year is logged as a warning and the affected tools return their
+  best-effort output. Forms work even when triggers don't.
 
-## Verzeichnisstruktur der Formulardaten
-Die Dateien liegen unter
-```
-src/data/forms/<typ>/<jahr>/<formular>.json
-```
-Konventionen
-* typ ist kleingeschrieben: gewst kst ust
-* Dateinamen sind kebab-case ohne Leerzeichen
-* Keine Erweiterung in der URL übergeben (Server hängt .json an)
+## Quick start
 
-Beispiele (real vorhanden)
-```
-src/data/forms/kst/2022/00-hauptvordruck-kst-1.json
-src/data/forms/gewst/2022/00-gewerbesteuererkl-rung.json
-src/data/forms/ust/2022/00-hauptvordruck-ust-2-a.json
-```
+### Prerequisites
 
-## Endpunkt
-GET /v1/forms/:typ/:jahr/:formular
+- Node.js >= 20.10. The repo ships with `.nvmrc` pinned to v24.
+- Or: Docker / docker compose (no Node required on the host).
 
-Parameter:
-* typ: gewst | kst | ust (klein geschrieben wie Verzeichnisnamen)
-* jahr: Steuerjahr, z B 2022
-* formular: Dateiname ohne .json Erweiterung
+### Install and build
 
-Antwort (bei Erfolg): HTTP 200 mit JSON Inhalt der Datei
-Fehlerfälle:
-* 401 Unauthorized wenn Token fehlt oder falsch
-* 404 Form not found wenn Datei nicht existiert
-* 500 Internal server error bei anderen Fehlern
-
-## Authentifizierung
-Erforderlich ist ein Header:
-Authorization: Bearer <AUTH_TOKEN>
-
-Der Wert wird über die Umgebungsvariable AUTH_TOKEN gesetzt.
-
-## Umgebungsvariablen
-- AUTH_TOKEN (erforderlich) Geheimnis für einfachen Zugriffsschutz
-- PORT (optional) Standard 3000
-
-Beispiel .env Datei:
-```
-AUTH_TOKEN=mein-geheimes-token
-PORT=3000
-```
-
-## Lokaler Start ohne Docker
-Im Verzeichnis API-Server
-
-1. Abhängigkeiten installieren
-```
+```sh
+git clone https://github.com/lass-machen/elster-forms-api.git
+cd elster-forms-api
 npm install
-```
-2. Server starten
-```
-node src/server.js
-```
-3. Zugriff prüfen (Beispiel real vorhandene Datei)
-```
-curl -H "Authorization: Bearer mein-geheimes-token" \
-  http://localhost:3000/v1/forms/kst/2022/00-hauptvordruck-kst-1
+npm run check    # typecheck + lint + format + tests
+npm run build
 ```
 
-## Start mit Docker Compose
-1. .env Datei anlegen (siehe oben)
-2. Container bauen und starten
-```
-docker compose up -d --build
-```
-3. Optionales Port Mapping Host 8080 auf Container 3000 (falls benötigt kann eine zusätzliche Datei compose.override.yaml angelegt werden siehe Anlage Beispiel unten)
-4. Test
-```
-curl -H "Authorization: Bearer mein-geheimes-token" \
-  http://localhost:8080/v1/forms/gewst/2022/00-gewerbesteuererkl-rung
+### Run in stdio mode (Claude Desktop / Claude Code)
+
+```sh
+node dist/index.js --transport stdio
 ```
 
-## Formularbestand und Aktualisierung
-Die JSON Dateien werden über die Skripte `kst_elster_scraper.py` und `formular_daten_generator.py` erzeugt. Manuelle Änderungen möglichst vermeiden damit ein erneuter Import konsistent bleibt.
+To attach to Claude Desktop, edit your config (`~/Library/Application
+Support/Claude/claude_desktop_config.json` on macOS):
 
-Kurzer Ablauf
-1. Scraper ausführen
-2. Generator ausführen
-3. Dateien nach `src/data/forms/<typ>/<jahr>/` übernehmen
-4. Stichprobe prüfen und committen
-
-## (Optional) Manuelle Ergänzungen
-Zusätzliche Schlüssel nur hinzufügen wenn nicht durch erneuten Import verloren.
-
-## Beispiel minimaler Block
-Struktur orientiert sich am bestehenden Schema (siehe unten) ergänzende Schlüssel möglich
-```
+```json
 {
-  "context_label": "1 - Allgemeine Angaben",
-  "sections": [
-    {
-      "section_label": null,
-      "rows": [
-        {
-          "row": "3",
-          "label": "Unternehmen/Firma",
-          "type": "text",
-          "values": []
-        }
-      ],
-      "sections": []
+  "mcpServers": {
+    "elster-forms": {
+      "command": "node",
+      "args": ["/absolute/path/to/elster-forms-api/dist/index.js", "--transport", "stdio"]
     }
-  ]
+  }
 }
 ```
-4. Abruf sofort ohne Neustart möglich solange Datei vorhanden ist
-5. Für Schulungsszenarien zusätzliche Schlüssel wie lernhinweise beispiele typischeFehler ergänzen
 
-### Beispiel compose.override.yaml (optional)
+Restart Claude Desktop. The tools appear under the `elster-forms` namespace.
+
+For Claude Code:
+
+```sh
+claude mcp add elster-forms node /absolute/path/to/elster-forms-api/dist/index.js -- --transport stdio
 ```
+
+### Run as an HTTP service (self-hosted)
+
+```sh
+cp .env.example .env
+# Edit .env: set AUTH_TOKEN to a strong random string. The server refuses
+# to start without it on the HTTP transport.
+node dist/index.js --transport http
+```
+
+Default address: `http://0.0.0.0:8080`. MCP traffic terminates at `POST /mcp`;
+clients pass `Authorization: Bearer <AUTH_TOKEN>` on every request. A liveness
+endpoint is at `GET /healthz` (no auth required, returns `{ ok, version }`).
+
+### Run with Docker
+
+```sh
+cp .env.example .env  # set AUTH_TOKEN
+docker compose up -d --build
+```
+
+The named volume `elster-sessions` persists the session blobs across container
+restarts. Bind it to a host path if you prefer:
+
+```yaml
+# compose.override.yaml
 services:
-  elster-form-helper-api:
-    ports:
-      - "8080:3000"
+  elster-forms-api:
+    volumes:
+      - ./var/sessions:/app/data/sessions
 ```
 
-## Struktur der JSON Dateien
-Jede Formular Datei ist ein Array von Kontextblöcken
-Element Struktur
-* context_label beschreibt den Abschnitt oder Block
-* sections ist ein Array verschachtelter Section Objekte
+For multi-replica deployments, configure your ingress for sticky sessions on
+the `mcp-session-id` header; the HTTP transport keeps in-memory state per
+session.
 
-Section Objekt
-* section_label optional Überschrift
-* rows Array einzelner Zeilen
-* sections optionale Unterabschnitte (rekursiv)
+## Configuration
 
-Row Objekt
-* row Zeilennummer oder null bei Hinweisen
-* label Feldbezeichnung im Formular
-* type text select radio checkbox date note repeater (ggf leer bei Freitextfeldern)
-* values Liste möglicher Werte bei Auswahlfeldern sonst leer
+Every variable can be set in `.env` (loaded automatically) or via the
+environment. CLI flags override env values.
 
-Repeater
-* type repeater kennzeichnet Sammler für wiederholbare Unterstrukturen
+| Variable       | CLI flag         | Default         | Notes                                                                |
+| -------------- | ---------------- | --------------- | -------------------------------------------------------------------- |
+| `TRANSPORT`    | `--transport`    | `stdio`         | `stdio` or `http`.                                                   |
+| `PORT`         | `--port`         | `8080`          | HTTP only.                                                           |
+| `HOST`         | `--host`         | `0.0.0.0`       | HTTP only.                                                           |
+| `AUTH_TOKEN`   | `--auth-token`   | —               | **Required** for HTTP. Bearer credential.                            |
+| `LOG_LEVEL`    | `--log-level`    | `info`          | `silent`, `error`, `warn`, `info`, `debug`.                          |
+| `DATA_DIR`     | `--data-dir`     | bundled         | Absolute path. Defaults to the data tree inside the package.         |
+| `SESSIONS_DIR` | `--sessions-dir` | `data/sessions` | Where session JSON blobs go on disk. Bind a volume here in Docker.   |
+| `DATA_COMMIT`  | —                | from data       | Override the `provenance.data_commit` string returned in tool calls. |
 
-Erweiterungen
-* Eigene Zusatzschlüssel pro row oder section möglich (z B lernhinweise beispiele typischeFehler bewertungen tags)
+## What's in `src/data/`
 
-## Fehlerbehandlung
-- Nicht gefundene Dateien: 404 mit { "error": "Form not found." }
-- Falsches oder fehlendes Token: 401 mit { "error": "Unauthorized" }
-- Unerwartete Fehler: 500 mit { "error": "Internal server error." }
+```
+src/data/
+├── forms/                    consolidated form JSONs per (tax_type, year)
+│   ├── kst/2020/…
+│   ├── kst/2021/…
+│   ├── …
+│   └── ust/2025/…
+├── help/                     copies of the official ELSTER help markdowns
+│   ├── kst/2025/elster_kst2025_help.md
+│   └── _index.json
+├── trigger-index/            structured filing-trigger conditions per form
+│   └── kst-2025.json
+└── help-mapping/             form line → help anchor + snippet
+    └── kst-2025.json
+```
 
-## Lizenz
-MIT Lizenz
+The form JSONs cover GewSt 2020-2025, KSt 2021-2025 and USt 2020-2025
+(191 endpoint files). Help markdowns are present for every (type, year)
+combination. Trigger index and help mapping are currently only available for
+**KSt 2025**, which is the project's reference year; the server runs in a
+degraded mode for the other (type, year) combinations: forms and help
+search work, but `recommend_forms` cannot evaluate triggers and `get_line`
+returns `help_snippet: null`.
 
-Copyright (c) 2025 Dennis Menken
+To add or refresh those artifacts for another year, run the build pipeline in
+the sister repository `elster-forms-data` (see `scripts/README.md` there),
+review the diff, and copy the result back into `src/data/trigger-index/` and
+`src/data/help-mapping/`. The expected build cost per (tax_type, year) on
+Anthropic API is <5 USD at the time of writing.
 
-Erlaubnis wird hiermit unentgeltlich erteilt jeder Person eine Kopie dieser Software und der zugehörigen Dokumentationen (die "Software") zu erhalten und uneingeschränkt zu nutzen einschließlich und ohne Ausnahme des Rechts die Software zu verwenden zu kopieren zu verändern zusammenzuführen zu veröffentlichen zu verbreiten zu unterlizenzieren und/oder zu verkaufen und Personen die Software zur Verfügung zu stellen unter den folgenden Bedingungen
+## Tool reference
 
-Der obige Urheberrechtsvermerk und dieser Erlaubnisvermerk sind in allen Kopien oder wesentlichen Teilen der Software beizulegen
+A short tour. Every tool returns the same envelope:
 
-Die Software wird ohne Gewährleistung bereitgestellt ohne ausdrückliche oder implizite Garantie einschließlich aber nicht beschränkt auf die Garantien der Marktreife der Eignung für einen bestimmten Zweck und der Nichtverletzung. In keinem Fall sind die Autoren oder Copyright-Inhaber für Ansprüche Schäden oder sonstige Verpflichtungen haftbar zu machen sei es aus einer Vertragshandlung einem Delikt oder anderweitig die aus oder im Zusammenhang mit der Software oder der Verwendung oder anderen Handlungen in der Software entstehen
+```jsonc
+{
+  "ok": true,
+  "data": {
+    /* tool-specific */
+  },
+  "provenance": {
+    "data_commit": "274e0eb",
+    "source": "Anlage GK 2025, page 4 / 2 - Bilanzielles Ergebnis, line 14",
+    "help_source": "elster_kst2025_help.md#hinweise-zur-anlage-gk/bilanzielles-ergebnis/zeile-14",
+  },
+  "warnings": [],
+}
+```
 
-## Hinweise für Integration mit LLMs
-* Dateien sind statisch (Caching möglich)
-* Hierarchie (context_label/sections/rows) bietet natürliche Chunks
-* Schlüssel für Referenzen: Kombination aus Pfad + row + label
-* Auswahlwerte liefern kontrolliertes Vokabular
+Errors come back as `{ ok: false, error: { code, message, hint?, suggestions? } }`.
 
-## Hinweis
-Kein Schreibendpunkt vorhanden. Fokus ausschließlich auf das Ausliefern vorhandener JSON Formulare.
+### Discovery
+
+| Tool             | What it does                                                            |
+| ---------------- | ----------------------------------------------------------------------- |
+| `list_tax_types` | Returns the closed list of tax types this server serves.                |
+| `list_years`     | Returns the available years for one tax type.                           |
+| `list_forms`     | Returns every form (main + annexes) available for one (tax_type, year). |
+
+### Form structure
+
+| Tool                | What it does                                                            |
+| ------------------- | ----------------------------------------------------------------------- |
+| `get_form_outline`  | Compact line-by-line map (page/section/line/label/value_type), ~1-3 KB. |
+| `get_form_triggers` | The structured filing triggers for a form (from the trigger index).     |
+| `list_pages`        | Page index of a form, with per-page line counts.                        |
+| `get_page`          | Full section/line tree of one page, with `allowed_values`.              |
+
+### Lines and help
+
+| Tool               | What it does                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------- |
+| `get_line`         | One line: page label, section, value type, allowed values, help snippet, help_source. |
+| `search_lines`     | Scored substring search across line labels.                                           |
+| `search_help`      | Scored substring search across the help markdown.                                     |
+| `get_help_section` | Resolve a `help_source` anchor to the full markdown body of that section.             |
+
+### Validation and recommendation
+
+| Tool              | What it does                                                                          |
+| ----------------- | ------------------------------------------------------------------------------------- |
+| `validate_value`  | Type-check a value against a line's `value_type`. German `DD.MM.YYYY` for dates, etc. |
+| `recommend_forms` | Given a profile, return `recommended` / `evaluated` / `unanswered_conditions`.        |
+
+### Sessions
+
+| Tool                         | What it does                                                                    |
+| ---------------------------- | ------------------------------------------------------------------------------- |
+| `session_start`              | Begin a new (tax_type, year) session, optionally seeded with a partial profile. |
+| `session_set_profile_field`  | Set one typed profile field.                                                    |
+| `session_set_profile_note`   | Store a free-form note on the profile.                                          |
+| `session_set_field`          | Validate and persist a value for one form line.                                 |
+| `session_select_form`        | Add a form to the session's `selected_forms`.                                   |
+| `session_deselect_form`      | Remove a form from `selected_forms`.                                            |
+| `session_get_status`         | Compact status snapshot (selected forms, filled count, missing profile fields). |
+| `session_get_open_questions` | Profile fields still unanswered plus annex conditions the server cannot decide. |
+| `session_export`             | Return the full session JSON blob (for cross-session recovery).                 |
+| `session_import`             | Persist a previously exported session blob.                                     |
+
+## Worked example: a small GmbH, KSt 2025
+
+```text
+1. list_tax_types                                        -> kst available
+2. list_years(tax_type=kst)                              -> 2025 available
+3. session_start(tax_type=kst, year=2025,
+                 initial_profile={legal_form: GmbH})     -> session_id
+4. session_get_open_questions(session_id)                -> ask user about:
+                                                           - business_type
+                                                           - has_foreign_operations
+                                                           - has_economic_business_activity
+                                                           - is_organschaft_subsidiary
+                                                           - is_organschaft_parent
+                                                           - has_loss_carryforward
+5. session_set_profile_field(...) for each answer
+6. recommend_forms(...)                                  -> Hauptvordruck + GK + ZVE
+7. session_select_form(form_slug=anlage-gk)
+8. get_form_outline(form_slug=anlage-gk)                 -> entire form map
+9. get_line / session_set_field per filled-in row
+10. session_export(...)                                  -> blob to resume later
+```
+
+## Development
+
+```sh
+npm run dev:stdio       # tsx-driven stdio server
+npm run dev:http        # tsx-driven HTTP server
+npm run typecheck
+npm run lint
+npm run lint:fix
+npm run format
+npm run test
+npm run test:watch
+npm run test:coverage
+npm run check           # everything in one go
+npm run build           # compile + bundle data tree
+```
+
+### Project layout
+
+```
+src/
+├── index.ts             entry point (CLI + transport selection)
+├── server.ts            MCP server wiring, tool registration
+├── instructions_header.ts  server instructions sent on initialize
+├── env.ts               CLI/env parsing + path resolution
+├── errors.ts            typed error codes
+├── logger.ts            stderr JSON-line logger
+├── provenance.ts        envelope provenance helpers
+├── package_info.ts      package name/version from package.json
+├── transports/
+│   ├── stdio.ts
+│   └── http.ts          Express + Bearer auth + StreamableHTTPServerTransport
+├── catalogue/
+│   ├── types.ts         normalized data model
+│   ├── slugify.ts       same algorithm as the upstream data pipeline
+│   ├── normalize.ts     raw JSON → normalized in-memory model
+│   ├── help_tree.ts     markdown heading-tree parser + anchor resolver
+│   ├── search.ts        scored substring search (lines + help)
+│   └── loader.ts        boot-time catalogue load with degraded-mode warnings
+├── tools/
+│   ├── envelope.ts      tool runner: input validation, error handling, provenance
+│   ├── registry.ts      canonical tool ordering
+│   ├── lookups.ts       resolve tax_type / year / form / line with fuzzy hints
+│   ├── discovery.ts     list_tax_types, list_years, list_forms
+│   ├── structure.ts     get_form_outline, get_form_triggers, list_pages, get_page
+│   ├── lines.ts         get_line, search_lines
+│   ├── help.ts          search_help, get_help_section
+│   ├── validation.ts    validate_value
+│   ├── recommendation.ts recommend_forms with profile-driven machine_check
+│   └── sessions.ts      all session_* tools
+├── validator/
+│   └── index.ts         per-value-type validators (German DD.MM.YYYY, etc.)
+├── session/
+│   ├── types.ts         SessionFile Zod schema
+│   ├── store.ts         atomic-write FS-backed session store
+│   └── profile_schemas.ts per-tax-type profiles + German question metadata
+└── data/                runtime data tree (see "What's in src/data/")
+test/
+├── helpers.ts
+├── catalogue.test.ts
+├── validator.test.ts
+└── tools.test.ts
+```
+
+### Conventions
+
+- **TypeScript strict**, no `any` outside narrow boundary code.
+- **English** for identifiers, comments, log messages and docs. **German**
+  only for ELSTER content strings (labels, allowed values, help text).
+- **No emojis** in source, commits or docs.
+- **Conventional Commits** in English.
+- **No request-path LLM calls.** Every tool is deterministic against the
+  in-memory catalogue. LLM use lives only in the build pipeline in the
+  sister data repo.
+- **No mutation of the in-memory catalogue from tool handlers.** The catalogue
+  is treated as immutable after `loadCatalogue`.
+
+## Security notes
+
+- HTTP transport requires `AUTH_TOKEN`; missing token aborts startup.
+- Sessions are stored on disk as JSON blobs. They contain the user's profile
+  answers and filled values — treat the `data/sessions/` directory as PII.
+- No external telemetry, no anonymous usage tracking. The server makes no
+  outbound network calls.
+- `npm audit` flags moderate-severity advisories in vitest's transitive
+  `esbuild` dependency. These apply to the dev-time vite server only and
+  are not part of the runtime image; production builds do not include
+  vitest.
+
+## License
+
+MIT — see [LICENSE](LICENSE). The bundled ELSTER form data and help texts
+remain the copyright of the German tax administration; this repository
+reproduces them for educational and tooling purposes.

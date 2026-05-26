@@ -1,8 +1,20 @@
 node_modules/
+dist/
+coverage/
 .vscode/
 .idea/
-.env
 .DS_Store
+
+# Local environment
+.env
 compose.override.yaml
-# Internal documentation (not for repo)
+
+# Runtime: persisted session blobs (per-user state, never committed)
+data/sessions/
+
+# Internal documentation
 .docs/
+
+# Editor scratch files
+*.swp
+*~

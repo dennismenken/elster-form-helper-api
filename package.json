@@ -1,17 +1,71 @@
 {
-  "name": "elster-form-helper-api",
-  "version": "1.0.0",
-  "description": "API zur Auslieferung strukturierter Metadaten zu Elster Formularfeldern (USt, KSt, GewSt)",
-  "main": "src/server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js"
-  },
-  "author": "Dennis Menken (https://dennismenken.de)",
+  "name": "elster-forms-api",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Model Context Protocol server that lets LLMs help users prepare German ELSTER tax returns (GewSt, KSt, USt) without ever loading whole form schemas into context.",
+  "type": "module",
   "license": "MIT",
+  "author": "Dennis Menken (https://dennismenken.de)",
+  "homepage": "https://github.com/lass-machen/elster-forms-api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lass-machen/elster-forms-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lass-machen/elster-forms-api/issues"
+  },
+  "engines": {
+    "node": ">=20.10"
+  },
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bin": {
+    "elster-forms-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start:stdio": "node dist/index.js --transport stdio",
+    "start:http": "node dist/index.js --transport http",
+    "dev:stdio": "tsx src/index.ts --transport stdio",
+    "dev:http": "tsx src/index.ts --transport http",
+    "build": "tsc -p tsconfig.build.json && node scripts/copy-data.mjs",
+    "clean": "rimraf dist coverage",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "check": "npm run typecheck && npm run lint && npm run format:check && npm run test",
+    "prepack": "npm run build"
+  },
   "dependencies": {
-    "dotenv": "^17.2.1",
-    "express": "^5.1.0",
-    "morgan": "^1.10.1"
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "express": "^4.21.1",
+    "nanoid": "^5.0.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.12.0",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.7.5",
+    "@typescript-eslint/eslint-plugin": "^8.8.1",
+    "@typescript-eslint/parser": "^8.8.1",
+    "@vitest/coverage-v8": "^2.1.2",
+    "eslint": "^9.12.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.3",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.2"
   }
 }
